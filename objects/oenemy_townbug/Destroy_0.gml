@@ -1,0 +1,1 @@
+global.bugbeat = true;

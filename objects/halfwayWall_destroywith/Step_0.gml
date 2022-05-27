@@ -1,0 +1,19 @@
+if instance_exists(oPlayer)
+{
+	if oPlayer.y  > y or oPlayer.input.down_jump or oPlayer.state == "Ladder"
+	{
+		mask_index = -1;
+		act_count = 3;
+	}
+	else
+	{
+		if act_count > 0
+		{act_count--;}
+		else
+		{mask_index = halfwall;}
+	}
+}
+
+var desob = asset_get_index(parent_ob);
+if !instance_exists(desob)
+{instance_destroy();}
