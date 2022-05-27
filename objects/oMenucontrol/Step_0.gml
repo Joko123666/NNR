@@ -3,7 +3,7 @@ switch (state)
 {
 	#region disactive
 	case "Disactive" :
-	isopend = true;
+	isopend = false;
 	if keyboard_check_pressed(vk_escape)	&& oPlayer.state != "Death"
 	{
 		if room == Title
