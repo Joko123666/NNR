@@ -24,11 +24,10 @@
   "gridX": 16,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":{"name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":{"name":"82327aab-7d38-491c-b2cb-ae320febe4ad","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":{"name":"83caabd1-69e8-430e-9f70-a4f41f579d4c","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"portalroom_furniture_front","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"62efc43c-7a41-49e8-948b-6dfefd88f764","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"62efc43c-7a41-49e8-948b-6dfefd88f764","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":{"name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"62efc43c-7a41-49e8-948b-6dfefd88f764","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"LayerId":{"name":"82327aab-7d38-491c-b2cb-ae320febe4ad","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"portalroom_furniture_front","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","name":"62efc43c-7a41-49e8-948b-6dfefd88f764","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"portalroom_furniture_front","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},
@@ -43,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2c567ad2-e487-48b2-a9df-2e473f0a3fad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4e83571b-5f43-40cd-bbce-f1233ea9c879","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62efc43c-7a41-49e8-948b-6dfefd88f764","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -69,7 +68,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82327aab-7d38-491c-b2cb-ae320febe4ad","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"83caabd1-69e8-430e-9f70-a4f41f579d4c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
