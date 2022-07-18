@@ -26,13 +26,13 @@ function NPC_NPC02_dialog(argument0)
 		text = "아니면, 나한테 볼일 있니?";
 		dialog_count +=1
 		global.NPC2_dialog += 1;
-		{dialog_endswitch = true; global.UItext_show = false;}
+		{if global.mainstream != 15 {dialog_endswitch = true;global.UItext_show = false;}  }
 	}
 	
 	if diacount == 3  && global.mainstream != 15
 	{
 		text = "나한테 볼일 있니?";
-		if global.mainstream >= 6 {global.NPC2_dialog =9;}
+		if global.mainstream >= 16 {global.NPC2_dialog =9;}
 		else {dialog_endswitch = true; global.UItext_show = false;}
 	}
 	

@@ -228,6 +228,7 @@ function NPC_NPC24_dialog(argument0)
 		audio_play_sound(SE_system07, 1, false);
 		instance_create_depth(x + 24*image_xscale, y - 24, 0, Item_bomb01);
 		global.UItext_show = false;
+		global.mainquest[13] = 2;
 	 }
 	 
 	 if diacount == 31	&& global.mainstream <= 40
@@ -336,8 +337,8 @@ function NPC_NPC24_dialog(argument0)
 		{
 			global.mainstream = 42;
 		}
-		global.mainquest[12] = 3;		//퀘스트 진행도 갱신
-		quest_clearboard("main012");
+		global.mainquest[13] = 3;		//퀘스트 진행도 갱신
+		quest_clearboard("main013");
 		audio_play_sound(SE_system07, 1, false);
 		dialog_endswitch = true;
 		global.UItext_show = false;

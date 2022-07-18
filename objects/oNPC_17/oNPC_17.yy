@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "NPC_village_mask",
     "path": "sprites/NPC_village_mask/NPC_village_mask.yy",

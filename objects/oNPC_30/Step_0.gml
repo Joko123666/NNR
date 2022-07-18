@@ -43,7 +43,7 @@ if act_count > 0
 if global.NPC30_dialog == 10
 {image_index = 0;}
 	
-if global.NPC17_dialog >= 11	&& act_count <= 0
+if global.NPC30_dialog >= 11	&& act_count <= 0
 {
 	if act_switch == false
 	{state_set_sprite(NPC_village_17_disapear, 1, 0); act_switch = true;}

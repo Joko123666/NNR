@@ -73,10 +73,11 @@ for (i=0; i<20 ;i++)
 	
 global.store_item_stock01 = 1;
 global.store_item_stock02 = 1;
-global.store_item_stock03 = 1;
+global.store_item_stock03 = 3;
+global.store_item_stock04 = 1;
 //1 = 카카리코 씨앗
 //2 = 제루루크 신발
-//3 = 
+//3 = 제루루크 병영폭탄 
 	
 	
 #region dialog_variables

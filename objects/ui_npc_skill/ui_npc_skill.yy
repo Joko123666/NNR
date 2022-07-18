@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "point88",
-    "path": "sprites/point88/point88.yy",
+    "name": "UI_NPC_skill",
+    "path": "sprites/UI_NPC_skill/UI_NPC_skill.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,18 +23,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"mainstream_count","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "events",
-    "path": "folders/오브젝트/events.yy",
+    "name": "UI",
+    "path": "folders/오브젝트/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "door_delete",
+  "name": "ui_NPC_skill",
   "tags": [],
   "resourceType": "GMObject",
 }

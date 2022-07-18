@@ -26,7 +26,8 @@ switch (state)
 		
 	case "Death" :
 	#region
-
+		
+		instance_create_depth(x, y- 12, 0, Item_goldsack);
 		instance_destroy();
 		
 	#endregion

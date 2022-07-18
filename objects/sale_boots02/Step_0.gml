@@ -19,11 +19,12 @@ if oPlayer.input.interaction && place_meeting(x, y, oPlayer) && act_count <= 0
 		audio_play_sound(SE_coin01, 1, false);
 		global.gold -= item_cost;
 		audio_play_sound(SE_coin02, 1, false);
+		global.store_item_stock02 -= 1;
 	}
 	act_count = 45;
 }
 
-if itemstock == 0
+if global.store_item_stock02 == 0
 {
 	instance_create_layer(x, y, "Instances", sale_soldout);
 	instance_destroy();

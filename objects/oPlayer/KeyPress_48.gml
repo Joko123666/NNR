@@ -1,10 +1,14 @@
 
+global.Player_sword = true;
 
-room_goto(Vally_village);
-x = 600;
-y = 200;
+global.attackskill02 = true;
+global.attackskill03 = true;
+global.attackskill04 = true;
+
+global.moveskill02 = true;
+global.moveskill03 = true;
 
 global.mainstream = 41;
-attackskill_set = 3;
-moveskill_set = 2;
-global.gold = 1000;
+attackskill_set = 1;
+moveskill_set = 1;
+global.gold = 3000;

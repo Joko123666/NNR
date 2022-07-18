@@ -1,5 +1,5 @@
 
-dialog_count = global.NPC18_dialog;
+dialog_count = global.NPC28_dialog;
 
 
 //Start quest

@@ -278,6 +278,9 @@ function NPC_NPC23_dialog(argument0)
 	 if diacount == 37
 	 {
 		  text = "긍정적으로 검토해주시길 바랍니다";
+		  global.mainquest[14] = 1;		//퀘스트 진행도 갱신
+		quest_board("main014");			//퀘스트 보드에 퀘스트 갱신
+		audio_play_sound(SE_system07, 1, false);
 		global.NPC23_dialog += 1;
 		dialog_endswitch = true;
 		global.mainstream = 44;

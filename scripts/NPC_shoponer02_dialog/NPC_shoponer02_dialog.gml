@@ -64,5 +64,37 @@ function NPC_shoponer02_dialog(argument0)
 	{
 		text = "여기는 장사가 참 안된단 말이죠";
 	}
+	
+	//++++
+	
+	if global.Player_item == "Metalsack"	&& ex_dialog_count == 0
+	{
+		text = "적수정석을 파시는건가요?"
+		ex_dialog_count = 1;
+	}
+	
+	if global.Player_item == "Metalsack"	&& ex_dialog_count == 1
+	{
+		text = "적수정석은 언제든 고가로 매입해 드린답니다"
+		ex_dialog_count = 2;
+	}
+	
+	if global.Player_item == "Metalsack"	&& ex_dialog_count == 2
+	{
+		text = "적수정석 1000G에 매입하였습니다~"
+		global.Player_item = "empty";
+		global.gold += 1000;
+		global.subquest[3] = 3;
+		quest_clearboard("side003");
+		audio_play_sound(SE_system07, 1, false);
+		ex_dialog_count = 3;
+		global.NPC21_dialog = 50;
+	}
+	
+	if ex_dialog_count == 3
+	{
+		text = "다음번에 또 부탁드려요~"
+	}
+	
 	return text;
 }

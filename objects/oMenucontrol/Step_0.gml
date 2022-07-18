@@ -173,97 +173,112 @@ switch (state)
 	break
 	#endregion
 	
+	
+	
 	#region SkillSet_Moveskill
 	case "Mskillset" :
 	isopend = true;
 	show_menu = true;
+	
+			show_debug_message(skillset_state);
 	
 	// exit menu
 	if keyboard_check_pressed(vk_escape) or oPlayer.state != "Stay"
 	{state = "Disactive"; oPlayer.state = "Move";audio_play_sound(SE_system03, 0, false);}
 	
 	//스킬 선택창 상태
+	if state = "Mskillset"
+	{
 	switch (skillset_state)
 	{
-	case "Defalt" :
-	{
-		if input.down
-		{state = "Askillset"; audio_play_sound(SE_system01, 0, false);}
-		if input.left
-		{state = "Button1"; audio_play_sound(SE_system01, 0, false);}
-		if input.interaction
-		{skillset_state = "Mskillset_1";}
-		if input.cansel {state = "Button1"; audio_play_sound(SE_system05, 0, false);}
-	}
+
+		case "Defalt" :
+		{
+			if input.down
+			{state = "Askillset"; audio_play_sound(SE_system01, 0, false);}
+			if input.left
+			{state = "Button1"; audio_play_sound(SE_system01, 0, false);}
+			if input.interaction
+			{skillset_state = "Mskillset_1"; audio_play_sound(SE_system04, 0, false);}
+			if input.cansel
+			{state = "Button1";skillset_state = "Defalt"; audio_play_sound(SE_system05, 0, false);}
+			break;
+		}
 	
-	case "Mskillset_1" :
-	{
-		if input.right {skillset_state = "Mskillset_2";}
-		if input.left {skillset_state = "Mskillset_6";}
-		if input.interaction {skillset_state = "Defalt"; oPlayer.moveskill_set = 1 ;audio_play_sound(SE_system04, 0, false);}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
-	}
-	case "Mskillset_2" :
-	{
-		if input.right {skillset_state = "Mskillset_3";}
-		if input.left {skillset_state = "Mskillset_1";}
-		if input.interaction 
+		case "Mskillset_1" :
 		{
-			skillset_state = "Defalt"; 
-			if global.moveskill02 == true	{oPlayer.moveskill_set = 2 ; audio_play_sound(SE_system04, 0, false);}
-			else {audio_play_sound(SE_system05, 0, false);}
+			if input.right {skillset_state = "Mskillset_2";}
+			if input.left {skillset_state = "Mskillset_6";}
+			if input.interaction {skillset_state = "Defalt"; oPlayer.moveskill_set = 1 ;audio_play_sound(SE_system04, 0, false);}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
 		}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
-	}
-	case "Mskillset_3" :
-	{
-		if input.right {skillset_state = "Mskillset_4";}
-		if input.left {skillset_state = "Mskillset_2";}
-		if input.interaction 
+		case "Mskillset_2" :
 		{
-			skillset_state = "Defalt"; 
-			if global.moveskill03 == true	{oPlayer.moveskill_set = 3 ; audio_play_sound(SE_system04, 0, false);}
-			else {audio_play_sound(SE_system05, 0, false);}
+			if input.right {skillset_state = "Mskillset_3";}
+			if input.left {skillset_state = "Mskillset_1";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.moveskill02 == true	{oPlayer.moveskill_set = 2 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
 		}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
-	}
-	case "Mskillset_4" :
-	{
-		if input.right {skillset_state = "Mskillset_5";}
-		if input.left {skillset_state = "Mskillset_3";}
-		if input.interaction 
+		case "Mskillset_3" :
 		{
-			skillset_state = "Defalt"; 
-			if global.moveskill04 == true	{oPlayer.moveskill_set = 4 ; audio_play_sound(SE_system04, 0, false);}
-			else {audio_play_sound(SE_system05, 0, false);}
+			if input.right {skillset_state = "Mskillset_4";}
+			if input.left {skillset_state = "Mskillset_2";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.moveskill03 == true	{oPlayer.moveskill_set = 3 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
 		}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
-	}
-	case "Mskillset_5" :
-	{
-		if input.right {skillset_state = "Mskillset_6";}
-		if input.left {skillset_state = "Mskillset_4";}
-		if input.interaction 
+		case "Mskillset_4" :
 		{
-			skillset_state = "Defalt"; 
-			if global.moveskill05 == true	{oPlayer.moveskill_set = 5 ; audio_play_sound(SE_system04, 0, false);}
-			else {audio_play_sound(SE_system05, 0, false);}
+			if input.right {skillset_state = "Mskillset_5";}
+			if input.left {skillset_state = "Mskillset_3";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.moveskill04 == true	{oPlayer.moveskill_set = 4 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
 		}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
-	}
-	case "Mskillset_6" :
-	{
-		if input.right {skillset_state = "Mskillset_1";}
-		if input.left {skillset_state = "Mskillset_5";}
-		if input.interaction 
+		case "Mskillset_5" :
 		{
-			skillset_state = "Defalt"; 
-			if global.moveskill06 == true	{oPlayer.moveskill_set = 6 ; audio_play_sound(SE_system04, 0, false);}
-			else {audio_play_sound(SE_system05, 0, false);}
+			if input.right {skillset_state = "Mskillset_6";}
+			if input.left {skillset_state = "Mskillset_4";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.moveskill05 == true	{oPlayer.moveskill_set = 5 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
 		}
-		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		case "Mskillset_6" :
+		{
+			if input.right {skillset_state = "Mskillset_1";}
+			if input.left {skillset_state = "Mskillset_5";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.moveskill06 == true	{oPlayer.moveskill_set = 6 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
+		}
 	}
-	
 	
 	}
 	break;
@@ -289,8 +304,9 @@ switch (state)
 		if input.left
 		{state = "Button1"; audio_play_sound(SE_system01, 0, false);}
 		if input.interaction
-		{skillset_state = "Mskillset_1";}
+		{skillset_state = "Askillset_1";}
 		if input.cansel {state = "Button1"; audio_play_sound(SE_system05, 0, false);}
+		break;
 	}
 	
 	case "Askillset_1" :
@@ -299,6 +315,7 @@ switch (state)
 		if input.left {skillset_state = "Askillset_6";}
 		if input.interaction {skillset_state = "Defalt"; oPlayer.attackskill_set = 1 ;audio_play_sound(SE_system04, 0, false);}
 		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		break;
 	}
 	case "Askillset_2" :
 	{
@@ -311,8 +328,60 @@ switch (state)
 			else {audio_play_sound(SE_system05, 0, false);}
 		}
 		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		break;
 	}
-	
+	case "Askillset_3" :
+		{
+			if input.right {skillset_state = "Askillset_4";}
+			if input.left {skillset_state = "Askillset_2";}
+			if input.interaction 
+			{
+				skillset_state = "Defalt"; 
+				if global.attackskill03 == true	{oPlayer.attackskill_set = 3 ; audio_play_sound(SE_system04, 0, false);}
+				else {audio_play_sound(SE_system05, 0, false);}
+			}
+			if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+			break;
+		}
+	case "Askillset_4" :
+	{
+		if input.right {skillset_state = "Askillset_5";}
+		if input.left {skillset_state = "Askillset_3";}
+		if input.interaction 
+		{
+			skillset_state = "Defalt"; 
+			if global.attackskill04 == true	{oPlayer.attackskill_set = 4 ; audio_play_sound(SE_system04, 0, false);}
+			else {audio_play_sound(SE_system05, 0, false);}
+		}
+		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		break;
+	}
+	case "Askillset_5" :
+	{
+		if input.right {skillset_state = "Askillset_6";}
+		if input.left {skillset_state = "Askillset_4";}
+		if input.interaction 
+		{
+			skillset_state = "Defalt"; 
+			if global.attackskill05 == true	{oPlayer.attackskill_set = 5 ; audio_play_sound(SE_system04, 0, false);}
+			else {audio_play_sound(SE_system05, 0, false);}
+		}
+		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		break;
+	}
+	case "Askillset_6" :
+	{
+		if input.right {skillset_state = "Askillset_1";}
+		if input.left {skillset_state = "Askillset_5";}
+		if input.interaction 
+		{
+			skillset_state = "Defalt"; 
+			if global.attackskill06 == true	{oPlayer.attackskill_set = 6 ; audio_play_sound(SE_system04, 0, false);}
+			else {audio_play_sound(SE_system05, 0, false);}
+		}
+		if input.cansel {skillset_state = "Defalt";audio_play_sound(SE_system05, 0, false);}
+		break;
+	}
 	
 	}
 	break;

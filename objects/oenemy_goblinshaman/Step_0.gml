@@ -20,36 +20,35 @@ switch (state)
 	case "Chase" :
 	#region Chase state
 		state_set_sprite(enemy_hill_goblinshaman_move, 1, 0);
-		if !instance_exists(oPlayer) break;
 		
-		image_xscale = sign(oPlayer.x - x);
-		if image_xscale == 0 
-		{
-			image_xscale = 1;
-		}
-		
-		var direction_facing = image_xscale;
+		act_switch = false;
+		act_count = count_decrease(act_count, 1, 0);
 		var distance_to_player = point_distance(x, y, oPlayer.x, oPlayer.y);
+		var direction_facing = image_xscale;
 		var ydistance = abs(oPlayer.y - y);
-		
 		move_and_collide_enemy(direction_facing * move_speed, 0);
 		
-		if place_meeting(x, y, oPlayer) && oPlayer.invincibility == false
+		if act_count <= 0
 		{
-			creat_hitbox(x, y, self, sprite_index, knockback_power, 1, attack_power, image_xscale)
-			knockback_speed = -3 * image_xscale;
-			state = "Knockback"
+			//방향 리셋
+			image_xscale = sign(oPlayer.x - x);
+			if image_xscale == 0 
+			{
+				image_xscale = 1;
+			}
+			act_count = 30;
 		}
 		
-		if distance_to_player >= act_range	or	ydistance > 48
+		if distance_to_player >= act_range
 		{
 			state = "Neutral"
+			act_count = 45;
 		}
 		
+		//거리와 상태 만족시 공격으로 이행
 		if distance_to_player <= attack_range	&&	ydistance < 48
 		{
 			state = "Attack"
-			act_switch = false;
 		}
 		
 	#endregion

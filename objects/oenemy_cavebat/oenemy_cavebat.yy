@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "enemy_vally_cavebat_mask",
     "path": "sprites/enemy_vally_cavebat_mask/enemy_vally_cavebat_mask.yy",

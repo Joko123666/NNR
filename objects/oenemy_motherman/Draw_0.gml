@@ -1,6 +1,15 @@
 
 draw_self();
 
+if electric_charge_A == true
+	{
+		draw_sprite(enemy_vally_motherman_charge_A, 0, x, y);
+	}
+if electric_charge_B == true
+	{
+		draw_sprite(enemy_vally_motherman_charge_B, 0, x, y);
+	}
+
 if state == "Death" {exit;}
 if alarm[0] > 0
 {

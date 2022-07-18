@@ -127,7 +127,7 @@ function NPC_NPC21_dialog(argument0)
 	
 	if diacount == 18	&& global.Player_item != "Metalsack"
 	{
-		text = "위쪽길을 잘 찾아보라구";
+		text = "광산의 위쪽길을 잘 찾아보라구";
 	}
 	
 	if diacount == 18	&& global.Player_item == "Metalsack"
@@ -296,7 +296,10 @@ function NPC_NPC21_dialog(argument0)
 		text = "망가져도 내탓은 아니니까 말이야";
 	}
 
-
+	if diacount == 50
+	{
+		text = "적수정석의 영압이 사라졌다...";
+	}
 	
 	return text;
 }

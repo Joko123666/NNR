@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "enemy_hill_goblin_mask",
     "path": "sprites/enemy_hill_goblin_mask/enemy_hill_goblin_mask.yy",

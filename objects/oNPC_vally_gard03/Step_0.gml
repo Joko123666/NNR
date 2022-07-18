@@ -30,6 +30,26 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	{image_xscale = -1;}
 }
 
+if oPlayer.input.item	&& global.Player_item == "Bomb01"
+{
+	act_count = 5;
+	deactivate_count = 75;
+	
+	if instance_exists(text_drawingob)
+		{instance_destroy(text_drawingob);}
+	
+	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
+	text.text = "지금 뭐하시는겁니까!?";			//대사 스크립트 불러오기
+	var text_width = string_width(text.text);
+	text.x -= text_width/2 + 4;
+	
+	if x < oPlayer.x 
+	{image_xscale = 1;}
+	if x > oPlayer.x 
+	{image_xscale = -1;}
+}
+
+
 
 if deactivate_count > 0
 	{ deactivate_count--;	state_set_sprite(active_sprite, 1, 0);}

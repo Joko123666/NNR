@@ -18,5 +18,6 @@ if HP<=0
 		MP_regen_time += 2;
 		hspd -= 0.01;
 		damage -= 1;
+		maxExp = floor(maxExp * 0.7);
 	}
 }

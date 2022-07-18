@@ -295,13 +295,11 @@ switch (state)
 if electric_charge_A == true
 	{
 		creat_hitbox(x, y, self, enemy_vally_motherman_charge_A, 3, 1, attack_power/2, image_xscale); 
-		draw_sprite(enemy_vally_motherman_charge_A, 0, x, y);
 		create_particle(x+32, y+416, oparticle_16, 2);
 	}
 if electric_charge_B == true
 	{
 		creat_hitbox(x, y, self, enemy_vally_motherman_charge_B, 3, 1, attack_power/2, image_xscale);
-		draw_sprite(enemy_vally_motherman_charge_B, 0, x, y);
 		create_particle(x+452, y+416, oparticle_16, 2);
 	}
 	

@@ -9,7 +9,7 @@ rollspd = hspd + 3;
 if Exp >= maxExp
 {
 	Exp -= maxExp;
-	maxExp = maxExp * 1.4;
+	maxExp = floor(maxExp * 1.4);
 	level++;
 	maxHP += 10;
 	HP += 10;

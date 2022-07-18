@@ -27,6 +27,9 @@ function quest_board_text(argument0)
 	{	return "광산 조사";	}
 	
 	if argument0 == "main013"
+	{	return "바위를 제거";	}
+	
+	if argument0 == "main014"
 	{	return "협회에 방문";	}
 	
 	#endregion

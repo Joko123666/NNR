@@ -26,10 +26,16 @@ function NPC_vally_gard03_dialog(argument0)
 		text = "병사장님 무섭지 않습니까?";
 	}
 	
-	if global.mainstream == 35	&& global.Player_item != "Bomb01"
+	if global.mainstream == 35	&& global.Player_item != "Bomb01"	&& global.store_item_stock03 > 0
 	{
 		text = "폭탄이 필요하십니까?";
 		instance_create_depth(x + 24*image_xscale, y - 24, 0, Item_bomb01);
+		global.store_item_stock03 -= 1;
+	}
+	
+	if global.mainstream == 35	&& global.store_item_stock03 <= 0
+	{
+		text = "폭탄이 전부 떨어졌습니다...";
 	}
 	
 

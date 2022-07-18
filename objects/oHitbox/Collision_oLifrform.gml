@@ -81,6 +81,7 @@ if particle_switch == false	&& hit_particle != 0
 	if other.object_index == oenemy_motherman
 	{
 		create_particle(x + image_xscale*18, y - 12, oparticle_02, 3);
+		create_particle(x + image_xscale*18, y - 12, oparticle_17, 3);
 	}
 
 show_debug_message(other.HP);
