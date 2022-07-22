@@ -1,2 +1,2 @@
 
-link = "https://naver.me/GRf1rPv1";
+link = "https://naver.me/GWoMtmz2";

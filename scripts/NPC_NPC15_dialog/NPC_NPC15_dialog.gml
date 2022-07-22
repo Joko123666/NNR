@@ -9,6 +9,7 @@ function NPC_NPC15_dialog(argument0)
 	{
 		text = "이곳은 길드원 전용 창구입니다";
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	
@@ -54,6 +55,7 @@ function NPC_NPC15_dialog(argument0)
 	{
 		text = "조사대는 동쪽으로 출발했습니다";
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	
@@ -132,6 +134,7 @@ function NPC_NPC15_dialog(argument0)
 		global.mainstream = 22;
 		global.NPC15_dialog += 1;
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	
@@ -147,6 +150,7 @@ function NPC_NPC15_dialog(argument0)
 		if randia == 3
 			{ text = "무슨 볼일이신가요?" ; }
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 

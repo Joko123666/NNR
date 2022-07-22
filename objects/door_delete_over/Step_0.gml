@@ -1,4 +1,4 @@
 
-if act_switch == false && global.mainstream >= mainstream_count && place_meeting(x, y, to_nextroom)
-{instance_destroy(other); act_switch = true;}
+if act_switch == false && global.mainstream >= mainstream_count 
+{instance_destroy(target_ob); act_switch = true;instance_destroy();}
  

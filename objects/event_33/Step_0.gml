@@ -1,7 +1,7 @@
 if act_count >0
 {act_count--;}
 
-if global.mainstream <= 34	&& place_meeting(x, y, oPlayer)	&& act_count <=0
+if global.mainstream < 34	&& place_meeting(x, y, oPlayer)	&& act_count <=0
 {
 	var text = instance_create_layer(x, y-12, "Effects", text_drawingob);
 	text.text = "바위로 길이 막혀있다";

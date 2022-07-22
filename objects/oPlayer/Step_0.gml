@@ -361,14 +361,21 @@ switch (state)
 			
 			if isshadow == false
 			{
+				move_and_collide(hspd * image_xscale * 2.2 , 0);
+				if animation_hit_frame(0)
+				{shadow_x = x;	shadow_y = y;}
 				if animation_hit_frame(1)
-				{audio_play_sound(SE_moveskill, 20, false);image_alpha = 0.6;invincibility = true;}
-				if animation_hit_frame(3)
+				{
+					audio_play_sound(SE_moveskill, 20, false);
+					image_alpha = 0.3;
+					invincibility = true;
+				}
+				if animation_hit_frame(7)
 				{image_alpha = 1;  }
 				if animation_end()
 				{
 					invincibility = false; isshadow = true; 
-					instance_create_layer(x, y, "Effects", oplayer_shadow);
+					instance_create_layer(shadow_x, shadow_y, "Effects", oplayer_shadow);
 					moveskill_cool = 8;
 				}
 			}
@@ -1023,6 +1030,16 @@ if global.mainstream == 8	&& input.interaction	&& act_count <=0	&& dialog_endswi
 		global.mainstream = 10;
 		dialog_count = 0;
 	}
+}
+
+if global.mainstream == 10	&& dialog_count == 0	&& act_count <=0	&& dialog_endswitch == false
+{
+	//본편 시작 대사 출력
+	act_count = 18;
+	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
+	text.text = Player_self_dialog(dialog_count);
+	text.dianame = "이드"
+	text.name_color = c_black;	
 }
 
 if global.mainstream == 10	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false

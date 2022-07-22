@@ -279,11 +279,25 @@ switch (state)
 	case "Death" :
 	#region
 		
-		state_set_sprite(hill_bossgoblin_death, 1, 0);
-		if animation_end()
+		state_set_sprite(enemy_vally_motherman_death, 1, 0);
+
+		if animation_hit_frame(1) or animation_hit_frame(3) or animation_hit_frame(5) or animation_hit_frame(7) or animation_hit_frame(9) or animation_hit_frame(11) or animation_hit_frame(12)
 		{
 			repeat(8)
-			{instance_create_depth(x, y - 8, 0, oparticle_14);}
+			{instance_create_depth(random_range(x + 50, x + 300), random_range(y + 370, y + 470), 0, oparticle_15);}
+			repeat(8)
+			{instance_create_depth(random_range(x + 50, x + 300), random_range(y + 370, y + 470), 0, oparticle_17);}
+			repeat(8)
+			{instance_create_depth(random_range(x + 50, x + 300), random_range(y + 370, y + 470), 0, oeffect_explosion01);}
+			audio_play_sound(SE_explosion01, 1, false);
+		}
+
+		
+		if animation_hit_frame(13)
+		{screen_shake(30, 90);audio_play_sound(SE_earthquake_02, 1, false);}
+		
+		if animation_end()
+		{
 			instance_destroy();
 		}
 		

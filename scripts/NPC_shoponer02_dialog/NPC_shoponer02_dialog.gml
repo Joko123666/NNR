@@ -5,6 +5,7 @@ function NPC_shoponer02_dialog(argument0)
 	///@arg dilog_count
 	var diacount = argument0;
 	var randia = irandom(2);
+	var ex_diacount = ex_dialog_count;
 	text = "";
 	
 	if diacount == 0	
@@ -67,19 +68,19 @@ function NPC_shoponer02_dialog(argument0)
 	
 	//++++
 	
-	if global.Player_item == "Metalsack"	&& ex_dialog_count == 0
+	if global.Player_item == "Metalsack"	&& ex_diacount == 0
 	{
 		text = "적수정석을 파시는건가요?"
 		ex_dialog_count = 1;
 	}
 	
-	if global.Player_item == "Metalsack"	&& ex_dialog_count == 1
+	if global.Player_item == "Metalsack"	&& ex_diacount == 1
 	{
 		text = "적수정석은 언제든 고가로 매입해 드린답니다"
 		ex_dialog_count = 2;
 	}
 	
-	if global.Player_item == "Metalsack"	&& ex_dialog_count == 2
+	if global.Player_item == "Metalsack"	&& ex_diacount == 2
 	{
 		text = "적수정석 1000G에 매입하였습니다~"
 		global.Player_item = "empty";
@@ -91,7 +92,7 @@ function NPC_shoponer02_dialog(argument0)
 		global.NPC21_dialog = 50;
 	}
 	
-	if ex_dialog_count == 3
+	if ex_diacount == 3
 	{
 		text = "다음번에 또 부탁드려요~"
 	}

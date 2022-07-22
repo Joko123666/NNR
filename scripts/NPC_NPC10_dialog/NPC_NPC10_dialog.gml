@@ -55,6 +55,7 @@ function NPC_NPC10_dialog(argument0)
 		text = "모쪼록 무기를 들고 다시 찾아주시기 바랍니다";
 		global.UItext_show = false;
 		dialog_endswitch = true;
+		diafalse_count = 50;
 	}
 	
 	if diacount == 6 && global.Player_sword == true
@@ -97,6 +98,7 @@ function NPC_NPC10_dialog(argument0)
 		text = "필요하시다면 언제든지 찾아주세요";
 		global.UItext_show = false;
 		dialog_endswitch = true;
+		diafalse_count = 50;
 	}
 	
 	
@@ -209,6 +211,7 @@ function NPC_NPC10_dialog(argument0)
 		global.NPC10_dialog += 1;
 		global.UItext_show = false;
 		dialog_endswitch = true;
+		diafalse_count = 50;
 	}
 	
 	if diacount == 28
@@ -223,6 +226,7 @@ function NPC_NPC10_dialog(argument0)
 		if randia == 3
 			{ text = "길드에의 협력 항상 감사드립니다" ; }
 		dialog_endswitch = true;
+		diafalse_count = 50;
 	}
 	
 

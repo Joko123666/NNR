@@ -5,10 +5,11 @@ function NPC_NPC16_dialog(argument0)
 	var diacount = argument0;
 	text = ""
 	
-	if diacount == 0	&& global.mainstream <= 19
+	if diacount == 0	&& global.mainstream < 19
 	{
 		text = "안녕하세요 이드씨 여긴 어쩐 일이세요?";
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	
@@ -72,6 +73,7 @@ function NPC_NPC16_dialog(argument0)
 	{
 		text = "기운도 차릴겸 스프도 드시고 가세요~";
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	
@@ -114,6 +116,7 @@ function NPC_NPC16_dialog(argument0)
 	{
 		text = "조사협력 감사드립니다!";
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	}
 	

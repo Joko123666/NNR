@@ -36,7 +36,7 @@ switch (state)
 			{
 				image_xscale = 1;
 			}
-			act_count = 30;
+			act_count = 45;
 		}
 		
 		if distance_to_player >= act_range

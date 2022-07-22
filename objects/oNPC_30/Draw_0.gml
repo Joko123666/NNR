@@ -8,5 +8,5 @@ if contect == true
 
 if dialog_count == 0
 {
-	draw_sprite(UI_NPC_skill, 0, x , y - 64);
+	draw_sprite(UI_NPC_skill, 0, x , y - 44);
 }

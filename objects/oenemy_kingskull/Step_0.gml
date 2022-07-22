@@ -7,7 +7,7 @@ switch (state)
 {
 	case "Neutral" :		//상태 리셋
 	#region Neutral state
-		state_set_sprite(enemy_vally_motherman_stand,1,0);
+		state_set_sprite(skullboss_neutral,1,0);
 		if act_count >0
 		{
 			act_count -= 1;
@@ -25,37 +25,25 @@ switch (state)
 	
 	case "Act_Set" :		//행동 결정
 	#region Act state
-		
+		state_set_sprite(skullboss_act,1,0);
 		
 		act_num = random(100);
 		show_debug_message(act_num);
-		if act_num <= 20			//A
+		if act_num <= 20			//A 우 주먹 내려치기
 		{
 			state = "AttackA";	
 			moving_speed = 0;
 		}
-		else if act_num < 40		//B 우측 충전
+		else if act_num < 40		//B 좌 주먹 내리친 후 휩쓸기
 		{
-			if electric_charge_B == false
-				{state = "AttackB";	image_index = 0;}
-			if electric_charge_B == true
-				{state = "AttackC";	image_index = 0;}
+			state = "AttackB";	
 			delay_count = 90;
 		}
-		else if act_num <60			//공격 C 좌측충전
-		{	
-			if electric_charge_A == false
-				{state = "AttackC";	image_index = 0;}
-			if electric_charge_A == true
-				{state = "AttackB";	image_index = 0;}
-			delay_count = 90;
-		}
-		
-		else if act_num <80			//공격 E 부하 드랍
+		else if act_num <60			//공격 C 부두 소환술
 		{	
 			if numberof_minions <= 1
 			{
-				state = "AttackE";
+				state = "AttackC";
 				act_count = 15;
 				delay_count = 120;
 			}
@@ -64,6 +52,13 @@ switch (state)
 				act_count = 3;
 				state = "Neutral";
 			}
+			delay_count = 90;
+		}
+		
+		else if act_num <80			//공격 D 세게 내려치기
+		{	
+			state = "AttackD";	
+			delay_count = 90;
 		}
 		
 		else if act_num <90			//공격 F 미사일 드랍
@@ -78,30 +73,22 @@ switch (state)
 			act_count = 8;
 			state = "Neutral"
 		}
-		//전기봉 차징 완료 파생
-		if electric_charge_A == true && electric_charge_B == true
-		{
-			state = "AttackD";
-			act_count = 10;
-			delay_count = 150;
-		}
+
 	
 	#endregion
 	break;
 	
 	case "AttackA" :
-	#region 지진 패턴
+	#region 우 주먹 내려치기
 		if !instance_exists(oPlayer) break;
-		state_set_sprite(enemy_vally_motherman_attack1, 1, 0);
+		state_set_sprite(skullboss_attackA, 1, 0);
 		if animation_hit_frame(1)
 		{audio_play_sound(SE_motherman_alart01, 1, false);}
 		
 
-		if animation_hit_frame(10)
+		if animation_hit_frame(8)
 		{
 			screen_shake(20, 20);
-			if oPlayer.isground == true
-			{oPlayer.vsp = -18; screen_shake(25, 30);}
 			create_particle(x+ 124, y+440,oparticle_01, random_range(6, 10));
 			creat_hitbox(x + 124, y+440, self, hit_48, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);

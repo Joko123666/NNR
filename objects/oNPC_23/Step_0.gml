@@ -32,6 +32,8 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0	&& d
 if !place_meeting(x, y, oPlayer)
 {dialog_endswitch = false;}
 
+if diafalse_count > 0 
+{diafalse_count = count_decrease(diafalse_count, 1, 0); if diafalse_count <= 0 {dialog_endswitch = false;}}
 
 act_count = count_decrease(act_count, 1, 0);
 	

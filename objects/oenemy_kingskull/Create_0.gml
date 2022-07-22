@@ -1,8 +1,8 @@
 event_inherited();
-maxHP = 1800;
+maxHP = 2400;
 HP = maxHP;
 HP_checkpoint = HP;
-Exp = 320;
+Exp = 520;
 object_type = "boss"
 
 state = "Neutral"

@@ -99,6 +99,7 @@ function NPC_NPC09_dialog(argument0)
 		screen_shake(5, 5);
 		oPlayer.attackskill_set = 2;
 		global.Player_attackskill = 1;
+		global.attackskill02 = true;
 		global.NPC09_dialog += 1;
 	}
 	

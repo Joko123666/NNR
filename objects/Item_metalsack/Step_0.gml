@@ -41,3 +41,5 @@ y = y + vsp;
 
 if global.NPC21_dialog >= 19
 {instance_destroy();}
+if !global.subquest[3] = 1
+{instance_destroy();}

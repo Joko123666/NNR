@@ -19,7 +19,7 @@ function NPC_NPC24_dialog(argument0)
 			audio_play_sound(SE_system03, 1, false);
 		}
 		else
-		{dialog_endswitch = true;}
+		{dialog_endswitch = true; diafalse_count = 50;}
 		
 	}
 	
@@ -130,6 +130,7 @@ function NPC_NPC24_dialog(argument0)
 		quest_board("main012");			//퀘스트 보드에 퀘스트 갱신
 		audio_play_sound(SE_system07, 1, false);
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	 }
 	 
@@ -143,6 +144,7 @@ function NPC_NPC24_dialog(argument0)
 		 if randia == 2
 		 { text = "어서빨리 조사해 오도록";}
 		 dialog_endswitch = true;
+		 diafalse_count = 50;
 		
 	 }
 	 
@@ -224,6 +226,7 @@ function NPC_NPC24_dialog(argument0)
 		 text = "너무 남용하지 말도록";
 		global.NPC24_dialog += 1;
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.mainstream = 35;
 		audio_play_sound(SE_system07, 1, false);
 		instance_create_depth(x + 24*image_xscale, y - 24, 0, Item_bomb01);
@@ -241,6 +244,7 @@ function NPC_NPC24_dialog(argument0)
 		 if randia == 2
 		 { text = "이곳의 폭탄에는 기본적으로 점착제가 발려있다";}
 		 dialog_endswitch = true;
+		 diafalse_count = 50;
 	 }
 	 
 	  if diacount == 31 && global.mainstream >= 41
@@ -341,6 +345,7 @@ function NPC_NPC24_dialog(argument0)
 		quest_clearboard("main013");
 		audio_play_sound(SE_system07, 1, false);
 		dialog_endswitch = true;
+		diafalse_count = 50;
 		global.UItext_show = false;
 	 }
 	 
@@ -354,6 +359,7 @@ function NPC_NPC24_dialog(argument0)
 		 if randia == 2
 		 { text = "이곳에 입대를 해볼 생각 없나?";}
 		 dialog_endswitch = true;
+		 diafalse_count = 50;
 		
 	 }
 	 

@@ -101,6 +101,9 @@ crawl_cameramove_count = crawl_cameramove_count_defalt;
 dialog_endswitch = false;
 dialog_count = 0;
 event_tirriger = false;
+//그림자이동 좌표 저장
+shadow_x = 0;
+shadow_y = 0;
 
 //튜토리얼 입력 확인 변수
 movekey_input_check = false;

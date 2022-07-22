@@ -34,6 +34,9 @@ if !place_meeting(x, y, oPlayer)
 
 
 act_count = count_decrease(act_count, 1, 0);
+
+if diafalse_count > 0 
+{diafalse_count = count_decrease(diafalse_count, 1, 0); if diafalse_count <= 0 {dialog_endswitch = false;}}
 	
 if deactivate_count > 0
 	{state_set_sprite(NPC_village_16_active, 1, 0); deactivate_count--;}
