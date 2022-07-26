@@ -212,6 +212,8 @@ function NPC_NPC10_dialog(argument0)
 		global.UItext_show = false;
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		global.mainquest[6] = 1;		//퀘스트 진행도 갱신
+		quest_board("main006");			//퀘스트 보드에 퀘스트 갱신
 	}
 	
 	if diacount == 28

@@ -17,6 +17,9 @@ function NPC_NPC23_dialog(argument0)
 	{
 		text = "아, 당신이 이드님이신가요?";
 		global.NPC23_dialog += 1;
+		global.mainquest[6] = 3;		//퀘스트 진행도 갱신
+		quest_clearboard("main006");
+		audio_play_sound(SE_system03, 1, false);
 	}
 	
 	if diacount == 2

@@ -4,18 +4,17 @@ switch (state)
 	#region disactive
 	case "Disactive" :
 	isopend = false;
-	if keyboard_check_pressed(vk_escape)	&& oPlayer.state != "Death"
+	if keyboard_check_pressed(vk_escape)	&& oPlayer.state != "Death" &&	room != Title
 	{
 		if room == Title
-		{game_end();}
-		
+		{break;}
 		state = "Button1";
 		oPlayer.state = "Stay";
 		audio_play_sound(SE_system03, 0, false);
 		if instance_exists(menu_controllset)
 		{instance_destroy(menu_controllset);}
 	}
-	break
+	break;
 	#endregion
 	
 	#region button1	resume

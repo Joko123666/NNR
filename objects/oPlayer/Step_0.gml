@@ -11,10 +11,10 @@ if Exp >= maxExp
 	Exp -= maxExp;
 	maxExp = floor(maxExp * 1.4);
 	level++;
-	maxHP += 10;
+	maxHP += 3;
 	HP += 10;
-	maxMP += 10;
-	MP += 20;
+	maxMP += 2;
+	MP += 10;
 	MP_regen_time -= 2;
 	hspd += 0.01;
 	damage += 1;

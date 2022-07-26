@@ -6,6 +6,8 @@ Exp = 520;
 object_type = "boss"
 
 state = "Neutral"
+this_act = "empty";
+last_act = "empty";
 
 act_range = 2246;
 attack_range = 250;

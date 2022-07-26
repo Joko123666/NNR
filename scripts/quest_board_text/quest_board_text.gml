@@ -20,6 +20,9 @@ function quest_board_text(argument0)
 	if argument0 == "main005"
 	{	return "동굴안을 조사";	}
 	
+	if argument0 == "main006"
+	{	return "동쪽의 마을로";	}
+	
 	if argument0 == "main011"
 	{	return "병영에서 대화";	}
 	

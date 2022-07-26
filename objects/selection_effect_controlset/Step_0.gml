@@ -1,7 +1,10 @@
-if input.cansel
+if input.cansel or keyboard_check_pressed(vk_escape)
 {
 	instance_create_layer(0, 0, "Effects", selection_effect);
-	instance_destroy();
+	instance_destroy(draw_instance);
+	instance_destroy(self);
+	audio_play_sound(SE_system03, 1, false);
+	exit;
 }
 
 

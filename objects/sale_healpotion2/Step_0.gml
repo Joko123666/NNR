@@ -14,7 +14,7 @@ if oPlayer.input.interaction && place_meeting(x, y, oPlayer) && act_count <= 0
 	}
 	if global.gold >= item_cost
 	{
-		instance_create_layer(x, y-32, "Effects", Item_healpotion);
+		instance_create_layer(x, y-32, "Effects", Item_healpotion2);
 		itemstock--;
 		audio_play_sound(SE_coin01, 1, false);
 		global.gold -= item_cost;

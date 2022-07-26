@@ -29,20 +29,28 @@ switch (state)
 		
 		act_num = random(100);
 		show_debug_message(act_num);
-		if act_num <= 20			//A 우 주먹 내려치기
+		if act_num <= 25			//A 우 주먹 내려치기
 		{
+			this_act = "attackA";
+			if this_act == last_act
+			{act_count = 3; state = "AttackB"; break;}
 			state = "AttackA";	
-			moving_speed = 0;
 		}
-		else if act_num < 40		//B 좌 주먹 내리친 후 휩쓸기
+		else if act_num < 50		//B 좌 주먹 내리친 후 휩쓸기
 		{
+			this_act = "attackB";
+			if this_act == last_act
+			{act_count = 3; state = "AttackA"; break;}
 			state = "AttackB";	
 			delay_count = 90;
 		}
-		else if act_num <60			//공격 C 부두 소환술
+		else if act_num < 60			//공격 C 부두 소환술
 		{	
 			if numberof_minions <= 1
 			{
+				this_act = "attackC";
+				if this_act == last_act
+				{act_count = 3; state = "AttackE"; break;}
 				state = "AttackC";
 				act_count = 15;
 				delay_count = 120;
@@ -50,20 +58,26 @@ switch (state)
 			if numberof_minions > 1
 			{
 				act_count = 3;
-				state = "Neutral";
+				state = "AttackE";
 			}
 			delay_count = 90;
 		}
 		
-		else if act_num <80			//공격 D 세게 내려치기
+		else if act_num < 80			//공격 D 세게 내려치기
 		{	
-			state = "AttackD";	
+			this_act = "attackD";
+			if this_act == last_act
+			{act_count = 3; state = "AttackB"; break;}
+			state = "AttackE";	
 			delay_count = 90;
 		}
 		
-		else if act_num <90			//공격 F 미사일 드랍
+		else if act_num <= 100		//공격 F 충격파
 		{	
-			state = "AttackF";
+			this_act = "attackE";
+			if this_act == last_act
+			{act_count = 3; state = "AttackD"; break;}
+			state = "AttackE";
 			act_count = 15;
 			delay_count = 120;	
 		}
@@ -89,8 +103,8 @@ switch (state)
 		if animation_hit_frame(8)
 		{
 			screen_shake(20, 20);
-			create_particle(x+ 124, y+440,oparticle_01, random_range(6, 10));
-			creat_hitbox(x + 124, y+440, self, hit_48, knockback_power, 5, attack_power*2, image_xscale);
+			create_particle(x+ 120, y-20,oparticle_18, random_range(6, 10));
+			creat_hitbox(x, y, self, skullboss_attackA_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
 		}
 
@@ -100,16 +114,17 @@ switch (state)
 			state = "Neutral";
 			act_count = 90;
 			HP_checkpoint = HP;
+			last_act = "attackA";
 		}
 		
 	#endregion
 		break;
 		
 	case "AttackB" :
-	#region 우측 전기봉 충전
+	#region 좌주먹 내려친 후 스윕
 		if !instance_exists(oPlayer) break;
 		
-		state_set_sprite(enemy_vally_motherman_attack2, 1, 0);
+		state_set_sprite(skullboss_attackB, 1, 0);
 		
 		if animation_hit_frame(1)
 		{audio_play_sound(SE_electric_charge, 1, false);}
@@ -128,6 +143,7 @@ switch (state)
 			state = "Neutral";
 			act_count = 90;
 			electric_charge_B = true;
+			last_act = "attackB";
 		}
 
 		
@@ -135,10 +151,10 @@ switch (state)
 		break;
 		
 	case "AttackC" :
-	#region 죄측 전기봉 충전
+	#region 사령 소환술
 		if !instance_exists(oPlayer) break;
 		
-		state_set_sprite(enemy_vally_motherman_attack3, 1, 0);
+		state_set_sprite(skullboss_attackC, 1, 0);
 		
 		if animation_hit_frame(1)
 		{audio_play_sound(SE_electric_charge, 1, false);}
@@ -157,15 +173,16 @@ switch (state)
 			state = "Neutral";
 			act_count = 90;
 			electric_charge_A = true;
+			last_act = "attackC";
 		}
 	
 	#endregion
 		break;
 		
 	case "AttackD" :
-	#region 좌우 전기봉 충전 완료
+	#region 세게 내려치기
 		{
-			state_set_sprite(enemy_vally_motherman_attack4, 1, 0);
+			state_set_sprite(skullboss_attackD, 1, 0);
 			
 			if animation_hit_frame(6)
 			{audio_play_sound(SE_electric_wave_01, 1, false);}
@@ -179,8 +196,7 @@ switch (state)
 				image_speed = 0;
 				state = "Neutral";
 				act_count = 90;
-				electric_charge_A = false;
-				electric_charge_B = false;
+				last_act = "attackD";
 			}
 			
 		}
@@ -189,9 +205,9 @@ switch (state)
 		break;
 		
 	case "AttackE" :
-	#region attackE 쫄드랍
+	#region 충격파
 		{
-			state_set_sprite(enemy_vally_motherman_attack5, 1, 0);
+			state_set_sprite(skullboss_attackE, 1, 0);
 		
 			if animation_hit_frame(6) && numberof_minions < 2
 			{
@@ -217,6 +233,7 @@ switch (state)
 				image_speed = 0;
 				state = "Neutral";
 				act_count = 90;
+				last_act = "attackE";
 			}
 			
 		}
@@ -224,28 +241,6 @@ switch (state)
 	#endregion
 		break;
 
-	case "AttackF" :
-	#region attackF 미사일 드랍
-		{
-			state_set_sprite(enemy_vally_motherman_attack6, 1, 0);
-		
-			if animation_hit_frame(7) or animation_hit_frame(11)
-			{
-				instance_create_depth(x+408, y+294, 2, ob_motheramn_missile);
-				audio_play_sound(SE_motherman_spawn02, 1, false);
-			}
-		
-			if animation_end()
-			{
-				image_speed = 0;
-				state = "Neutral";
-				act_count = 90;
-			}
-			
-		}
-	
-	#endregion
-		break;
 		
 	case "Knockback" :
 		#region Knockback_state
