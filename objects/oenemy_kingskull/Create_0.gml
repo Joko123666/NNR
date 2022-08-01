@@ -30,8 +30,6 @@ vsp = 0;
 
 numberof_minions = 0;
 
-electric_charge_A = false;
-electric_charge_B = false;
 
 hit_swich = false;
 hit_count = 0;

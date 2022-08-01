@@ -38,6 +38,12 @@ if BGM_counter != global.BGM_number
 	if BGM_counter == 10
 	{	audio_play_sound(BGM_vally01, 1, true);	}
 	
+	if BGM_counter == 11
+	{	audio_play_sound(BGM_graveyard, 1, true);	}
+	
+	if BGM_counter == 12
+	{	audio_play_sound(BGM_boss03, 1, true);	}
+	
 }
 
 

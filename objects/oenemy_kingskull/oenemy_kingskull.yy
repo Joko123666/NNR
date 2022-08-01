@@ -7,8 +7,8 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "enemy_vally_motherman_hitbox",
-    "path": "sprites/enemy_vally_motherman_hitbox/enemy_vally_motherman_hitbox.yy",
+    "name": "skullboss_mask",
+    "path": "sprites/skullboss_mask/skullboss_mask.yy",
   },
   "persistent": false,
   "parentObjectId": {

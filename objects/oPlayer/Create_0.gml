@@ -71,8 +71,10 @@ invincibility_count = 30;
 invincibility_maxcount = 45;
 //가변 속도
 moving_speed = 0;
+moving_direction = 0;
 //지속상태 변수
 isshadow = false;
+ismoving = false;
 //지면 접촉 확인
 isground = true;
 //1회용 변수

@@ -102,7 +102,7 @@ switch (state)
 
 		if animation_hit_frame(8)
 		{
-			screen_shake(20, 20);
+			screen_shake(30, 20);
 			create_particle(x+ 120, y-20,oparticle_18, random_range(6, 10));
 			creat_hitbox(x, y, self, skullboss_attackA_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
@@ -112,8 +112,7 @@ switch (state)
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 90;
-			HP_checkpoint = HP;
+			act_count = 80;
 			last_act = "attackA";
 		}
 		
@@ -126,22 +125,27 @@ switch (state)
 		
 		state_set_sprite(skullboss_attackB, 1, 0);
 		
-		if animation_hit_frame(1)
-		{audio_play_sound(SE_electric_charge, 1, false);}
-		if animation_hit_frame(12)
-		{audio_play_sound(SE_electric_wave_02, 1, false);}
-		if animation_hit_frame(12) or animation_hit_frame(13) or animation_hit_frame(14) or animation_hit_frame(15)
+		if animation_hit_frame(10)
 		{
-			creat_hitbox(x, y, self, enemy_motherman_attack2_hitbox, knockback_power, 4, attack_power, image_xscale);
-			create_particle(452, 416, oparticle_16, 7);
-			create_particle(300, 328, oparticle_16, 10);
+			screen_shake(20, 20);
+			create_particle(x - 120, y-20,oparticle_18, random_range(6, 10));
+			creat_hitbox(x, y, self, skullboss_attackB_hitbox1, knockback_power, 5, attack_power*2, image_xscale);
+			audio_play_sound(SE_earthquake_01, 1, false);
 		}
+		if animation_hit_frame(16)
+		{
+			screen_shake(10, 40);
+			create_particle(x - 120, y-20,oparticle_18, random_range(6, 10));
+			creat_hitbox(x, y, self, skullboss_attackB_hitbox2, knockback_power, 5, attack_power*2, image_xscale);
+			audio_play_sound(SE_earthquake_01, 1, false);
+		}
+		
 		
 		if animation_end()
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 90;
+			act_count = 110;
 			electric_charge_B = true;
 			last_act = "attackB";
 		}
@@ -156,23 +160,31 @@ switch (state)
 		
 		state_set_sprite(skullboss_attackC, 1, 0);
 		
-		if animation_hit_frame(1)
-		{audio_play_sound(SE_electric_charge, 1, false);}
-		if animation_hit_frame(12)
-		{audio_play_sound(SE_electric_wave_02, 1, false);}
-		if animation_hit_frame(12) or animation_hit_frame(13) or animation_hit_frame(14) or animation_hit_frame(15)
-		{
-			creat_hitbox(x, y, self, enemy_motherman_attack3_hitbox, knockback_power, 4, attack_power, image_xscale);
-			create_particle(x+32, x+416, oparticle_16, 7);
-			create_particle(y+300, y+328, oparticle_16, 10);
-		}
+		if animation_hit_frame(17) && numberof_minions < 4
+			{
+				repeat(3)
+				{
+					var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton_boss);
+					minions.vsp = -5;
+					numberof_minions ++;
+					audio_play_sound(SE_motherman_spawn01, 1, false);
+				}
+			}
+		if animation_hit_frame(17) && numberof_minions >= 4
+			{
+				var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton);
+				minions.state = "Death";
+				minions.vsp = -5;
+				minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
+				minions.speed = 2;
+				numberof_minions ++;
+			}
 		
 		if animation_end()
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 90;
-			electric_charge_A = true;
+			act_count = 30;
 			last_act = "attackC";
 		}
 	
@@ -184,11 +196,12 @@ switch (state)
 		{
 			state_set_sprite(skullboss_attackD, 1, 0);
 			
-			if animation_hit_frame(6)
-			{audio_play_sound(SE_electric_wave_01, 1, false);}
-			if animation_hit_frame(6) or animation_hit_frame(7) or animation_hit_frame(8) or animation_hit_frame(9) or animation_hit_frame(10) or animation_hit_frame(11) or animation_hit_frame(12)
+			if animation_hit_frame(12)
 			{
-				creat_hitbox(x, y, self, enemy_motherman_attack4_hitbox, knockback_power, 5, attack_power, image_xscale);
+				screen_shake(40, 20);
+				create_particle(x , y,oparticle_18, 1);
+				creat_hitbox(x, y, self, skullboss_attackB_hitbox1, knockback_power, 5, attack_power*2, image_xscale);
+				audio_play_sound(SE_earthquake_01, 1, false);
 			}
 		
 			if animation_end()
@@ -209,24 +222,20 @@ switch (state)
 		{
 			state_set_sprite(skullboss_attackE, 1, 0);
 		
-			if animation_hit_frame(6) && numberof_minions < 2
+			if animation_hit_frame(11)	&& oPlayer.invincibility == false
 			{
-				var minions = instance_create_depth(x+408, y+294, 2, ob_motherman_rockman);
-				minions.vsp = -5;
-				minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
-				minions.speed = 2;
-				numberof_minions ++;
-				audio_play_sound(SE_motherman_spawn01, 1, false);
+				if oPlayer.x > x	//플레이어가 우측
+				{
+					with (oPlayer) {ismoving = true; moving_direction = 0; moving_speed = 12;vsp = -6;}
+				}
+				if oPlayer.x <= x	//플레이어가 좌측
+				{
+					with (oPlayer) {ismoving = true; moving_direction = 180; moving_speed = 12;vsp = -6;}
+				}
 			}
-			if animation_hit_frame(6) && numberof_minions >= 2
-			{
-				var minions = instance_create_depth(x+408, y+304, 2, ob_motherman_rockman);
-				minions.state = "Death";
-				minions.vsp = -5;
-				minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
-				minions.speed = 2;
-				numberof_minions ++;
-			}
+			
+			if animation_hit_frame(11)
+			{create_particle(x, y, skullboss_effect_E, 1); audio_play_sound(SE_explosion01, 1, false);}
 		
 			if animation_end()
 			{
@@ -261,7 +270,7 @@ switch (state)
 	case "Death" :
 	#region
 		
-		state_set_sprite(hill_bossgoblin_death, 1, 0);
+		state_set_sprite(skullboss_death, 1, 0);
 		if animation_end()
 		{
 			repeat(8)
@@ -274,18 +283,7 @@ switch (state)
 	break;
 }
 
-if electric_charge_A == true
-	{
-		creat_hitbox(x, y, self, enemy_vally_motherman_charge_A, 3, 1, attack_power/2, image_xscale); 
-		draw_sprite(enemy_vally_motherman_charge_A, 0, x, y);
-		create_particle(x+32, y+416, oparticle_16, 2);
-	}
-if electric_charge_B == true
-	{
-		creat_hitbox(x, y, self, enemy_vally_motherman_charge_B, 3, 1, attack_power/2, image_xscale);
-		draw_sprite(enemy_vally_motherman_charge_B, 0, x, y);
-		create_particle(x+452, y+416, oparticle_16, 2);
-	}
+
 	
 if hit_swich == true
 {

@@ -9,7 +9,7 @@ state = "Neutral";
 
 act_range = 126;
 attack_range = 64;
-move_speed = 1.2;
+move_speed = 1.8;
 knockback_maxcount = 10;
 knockback_count = knockback_maxcount;
 knockback_power = 5;

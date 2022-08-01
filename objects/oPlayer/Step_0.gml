@@ -64,6 +64,15 @@ act_count = count_decrease(act_count, 1, 0);
 
 room_playeris = room;
 
+//인스턴트 충격파 설정
+if ismoving == true	&& moving_speed > 0
+{
+	if moving_direction == 0	{move_and_collide(moving_speed, 0);}
+	if moving_direction == 180	{move_and_collide(-moving_speed, 0);}
+	moving_speed -= 0.2;
+	if moving_speed <=0 {ismoving = false;}
+}
+
 #endregion
 
 switch (state)
