@@ -87,6 +87,8 @@ if !instance_exists(oPlayer) exit;
 	{draw_sprite(UI_item_metalsack, 0, 7, 7);}
 	if global.Player_item == "Superroot"
 	{draw_sprite(UI_item_superroot, 0, 7, 7);}
+	if global.Player_item == "Teleportgem"
+	{draw_sprite(UI_item_teleportgem, 0, 7, 7);}
 	
 	//스킬 사용키 표시
 		var x_arraypoint = 7;
@@ -208,6 +210,12 @@ if global.UItext_show == false
 		{draw_sprite(UI_skillcool_sp2, 0, 4, 152); }
 		if oPlayer.moveskill_set == 3
 		{draw_sprite(UI_skillcool_sp3, 0, 4, 152); }
+		if oPlayer.moveskill_set == 4
+		{draw_sprite(UI_skillcool_sp4, 0, 4, 152); }
+		if oPlayer.moveskill_set == 5
+		{draw_sprite(UI_skillcool_sp5, 0, 4, 152); }
+		if oPlayer.moveskill_set == 6
+		{draw_sprite(UI_skillcool_sp6, 0, 4, 152); }
 	
 		if oPlayer.state == "Moveskill"
 		{draw_sprite(UI_skillact_blue, 0, 3, 151);}
@@ -234,12 +242,16 @@ if global.UItext_show == false
 	
 		if global.Player_sword == true	&& oPlayer.attackskill_set == 1
 		{draw_sprite(UI_skillcool_skillA_sword0, 0, 32, 152);}
-	
 		if global.Player_sword == true	&&  oPlayer.attackskill_set == 2
 		{draw_sprite(UI_skillcool_skillA_sword1, 0, 32, 152);}
-		
 		if global.Player_sword == true	&&  oPlayer.attackskill_set == 3
 		{draw_sprite(UI_skillcool_skillA_sword2, 0, 32, 152);}
+		if global.Player_sword == true	&&  oPlayer.attackskill_set == 4
+		{draw_sprite(UI_skillcool_skillA_sword3, 0, 32, 152);}
+		if global.Player_sword == true	&&  oPlayer.attackskill_set == 5
+		{draw_sprite(UI_skillcool_skillA_sword4, 0, 32, 152);}
+		if global.Player_sword == true	&&  oPlayer.attackskill_set == 6
+		{draw_sprite(UI_skillcool_skillA_sword5, 0, 32, 152);}
 	
 		// UI square
 		if oPlayer.state == "Attackskill1"

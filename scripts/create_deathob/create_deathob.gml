@@ -17,8 +17,8 @@ function create_deathob(argument0, argument1, argument2, argument3)
 			var bx = x + random_range(-xrange , xrange);
 			var by = y + random_range(-yrange , -yrange/2);
 			var bone = instance_create_layer(bx, by, "Instances", death_object);
-			bone.direction = 90 + (image_xscale * random_range(10, 60));
-			bone.speed = random_range(1, 3);
+			bone.direction = 90 + (image_xscale * random_range(30, 80));
+			bone.speed = random_range(2, 4);
 			bone.image_index = i;
 			bone.image_speed = 0;
 			show_debug_message(i);

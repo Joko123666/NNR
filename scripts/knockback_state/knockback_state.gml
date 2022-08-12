@@ -23,7 +23,7 @@ function knockback_state(argument0, argument1)
 
 		if moving_speed >= 10 or moving_speed <= -10
 		{
-			var knockback_friction = 0.7;
+			var knockback_friction = 0.8;
 		}
 		else
 		{

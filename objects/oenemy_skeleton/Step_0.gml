@@ -72,6 +72,16 @@ switch (state)
 		instance_destroy();
 	#endregion
 	break;
+	
+	case "Explosion" :
+	#region
+		
+		create_particle(x, y, oeffect_explosion01, 1);
+		creat_hitbox(x, y, self, hit_48, 5, 5, 40, image_xscale)
+		instance_destroy();
+
+	#endregion
+	break;
 }
 
 

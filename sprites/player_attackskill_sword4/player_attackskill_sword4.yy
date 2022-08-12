@@ -63,6 +63,9 @@
     {"compositeImage":{"FrameId":{"name":"4548bdb0-3713-4c41-aa9a-a4e85a5c86fe","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4548bdb0-3713-4c41-aa9a-a4e85a5c86fe","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"player_attackskill_sword4","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","name":"4548bdb0-3713-4c41-aa9a-a4e85a5c86fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"273adb51-e5bd-402c-8cec-ee64e7cfa804","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"273adb51-e5bd-402c-8cec-ee64e7cfa804","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"player_attackskill_sword4","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","name":"273adb51-e5bd-402c-8cec-ee64e7cfa804","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"player_attackskill_sword4","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},
@@ -72,7 +75,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 13.0,
+    "length": 14.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
@@ -90,6 +93,7 @@
             {"id":"5c675ee4-179d-4f84-86d8-9d53e28d240e","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aea5b2a9-5b7e-4481-8c00-124ed2993ef7","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
             {"id":"9d256474-d573-49a9-9df1-5901b1436570","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc0e92ba-1ae6-4672-a40e-61855f92b380","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
             {"id":"452dd6be-ac99-40da-9d47-86475ce46bad","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4548bdb0-3713-4c41-aa9a-a4e85a5c86fe","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"6cfea030-5f13-4766-a00b-1b403032d3f6","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"273adb51-e5bd-402c-8cec-ee64e7cfa804","path":"sprites/player_attackskill_sword4/player_attackskill_sword4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

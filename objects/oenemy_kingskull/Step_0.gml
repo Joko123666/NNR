@@ -106,7 +106,23 @@ switch (state)
 			create_particle(x+ 120, y-20,oparticle_18, random_range(6, 10));
 			creat_hitbox(x, y, self, skullboss_attackA_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
+			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			bone.direction = 100;
+			bone.speed = 13;
+			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			bone.direction = 110;
+			bone.speed = 12;
+			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			bone.direction = 120;
+			bone.speed = 11;
 		}
+		
+		if animation_hit_frame(10)
+			{
+				instance_create_layer(oPlayer.x, y-200, "Instances", oparticle_20);
+
+			}
+		
 
 		if animation_end()
 		{
@@ -164,7 +180,7 @@ switch (state)
 			{
 				repeat(3)
 				{
-					var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton_boss);
+					var minions = instance_create_layer(x+irandom_range(-120, 120), y-180, "Instances", oenemy_skeleton_boss);
 					minions.vsp = -5;
 					numberof_minions ++;
 					audio_play_sound(SE_motherman_spawn01, 1, false);
@@ -172,7 +188,8 @@ switch (state)
 			}
 		if animation_hit_frame(17) && numberof_minions >= 4
 			{
-				var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton);
+				oenemy_skeleton_boss.state = "Explosion";
+				var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton_boss);
 				minions.state = "Death";
 				minions.vsp = -5;
 				minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
@@ -200,9 +217,12 @@ switch (state)
 			{
 				screen_shake(40, 20);
 				create_particle(x , y,oparticle_18, 1);
-				creat_hitbox(x, y, self, skullboss_attackB_hitbox1, knockback_power, 5, attack_power*2, image_xscale);
+				creat_hitbox(x, y, self, skullboss_attackD_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 				audio_play_sound(SE_earthquake_01, 1, false);
+				if oPlayer.isground == true
+				{oPlayer.vsp = -18; screen_shake(25, 30);instance_create_layer(oPlayer.x, y+4, "Instances", oenemy_bonepillar);}
 			}
+
 		
 			if animation_end()
 			{

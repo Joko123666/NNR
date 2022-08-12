@@ -1,4 +1,4 @@
 
-room_goto(Village_start);
-x = 600;
-y = 200;
+room_goto(house_testarea);
+x = 400;
+y = 600;

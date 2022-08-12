@@ -83,6 +83,7 @@ ladder_term = 10;
 ispushed = false;
 //다용도 변수
 actingcount = 0;		
+action_count = 0;
 delaycount = 0;
 repeatcount = 0;
 act_count = 10;

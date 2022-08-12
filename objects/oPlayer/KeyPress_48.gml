@@ -4,9 +4,13 @@ global.Player_sword = true;
 global.attackskill02 = true;
 global.attackskill03 = true;
 global.attackskill04 = true;
+global.attackskill05 = true;
+global.attackskill06 = true;
 
 global.moveskill02 = true;
 global.moveskill03 = true;
+global.moveskill04 = true;
+global.moveskill05 = true;
 
 global.mainstream = 38;
 attackskill_set = 1;

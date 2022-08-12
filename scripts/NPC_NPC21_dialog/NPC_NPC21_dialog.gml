@@ -107,9 +107,9 @@ function NPC_NPC21_dialog(argument0)
 	{
 		if global.quest_stack[4] == "empty"
 		{
-			quest_board("side003");
 			text = "헤헤, 잘생각했어";
 			global.NPC21_dialog += 1;
+			quest_board("side003");
 			global.quest001 = 1;
 			global.subquest[3] = 1;
 			dialog_count +=1

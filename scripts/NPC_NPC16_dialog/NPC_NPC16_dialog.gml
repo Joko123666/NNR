@@ -109,7 +109,13 @@ function NPC_NPC16_dialog(argument0)
 	}
 	if diacount == 13
 	{
-		text = "휴식도 하실겸 먼저 마을로 돌아가셔도 됩니다";
+		text = "여기 카카리코행 전송석을 드리겠습니다";
+		global.NPC16_dialog += 1;
+		instance_create_layer(x + 32*image_xscale, y-24, "Instances", Item_teleportgem);
+	}
+	if diacount == 14
+	{
+		text = "이걸 써서 먼저 돌아가주시기 바랍니다";
 		global.NPC16_dialog += 1;
 	}
 	if diacount == 14

@@ -120,6 +120,10 @@ global.quest_selection = "A";
 	global.NPC29_dialog = 0;
 	global.NPC30_dialog = 0;
 	global.NPC31_dialog = 0;
+	global.NPC43_dialog = 0;
+	//이 밑으로 세이브,로드 미등록
+	global.NPC41_dialog = 0;
+	global.NPC44_dialog = 0;
 
 
 	global.NPC8_status = 0;

@@ -354,7 +354,7 @@ switch (state)
 		if moveskill_set == 3
 		{
 			state_set_sprite(player_moveskill3, 1, 0);
-			
+			invincibility = true;
 			if isshadow == true
 			{
 				vsp = 0;
@@ -366,6 +366,7 @@ switch (state)
 				moveskill_maxcool = moveskill03_cool;
 				moveskill_cool = moveskill_maxcool;
 				state = "Move";
+				invincibility_count = 7;
 			}
 			
 			if isshadow == false
@@ -377,19 +378,53 @@ switch (state)
 				{
 					audio_play_sound(SE_moveskill, 20, false);
 					image_alpha = 0.3;
-					invincibility = true;
 				}
 				if animation_hit_frame(7)
 				{image_alpha = 1;  }
 				if animation_end()
 				{
-					invincibility = false; isshadow = true; 
+					isshadow = true; 
 					instance_create_layer(shadow_x, shadow_y, "Effects", oplayer_shadow);
 					moveskill_cool = 8;
+					invincibility_count = 3;
 				}
 			}
 			
  		}
+		//백스텝
+		if moveskill_set == 4 
+		{
+			state_set_sprite(player_moveskill4, 1, 0);
+			
+			if animation_hit_frame(1)
+			{audio_play_sound(SE_moveskill, 20, false);}
+			invincibility = true;
+			image_alpha = 0.6;
+			move_and_collide(hspd * -image_xscale * 1.8 , 0);
+		}
+		//허물벗기 - 수정중
+		if moveskill_set == 5 
+		{
+			state_set_sprite(player_moveskill5, 1, 0);
+			invincibility = true;
+			image_alpha = 0.6;
+			
+			
+			if animation_hit_frame(1)
+			{
+				audio_play_sound(SE_moveskill, 20, false); 
+				create_particle(x, y-24, oeffect_moveskill5, 1);
+				create_particle(x, y-24, oparticle_24, 7);
+				action_count = 2;
+			}
+	
+			if action_count > 0
+			{move_and_collide(image_xscale * 48 , 0);action_count--;}
+			
+			if animation_end()
+			{invincibility = true;invincibility_count = 50;}
+			
+		}
 		
 		if animation_end()
 		{
@@ -401,7 +436,6 @@ switch (state)
 			{	if isshadow == true {moveskill_maxcool = 8;}}
 			moveskill_cool = moveskill_maxcool;
 			image_alpha = 1;
-			invincibility = false;
 			state = "Move";
 		}
 		
@@ -471,6 +505,10 @@ switch (state)
 
 	case "JumpAttack" :	
 	#region Jumpattack_state
+		
+		invincibility = false;
+		invincibility_count = 0;
+		
 		if global.Player_sword == false
 		{
 			if global.mainstream < 10
@@ -545,6 +583,10 @@ switch (state)
 
 	case "Attack1" :
 		#region AttackA_state
+		//무적 리셋
+		invincibility = false;
+		invincibility_count = 0;
+		
 		if global.Player_sword == false
 		#region no sword
 		{
@@ -738,6 +780,7 @@ switch (state)
 
 	if attackskill_cool <= 0
 	{
+		//맨주먹 스킬 
 		if global.Player_sword == false
 		{
 				if global.mainstream < 10
@@ -758,6 +801,22 @@ switch (state)
 			
 				if animation_end()
 				{state = "Move"; attackskill_cool = attackskill_coolset;attackskillkey_input_check = true;}
+		}
+		//올려치기 스킬
+		if global.Player_sword == true && attackskill_set == 1
+		{
+			state_set_sprite(player_attackskill_sword0, 1, 0);
+			if animation_hit_frame(1)
+			{audio_play_sound(SE_attack_sword02 , 20, false); MP -= attackskill_cost; image_speed = 2; }
+			if animation_hit_frame(3)
+			{
+				creat_hitbox_effect(x , y , self, player_attackskill_sword0_hitbox, knockback_power * 1.5, 2, damage * 2, image_xscale, oparticle_11);
+				screen_shake_x(5 , 3)
+				image_speed = 1;
+				vsp = -3;
+			}
+			if animation_end()
+			{state = "Move"; attackskill_cool = attackskill_coolset;}
 		}
 		//검돌격 스킬
 		if global.Player_sword == true  && attackskill_set == 2
@@ -785,25 +844,13 @@ switch (state)
 			if animation_end()
 				{state = "Move"; attackskill_cool = attackskill_coolset;}
 		}
-		//올려치기 스킬
-		if global.Player_sword == true && attackskill_set == 1
-		{
-			state_set_sprite(player_attackskill_sword0, 1, 0);
-			if animation_hit_frame(1)
-			{audio_play_sound(SE_attack_sword02 , 20, false); MP -= attackskill_cost; image_speed = 2; }
-			if animation_hit_frame(3)
-			{
-				creat_hitbox_effect(x , y , self, player_attackskill_sword0_hitbox, knockback_power * 1.5, 2, damage * 2, image_xscale, oparticle_11);
-				screen_shake_x(5 , 3)
-				image_speed = 1;
-				vsp = -3;
-			}
-			if animation_end()
-			{state = "Move"; attackskill_cool = attackskill_coolset;}
-		}
 		//검스핀 스킬
 		if global.Player_sword == true  && attackskill_set == 3
 		{
+			//쿨, 코스트 세팅
+			attackskill_cost = 40;
+			attackskill_coolset = 110;
+			
 			state_set_sprite(player_attackskill_sword2, 1, 0);
 			move_and_collide(moving_speed * image_xscale, 0);
 			
@@ -832,7 +879,101 @@ switch (state)
 			if animation_end()
 				{state = "Move"; attackskill_cool = attackskill_coolset;}
 		}
+		//일도양단 스킬
+		if global.Player_sword == true && attackskill_set == 4
+		{
+			//쿨, 코스트 세팅
+			attackskill_cost = 50;
+			attackskill_coolset = 30;
+			
+			state_set_sprite(player_attackskill_sword3, 1, 0);
+			
+			if animation_hit_frame(1)
+			{image_speed = 2;}
+			if animation_hit_frame(7)
+			{image_speed = 1;}
+			if animation_hit_frame(9)
+			{audio_play_sound(SE_attack_sword02 , 20, false); MP -= attackskill_cost;image_speed = 0.8;}
+			if animation_hit_frame(10)
+			{
+				creat_hitbox_effect(x , y , self, player_attackskill_sword3_hitbox, knockback_power * 2, 2, damage * 10, image_xscale, oparticle_11);
+				var effect = instance_create_depth(x, y, -8, oeffect_attackskill3);
+				effect.image_xscale = image_xscale;
+				screen_shake_x(40 , 5)
+				image_speed = 1;
+			}
+			if animation_end()
+			{state = "Move"; attackskill_cool = attackskill_coolset;}
+		}
+		//종회전 베기 스킬
+		if global.Player_sword == true  && attackskill_set == 5
+		{
+			//쿨, 코스트 세팅
+			attackskill_cost = 50;
+			attackskill_coolset = 30;
+			
+			state_set_sprite(player_attackskill_sword4, 1, 0);
+			move_and_collide(moving_speed * image_xscale, 0);
+			
+			if animation_hit_frame(0)
+			{moving_speed = 0;image_speed = 1.8;}
+			if animation_hit_frame(4)
+			{ moving_speed = hspd * 1.8; invincibility = true; MP -= attackskill_cost; image_speed = 1;}
+		
+				for (i=5 ; i<10 ; i++ )
+				{
+					if animation_hit_frame(i)
+					{
+						creat_hitbox_effect(x, y, self, player_attackskill_sword4_hitbox, knockback_power, 2, damage * 2.2, image_xscale, oparticle_11);
+						screen_shake(25 , 10);
+						moving_speed += hspd * 0.1;
+						audio_play_sound(SE_attack_sword01 , 20, false);
+					}	
+				}
+			if animation_hit_frame(11) or animation_hit_frame(12)
+			{moving_speed = moving_speed * 0.4; invincibility = false;}
+			if animation_hit_frame(13)
+			{moving_speed = 0;}
 	
+			if animation_end()
+				{state = "Move"; attackskill_cool = attackskill_coolset;}
+		}
+		//최종비기 스킬
+		if global.Player_sword == true && attackskill_set == 6
+		{
+			//쿨, 코스트 세팅
+			attackskill_cost = 10;
+			attackskill_coolset = 30;
+			
+			state_set_sprite(player_attackskill_sword5, 1, 0);
+			move_and_collide(moving_speed * image_xscale, 0);
+			
+			if animation_hit_frame(7)
+			{ MP -= attackskill_cost;invincibility = true;}
+			if animation_hit_frame(7) or animation_hit_frame(10) or animation_hit_frame(13) or animation_hit_frame(16) or animation_hit_frame(19) or animation_hit_frame(22)
+			{
+				creat_hitbox_effect(x , y , self, player_attackskill_sword0_hitbox, knockback_power * 2, 2, damage * 5, image_xscale, oparticle_11);
+				create_particle(x, y, oeffect_attackskill5_1, 1);
+				screen_shake_x(10 , 5)
+				audio_play_sound(SE_attack_sword02 , 20, false);
+				moving_speed = 0;
+			}
+			if animation_hit_frame(6) or animation_hit_frame(9) or animation_hit_frame(12) or animation_hit_frame(15) or animation_hit_frame(18) or animation_hit_frame(21)
+			{if (input.right or input.left) {moving_speed = 8;}}
+			if animation_hit_frame(9)
+			{create_particle(x, y, oeffect_attackskill5_1, 1);}
+			if animation_hit_frame(12)
+			{create_particle(x, y, oeffect_attackskill5_2, 1);}
+			if animation_hit_frame(15)
+			{create_particle(x, y, oeffect_attackskill5_3, 1);}
+			if animation_hit_frame(18)
+			{create_particle(x, y, oeffect_attackskill5_4, 1);}
+			if animation_hit_frame(21)
+			{create_particle(x, y, oeffect_attackskill5_5, 1);}
+			
+			if animation_end()
+			{state = "Move"; attackskill_cool = attackskill_coolset; moving_speed = 0;invincibility = false;}
+		}
 	}
 		//gravity
 		

@@ -133,6 +133,26 @@ function Use_item()
 		}
 	}
 	
+	if global.Player_item == "Teleportgem"	// 전송석
+	{
+		state_set_sprite(player_item_use, 1, 0);
+		act_switch = false;
+		if animation_hit_frame(1)
+		{
+			var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
+			text.text = "전송석을 사용했다!";
+			audio_play_sound(SE_system01, 1, false);
+		}
+		if animation_hit_frame(11)
+		{
+			global.Player_item = "empty";
+			fade_toroom(Village_start, 15, c_dkgray);
+			global.effect_fadeout = true;
+			global.room_direction = 99;
+			
+		}
+	}
+	
 	
 	if animation_end()
 	{state = "Move";}

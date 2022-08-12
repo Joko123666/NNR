@@ -35,6 +35,9 @@ function quest_board_text(argument0)
 	if argument0 == "main014"
 	{	return "협회에 방문";	}
 	
+	if argument0 == "main015"
+	{	return "새로운 이상조사";	}
+	
 	#endregion
 	
 	#region Subquest
@@ -50,6 +53,10 @@ function quest_board_text(argument0)
 	if argument0 == "side003"
 	{
 		return "적수정 회수";
+	}
+	if argument0 == "side004"
+	{
+		return "목걸이 회수";
 	}
 	
 	#endregion

@@ -156,6 +156,7 @@ function load_game(){
 					global.NPC29_dialog = _loadEntity.NPC29_dialog;
 					global.NPC30_dialog = _loadEntity.NPC30_dialog;
 					global.NPC31_dialog = _loadEntity.NPC31_dialog;
+					global.NPC43_dialog = _loadEntity.NPC43_dialog;
 					
 					global.NPC8_status = _loadEntity.NPC8_status;
 			
