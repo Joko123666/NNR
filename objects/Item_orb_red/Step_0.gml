@@ -27,5 +27,11 @@ if place_meeting(x, y, oPlayer)
 	oPlayer.maxMP += 10;
 	oPlayer.revive_maxcount = 10;
 	global.mainstream = 41;
+	
+	global.mainquest[13] = 3;
+	quest_clearboard("main013");
+	global.mainquest[16] = 1;		//퀘스트 진행도 갱신
+		quest_board("main016");			//퀘스트 보드에 퀘스트 갱신
+	
 	instance_destroy();
 }

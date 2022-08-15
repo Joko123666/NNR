@@ -36,7 +36,10 @@ function quest_board_text(argument0)
 	{	return "협회에 방문";	}
 	
 	if argument0 == "main015"
-	{	return "새로운 이상조사";	}
+	{	return "새로운 이상조사";}
+	
+	if argument0 == "main016"
+	{	return "병영에 보고";}
 	
 	#endregion
 	

@@ -7,7 +7,7 @@ if contect == true
 }
 
 
-if global.mainstream == 23 
+if global.mainstream == 43 
 {
 	draw_sprite(UI_mainquest_start, 0, x, y - 32);
 }

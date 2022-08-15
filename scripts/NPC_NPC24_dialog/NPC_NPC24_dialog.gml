@@ -341,8 +341,8 @@ function NPC_NPC24_dialog(argument0)
 		{
 			global.mainstream = 42;
 		}
-		global.mainquest[13] = 3;		//퀘스트 진행도 갱신
-		quest_clearboard("main013");
+		global.mainquest[16] = 3;		//퀘스트 진행도 갱신
+		quest_clearboard("main016");
 		audio_play_sound(SE_system07, 1, false);
 		dialog_endswitch = true;
 		diafalse_count = 50;

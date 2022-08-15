@@ -126,6 +126,8 @@ function NPC_NPC43_dialog(argument0)
 		{text = "목표의 전송장치는 이쪽 맨위에 있습니다";}
 		if randia == 1
 		{text = "모쪼록 잘 부탁드립니다";}
+		dialog_endswitch = true;
+		diafalse_count = 40;
 	}
 	
 	

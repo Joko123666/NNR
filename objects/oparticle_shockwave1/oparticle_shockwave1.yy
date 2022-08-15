@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "shockwave",
-    "path": "sprites/shockwave/shockwave.yy",
+    "name": "shockwave_1",
+    "path": "sprites/shockwave_1/shockwave_1.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
