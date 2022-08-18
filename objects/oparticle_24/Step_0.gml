@@ -1,5 +1,5 @@
 if act_count > 0
-{act_count--;}
+{act_count--;image_angle += angspd;}
 else
 {
 	if image_alpha >0
