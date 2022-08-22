@@ -1,16 +1,16 @@
 {
   "spriteId": {
-    "name": "wall",
-    "path": "sprites/wall/wall.yy",
+    "name": "particle_30",
+    "path": "sprites/particle_30/particle_30.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oWall",
-    "path": "objects/oWall/oWall.yy",
+    "name": "oParticle_parent",
+    "path": "objects/oParticle_parent/oParticle_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,18 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"disappear_at","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/오브젝트/Walls.yy",
+    "name": "Particles",
+    "path": "folders/오브젝트/Particles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "disappear_wall_visible",
+  "name": "oparticle_30",
   "tags": [],
   "resourceType": "GMObject",
 }

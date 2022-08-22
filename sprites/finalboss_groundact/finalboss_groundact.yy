@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"LayerId":{"name":"1c03e05b-b3d1-487f-b968-bbd90e47cf95","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"LayerId":{"name":"3448f4b2-c635-4b32-8c13-252c18bd53c9","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"LayerId":{"name":"1c03e05b-b3d1-487f-b968-bbd90e47cf95","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"finalboss_groundact","path":"sprites/finalboss_groundact/finalboss_groundact.yy",},"resourceVersion":"1.0","name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

@@ -1,4 +1,5 @@
 event_inherited();
+image_size(2);
 maxHP = 1000;
 HP = maxHP;
 HP_checkpoint = HP;
@@ -31,8 +32,10 @@ vsp = 0;
 
 numberof_minions = 0;
 
+shockwave_count = 3;
 
 hit_swich = false;
 hit_count = 0;
 
-image_speed = 0.3;
+image_speed = 1;
+image_xscale = -2;

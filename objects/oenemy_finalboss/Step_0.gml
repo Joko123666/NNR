@@ -7,7 +7,7 @@ switch (state)
 {
 	case "Neutral" :		//상태 리셋
 	#region Neutral state
-		state_set_sprite(skullboss_neutral,1,0);
+		state_set_sprite(finalboss_groundact,1,0);
 		if act_count >0
 		{
 			act_count -= 1;
@@ -17,7 +17,59 @@ switch (state)
 			state = "Act_Set";	
 		}
 
+		#region 체력저하 충격파
+	
+		if phase_state == "Phase_1" && shockwave_count == 3	&& HP <= 700
+		{
+			oPlayer.x = oplayer_apport.x; 
+			oPlayer.y = oplayer_apport.y - 24;
+			audio_play_sound(SE_magiccast_01, 1, false);
+			shockwave_count = 2;
+			state = "Act_Set";
+			//깔아놓은 공격 전부 삭제
+			if instance_exists(ofinalboss_attack_rock)
+			{instance_destroy(ofinalboss_attack_rock);}
+			if instance_exists(ofinalboss_attack_fire)
+			{instance_destroy(ofinalboss_attack_fire);}
+			if instance_exists(ofinalboss_place_rock)
+			{instance_destroy(ofinalboss_place_rock);}
+		}
+		if phase_state == "Phase_1" && shockwave_count == 2	&& HP <= 400
+		{
+			oPlayer.x = oplayer_apport.x; 
+			oPlayer.y = oplayer_apport.y - 24;
+			audio_play_sound(SE_magiccast_01, 1, false);
+			shockwave_count = 1;
+			//깔아놓은 공격 전부 삭제
+			if instance_exists(ofinalboss_attack_rock)
+			{instance_destroy(ofinalboss_attack_rock);}
+			if instance_exists(ofinalboss_attack_fire)
+			{instance_destroy(ofinalboss_attack_fire);}
+			if instance_exists(ofinalboss_place_rock)
+			{instance_destroy(ofinalboss_place_rock);}
+		}
+		if phase_state == "Phase_1" && shockwave_count == 1	&& HP <= 100
+		{
+			oPlayer.x = oplayer_apport.x; 
+			oPlayer.y = oplayer_apport.y - 24;
+			audio_play_sound(SE_magiccast_01, 1, false);
+			//깔아놓은 공격 전부 삭제
+			if instance_exists(ofinalboss_attack_rock)
+			{instance_destroy(ofinalboss_attack_rock);}
+			if instance_exists(ofinalboss_attack_fire)
+			{instance_destroy(ofinalboss_attack_fire);}
+			if instance_exists(ofinalboss_place_rock)
+			{instance_destroy(ofinalboss_place_rock);}
 		
+			//페이즈2로 이행
+			phase_state = "Phase_2"
+			maxHP = 3000;
+			HP = maxHP;
+			if instance_exists(ofinalboss_wall)
+			{instance_destroy(ofinalboss_wall);}
+		}
+	
+		#endregion
 		
 	#endregion
 	break;
@@ -38,28 +90,19 @@ switch (state)
 			{
 				state = "Phase1_AttackB";	
 			}
-			else if act_num < 60			//공격 C 부두 소환술
+			else if act_num < 60			//공격 C 불 상단
 			{	
-
+				state = "Phase1_AttackC";	
 			}
 		
-			else if act_num < 80			//공격 D 세게 내려치기
+			else if act_num < 80			//공격 D 불 하단
 			{	
-				this_act = "attackD";
-				if this_act == last_act
-				{act_count = 3; state = "AttackB"; break;}
-				state = "AttackE";	
-				delay_count = 90;
+				state = "Phase1_AttackD";	
 			}
 		
-			else if act_num <= 100		//공격 F 충격파
+			else if act_num <= 100		//공격 F 방해블럭 생성
 			{	
-				this_act = "attackE";
-				if this_act == last_act
-				{act_count = 3; state = "AttackD"; break;}
-				state = "AttackE";
-				act_count = 15;
-				delay_count = 120;	
+				state = "Phase1_AttackE";
 			}
 
 			else 
@@ -80,15 +123,18 @@ switch (state)
 
 		if animation_hit_frame(6)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 36, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 36, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(7)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(8)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		
 
@@ -110,15 +156,18 @@ switch (state)
 
 		if animation_hit_frame(6)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 24, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 24, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(7)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(8)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_1);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale;
 		}
 		
 
@@ -142,15 +191,18 @@ switch (state)
 
 		if animation_hit_frame(6)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_2);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(7)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_2);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale;
 		}
 		if animation_hit_frame(8)
 		{
-			instance_create_depth(x + 24*image_xscale, y - 48, -5, ofilnalboss_casting_2);
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 48, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale;
 		}
 		
 
@@ -172,17 +224,19 @@ switch (state)
 
 			if animation_hit_frame(6)
 			{
-				instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_2);
+				var cast =	instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale;
 			}
 			if animation_hit_frame(7)
 			{
-				instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_2);
+				var cast =	instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale;
 			}
 			if animation_hit_frame(8)
 			{
-				instance_create_depth(x + 24*image_xscale, y - 12, -5, ofilnalboss_casting_2);
+				var cast =	instance_create_depth(x + 24*image_xscale, y - 12, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale;
 			}
-		
 
 			if animation_end()
 			{
@@ -196,7 +250,7 @@ switch (state)
 	#endregion
 		break;
 		
-	case "AttackE" :
+	case "Phase1_AttackE" :
 	#region 차단 벽 생성
 		{
 			if !instance_exists(oPlayer) break;
@@ -204,13 +258,13 @@ switch (state)
 
 			if animation_hit_frame(6)
 			{
-				instance_create_depth(oPlayer.x, oPlayer.y, -5, ofilnalboss_casting_3);
+				instance_create_depth(oPlayer.x, oPlayer.y-24, -5, ofilnalboss_casting_3);
 			}
 
 			if animation_end()
 			{
 				image_speed = 0;
-				state = "Neutral";
+				state = "Neutral"; 
 				act_count = 60;
 			}
 			
@@ -218,7 +272,6 @@ switch (state)
 	
 	#endregion
 		break;
-
 		
 	case "Knockback" :
 		#region Knockback_state

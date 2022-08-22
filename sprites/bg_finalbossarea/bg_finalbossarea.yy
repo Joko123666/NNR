@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1679,
-  "bbox_top": 104,
-  "bbox_bottom": 639,
+  "bbox_right": 1279,
+  "bbox_top": 0,
+  "bbox_bottom": 255,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1680,
-  "height": 640,
+  "width": 1280,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5d47588c-f4bf-41ef-b84a-2bd3cfbc77a7","path":"sprites/FB_graveyard/FB_graveyard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d47588c-f4bf-41ef-b84a-2bd3cfbc77a7","path":"sprites/FB_graveyard/FB_graveyard.yy",},"LayerId":{"name":"01a76fd8-94c8-4a85-a3c7-158e15b25abc","path":"sprites/FB_graveyard/FB_graveyard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"FB_graveyard","path":"sprites/FB_graveyard/FB_graveyard.yy",},"resourceVersion":"1.0","name":"5d47588c-f4bf-41ef-b84a-2bd3cfbc77a7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e979186a-ad8c-4ad7-a6e3-e73dc414bb3b","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e979186a-ad8c-4ad7-a6e3-e73dc414bb3b","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},"LayerId":{"name":"8a460896-bbb5-4a40-9227-a692b276269c","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"BG_finalbossarea","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},"resourceVersion":"1.0","name":"e979186a-ad8c-4ad7-a6e3-e73dc414bb3b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"FB_graveyard","path":"sprites/FB_graveyard/FB_graveyard.yy",},
+    "spriteId": {"name":"BG_finalbossarea","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"91187da1-9ae9-472f-bce8-5ca28a7c4c61","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d47588c-f4bf-41ef-b84a-2bd3cfbc77a7","path":"sprites/FB_graveyard/FB_graveyard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"511df9da-3ae7-4e5c-b9a5-e1ae4cd23fff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e979186a-ad8c-4ad7-a6e3-e73dc414bb3b","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"FB_graveyard","path":"sprites/FB_graveyard/FB_graveyard.yy",},
+    "parent": {"name":"BG_finalbossarea","path":"sprites/BG_finalbossarea/BG_finalbossarea.yy",},
     "resourceVersion": "1.4",
-    "name": "FB_graveyard",
+    "name": "BG_finalbossarea",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"01a76fd8-94c8-4a85-a3c7-158e15b25abc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a460896-bbb5-4a40-9227-a692b276269c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/스프라이트/Background.yy",
   },
   "resourceVersion": "1.0",
-  "name": "FB_graveyard",
+  "name": "BG_finalbossarea",
   "tags": [],
   "resourceType": "GMSprite",
 }
