@@ -16,4 +16,5 @@ act_count = 360;
 
 hit_particle = oparticle_26;
 instance_create_depth(x, y, 1, shockwave_small);
+
 body_wall = instance_create_depth(x,y, 1, ofinalboss_place_rock_wall);

@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "SE_explosion05.wav",
-  "duration": 0.752245,
+  "duration": 0.532766,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",

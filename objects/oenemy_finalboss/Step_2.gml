@@ -1,4 +1,4 @@
-if (HP <= 0) && state != "Death"
+if (HP <= 100) && phase_state == "Phase_1"
 { 
-	state = "Death"	
+	HP = 100;
 }

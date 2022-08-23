@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SE_explosion06.wav",
-  "duration": 0.504331,
+  "soundFile": "se_magiccast_03.wav",
+  "duration": 1.160658,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SE_explosion06",
+  "name": "SE_magiccast_03",
   "tags": [],
   "resourceType": "GMSound",
 }

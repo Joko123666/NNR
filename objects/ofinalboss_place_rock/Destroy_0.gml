@@ -1,2 +1,2 @@
-
-instance_destroy(body_wall);
+if instance_exists(body_wall)
+{instance_destroy(body_wall);}

@@ -40,6 +40,7 @@ switch (state)
 			oPlayer.y = oplayer_apport.y - 24;
 			audio_play_sound(SE_magiccast_01, 1, false);
 			shockwave_count = 1;
+			state = "Act_Set";
 			//깔아놓은 공격 전부 삭제
 			if instance_exists(ofinalboss_attack_rock)
 			{instance_destroy(ofinalboss_attack_rock);}
@@ -120,21 +121,23 @@ switch (state)
 	#region 돌 상단 캐스팅
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(finalboss_attack_cast, 1, 0);
-
+		
+		
 		if animation_hit_frame(6)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 36, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 50, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
+			audio_play_sound(SE_magiccast_03, 1, false);
 		}
 		if animation_hit_frame(7)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 64, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
 		}
 		if animation_hit_frame(8)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 78, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
 		}
 		
 
@@ -153,21 +156,23 @@ switch (state)
 	#region 돌 하단 캐스팅 
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
 
 		if animation_hit_frame(6)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 24, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y + 30, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
+			audio_play_sound(SE_magiccast_03, 1, false);
 		}
 		if animation_hit_frame(7)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y + 44, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
 		}
 		if animation_hit_frame(8)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_1);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y + 58, -5, ofilnalboss_casting_1);
+			cast.image_xscale = image_xscale/2;
 		}
 		
 
@@ -183,26 +188,26 @@ switch (state)
 		break;
 		
 	case "Phase1_AttackC" :
-	#region 불 상단 캐스팅
-		if !instance_exists(oPlayer) break;
-		
+	#region 불 상단 캐스팅	
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
 
 		if animation_hit_frame(6)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 40, -5, ofilnalboss_casting_2);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 50, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale/2;
+			audio_play_sound(SE_magiccast_04, 1, false);
 		}
 		if animation_hit_frame(7)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 44, -5, ofilnalboss_casting_2);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 64, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale/2;
 		}
 		if animation_hit_frame(8)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - 48, -5, ofilnalboss_casting_2);
-			cast.image_xscale = image_xscale;
+			var cast =	instance_create_depth(x + 24*image_xscale, y - 78, -5, ofilnalboss_casting_2);
+			cast.image_xscale = image_xscale/2;
 		}
 		
 
@@ -221,21 +226,23 @@ switch (state)
 		{
 			if !instance_exists(oPlayer) break;
 			state_set_sprite(finalboss_attack_cast, 1, 0);
+			
 
 			if animation_hit_frame(6)
 			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y - 20, -5, ofilnalboss_casting_2);
-				cast.image_xscale = image_xscale;
+				var cast =	instance_create_depth(x + 24*image_xscale, y + 30, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale/2;
+				audio_play_sound(SE_magiccast_04, 1, false);
 			}
 			if animation_hit_frame(7)
 			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y - 16, -5, ofilnalboss_casting_2);
-				cast.image_xscale = image_xscale;
+				var cast =	instance_create_depth(x + 24*image_xscale, y + 44, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale/2;
 			}
 			if animation_hit_frame(8)
 			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y - 12, -5, ofilnalboss_casting_2);
-				cast.image_xscale = image_xscale;
+				var cast =	instance_create_depth(x + 24*image_xscale, y + 58, -5, ofilnalboss_casting_2);
+				cast.image_xscale = image_xscale/2;
 			}
 
 			if animation_end()
@@ -255,10 +262,12 @@ switch (state)
 		{
 			if !instance_exists(oPlayer) break;
 			state_set_sprite(finalboss_attack_cast, 1, 0);
+			
 
 			if animation_hit_frame(6)
 			{
 				instance_create_depth(oPlayer.x, oPlayer.y-24, -5, ofilnalboss_casting_3);
+				audio_play_sound(SE_magiccast_01, 1, false);
 			}
 
 			if animation_end()
