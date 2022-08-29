@@ -1,5 +1,6 @@
 
 global.Player_sword = true;
+maxjumpcount = 2;
 
 global.attackskill02 = true;
 global.attackskill03 = true;
@@ -17,4 +18,8 @@ attackskill_set = 1;
 moveskill_set = 1;
 global.gold = 3000;
 
-damage = 40;
+damage = 30;
+maxHP = 160;
+maxMP = 130;
+MP_regen_time = 90;
+hspd = 2.6;

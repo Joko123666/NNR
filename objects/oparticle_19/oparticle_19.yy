@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "skull_bonefrag",
-    "path": "sprites/skull_bonefrag/skull_bonefrag.yy",
+    "name": "skull_bone",
+    "path": "sprites/skull_bone/skull_bone.yy",
   },
   "solid": false,
   "visible": true,

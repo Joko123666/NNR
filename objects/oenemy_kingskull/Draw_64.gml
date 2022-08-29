@@ -2,7 +2,7 @@
 
 var hp_x = 114;
 var hp_y = 6;
-var hp_width = 100;
+var hp_width =  camera_get_view_width(view_camera[1]) - 140;
 var hp_height = 10;
 var hp_percent = HP / maxHP;
 

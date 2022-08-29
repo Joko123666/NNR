@@ -106,13 +106,13 @@ switch (state)
 			create_particle(x+ 120, y-20,oparticle_18, random_range(6, 10));
 			creat_hitbox(x, y, self, skullboss_attackA_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
-			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
 			bone.direction = 100;
 			bone.speed = 13;
-			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
 			bone.direction = 110;
 			bone.speed = 12;
-			var bone = instance_create_layer(x+ 120, y-35, "Instances", oparticle_19);
+			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
 			bone.direction = 120;
 			bone.speed = 11;
 		}
@@ -151,7 +151,8 @@ switch (state)
 		if animation_hit_frame(16)
 		{
 			screen_shake(10, 40);
-			create_particle(x - 120, y-20,oparticle_18, random_range(6, 10));
+			for(i=0; i<12; i++)
+			{instance_create_depth((x - 120 + i*20) + random(10), y-28, 12, oparticle_18)}
 			creat_hitbox(x, y, self, skullboss_attackB_hitbox2, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
 		}

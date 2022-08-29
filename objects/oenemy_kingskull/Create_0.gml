@@ -1,5 +1,5 @@
 event_inherited();
-maxHP = 2400;
+maxHP = 2800;
 HP = maxHP;
 HP_checkpoint = HP;
 Exp = 520;

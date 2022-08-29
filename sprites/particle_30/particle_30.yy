@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NNR",
-    "path": "NNR.yyp",
+    "name": "particles",
+    "path": "folders/스프라이트/particles.yy",
   },
   "resourceVersion": "1.0",
   "name": "particle_30",
