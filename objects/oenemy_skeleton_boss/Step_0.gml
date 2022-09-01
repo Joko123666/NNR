@@ -77,6 +77,7 @@ switch (state)
 	#region
 		
 		create_particle(x, y, oeffect_explosion01, 1);
+		instance_create_depth(x,y, 8, shockwave_small)
 		creat_hitbox(x, y, self, hit_48, 5, 5, 40, image_xscale)
 		instance_destroy();
 

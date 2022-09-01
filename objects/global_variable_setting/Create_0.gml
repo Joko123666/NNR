@@ -124,7 +124,7 @@ global.quest_selection = "A";
 	//이 밑으로 세이브,로드 미등록
 	global.NPC41_dialog = 0;
 	global.NPC44_dialog = 0;
-
+	global.NPC50_dialog = 0;
 
 	global.NPC8_status = 0;
 	global.NPC21_status = 0;

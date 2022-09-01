@@ -21,5 +21,7 @@ global.gold = 3000;
 damage = 30;
 maxHP = 160;
 maxMP = 130;
+HP = maxHP;
+MP = maxMP;
 MP_regen_time = 90;
 hspd = 2.6;

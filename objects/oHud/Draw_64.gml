@@ -133,7 +133,7 @@ if !instance_exists(oPlayer) exit;
 
 #region Quest_board			//우상단 퀘스트 가이드
 if !instance_exists(oPlayer) {exit;}
-	if room != Thomb_boss && room != Vally_tunnel_boss
+	if room != Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea
 	{if global.quest_stack[1] != "empty"
 	{
 		draw_sprite(UI_Hud_questbox, 0, 220, 5);
@@ -194,7 +194,7 @@ if global.UItext_show == false
 
 	#region Gold_show			//우하단 골드 표시
 		if !instance_exists(oPlayer) exit;
-		if oPlayer.state != "Stay"	&& room!=Thomb_boss && room != Vally_tunnel_boss
+		if oPlayer.state != "Stay"	&& room!=Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea
 		{
 			draw_sprite(UI_Hud_gold, 0, 270, 162);
 			draw_text(275, 162, global.gold);
@@ -208,7 +208,7 @@ if global.UItext_show == false
 	{
 		var x_point = 4;
 		var y_point = 152;
-		if room == Thomb_boss or room == Vally_tunnel_boss
+		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
 		{y_point = camera_get_view_height(view_camera[1]) - 28;}
 		
 		if oPlayer.moveskill_set == 1
@@ -232,7 +232,7 @@ if global.UItext_show == false
 		//스킬 사용키 표시
 		var x_arraypoint = x_point+1;
 		var y_arraypoint = y_point-12;
-		if room == Thomb_boss or room == Vally_tunnel_boss
+		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
 		{y_arraypoint = camera_get_view_height(view_camera[1]) - 40;}
 		var text_width = string_width(oPlayer.input.UI_moveskill);
 		draw_rectangle_color(x_arraypoint -1, y_arraypoint -1, x_arraypoint + text_width +1, y_arraypoint + 11, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
@@ -248,7 +248,7 @@ if global.UItext_show == false
 		//정렬 포인트 세팅
 		var x_point = 32;
 		var y_point = 152;
-		if room == Thomb_boss or room == Vally_tunnel_boss
+		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
 		{y_point = camera_get_view_height(view_camera[1]) - 28;}
 		
 		// Skill Image

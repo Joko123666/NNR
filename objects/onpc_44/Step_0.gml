@@ -14,9 +14,9 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0	&& d
 {
 
 	if x < oPlayer.x 
-	{image_xscale = 1;}
+	{image_xscale = 2;}
 	if x > oPlayer.x 
-	{image_xscale = -1;}
+	{image_xscale = -2;}
 
 	act_count = 5;
 	deactivate_count = 75;

@@ -106,15 +106,15 @@ switch (state)
 			create_particle(x+ 120, y-20,oparticle_18, random_range(6, 10));
 			creat_hitbox(x, y, self, skullboss_attackA_hitbox, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
-			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
+			var bone = instance_create_layer(x+ 120, y-48, "Instances", oparticle_19);
 			bone.direction = 100;
-			bone.speed = 13;
-			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
-			bone.direction = 110;
 			bone.speed = 12;
-			var bone = instance_create_layer(x+ 120, y-40, "Instances", oparticle_19);
-			bone.direction = 120;
+			var bone = instance_create_layer(x+ 120, y-48, "Instances", oparticle_19);
+			bone.direction = 110;
 			bone.speed = 11;
+			var bone = instance_create_layer(x+ 120, y-48, "Instances", oparticle_19);
+			bone.direction = 120;
+			bone.speed = 10;
 		}
 		
 		if animation_hit_frame(10)
@@ -190,12 +190,13 @@ switch (state)
 		if animation_hit_frame(17) && numberof_minions >= 4
 			{
 				oenemy_skeleton_boss.state = "Explosion";
-				var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton_boss);
-				minions.state = "Death";
-				minions.vsp = -5;
-				minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
-				minions.speed = 2;
-				numberof_minions ++;
+				repeat(3)
+				{
+					var minions = instance_create_layer(x+irandom_range(-120, 120), y-240, "Instances", oenemy_skeleton_boss);
+					minions.direction = point_direction(minions.x, minions.y, oPlayer.x, oPlayer.y);
+					minions.speed = 2;
+					numberof_minions ++;
+				}
 			}
 		
 		if animation_end()
@@ -247,11 +248,11 @@ switch (state)
 			{
 				if oPlayer.x > x	//플레이어가 우측
 				{
-					with (oPlayer) {ismoving = true; moving_direction = 0; moving_speed = 12;vsp = -6;}
+					with (oPlayer) {ismoving = true; moving_direction = 0; moving_speed = 10;vsp = -6;}
 				}
 				if oPlayer.x <= x	//플레이어가 좌측
 				{
-					with (oPlayer) {ismoving = true; moving_direction = 180; moving_speed = 12;vsp = -6;}
+					with (oPlayer) {ismoving = true; moving_direction = 180; moving_speed = 10;vsp = -6;}
 				}
 			}
 			

@@ -918,7 +918,7 @@ switch (state)
 			if animation_hit_frame(0)
 			{moving_speed = 0;image_speed = 1.8;}
 			if animation_hit_frame(4)
-			{ moving_speed = hspd * 1.8; invincibility = true; MP -= attackskill_cost; image_speed = 1;}
+			{ moving_speed = hspd * 1.7; invincibility = true; MP -= attackskill_cost; image_speed = 1;}
 		
 				for (i=5 ; i<10 ; i++ )
 				{

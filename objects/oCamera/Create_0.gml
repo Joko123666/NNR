@@ -12,7 +12,7 @@ screenshake_x = 0;
 screenshake_y = 0;
 width = camera_get_view_width(view_camera[0]);
 height = camera_get_view_height(view_camera[0]);
-if room == Thomb_boss or room == Vally_tunnel_boss
+if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
 {
 	width = camera_get_view_width(view_camera[1]);
 	height = camera_get_view_height(view_camera[1]);	

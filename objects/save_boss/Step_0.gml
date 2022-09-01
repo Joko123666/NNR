@@ -8,7 +8,11 @@ if place_meeting(x,y,oPlayer) && act_count <= 0 && state == "deactive"
 
 if place_meeting(x,y,oPlayer) && act_count <= 0 && oPlayer.input.interaction
 {
+	lastHP = oPlayer.HP;
+	lastMP = oPlayer.MP;
 	save_game();
+	oPlayer.HP = lastHP;
+	oPlayer.MP = lastMP;
 	state = "active";
 }
 
