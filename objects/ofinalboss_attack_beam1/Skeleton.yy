@@ -1,16 +1,12 @@
 {
-  "spriteId": {
-    "name": "finalboss_block",
-    "path": "sprites/finalboss_block/finalboss_block.yy",
-  },
-  "solid": true,
-  "visible": false,
-  "managed": true,
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oWall",
-    "path": "objects/oWall/oWall.yy",
+    "name": "oEnemy",
+    "path": "objects/oEnemy/oEnemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,16 +23,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/오브젝트/Walls.yy",
+    "name": "enemy",
+    "path": "folders/OldFiles/old files/enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "finalboss_hlafwatWall",
+  "name": "Skeleton",
   "tags": [],
   "resourceType": "GMObject",
 }

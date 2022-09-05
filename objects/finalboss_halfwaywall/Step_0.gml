@@ -10,6 +10,6 @@ if instance_exists(oPlayer)
 		if act_count > 0
 		{act_count--;}
 		else
-		{mask_index = halfwall;}
+		{mask_index = finalboss_half;}
 	}
 }

@@ -2,7 +2,8 @@
 var effect = instance_create_depth(x, y + random_range(-8, 8), 12, oparticle_25);
 effect.image_xscale = image_xscale;
 
-move_and_collide(moving_speed * image_xscale, 0)
+x += moving_speed * image_xscale;
+
 
 if place_meeting(x, y, oPlayer) && oPlayer.invincibility == false
 {
@@ -11,5 +12,3 @@ if place_meeting(x, y, oPlayer) && oPlayer.invincibility == false
 	instance_destroy();
 }
 		
-if place_meeting(x, y, oWall)
-{instance_destroy();}
