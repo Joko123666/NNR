@@ -57,6 +57,43 @@ switch (state)
 			{instance_destroy(ofinalboss_attack_fire);}
 			if instance_exists(ofinalboss_place_rock)
 			{instance_destroy(ofinalboss_place_rock);}
+			//블럭 삭제
+			if instance_exists(finalboss_Wall2)
+			{instance_destroy(finalboss_Wall2);}
+			if instance_exists(finalboss_Wall3)
+			{instance_destroy(finalboss_Wall3);}
+			if instance_exists(finalboss_halfwayWall)
+			{instance_destroy(finalboss_halfwayWall);}
+			//블럭 재생성
+			var x_distance = 32;
+			var y_distance = 32;
+			instance_create_layer(448, 1216, "boss", finalboss_Wall4);
+			instance_create_layer(448 + x_distance, 1216 - y_distance, "boss", finalboss_Wall4);
+			instance_create_layer(448 + x_distance*2, 1216 - y_distance*2, "boss", finalboss_Wall4);
+			instance_create_layer(448 + x_distance*3, 1216 - y_distance*3, "boss", finalboss_Wall4);
+			instance_create_layer(448 + x_distance*4, 1216 - y_distance*4, "boss", finalboss_Wall4);
+			var x_point = 672;
+			var y_point = 992;
+			instance_create_layer(x_point, y_point, "boss", finalboss_Wall5);
+			instance_create_layer(x_point + x_distance, y_point - y_distance, "boss", finalboss_Wall5);
+			instance_create_layer(x_point + x_distance*2, y_point - y_distance*2, "boss", finalboss_Wall5);
+			instance_create_layer(x_point + x_distance*3, y_point - y_distance*3, "boss", finalboss_Wall5);
+			instance_create_layer(x_point + x_distance*4, y_point - y_distance*4, "boss", finalboss_Wall5);
+			instance_create_layer(x_point + x_distance*5, y_point - y_distance*5, "boss", finalboss_Wall5);
+			var x_point = 800;
+			var y_point = 1216;
+			instance_create_layer(x_point, y_point, "boss", finalboss_Wall4);
+			instance_create_layer(x_point + x_distance, y_point - y_distance, "boss", finalboss_Wall4);
+			instance_create_layer(x_point + x_distance*2, y_point - y_distance*2, "boss", finalboss_Wall4);
+			instance_create_layer(x_point + x_distance*3, y_point - y_distance*3, "boss", finalboss_Wall4);
+			instance_create_layer(x_point + x_distance*4, y_point - y_distance*4, "boss", finalboss_Wall4);
+			instance_create_layer(x_point + x_distance*5, y_point - y_distance*5, "boss", finalboss_Wall4);
+			
+			instance_create_layer(1056, 992, "boss", finalboss_Wall5);
+			instance_create_layer(1152, 1184, "boss", finalboss_Wall4);
+			instance_create_layer(1216, 1120, "boss", finalboss_Wall4);
+			instance_create_layer(1312, 992, "boss", finalboss_Wall5);
+			
 		}
 		if phase_state == "Phase_1" && shockwave_count == 1	&& HP <= 100
 		{
@@ -70,7 +107,12 @@ switch (state)
 			{instance_destroy(ofinalboss_attack_fire);}
 			if instance_exists(ofinalboss_place_rock)
 			{instance_destroy(ofinalboss_place_rock);}
-		
+			//블럭 삭제
+			if instance_exists(finalboss_Wall4)
+			{instance_destroy(finalboss_Wall4);}
+			if instance_exists(finalboss_Wall5)
+			{instance_destroy(finalboss_Wall5);}
+			
 			//페이즈2로 이행
 			phase_state = "Phase_2"
 			maxHP = 3000;
@@ -155,6 +197,9 @@ switch (state)
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x + 64, 900, "Instances", ofilnalboss_casting_4);}
 		
+		if HP <= 400	&& animation_hit_frame(3)
+		{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_5);}
+		
 		
 
 		if animation_end()
@@ -175,7 +220,6 @@ switch (state)
 		
 		var y_point = 12;
 		var y_distance = 34;
-
 		if animation_hit_frame(6)
 		{
 			var cast =	instance_create_depth(x + 24*image_xscale, y + y_point, -5, ofilnalboss_casting_1);
@@ -197,6 +241,10 @@ switch (state)
 		{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_4);}
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x + 64, 900, "Instances", ofilnalboss_casting_4);}
+		
+		if HP <= 400	&& animation_hit_frame(3)
+		{instance_create_layer(x, y + 48 + irandom(64), "Instances", ofilnalboss_casting_5);}
+
 		
 
 		if animation_end()
@@ -239,6 +287,10 @@ switch (state)
 		{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_4);}
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x - 64, 900, "Instances", ofilnalboss_casting_4);}
+		
+		if HP <= 400	&& animation_hit_frame(3)
+		{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_5);}
+		
 		
 
 		if animation_end()
