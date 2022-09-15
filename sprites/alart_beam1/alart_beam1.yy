@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "alart_beam1",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 18,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"df126633-c9c3-4cd4-8971-e937deac3eb6","path":"sprites/alart_beam1/alart_beam1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df126633-c9c3-4cd4-8971-e937deac3eb6","path":"sprites/alart_beam1/alart_beam1.yy",},"LayerId":{"name":"17a6f4de-83a0-41f8-86ec-d6d4bbf645d3","path":"sprites/alart_beam1/alart_beam1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"alart_beam1","path":"sprites/alart_beam1/alart_beam1.yy",},"resourceVersion":"1.0","name":"df126633-c9c3-4cd4-8971-e937deac3eb6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df126633-c9c3-4cd4-8971-e937deac3eb6",},
   ],
   "sequence": {
-    "spriteId": {"name":"alart_beam1","path":"sprites/alart_beam1/alart_beam1.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "alart_beam1",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7db59d69-0ce0-48f6-b13a-8f9712af8fa0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df126633-c9c3-4cd4-8971-e937deac3eb6","path":"sprites/alart_beam1/alart_beam1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"7db59d69-0ce0-48f6-b13a-8f9712af8fa0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df126633-c9c3-4cd4-8971-e937deac3eb6","path":"sprites/alart_beam1/alart_beam1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"alart_beam1","path":"sprites/alart_beam1/alart_beam1.yy",},
-    "resourceVersion": "1.4",
-    "name": "alart_beam1",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":3,"opacity":40.0,"displayName":"default","resourceVersion":"1.0","name":"17a6f4de-83a0-41f8-86ec-d6d4bbf645d3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17a6f4de-83a0-41f8-86ec-d6d4bbf645d3","visible":true,"isLocked":false,"blendMode":3,"opacity":40.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "fianlboss",
     "path": "folders/스프라이트/enemy/fianlboss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "alart_beam1",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

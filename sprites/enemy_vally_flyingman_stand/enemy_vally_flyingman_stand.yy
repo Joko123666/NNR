@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_flyingman_stand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"3a656097-4901-4865-abb3-053da51de3c1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9661a4ad-6b2c-4a9b-b153-9aa98ed76a44","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9661a4ad-6b2c-4a9b-b153-9aa98ed76a44","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"9661a4ad-6b2c-4a9b-b153-9aa98ed76a44","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b41b124f-acf9-4673-9705-d7218534ccab","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b41b124f-acf9-4673-9705-d7218534ccab","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"b41b124f-acf9-4673-9705-d7218534ccab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"11bf16f1-842b-496e-808a-8f2b7679decd","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11bf16f1-842b-496e-808a-8f2b7679decd","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"11bf16f1-842b-496e-808a-8f2b7679decd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4d4525f9-dd12-4d41-9b58-187f5ba62522","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d4525f9-dd12-4d41-9b58-187f5ba62522","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","name":"4d4525f9-dd12-4d41-9b58-187f5ba62522","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a656097-4901-4865-abb3-053da51de3c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9661a4ad-6b2c-4a9b-b153-9aa98ed76a44",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b41b124f-acf9-4673-9705-d7218534ccab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11bf16f1-842b-496e-808a-8f2b7679decd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d4525f9-dd12-4d41-9b58-187f5ba62522",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_flyingman_stand",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 4.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"72b54905-96cd-4917-beb7-d2a835c3d672","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"54c06486-0383-475d-8851-22743bc868d0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9661a4ad-6b2c-4a9b-b153-9aa98ed76a44","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"301c400b-e73e-4563-b64e-1e5c055d9dcd","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b41b124f-acf9-4673-9705-d7218534ccab","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d288f30b-1c59-4046-a090-97dcd85d8cae","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11bf16f1-842b-496e-808a-8f2b7679decd","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f886495d-6ea6-47e2-8297-851033899ddd","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d4525f9-dd12-4d41-9b58-187f5ba62522","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_flyingman_stand","path":"sprites/enemy_vally_flyingman_stand/enemy_vally_flyingman_stand.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_flyingman_stand",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_flyingman",
     "path": "folders/스프라이트/enemy/Vally/vally_flyingman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_flyingman_stand",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

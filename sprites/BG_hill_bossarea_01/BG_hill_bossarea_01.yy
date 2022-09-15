@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "BG_hill_bossarea_01",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,13 +27,12 @@
   "gridX": 32,
   "gridY": 32,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"LayerId":{"name":"d33ed2fa-8e42-4336-8a58-70eb58330c79","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"LayerId":{"name":"dc80d25e-70b4-45fb-929c-fbbc0e0cad29","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"BG_hill_bossarea_01","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"resourceVersion":"1.0","name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0744fde5-9aee-42b0-8d3b-61f7b506095d",},
   ],
   "sequence": {
-    "spriteId": {"name":"BG_hill_bossarea_01","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "BG_hill_bossarea_01",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -38,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d58c1ec0-39c8-418c-9a6d-bb4e9f9aa02c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"d58c1ec0-39c8-418c-9a6d-bb4e9f9aa02c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0744fde5-9aee-42b0-8d3b-61f7b506095d","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +61,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"BG_hill_bossarea_01","path":"sprites/BG_hill_bossarea_01/BG_hill_bossarea_01.yy",},
-    "resourceVersion": "1.4",
-    "name": "BG_hill_bossarea_01",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"d33ed2fa-8e42-4336-8a58-70eb58330c79","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dc80d25e-70b4-45fb-929c-fbbc0e0cad29","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d33ed2fa-8e42-4336-8a58-70eb58330c79","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dc80d25e-70b4-45fb-929c-fbbc0e0cad29","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "BG_hill_bossarea_01",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

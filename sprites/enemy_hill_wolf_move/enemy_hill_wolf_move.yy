@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_wolf_move",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 12,
   "gridY": 12,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3ab90589-66cd-42b2-8075-3d6a1c08d690","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ab90589-66cd-42b2-8075-3d6a1c08d690","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"3ab90589-66cd-42b2-8075-3d6a1c08d690","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"415e041d-afde-40ce-92d8-d08f528bf35b","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"415e041d-afde-40ce-92d8-d08f528bf35b","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"415e041d-afde-40ce-92d8-d08f528bf35b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"871e3949-ca09-46e1-9f73-24280fcbfc41","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"871e3949-ca09-46e1-9f73-24280fcbfc41","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"871e3949-ca09-46e1-9f73-24280fcbfc41","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f89c8c9b-b201-4626-89ce-61768bc03632","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f89c8c9b-b201-4626-89ce-61768bc03632","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","name":"f89c8c9b-b201-4626-89ce-61768bc03632","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ab90589-66cd-42b2-8075-3d6a1c08d690",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"415e041d-afde-40ce-92d8-d08f528bf35b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"871e3949-ca09-46e1-9f73-24280fcbfc41",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f89c8c9b-b201-4626-89ce-61768bc03632",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_wolf_move",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"82fd51a0-94fb-41c2-b7c5-9b8870def60d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a497722e-1293-4ad3-a7ed-7048ce239bd9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ab90589-66cd-42b2-8075-3d6a1c08d690","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8ce727c0-72c6-449a-b932-300f499806d8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"415e041d-afde-40ce-92d8-d08f528bf35b","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"570f4db4-724c-41c3-b8eb-32894a5bf306","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"871e3949-ca09-46e1-9f73-24280fcbfc41","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e34cf3b3-baa1-4648-a8a5-0edb9fe289fe","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f89c8c9b-b201-4626-89ce-61768bc03632","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_wolf_move","path":"sprites/enemy_hill_wolf_move/enemy_hill_wolf_move.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_wolf_move",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_wolf",
     "path": "folders/스프라이트/enemy/Hill/hill_wolf.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_wolf_move",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

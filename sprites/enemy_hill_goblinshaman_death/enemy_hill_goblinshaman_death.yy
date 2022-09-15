@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_goblinshaman_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"85acabbf-4fb2-4246-924a-9fb8f2acf887","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"85acabbf-4fb2-4246-924a-9fb8f2acf887","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"85acabbf-4fb2-4246-924a-9fb8f2acf887","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5902eeb4-bc09-4522-8ea8-e06f72370e01","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5902eeb4-bc09-4522-8ea8-e06f72370e01","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"5902eeb4-bc09-4522-8ea8-e06f72370e01","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b971457b-bf96-47b9-b379-1f3c10c19a80","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b971457b-bf96-47b9-b379-1f3c10c19a80","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"b971457b-bf96-47b9-b379-1f3c10c19a80","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"db01d627-0553-4725-988d-39069acb44ea","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"db01d627-0553-4725-988d-39069acb44ea","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"db01d627-0553-4725-988d-39069acb44ea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"02f95c98-3d73-45fd-a15b-c1cc45542c7f","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"02f95c98-3d73-45fd-a15b-c1cc45542c7f","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","name":"02f95c98-3d73-45fd-a15b-c1cc45542c7f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85acabbf-4fb2-4246-924a-9fb8f2acf887",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5902eeb4-bc09-4522-8ea8-e06f72370e01",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b971457b-bf96-47b9-b379-1f3c10c19a80",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db01d627-0553-4725-988d-39069acb44ea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"02f95c98-3d73-45fd-a15b-c1cc45542c7f",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_goblinshaman_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6740f0f5-2606-46dc-9da1-7972f1895d0a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bde8a094-121d-4198-bb6e-cd7356d744b1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85acabbf-4fb2-4246-924a-9fb8f2acf887","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7ca480a9-30fd-4004-8f68-cc8bf4b567ab","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5902eeb4-bc09-4522-8ea8-e06f72370e01","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8e0e0bb1-f649-4ffc-8d6b-6e1428d3dac3","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b971457b-bf96-47b9-b379-1f3c10c19a80","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7bf0f911-c200-49e2-815f-bbc7f9280e91","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db01d627-0553-4725-988d-39069acb44ea","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4332e769-bfb6-447c-aa58-e7a826646ed2","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"02f95c98-3d73-45fd-a15b-c1cc45542c7f","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_goblinshaman_death","path":"sprites/enemy_hill_goblinshaman_death/enemy_hill_goblinshaman_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_goblinshaman_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_goblinshaman",
     "path": "folders/스프라이트/enemy/Hill/hill_goblinshaman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_goblinshaman_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

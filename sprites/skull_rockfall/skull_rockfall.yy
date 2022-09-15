@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "skull_rockfall",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":{"name":"214c7702-91ba-4569-b9be-99e162050c64","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"skull_rockfall","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ed15617-3f64-4748-9f89-674ed61e1c52","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ed15617-3f64-4748-9f89-674ed61e1c52","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":{"name":"214c7702-91ba-4569-b9be-99e162050c64","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"skull_rockfall","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"4ed15617-3f64-4748-9f89-674ed61e1c52","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4","path":"sprites/skull_rockfall/skull_rockfall.yy",},"LayerId":{"name":"214c7702-91ba-4569-b9be-99e162050c64","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"skull_rockfall","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ed15617-3f64-4748-9f89-674ed61e1c52",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4",},
   ],
   "sequence": {
-    "spriteId": {"name":"skull_rockfall","path":"sprites/skull_rockfall/skull_rockfall.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "skull_rockfall",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c34c9043-9c20-4361-bd72-4404382f9ff5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"03a02441-0867-40a0-8b24-7232bf2b681e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ed15617-3f64-4748-9f89-674ed61e1c52","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"dd7fc50e-4372-4301-a09e-5e26cd838850","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"c34c9043-9c20-4361-bd72-4404382f9ff5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1713a65-9ee7-4f40-9052-ceb3c7bda7fd","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"03a02441-0867-40a0-8b24-7232bf2b681e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ed15617-3f64-4748-9f89-674ed61e1c52","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dd7fc50e-4372-4301-a09e-5e26cd838850","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fe9bfb3-e479-457a-9386-3b4ea06740d4","path":"sprites/skull_rockfall/skull_rockfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"skull_rockfall","path":"sprites/skull_rockfall/skull_rockfall.yy",},
-    "resourceVersion": "1.4",
-    "name": "skull_rockfall",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"214c7702-91ba-4569-b9be-99e162050c64","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"214c7702-91ba-4569-b9be-99e162050c64","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "skull_boss",
     "path": "folders/스프라이트/enemy/skull_boss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "skull_rockfall",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

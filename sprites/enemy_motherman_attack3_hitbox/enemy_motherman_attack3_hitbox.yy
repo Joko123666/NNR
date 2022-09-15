@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_motherman_attack3_hitbox",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"LayerId":{"name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_motherman_attack3_hitbox","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"resourceVersion":"1.0","name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_motherman_attack3_hitbox","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_motherman_attack3_hitbox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"492acb3d-32ba-438e-a9f4-38e75e514872","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"492acb3d-32ba-438e-a9f4-38e75e514872","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c7edb35-3fb6-44a3-8e56-51d87f6b3d76","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_motherman_attack3_hitbox","path":"sprites/enemy_motherman_attack3_hitbox/enemy_motherman_attack3_hitbox.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_motherman_attack3_hitbox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_motherman",
     "path": "folders/스프라이트/enemy/Vally/vally_motherman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_motherman_attack3_hitbox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

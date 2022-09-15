@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "desert_village_watchtower",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f7ac2913-5aba-48a2-a90e-ffca9314ded8","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7ac2913-5aba-48a2-a90e-ffca9314ded8","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},"LayerId":{"name":"92314f04-25f6-4ef9-91dd-c7163fffd8e0","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"desert_village_watchtower","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},"resourceVersion":"1.0","name":"f7ac2913-5aba-48a2-a90e-ffca9314ded8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7ac2913-5aba-48a2-a90e-ffca9314ded8",},
   ],
   "sequence": {
-    "spriteId": {"name":"desert_village_watchtower","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "desert_village_watchtower",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"17ef803e-41d5-4395-b088-6ea43dd36c09","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7ac2913-5aba-48a2-a90e-ffca9314ded8","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"desert_village_watchtower","path":"sprites/desert_village_watchtower/desert_village_watchtower.yy",},
-    "resourceVersion": "1.4",
-    "name": "desert_village_watchtower",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"92314f04-25f6-4ef9-91dd-c7163fffd8e0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"92314f04-25f6-4ef9-91dd-c7163fffd8e0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "desert_village_watchtower",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

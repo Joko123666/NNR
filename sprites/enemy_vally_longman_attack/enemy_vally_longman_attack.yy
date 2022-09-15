@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_longman_attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,54 +27,26 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4af6ad8e-9532-4493-bcbd-4b42c26f63b8","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4af6ad8e-9532-4493-bcbd-4b42c26f63b8","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"4af6ad8e-9532-4493-bcbd-4b42c26f63b8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd05371e-9000-4238-b8e7-0a2fa175929c","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd05371e-9000-4238-b8e7-0a2fa175929c","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"fd05371e-9000-4238-b8e7-0a2fa175929c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2a0b8887-592a-431a-a188-e5baacc5711c","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a0b8887-592a-431a-a188-e5baacc5711c","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"2a0b8887-592a-431a-a188-e5baacc5711c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d00e2559-5862-4ad2-b0c7-8bb0502d1602","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d00e2559-5862-4ad2-b0c7-8bb0502d1602","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"d00e2559-5862-4ad2-b0c7-8bb0502d1602","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b4b8311-1753-4ba4-a444-425371be84fe","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b4b8311-1753-4ba4-a444-425371be84fe","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"9b4b8311-1753-4ba4-a444-425371be84fe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b2720ff-533e-4dd6-bafa-5c3e87083386","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b2720ff-533e-4dd6-bafa-5c3e87083386","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"6b2720ff-533e-4dd6-bafa-5c3e87083386","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"92ea1475-89ad-4418-a971-e1961a864ff5","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92ea1475-89ad-4418-a971-e1961a864ff5","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"92ea1475-89ad-4418-a971-e1961a864ff5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"152774c1-703c-4fa8-ac48-bcfebe72eb59","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"152774c1-703c-4fa8-ac48-bcfebe72eb59","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"152774c1-703c-4fa8-ac48-bcfebe72eb59","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d3cc5e4d-12ec-4d5f-a041-120148af62ee","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3cc5e4d-12ec-4d5f-a041-120148af62ee","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"d3cc5e4d-12ec-4d5f-a041-120148af62ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"46e20858-0a52-4a36-b4e4-972d786ad260","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"46e20858-0a52-4a36-b4e4-972d786ad260","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"46e20858-0a52-4a36-b4e4-972d786ad260","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"982c4bfd-6649-42f3-8aa1-c3c42fb1848a","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"982c4bfd-6649-42f3-8aa1-c3c42fb1848a","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"982c4bfd-6649-42f3-8aa1-c3c42fb1848a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c97d5aa4-51c1-411a-94ee-63cdba784087","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c97d5aa4-51c1-411a-94ee-63cdba784087","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"c97d5aa4-51c1-411a-94ee-63cdba784087","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fbf89ba0-69ed-4967-85dc-f5af7dc7966b","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fbf89ba0-69ed-4967-85dc-f5af7dc7966b","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"fbf89ba0-69ed-4967-85dc-f5af7dc7966b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7a4a40ee-6866-4c5b-ac58-a71402b530f4","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7a4a40ee-6866-4c5b-ac58-a71402b530f4","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","name":"7a4a40ee-6866-4c5b-ac58-a71402b530f4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4af6ad8e-9532-4493-bcbd-4b42c26f63b8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd05371e-9000-4238-b8e7-0a2fa175929c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a0b8887-592a-431a-a188-e5baacc5711c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d00e2559-5862-4ad2-b0c7-8bb0502d1602",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b4b8311-1753-4ba4-a444-425371be84fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b2720ff-533e-4dd6-bafa-5c3e87083386",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92ea1475-89ad-4418-a971-e1961a864ff5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"152774c1-703c-4fa8-ac48-bcfebe72eb59",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3cc5e4d-12ec-4d5f-a041-120148af62ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"46e20858-0a52-4a36-b4e4-972d786ad260",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"982c4bfd-6649-42f3-8aa1-c3c42fb1848a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c97d5aa4-51c1-411a-94ee-63cdba784087",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fbf89ba0-69ed-4967-85dc-f5af7dc7966b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a4a40ee-6866-4c5b-ac58-a71402b530f4",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_longman_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -82,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fbd78ebd-acc7-41f1-9fed-2b7a11e10113","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f061263e-1d80-4e4d-9334-960f108b86e6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4af6ad8e-9532-4493-bcbd-4b42c26f63b8","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c9c68dd8-79e6-4aef-a505-d86d4d3a4985","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd05371e-9000-4238-b8e7-0a2fa175929c","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -98,7 +73,7 @@
             {"id":"60815fc0-2538-4dbe-948c-fd08ab3ffe30","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c97d5aa4-51c1-411a-94ee-63cdba784087","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2f31f95c-4e12-44ad-8bdf-8b1b78c4438a","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbf89ba0-69ed-4967-85dc-f5af7dc7966b","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4c2ce86b-f548-4e8b-9094-1c11a337593e","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a4a40ee-6866-4c5b-ac58-a71402b530f4","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -114,22 +89,13 @@
     "yorigin": 68,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_longman_attack","path":"sprites/enemy_vally_longman_attack/enemy_vally_longman_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_longman_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_longman",
     "path": "folders/스프라이트/enemy/Vally/vally_longman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_longman_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

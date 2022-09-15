@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "finalboss_Wall",
   "spriteId": {
     "name": "finalboss_block",
     "path": "sprites/finalboss_block/finalboss_block.yy",
@@ -31,8 +34,4 @@
     "name": "Walls",
     "path": "folders/오브젝트/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "finalboss_Wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }

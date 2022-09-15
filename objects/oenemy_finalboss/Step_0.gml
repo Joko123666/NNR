@@ -163,6 +163,43 @@ switch (state)
 				state = "Neutral"
 			}
 		}
+		
+		
+		if phase_state == "Phase_2"			//1페이즈일 경우
+		{
+			state_set_sprite(finalboss_act,1,0);
+
+			act_num = random(100);
+			show_debug_message(act_num);
+			if act_num <= 20			//A 돌 상단 
+			{
+				state = "Phase2_AttackA";	
+			}
+			else if act_num < 40		//B 돌 하단
+			{
+				state = "Phase2_AttackB";	
+			}
+			else if act_num < 60			//공격 C 불 상단
+			{	
+				state = "Phase2_AttackC";	
+			}
+		
+			else if act_num < 80			//공격 D 불 하단
+			{	
+				state = "Phase2_AttackD";	
+			}
+		
+			else if act_num <= 100		//공격 F 방해블럭 생성
+			{	
+				state = "Phase2_AttackE";
+			}
+
+			else 
+			{
+				act_count = 8;
+				state = "Neutral"
+			}
+		}
 
 	
 	#endregion

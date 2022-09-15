@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "skull_boss2_drop1",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34fa333c-b559-48f7-b076-e8215a5a43d0","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34fa333c-b559-48f7-b076-e8215a5a43d0","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},"LayerId":{"name":"7cc40d0d-b093-4000-8800-7b7de438ae0a","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"skull_boss2_drop1","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},"resourceVersion":"1.0","name":"34fa333c-b559-48f7-b076-e8215a5a43d0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34fa333c-b559-48f7-b076-e8215a5a43d0",},
   ],
   "sequence": {
-    "spriteId": {"name":"skull_boss2_drop1","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "skull_boss2_drop1",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8bbd2069-ceaa-4b3e-bcd6-4dd53ebfa89f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34fa333c-b559-48f7-b076-e8215a5a43d0","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"skull_boss2_drop1","path":"sprites/skull_boss2_drop1/skull_boss2_drop1.yy",},
-    "resourceVersion": "1.4",
-    "name": "skull_boss2_drop1",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7cc40d0d-b093-4000-8800-7b7de438ae0a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7cc40d0d-b093-4000-8800-7b7de438ae0a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "skull_boss2",
     "path": "folders/스프라이트/enemy/skull_boss2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "skull_boss2_drop1",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

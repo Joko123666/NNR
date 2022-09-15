@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_cavebat_active",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_active","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e4ee8676-7d5a-4062-a3b6-97aaac74fbd2","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e4ee8676-7d5a-4062-a3b6-97aaac74fbd2","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_active","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"e4ee8676-7d5a-4062-a3b6-97aaac74fbd2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a82ab784-5f48-4a8c-b550-4a68b465bd64","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a82ab784-5f48-4a8c-b550-4a68b465bd64","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_active","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","name":"a82ab784-5f48-4a8c-b550-4a68b465bd64","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4ee8676-7d5a-4062-a3b6-97aaac74fbd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a82ab784-5f48-4a8c-b550-4a68b465bd64",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_cavebat_active","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_cavebat_active",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a4b87c0f-163c-4d07-ae0f-a6a5441f9c1a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b6ed9ca7-3cd8-4120-bcec-1695a95a3a99","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4ee8676-7d5a-4062-a3b6-97aaac74fbd2","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"686acb68-4399-438b-938b-ddaeb8501f16","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a82ab784-5f48-4a8c-b550-4a68b465bd64","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_cavebat_active","path":"sprites/enemy_vally_cavebat_active/enemy_vally_cavebat_active.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_cavebat_active",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_cavebat",
     "path": "folders/스프라이트/enemy/Vally/vally_cavebat.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_cavebat_active",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

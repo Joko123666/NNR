@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_orc_knockback",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b698e439-4b95-402f-8ffe-2649a2632356","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b698e439-4b95-402f-8ffe-2649a2632356","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"b698e439-4b95-402f-8ffe-2649a2632356","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ac4f6e7c-a2c1-4429-8390-638b74fe4733","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac4f6e7c-a2c1-4429-8390-638b74fe4733","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"ac4f6e7c-a2c1-4429-8390-638b74fe4733","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b15eb18-31f8-4ecd-ad5b-6fb19b3c54e4","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b15eb18-31f8-4ecd-ad5b-6fb19b3c54e4","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"7b15eb18-31f8-4ecd-ad5b-6fb19b3c54e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e6ef3ed-55c0-4b55-be9e-86632901377e","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e6ef3ed-55c0-4b55-be9e-86632901377e","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"7e6ef3ed-55c0-4b55-be9e-86632901377e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ceaf1b8c-09e8-4eca-bc73-479afc2b0e18","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ceaf1b8c-09e8-4eca-bc73-479afc2b0e18","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","name":"ceaf1b8c-09e8-4eca-bc73-479afc2b0e18","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b698e439-4b95-402f-8ffe-2649a2632356",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac4f6e7c-a2c1-4429-8390-638b74fe4733",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b15eb18-31f8-4ecd-ad5b-6fb19b3c54e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e6ef3ed-55c0-4b55-be9e-86632901377e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ceaf1b8c-09e8-4eca-bc73-479afc2b0e18",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_orc_knockback",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"74f18629-2cb2-4dcf-9374-5e14bdf4a48e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b4027803-f364-4383-85aa-d43c76b515a8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b698e439-4b95-402f-8ffe-2649a2632356","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"67dcab20-c936-424d-b88c-7c6d98f4badc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac4f6e7c-a2c1-4429-8390-638b74fe4733","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"839c7917-8256-4035-bcc6-ff469d926ae9","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b15eb18-31f8-4ecd-ad5b-6fb19b3c54e4","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c807fc55-4089-40b1-97d5-db59fbde0565","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e6ef3ed-55c0-4b55-be9e-86632901377e","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dada09aa-f75c-4820-86d8-7ce7e764ce7a","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ceaf1b8c-09e8-4eca-bc73-479afc2b0e18","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_orc_knockback","path":"sprites/enemy_hill_orc_knockback/enemy_hill_orc_knockback.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_orc_knockback",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_orc",
     "path": "folders/스프라이트/enemy/Hill/hill_orc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_orc_knockback",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

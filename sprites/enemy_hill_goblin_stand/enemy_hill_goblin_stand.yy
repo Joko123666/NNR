@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_goblin_stand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7710b18e-9a43-4790-919d-172bb0cf0053","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7710b18e-9a43-4790-919d-172bb0cf0053","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"7710b18e-9a43-4790-919d-172bb0cf0053","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"503bb65d-7053-43b1-b07a-1375577e5481","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"503bb65d-7053-43b1-b07a-1375577e5481","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"503bb65d-7053-43b1-b07a-1375577e5481","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"54d4fa0b-c00f-47d2-81cf-c0c36c4a4406","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54d4fa0b-c00f-47d2-81cf-c0c36c4a4406","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","name":"54d4fa0b-c00f-47d2-81cf-c0c36c4a4406","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7710b18e-9a43-4790-919d-172bb0cf0053",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"503bb65d-7053-43b1-b07a-1375577e5481",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54d4fa0b-c00f-47d2-81cf-c0c36c4a4406",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_goblin_stand",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"890d1a48-9ece-43b1-b69c-1a65f7f3f296","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5b73f8c8-a43e-4939-b73b-5c7547005444","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7710b18e-9a43-4790-919d-172bb0cf0053","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9ae5ec5c-e622-4f7a-926b-bbdcf8d16db3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"503bb65d-7053-43b1-b07a-1375577e5481","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a5633928-7f21-40c2-817e-226a6b4d5995","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54d4fa0b-c00f-47d2-81cf-c0c36c4a4406","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_goblin_stand","path":"sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_goblin_stand",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_goblin",
     "path": "folders/스프라이트/enemy/Hill/hill_goblin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_goblin_stand",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

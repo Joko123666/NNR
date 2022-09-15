@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "teleport_portal_defalt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c97e7ac7-4872-490d-b427-bd89a59f9db1","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c97e7ac7-4872-490d-b427-bd89a59f9db1","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":{"name":"0204648c-4abd-42e0-aecb-f4bfba3de733","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"teleport_portal_defalt","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"c97e7ac7-4872-490d-b427-bd89a59f9db1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e7812cfd-adbf-4c42-8e8c-f2be43bd9f1d","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7812cfd-adbf-4c42-8e8c-f2be43bd9f1d","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":{"name":"0204648c-4abd-42e0-aecb-f4bfba3de733","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"teleport_portal_defalt","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"e7812cfd-adbf-4c42-8e8c-f2be43bd9f1d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"108e16d7-dfd5-44fb-ab70-47ff6658c4fa","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"108e16d7-dfd5-44fb-ab70-47ff6658c4fa","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"LayerId":{"name":"0204648c-4abd-42e0-aecb-f4bfba3de733","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"teleport_portal_defalt","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","name":"108e16d7-dfd5-44fb-ab70-47ff6658c4fa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c97e7ac7-4872-490d-b427-bd89a59f9db1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7812cfd-adbf-4c42-8e8c-f2be43bd9f1d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"108e16d7-dfd5-44fb-ab70-47ff6658c4fa",},
   ],
   "sequence": {
-    "spriteId": {"name":"teleport_portal_defalt","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "teleport_portal_defalt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2702ae07-da99-4aee-84e9-3dd4b6c63449","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c97e7ac7-4872-490d-b427-bd89a59f9db1","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"79588676-de29-4c81-bf44-69f4c53fc35d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7812cfd-adbf-4c42-8e8c-f2be43bd9f1d","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0918749f-cb3e-4d34-a3d2-876939e80372","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"108e16d7-dfd5-44fb-ab70-47ff6658c4fa","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"teleport_portal_defalt","path":"sprites/teleport_portal_defalt/teleport_portal_defalt.yy",},
-    "resourceVersion": "1.4",
-    "name": "teleport_portal_defalt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0204648c-4abd-42e0-aecb-f4bfba3de733","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0204648c-4abd-42e0-aecb-f4bfba3de733","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "furnitures",
     "path": "folders/스프라이트/furnitures.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "teleport_portal_defalt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

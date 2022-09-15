@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "hill_bush_02",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,30 +27,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"536e10ea-272b-448f-9606-f7a8ca7ad169","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"536e10ea-272b-448f-9606-f7a8ca7ad169","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"536e10ea-272b-448f-9606-f7a8ca7ad169","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e559d7f8-6785-40cd-ba2d-ebd8593ad398","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e559d7f8-6785-40cd-ba2d-ebd8593ad398","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"e559d7f8-6785-40cd-ba2d-ebd8593ad398","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b8cf573f-9353-4926-8333-d286f09ec15f","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8cf573f-9353-4926-8333-d286f09ec15f","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"b8cf573f-9353-4926-8333-d286f09ec15f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"518d7ac3-5bc7-4078-ace5-9757d823b6cc","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"518d7ac3-5bc7-4078-ace5-9757d823b6cc","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"518d7ac3-5bc7-4078-ace5-9757d823b6cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e8ff290b-0fd2-4524-9b2d-bf4788efe3e7","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e8ff290b-0fd2-4524-9b2d-bf4788efe3e7","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"e8ff290b-0fd2-4524-9b2d-bf4788efe3e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"50e81c0c-353e-4141-9bce-51b8c32ca2cf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50e81c0c-353e-4141-9bce-51b8c32ca2cf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"50e81c0c-353e-4141-9bce-51b8c32ca2cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0d359b26-fcab-41d7-84ad-127f53c7aadb","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0d359b26-fcab-41d7-84ad-127f53c7aadb","path":"sprites/hill_bush_02/hill_bush_02.yy",},"LayerId":{"name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","name":"0d359b26-fcab-41d7-84ad-127f53c7aadb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"536e10ea-272b-448f-9606-f7a8ca7ad169",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e559d7f8-6785-40cd-ba2d-ebd8593ad398",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b8cf573f-9353-4926-8333-d286f09ec15f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"518d7ac3-5bc7-4078-ace5-9757d823b6cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8ff290b-0fd2-4524-9b2d-bf4788efe3e7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50e81c0c-353e-4141-9bce-51b8c32ca2cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0d359b26-fcab-41d7-84ad-127f53c7aadb",},
   ],
   "sequence": {
-    "spriteId": {"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "hill_bush_02",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -58,7 +49,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a4697944-4777-4c34-bf68-66432e98696e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"536e10ea-272b-448f-9606-f7a8ca7ad169","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0658ce28-e771-4ff0-98d0-2c14e0e25da7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e559d7f8-6785-40cd-ba2d-ebd8593ad398","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"198153f9-c6e0-43e5-9a4c-7b1e89813d1c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8cf573f-9353-4926-8333-d286f09ec15f","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -66,7 +57,7 @@
             {"id":"dc1403e5-4d52-4e47-8e46-e6787544af16","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e8ff290b-0fd2-4524-9b2d-bf4788efe3e7","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f8ac2fca-d21d-4289-8910-dc4bcd860843","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50e81c0c-353e-4141-9bce-51b8c32ca2cf","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9668c93e-e86d-4d54-b6ef-015b26ccda81","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d359b26-fcab-41d7-84ad-127f53c7aadb","path":"sprites/hill_bush_02/hill_bush_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,22 +73,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"hill_bush_02","path":"sprites/hill_bush_02/hill_bush_02.yy",},
-    "resourceVersion": "1.4",
-    "name": "hill_bush_02",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b4f2f201-9411-4232-abe5-3d94aff7cddf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill",
     "path": "folders/스프라이트/furnitures/hill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "hill_bush_02",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

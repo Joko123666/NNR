@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_flyingman_mask",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_flyingman_mask","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},"resourceVersion":"1.0","name":"3a656097-4901-4865-abb3-053da51de3c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a656097-4901-4865-abb3-053da51de3c1",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_flyingman_mask","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_flyingman_mask",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 4.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a5fd6507-9711-4700-ac1d-cacc363802b9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a656097-4901-4865-abb3-053da51de3c1","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_flyingman_mask","path":"sprites/enemy_vally_flyingman_mask/enemy_vally_flyingman_mask.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_flyingman_mask",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_flyingman",
     "path": "folders/스프라이트/enemy/Vally/vally_flyingman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_flyingman_mask",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

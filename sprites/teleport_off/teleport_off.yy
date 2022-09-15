@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "teleport_off",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 12,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"03d29055-e306-4b7a-825a-ad5207a0b935","path":"sprites/teleport_off/teleport_off.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"03d29055-e306-4b7a-825a-ad5207a0b935","path":"sprites/teleport_off/teleport_off.yy",},"LayerId":{"name":"9f145e8d-f32a-4b20-9996-3a457096a615","path":"sprites/teleport_off/teleport_off.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"teleport_off","path":"sprites/teleport_off/teleport_off.yy",},"resourceVersion":"1.0","name":"03d29055-e306-4b7a-825a-ad5207a0b935","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"03d29055-e306-4b7a-825a-ad5207a0b935",},
   ],
   "sequence": {
-    "spriteId": {"name":"teleport_off","path":"sprites/teleport_off/teleport_off.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "teleport_off",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1547592f-5ad7-4f61-bc87-d5c13cd5699b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03d29055-e306-4b7a-825a-ad5207a0b935","path":"sprites/teleport_off/teleport_off.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"teleport_off","path":"sprites/teleport_off/teleport_off.yy",},
-    "resourceVersion": "1.4",
-    "name": "teleport_off",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9f145e8d-f32a-4b20-9996-3a457096a615","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9f145e8d-f32a-4b20-9996-3a457096a615","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "furnitures",
     "path": "folders/스프라이트/furnitures.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "teleport_off",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

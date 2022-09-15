@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "finalboss_shadow",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"LayerId":{"name":"1c03e05b-b3d1-487f-b968-bbd90e47cf95","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"finalboss_shadow","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"resourceVersion":"1.0","name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361",},
   ],
   "sequence": {
-    "spriteId": {"name":"finalboss_shadow","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "finalboss_shadow",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"00252f57-e3c1-41ad-8fc1-d13b958bff68","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"00252f57-e3c1-41ad-8fc1-d13b958bff68","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"finalboss_shadow","path":"sprites/finalboss_shadow/finalboss_shadow.yy",},
-    "resourceVersion": "1.4",
-    "name": "finalboss_shadow",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":3,"opacity":70.0,"displayName":"default","resourceVersion":"1.0","name":"1c03e05b-b3d1-487f-b968-bbd90e47cf95","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c03e05b-b3d1-487f-b968-bbd90e47cf95","visible":true,"isLocked":false,"blendMode":3,"opacity":70.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "fianlboss",
     "path": "folders/스프라이트/enemy/fianlboss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "finalboss_shadow",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

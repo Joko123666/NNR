@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_goblin_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,45 +27,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b27ce650-73a4-4bee-8bd4-91b71efd4790","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b27ce650-73a4-4bee-8bd4-91b71efd4790","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"b27ce650-73a4-4bee-8bd4-91b71efd4790","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b2d0112-34d0-4f71-8372-c8d81e5b996c","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b2d0112-34d0-4f71-8372-c8d81e5b996c","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"1b2d0112-34d0-4f71-8372-c8d81e5b996c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"72bf0fd2-2641-4346-b87c-08243928181d","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"72bf0fd2-2641-4346-b87c-08243928181d","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"72bf0fd2-2641-4346-b87c-08243928181d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6948f6fe-0f91-4949-b956-f2435522471e","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6948f6fe-0f91-4949-b956-f2435522471e","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"6948f6fe-0f91-4949-b956-f2435522471e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1c21bbb5-627d-43a3-94cf-81d8d9f69438","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c21bbb5-627d-43a3-94cf-81d8d9f69438","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"1c21bbb5-627d-43a3-94cf-81d8d9f69438","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"208fd6eb-ac08-45df-8a62-720c0f9ff21e","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"208fd6eb-ac08-45df-8a62-720c0f9ff21e","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"208fd6eb-ac08-45df-8a62-720c0f9ff21e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ecc8d750-44d9-46b4-9d08-4e3800991079","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ecc8d750-44d9-46b4-9d08-4e3800991079","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"ecc8d750-44d9-46b4-9d08-4e3800991079","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8e7a2679-3468-43a7-9982-300874e00986","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e7a2679-3468-43a7-9982-300874e00986","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"8e7a2679-3468-43a7-9982-300874e00986","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6c41e9d9-507e-4100-bd38-d75f39098eba","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c41e9d9-507e-4100-bd38-d75f39098eba","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"6c41e9d9-507e-4100-bd38-d75f39098eba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2938b413-f2db-454f-9010-959b8a2c1bf2","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2938b413-f2db-454f-9010-959b8a2c1bf2","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"2938b413-f2db-454f-9010-959b8a2c1bf2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fa50328f-9464-47aa-90ef-74086165691f","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa50328f-9464-47aa-90ef-74086165691f","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","name":"fa50328f-9464-47aa-90ef-74086165691f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b27ce650-73a4-4bee-8bd4-91b71efd4790",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b2d0112-34d0-4f71-8372-c8d81e5b996c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72bf0fd2-2641-4346-b87c-08243928181d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6948f6fe-0f91-4949-b956-f2435522471e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c21bbb5-627d-43a3-94cf-81d8d9f69438",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"208fd6eb-ac08-45df-8a62-720c0f9ff21e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ecc8d750-44d9-46b4-9d08-4e3800991079",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8e7a2679-3468-43a7-9982-300874e00986",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c41e9d9-507e-4100-bd38-d75f39098eba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2938b413-f2db-454f-9010-959b8a2c1bf2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa50328f-9464-47aa-90ef-74086165691f",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_goblin_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -73,7 +54,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d5263a4b-5f8d-4488-bc9e-56cbf5e13bf5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4fd158bc-9be7-40bf-8685-f8e0ecb39fc5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b27ce650-73a4-4bee-8bd4-91b71efd4790","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"61dfa319-3c99-4d32-8886-f8ad3f91d617","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b2d0112-34d0-4f71-8372-c8d81e5b996c","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +67,7 @@
             {"id":"aae18600-f843-40a9-9345-1b11492b8375","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c41e9d9-507e-4100-bd38-d75f39098eba","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f8cf3357-0332-4924-8bd8-e9cbed1126e9","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2938b413-f2db-454f-9010-959b8a2c1bf2","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f84a5714-6f46-4f2a-ae8a-5b12c205c548","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa50328f-9464-47aa-90ef-74086165691f","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +83,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_goblin_death","path":"sprites/enemy_hill_goblin_death/enemy_hill_goblin_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_goblin_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_goblin",
     "path": "folders/스프라이트/enemy/Hill/hill_goblin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_goblin_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

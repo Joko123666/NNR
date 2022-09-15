@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "hill_bossgoblin_attack_3_hitbox",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fb01d5ef-f3ef-43ea-b093-53d778612255","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fb01d5ef-f3ef-43ea-b093-53d778612255","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},"LayerId":{"name":"2848de6d-ed17-4b6e-a8f3-91481698b872","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"hill_bossgoblin_attack_3_hitbox","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},"resourceVersion":"1.0","name":"fb01d5ef-f3ef-43ea-b093-53d778612255","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb01d5ef-f3ef-43ea-b093-53d778612255",},
   ],
   "sequence": {
-    "spriteId": {"name":"hill_bossgoblin_attack_3_hitbox","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "hill_bossgoblin_attack_3_hitbox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b9a1d6fa-ab44-4691-ab63-532929bbe485","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fb01d5ef-f3ef-43ea-b093-53d778612255","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 96,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"hill_bossgoblin_attack_3_hitbox","path":"sprites/hill_bossgoblin_attack_3_hitbox/hill_bossgoblin_attack_3_hitbox.yy",},
-    "resourceVersion": "1.4",
-    "name": "hill_bossgoblin_attack_3_hitbox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4","resourceVersion":"1.0","name":"2848de6d-ed17-4b6e-a8f3-91481698b872","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2848de6d-ed17-4b6e-a8f3-91481698b872","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_bossgoblin",
     "path": "folders/스프라이트/enemy/Hill/hill_bossgoblin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "hill_bossgoblin_attack_3_hitbox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

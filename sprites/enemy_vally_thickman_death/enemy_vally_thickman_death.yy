@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_thickman_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,60 +27,28 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9e32130b-225b-4f76-bd16-a57f21107e59","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e32130b-225b-4f76-bd16-a57f21107e59","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"9e32130b-225b-4f76-bd16-a57f21107e59","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"837db3b5-c753-4953-98dc-013d01e167fb","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"837db3b5-c753-4953-98dc-013d01e167fb","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"837db3b5-c753-4953-98dc-013d01e167fb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"db9ae982-5e8a-4cf3-93cc-5ef766056f7a","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"db9ae982-5e8a-4cf3-93cc-5ef766056f7a","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"db9ae982-5e8a-4cf3-93cc-5ef766056f7a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2b123455-7284-4f19-b7a6-f4a972f00d15","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b123455-7284-4f19-b7a6-f4a972f00d15","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"2b123455-7284-4f19-b7a6-f4a972f00d15","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"23f15bff-e310-4f98-a843-ac2cb954d4af","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"23f15bff-e310-4f98-a843-ac2cb954d4af","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"23f15bff-e310-4f98-a843-ac2cb954d4af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d786ffef-17da-4107-a559-4f26bb319401","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d786ffef-17da-4107-a559-4f26bb319401","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"d786ffef-17da-4107-a559-4f26bb319401","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fdc39e5b-3c7c-4d48-960b-b4376a1f8e10","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fdc39e5b-3c7c-4d48-960b-b4376a1f8e10","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"fdc39e5b-3c7c-4d48-960b-b4376a1f8e10","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"30f957a8-6fdf-4486-bd44-78303502fc00","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"30f957a8-6fdf-4486-bd44-78303502fc00","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"30f957a8-6fdf-4486-bd44-78303502fc00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"007e3187-041f-4154-90d3-147394f4c041","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"007e3187-041f-4154-90d3-147394f4c041","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"007e3187-041f-4154-90d3-147394f4c041","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8feebf10-0fae-4891-9f33-cff810d20a8c","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8feebf10-0fae-4891-9f33-cff810d20a8c","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"8feebf10-0fae-4891-9f33-cff810d20a8c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e91a5cba-cdb3-42ca-9d59-b95ac143a219","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e91a5cba-cdb3-42ca-9d59-b95ac143a219","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"e91a5cba-cdb3-42ca-9d59-b95ac143a219","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e901d947-fe1e-4a86-aa3b-faf4c761fb98","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e901d947-fe1e-4a86-aa3b-faf4c761fb98","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"e901d947-fe1e-4a86-aa3b-faf4c761fb98","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"33919d74-9dfd-46c2-8234-26f266a01690","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33919d74-9dfd-46c2-8234-26f266a01690","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"33919d74-9dfd-46c2-8234-26f266a01690","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"be6f4cb3-5012-423a-a779-a4af99655253","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"be6f4cb3-5012-423a-a779-a4af99655253","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"be6f4cb3-5012-423a-a779-a4af99655253","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2f3de821-438e-4789-9a31-42d7d200f847","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f3de821-438e-4789-9a31-42d7d200f847","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"2f3de821-438e-4789-9a31-42d7d200f847","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ba1cfccf-5ff2-40b7-94d8-b98c243b5730","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba1cfccf-5ff2-40b7-94d8-b98c243b5730","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","name":"ba1cfccf-5ff2-40b7-94d8-b98c243b5730","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e32130b-225b-4f76-bd16-a57f21107e59",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"837db3b5-c753-4953-98dc-013d01e167fb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db9ae982-5e8a-4cf3-93cc-5ef766056f7a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b123455-7284-4f19-b7a6-f4a972f00d15",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23f15bff-e310-4f98-a843-ac2cb954d4af",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d786ffef-17da-4107-a559-4f26bb319401",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdc39e5b-3c7c-4d48-960b-b4376a1f8e10",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"30f957a8-6fdf-4486-bd44-78303502fc00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"007e3187-041f-4154-90d3-147394f4c041",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8feebf10-0fae-4891-9f33-cff810d20a8c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e91a5cba-cdb3-42ca-9d59-b95ac143a219",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e901d947-fe1e-4a86-aa3b-faf4c761fb98",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33919d74-9dfd-46c2-8234-26f266a01690",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be6f4cb3-5012-423a-a779-a4af99655253",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f3de821-438e-4789-9a31-42d7d200f847",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba1cfccf-5ff2-40b7-94d8-b98c243b5730",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_thickman_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -88,7 +59,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5b7065d5-d4cd-4db1-91cd-906a732cc7b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"13c03dad-37a9-4e37-838d-ba2244bc48e1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e32130b-225b-4f76-bd16-a57f21107e59","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"83a358f1-1b81-4561-8a3b-2ff5837a19c5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"837db3b5-c753-4953-98dc-013d01e167fb","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -106,7 +77,7 @@
             {"id":"fd6a8360-552a-4f4c-b2e1-740b3867ac67","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be6f4cb3-5012-423a-a779-a4af99655253","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"706d4633-e7ef-4dae-be4e-1e775033daaf","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f3de821-438e-4789-9a31-42d7d200f847","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c577c46e-7b13-4d35-bf6d-cd3aa9ad94f3","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba1cfccf-5ff2-40b7-94d8-b98c243b5730","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -122,22 +93,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_thickman_death","path":"sprites/enemy_vally_thickman_death/enemy_vally_thickman_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_thickman_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_thickman",
     "path": "folders/스프라이트/enemy/Vally/vally_thickman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_thickman_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

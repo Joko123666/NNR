@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_motherman_attack1",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,85 +27,30 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"61bc9ad6-4b39-48f0-a323-48d56243af29","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"61bc9ad6-4b39-48f0-a323-48d56243af29","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"61bc9ad6-4b39-48f0-a323-48d56243af29","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"61bc9ad6-4b39-48f0-a323-48d56243af29","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c188d676-433c-49f4-b26e-243e70f46fbc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c188d676-433c-49f4-b26e-243e70f46fbc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c188d676-433c-49f4-b26e-243e70f46fbc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"c188d676-433c-49f4-b26e-243e70f46fbc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3fc90553-29d4-4cbe-8539-d1a3d26149cc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3fc90553-29d4-4cbe-8539-d1a3d26149cc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3fc90553-29d4-4cbe-8539-d1a3d26149cc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"3fc90553-29d4-4cbe-8539-d1a3d26149cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e3055ea7-97a7-427e-b565-f28c914968fe","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e3055ea7-97a7-427e-b565-f28c914968fe","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"e3055ea7-97a7-427e-b565-f28c914968fe","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"e3055ea7-97a7-427e-b565-f28c914968fe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1cd3301f-3591-4d09-ae24-76318f806fc5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1cd3301f-3591-4d09-ae24-76318f806fc5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1cd3301f-3591-4d09-ae24-76318f806fc5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"1cd3301f-3591-4d09-ae24-76318f806fc5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b3a136e5-f537-4be5-ba76-bc98d3a22eb1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b3a136e5-f537-4be5-ba76-bc98d3a22eb1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"b3a136e5-f537-4be5-ba76-bc98d3a22eb1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"b3a136e5-f537-4be5-ba76-bc98d3a22eb1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d8a2e0e0-f6e8-4b79-a01f-bc76727c58d3","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d8a2e0e0-f6e8-4b79-a01f-bc76727c58d3","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"d8a2e0e0-f6e8-4b79-a01f-bc76727c58d3","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"d8a2e0e0-f6e8-4b79-a01f-bc76727c58d3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40abb329-d609-4e2f-8b35-cb2e91da2247","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40abb329-d609-4e2f-8b35-cb2e91da2247","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"40abb329-d609-4e2f-8b35-cb2e91da2247","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"40abb329-d609-4e2f-8b35-cb2e91da2247","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d7a1bc24-f2a3-4286-9686-55bf890ef651","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d7a1bc24-f2a3-4286-9686-55bf890ef651","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"d7a1bc24-f2a3-4286-9686-55bf890ef651","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"d7a1bc24-f2a3-4286-9686-55bf890ef651","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2a422478-70a0-41c5-86d5-138e9292049b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a422478-70a0-41c5-86d5-138e9292049b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2a422478-70a0-41c5-86d5-138e9292049b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"2a422478-70a0-41c5-86d5-138e9292049b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a3677fc2-b58a-4ef3-82ea-2ef1b1faf1a0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a3677fc2-b58a-4ef3-82ea-2ef1b1faf1a0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a3677fc2-b58a-4ef3-82ea-2ef1b1faf1a0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"a3677fc2-b58a-4ef3-82ea-2ef1b1faf1a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c3387268-4fe0-45f2-a2b5-8f63d36a01b2","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c3387268-4fe0-45f2-a2b5-8f63d36a01b2","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c3387268-4fe0-45f2-a2b5-8f63d36a01b2","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"c3387268-4fe0-45f2-a2b5-8f63d36a01b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3170b34d-68b0-41be-aab1-51946eb8e434","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3170b34d-68b0-41be-aab1-51946eb8e434","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3170b34d-68b0-41be-aab1-51946eb8e434","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"3170b34d-68b0-41be-aab1-51946eb8e434","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"83f194a5-44ac-417e-add4-fcf4ed5160c0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"83f194a5-44ac-417e-add4-fcf4ed5160c0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"83f194a5-44ac-417e-add4-fcf4ed5160c0","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"83f194a5-44ac-417e-add4-fcf4ed5160c0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"072f0dee-696b-41d8-8af8-286a6aa87991","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"072f0dee-696b-41d8-8af8-286a6aa87991","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"072f0dee-696b-41d8-8af8-286a6aa87991","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"072f0dee-696b-41d8-8af8-286a6aa87991","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e12c255e-795a-4088-b4cc-895b8db6c57b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e12c255e-795a-4088-b4cc-895b8db6c57b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"e12c255e-795a-4088-b4cc-895b8db6c57b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"e12c255e-795a-4088-b4cc-895b8db6c57b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"664d1f69-6608-4cdd-a12d-1bc6be038393","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"664d1f69-6608-4cdd-a12d-1bc6be038393","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"664d1f69-6608-4cdd-a12d-1bc6be038393","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"664d1f69-6608-4cdd-a12d-1bc6be038393","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8fa0d530-0969-4338-b2c4-b41d20d0580c","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8fa0d530-0969-4338-b2c4-b41d20d0580c","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"8fa0d530-0969-4338-b2c4-b41d20d0580c","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"LayerId":{"name":"20b62d18-4150-4f77-8a82-8f3d098cd210","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","name":"8fa0d530-0969-4338-b2c4-b41d20d0580c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61bc9ad6-4b39-48f0-a323-48d56243af29",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c188d676-433c-49f4-b26e-243e70f46fbc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3fc90553-29d4-4cbe-8539-d1a3d26149cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3055ea7-97a7-427e-b565-f28c914968fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1cd3301f-3591-4d09-ae24-76318f806fc5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3a136e5-f537-4be5-ba76-bc98d3a22eb1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8a2e0e0-f6e8-4b79-a01f-bc76727c58d3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40abb329-d609-4e2f-8b35-cb2e91da2247",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7a1bc24-f2a3-4286-9686-55bf890ef651",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a422478-70a0-41c5-86d5-138e9292049b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a3677fc2-b58a-4ef3-82ea-2ef1b1faf1a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c3387268-4fe0-45f2-a2b5-8f63d36a01b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3170b34d-68b0-41be-aab1-51946eb8e434",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"83f194a5-44ac-417e-add4-fcf4ed5160c0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"072f0dee-696b-41d8-8af8-286a6aa87991",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e12c255e-795a-4088-b4cc-895b8db6c57b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"664d1f69-6608-4cdd-a12d-1bc6be038393",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8fa0d530-0969-4338-b2c4-b41d20d0580c",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_motherman_attack1",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -113,7 +61,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a1f7b654-aebd-4346-89ed-3dc3a75acb0b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"951daac0-40df-4690-b1db-77e1c432f015","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61bc9ad6-4b39-48f0-a323-48d56243af29","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5f7003a6-b2ff-452b-b880-97255022f849","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c188d676-433c-49f4-b26e-243e70f46fbc","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -133,7 +81,7 @@
             {"id":"b3e33c74-cdfb-4f24-be68-ca8ec5dada6f","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e12c255e-795a-4088-b4cc-895b8db6c57b","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"30e44243-9d41-453f-a873-aba323a27e7c","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"664d1f69-6608-4cdd-a12d-1bc6be038393","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"417ff158-5d7e-483f-bfd8-bbb35be09738","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8fa0d530-0969-4338-b2c4-b41d20d0580c","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -149,23 +97,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_motherman_attack1","path":"sprites/enemy_vally_motherman_attack1/enemy_vally_motherman_attack1.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_motherman_attack1",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"20b62d18-4150-4f77-8a82-8f3d098cd210","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"20b62d18-4150-4f77-8a82-8f3d098cd210","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_motherman",
     "path": "folders/스프라이트/enemy/Vally/vally_motherman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_motherman_attack1",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

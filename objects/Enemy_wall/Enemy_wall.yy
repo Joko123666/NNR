@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Enemy_wall",
   "spriteId": {
     "name": "test_box",
     "path": "sprites/test_box/test_box.yy",
@@ -28,8 +31,4 @@
     "name": "Walls",
     "path": "folders/오브젝트/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Enemy_wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }

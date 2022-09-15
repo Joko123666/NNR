@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_rockman_knockback",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,30 +27,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fbfacb1b-3945-49e0-9785-641c457a8045","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fbfacb1b-3945-49e0-9785-641c457a8045","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"fbfacb1b-3945-49e0-9785-641c457a8045","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"98c206e2-d088-4777-9427-9c8d9d85aec3","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98c206e2-d088-4777-9427-9c8d9d85aec3","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"98c206e2-d088-4777-9427-9c8d9d85aec3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f3ea14c-dcf0-447b-bd01-a033e90569b9","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f3ea14c-dcf0-447b-bd01-a033e90569b9","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"8f3ea14c-dcf0-447b-bd01-a033e90569b9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"190ef58b-1d90-4abb-92eb-1d9e4d30d97b","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"190ef58b-1d90-4abb-92eb-1d9e4d30d97b","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"190ef58b-1d90-4abb-92eb-1d9e4d30d97b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"988ae08c-02e3-494b-99e0-973c5243e175","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"988ae08c-02e3-494b-99e0-973c5243e175","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"988ae08c-02e3-494b-99e0-973c5243e175","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0236a0ff-2373-492d-86b3-3a252fe572f1","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0236a0ff-2373-492d-86b3-3a252fe572f1","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","name":"0236a0ff-2373-492d-86b3-3a252fe572f1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fbfacb1b-3945-49e0-9785-641c457a8045",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98c206e2-d088-4777-9427-9c8d9d85aec3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f3ea14c-dcf0-447b-bd01-a033e90569b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"190ef58b-1d90-4abb-92eb-1d9e4d30d97b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"988ae08c-02e3-494b-99e0-973c5243e175",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0236a0ff-2373-492d-86b3-3a252fe572f1",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_rockman_knockback",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -58,7 +49,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7b7161a3-990e-4644-929e-4db1618c5332","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b0551378-2983-46b6-abdb-01a56bfc28e7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbfacb1b-3945-49e0-9785-641c457a8045","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b7d0e96b-b243-4fe5-b492-e130a546b0d3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98c206e2-d088-4777-9427-9c8d9d85aec3","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -66,7 +57,7 @@
             {"id":"f75e6c08-957c-4911-97f9-6b8e54fcc696","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"190ef58b-1d90-4abb-92eb-1d9e4d30d97b","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4a4a34e7-651f-4ec6-9612-4e8720ce6179","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"988ae08c-02e3-494b-99e0-973c5243e175","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"10565bd4-a034-4978-a60a-f67bc0cc8ad5","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0236a0ff-2373-492d-86b3-3a252fe572f1","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,22 +73,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_rockman_knockback","path":"sprites/enemy_vally_rockman_knockback/enemy_vally_rockman_knockback.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_rockman_knockback",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_rockman",
     "path": "folders/스프라이트/enemy/Vally/vally_rockman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_rockman_knockback",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

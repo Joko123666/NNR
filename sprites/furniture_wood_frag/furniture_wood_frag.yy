@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "furniture_wood_frag",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"caa4555e-d546-419d-8fdc-c23b5fe0664f","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"caa4555e-d546-419d-8fdc-c23b5fe0664f","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},"LayerId":{"name":"b0feba75-b90e-4bfb-980f-51fe5aeed042","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"furniture_wood_frag","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},"resourceVersion":"1.0","name":"caa4555e-d546-419d-8fdc-c23b5fe0664f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"caa4555e-d546-419d-8fdc-c23b5fe0664f",},
   ],
   "sequence": {
-    "spriteId": {"name":"furniture_wood_frag","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "furniture_wood_frag",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1a6fc80a-e05c-4272-8ee1-83a26e6974ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"caa4555e-d546-419d-8fdc-c23b5fe0664f","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"furniture_wood_frag","path":"sprites/furniture_wood_frag/furniture_wood_frag.yy",},
-    "resourceVersion": "1.4",
-    "name": "furniture_wood_frag",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0feba75-b90e-4bfb-980f-51fe5aeed042","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b0feba75-b90e-4bfb-980f-51fe5aeed042","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "village",
     "path": "folders/스프라이트/furnitures/village.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "furniture_wood_frag",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "skullboss_attackB_hitbox2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6435acc8-6e0b-4ddb-9864-4e553382a14f","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6435acc8-6e0b-4ddb-9864-4e553382a14f","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"LayerId":{"name":"636ccf20-837e-4652-9549-60c1d2b0ebd0","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"skullboss_attackB_hitbox2","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"resourceVersion":"1.0","name":"6435acc8-6e0b-4ddb-9864-4e553382a14f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6435acc8-6e0b-4ddb-9864-4e553382a14f",},
   ],
   "sequence": {
-    "spriteId": {"name":"skullboss_attackB_hitbox2","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "skullboss_attackB_hitbox2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9d90ee61-f9b0-4e48-9c6a-80ffa1894a33","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6435acc8-6e0b-4ddb-9864-4e553382a14f","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"9d90ee61-f9b0-4e48-9c6a-80ffa1894a33","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6435acc8-6e0b-4ddb-9864-4e553382a14f","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"skullboss_attackB_hitbox2","path":"sprites/skullboss_attackB_hitbox2/skullboss_attackB_hitbox2.yy",},
-    "resourceVersion": "1.4",
-    "name": "skullboss_attackB_hitbox2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"636ccf20-837e-4652-9549-60c1d2b0ebd0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"636ccf20-837e-4652-9549-60c1d2b0ebd0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "skull_boss",
     "path": "folders/스프라이트/enemy/skull_boss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "skullboss_attackB_hitbox2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

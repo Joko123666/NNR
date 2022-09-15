@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "player_attackskill_sword5_effect3",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword5_effect3","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"resourceVersion":"1.0","name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45",},
   ],
   "sequence": {
-    "spriteId": {"name":"player_attackskill_sword5_effect3","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "player_attackskill_sword5_effect3",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b79bbb1d-fc2b-4d1c-9b68-8b1f2666e017","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"b79bbb1d-fc2b-4d1c-9b68-8b1f2666e017","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21b7843e-331e-4ca1-a5a0-980b8d7fab45","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 88,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"player_attackskill_sword5_effect3","path":"sprites/player_attackskill_sword5_effect3/player_attackskill_sword5_effect3.yy",},
-    "resourceVersion": "1.4",
-    "name": "player_attackskill_sword5_effect3",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Player_sprites",
     "path": "folders/스프라이트/Player_sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "player_attackskill_sword5_effect3",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

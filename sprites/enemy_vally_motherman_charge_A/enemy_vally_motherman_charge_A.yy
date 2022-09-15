@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_motherman_charge_A",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},"LayerId":{"name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_motherman_charge_A","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_motherman_charge_A","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_motherman_charge_A",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"befea635-0f30-4bd3-909a-0aefcaf4e81f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_motherman_charge_A","path":"sprites/enemy_vally_motherman_charge_A/enemy_vally_motherman_charge_A.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_motherman_charge_A",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ebf0e28-a3cf-4270-94ec-d8b2d8d615eb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_motherman",
     "path": "folders/스프라이트/enemy/Vally/vally_motherman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_motherman_charge_A",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

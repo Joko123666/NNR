@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "NPC_gard_01_active",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f5a82d8-3f31-414c-a6de-de01b854020a","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f5a82d8-3f31-414c-a6de-de01b854020a","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"8f5a82d8-3f31-414c-a6de-de01b854020a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e06c452b-cdf6-43bc-b21a-f38c7edd7889","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e06c452b-cdf6-43bc-b21a-f38c7edd7889","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"e06c452b-cdf6-43bc-b21a-f38c7edd7889","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c517983e-9a40-40a1-9cbb-4ec6a7f14b0e","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c517983e-9a40-40a1-9cbb-4ec6a7f14b0e","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","name":"c517983e-9a40-40a1-9cbb-4ec6a7f14b0e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f5a82d8-3f31-414c-a6de-de01b854020a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e06c452b-cdf6-43bc-b21a-f38c7edd7889",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c517983e-9a40-40a1-9cbb-4ec6a7f14b0e",},
   ],
   "sequence": {
-    "spriteId": {"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "NPC_gard_01_active",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f6333b41-18bb-4868-b99c-22ef80b6abe9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e3091588-141a-4761-8760-a0b830789e6d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f5a82d8-3f31-414c-a6de-de01b854020a","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f40c3e5a-e32a-484c-b5a2-438f6133dfac","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e06c452b-cdf6-43bc-b21a-f38c7edd7889","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d32f3493-7fb4-4460-ae84-eb752b8476c9","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c517983e-9a40-40a1-9cbb-4ec6a7f14b0e","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"NPC_gard_01_active","path":"sprites/NPC_gard_01_active/NPC_gard_01_active.yy",},
-    "resourceVersion": "1.4",
-    "name": "NPC_gard_01_active",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPC_sprite",
     "path": "folders/스프라이트/NPC_sprite.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "NPC_gard_01_active",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_cavebat_deactive",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_deactive","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},"resourceVersion":"1.0","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_cavebat_deactive","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_cavebat_deactive",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"635ecf1a-291c-41ab-97f5-1322fe904e82","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_cavebat_deactive","path":"sprites/enemy_vally_cavebat_deactive/enemy_vally_cavebat_deactive.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_cavebat_deactive",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_cavebat",
     "path": "folders/스프라이트/enemy/Vally/vally_cavebat.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_cavebat_deactive",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

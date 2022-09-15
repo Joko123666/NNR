@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_skeleton_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,42 +27,22 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3da722bb-1991-4fca-a6c6-60f06281d814","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3da722bb-1991-4fca-a6c6-60f06281d814","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"3da722bb-1991-4fca-a6c6-60f06281d814","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b02d7760-23bc-449b-96c0-627fd00ebcfa","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b02d7760-23bc-449b-96c0-627fd00ebcfa","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"b02d7760-23bc-449b-96c0-627fd00ebcfa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ce4879e0-f783-433f-8f56-30b8d9f311b9","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ce4879e0-f783-433f-8f56-30b8d9f311b9","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"ce4879e0-f783-433f-8f56-30b8d9f311b9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0b841749-e8fc-4746-b42a-e05b3cd4b295","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b841749-e8fc-4746-b42a-e05b3cd4b295","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"0b841749-e8fc-4746-b42a-e05b3cd4b295","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"51b4faf4-fff4-436e-b3c6-9259de3d3f19","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"51b4faf4-fff4-436e-b3c6-9259de3d3f19","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"51b4faf4-fff4-436e-b3c6-9259de3d3f19","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2c994378-c24d-49e5-890b-1c58f7fd2051","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2c994378-c24d-49e5-890b-1c58f7fd2051","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"2c994378-c24d-49e5-890b-1c58f7fd2051","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"116ef739-787f-4b74-9b21-7897c6d1c240","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"116ef739-787f-4b74-9b21-7897c6d1c240","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"116ef739-787f-4b74-9b21-7897c6d1c240","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"490041a3-e9f0-4a14-a06b-dd78244c192f","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"490041a3-e9f0-4a14-a06b-dd78244c192f","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"490041a3-e9f0-4a14-a06b-dd78244c192f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6e5b8e43-55fb-43a9-b576-3ab072f76259","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e5b8e43-55fb-43a9-b576-3ab072f76259","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"6e5b8e43-55fb-43a9-b576-3ab072f76259","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"235f1774-f126-4d42-b5fd-b5982a5ed9dc","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"235f1774-f126-4d42-b5fd-b5982a5ed9dc","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","name":"235f1774-f126-4d42-b5fd-b5982a5ed9dc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3da722bb-1991-4fca-a6c6-60f06281d814",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b02d7760-23bc-449b-96c0-627fd00ebcfa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ce4879e0-f783-433f-8f56-30b8d9f311b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b841749-e8fc-4746-b42a-e05b3cd4b295",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51b4faf4-fff4-436e-b3c6-9259de3d3f19",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c994378-c24d-49e5-890b-1c58f7fd2051",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"116ef739-787f-4b74-9b21-7897c6d1c240",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"490041a3-e9f0-4a14-a06b-dd78244c192f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6e5b8e43-55fb-43a9-b576-3ab072f76259",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"235f1774-f126-4d42-b5fd-b5982a5ed9dc",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_skeleton_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -70,7 +53,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9fce5c33-44ab-4981-ba1f-6d272ef8f53c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7445669e-ba1d-440f-bd8e-cc04ab7bec78","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3da722bb-1991-4fca-a6c6-60f06281d814","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6e332d01-0a0d-4222-8cce-5f312240ba6b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b02d7760-23bc-449b-96c0-627fd00ebcfa","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -82,7 +65,7 @@
             {"id":"23844b29-3792-4b4a-aad9-9228559e78f8","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"490041a3-e9f0-4a14-a06b-dd78244c192f","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a36cce20-c98a-4fc5-b6f7-14f38c42f92d","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e5b8e43-55fb-43a9-b576-3ab072f76259","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"47cb9b2f-7947-4a57-b4e8-798906db9ae5","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"235f1774-f126-4d42-b5fd-b5982a5ed9dc","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -98,22 +81,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_skeleton_death","path":"sprites/enemy_hill_skeleton_death/enemy_hill_skeleton_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_skeleton_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_skeleton",
     "path": "folders/스프라이트/enemy/Hill/hill_skeleton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_skeleton_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

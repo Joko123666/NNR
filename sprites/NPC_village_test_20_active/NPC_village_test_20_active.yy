@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "NPC_village_test_20_active",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d196a55a-cfc3-42bf-9d22-2dadad5eb131","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d196a55a-cfc3-42bf-9d22-2dadad5eb131","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"d196a55a-cfc3-42bf-9d22-2dadad5eb131","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9095f755-8ddf-418f-ac68-65e7ab3c3c3e","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9095f755-8ddf-418f-ac68-65e7ab3c3c3e","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"9095f755-8ddf-418f-ac68-65e7ab3c3c3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fc2b6a47-865e-4513-940e-7427be0ea3f0","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc2b6a47-865e-4513-940e-7427be0ea3f0","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"fc2b6a47-865e-4513-940e-7427be0ea3f0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"be73e268-576a-41d9-a102-7db029c83c6b","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"be73e268-576a-41d9-a102-7db029c83c6b","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"be73e268-576a-41d9-a102-7db029c83c6b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c2265175-54a2-4238-bc1c-afe7ef3b75ac","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2265175-54a2-4238-bc1c-afe7ef3b75ac","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","name":"c2265175-54a2-4238-bc1c-afe7ef3b75ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d196a55a-cfc3-42bf-9d22-2dadad5eb131",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9095f755-8ddf-418f-ac68-65e7ab3c3c3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc2b6a47-865e-4513-940e-7427be0ea3f0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be73e268-576a-41d9-a102-7db029c83c6b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2265175-54a2-4238-bc1c-afe7ef3b75ac",},
   ],
   "sequence": {
-    "spriteId": {"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "NPC_village_test_20_active",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fd12e4c3-08a6-48b5-a2c0-612f402fc69c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1dc28e53-6426-4cd5-afbe-eca10348b1f4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d196a55a-cfc3-42bf-9d22-2dadad5eb131","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"759c67bd-504a-4969-a871-bdc714868e0f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9095f755-8ddf-418f-ac68-65e7ab3c3c3e","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cc1070cc-f3d7-4cf0-95bf-dcb3fc01e848","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc2b6a47-865e-4513-940e-7427be0ea3f0","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d9f04298-eb01-4cac-87eb-5295e5fd0989","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be73e268-576a-41d9-a102-7db029c83c6b","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ce8e1c4c-7ca8-48c5-b34b-567e167d3bdb","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2265175-54a2-4238-bc1c-afe7ef3b75ac","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"NPC_village_test_20_active","path":"sprites/NPC_village_test_20_active/NPC_village_test_20_active.yy",},
-    "resourceVersion": "1.4",
-    "name": "NPC_village_test_20_active",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPC_sprite",
     "path": "folders/스프라이트/NPC_sprite.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "NPC_village_test_20_active",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

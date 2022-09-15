@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "portalroom_furniture",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,14 +27,12 @@
   "gridX": 16,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"LayerId":{"name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"LayerId":{"name":"82327aab-7d38-491c-b2cb-ae320febe4ad","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"LayerId":{"name":"83caabd1-69e8-430e-9f70-a4f41f579d4c","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"portalroom_furniture","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a96df362-fd0f-45c8-9cb7-85a5c2691541",},
   ],
   "sequence": {
-    "spriteId": {"name":"portalroom_furniture","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "portalroom_furniture",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -39,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b7afabb8-4614-438f-924d-10af6a2994c0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"b7afabb8-4614-438f-924d-10af6a2994c0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -60,24 +61,15 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"portalroom_furniture","path":"sprites/portalroom_furniture/portalroom_furniture.yy",},
-    "resourceVersion": "1.4",
-    "name": "portalroom_furniture",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82327aab-7d38-491c-b2cb-ae320febe4ad","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"83caabd1-69e8-430e-9f70-a4f41f579d4c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"441731cd-a800-411d-ae9f-9d5c40c43a2f","visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 2",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82327aab-7d38-491c-b2cb-ae320febe4ad","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83caabd1-69e8-430e-9f70-a4f41f579d4c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "portalroom_furniture",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

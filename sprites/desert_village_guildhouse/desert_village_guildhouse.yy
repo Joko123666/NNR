@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "desert_village_guildhouse",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"78446e93-829d-48cd-bebc-c29c338dbb11","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78446e93-829d-48cd-bebc-c29c338dbb11","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},"LayerId":{"name":"cd6cdbec-117c-437a-842b-5cce5765a1d9","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"desert_village_guildhouse","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},"resourceVersion":"1.0","name":"78446e93-829d-48cd-bebc-c29c338dbb11","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"78446e93-829d-48cd-bebc-c29c338dbb11",},
   ],
   "sequence": {
-    "spriteId": {"name":"desert_village_guildhouse","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "desert_village_guildhouse",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d880c4e2-61fe-4019-a069-cd7a0391b5a6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78446e93-829d-48cd-bebc-c29c338dbb11","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 164,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"desert_village_guildhouse","path":"sprites/desert_village_guildhouse/desert_village_guildhouse.yy",},
-    "resourceVersion": "1.4",
-    "name": "desert_village_guildhouse",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cd6cdbec-117c-437a-842b-5cce5765a1d9","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd6cdbec-117c-437a-842b-5cce5765a1d9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "desert_village_guildhouse",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_goblinshaman_knockback",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c9b4af5e-5fc1-42ba-a7c0-7fb0f44d2e18","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c9b4af5e-5fc1-42ba-a7c0-7fb0f44d2e18","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"c9b4af5e-5fc1-42ba-a7c0-7fb0f44d2e18","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"221bd5b8-9833-4126-bb93-52fec076edda","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"221bd5b8-9833-4126-bb93-52fec076edda","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"221bd5b8-9833-4126-bb93-52fec076edda","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f58f8cf-7077-492b-8825-7170f2e7b6b4","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f58f8cf-7077-492b-8825-7170f2e7b6b4","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","name":"0f58f8cf-7077-492b-8825-7170f2e7b6b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9b4af5e-5fc1-42ba-a7c0-7fb0f44d2e18",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"221bd5b8-9833-4126-bb93-52fec076edda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f58f8cf-7077-492b-8825-7170f2e7b6b4",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_goblinshaman_knockback",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ec3c3e92-71b6-492c-aa84-09f2b6b94f9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"07ebc4c7-baf1-4e88-a9bf-f4e135dc0bad","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9b4af5e-5fc1-42ba-a7c0-7fb0f44d2e18","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0bffca86-bcd8-41fc-9c40-35c7aee7b27b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"221bd5b8-9833-4126-bb93-52fec076edda","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"51b49f01-9a58-4ab6-85af-75bdfaed3199","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f58f8cf-7077-492b-8825-7170f2e7b6b4","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_goblinshaman_knockback","path":"sprites/enemy_hill_goblinshaman_knockback/enemy_hill_goblinshaman_knockback.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_goblinshaman_knockback",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_goblinshaman",
     "path": "folders/스프라이트/enemy/Hill/hill_goblinshaman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_goblinshaman_knockback",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

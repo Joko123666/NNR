@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_goblin_attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,54 +27,26 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b01882d-e0d5-498e-ad45-4b9911137c80","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b01882d-e0d5-498e-ad45-4b9911137c80","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"6b01882d-e0d5-498e-ad45-4b9911137c80","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3973e81c-e166-4e15-8335-cb6338f8bfe8","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3973e81c-e166-4e15-8335-cb6338f8bfe8","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"3973e81c-e166-4e15-8335-cb6338f8bfe8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1681882-8082-4e61-96ef-4669788adbd8","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1681882-8082-4e61-96ef-4669788adbd8","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"c1681882-8082-4e61-96ef-4669788adbd8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"786fb16c-cdcd-435b-84c5-17f42bf7200f","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"786fb16c-cdcd-435b-84c5-17f42bf7200f","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"786fb16c-cdcd-435b-84c5-17f42bf7200f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bc657df3-6dc1-45d5-a1ad-2cab88fb3e77","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc657df3-6dc1-45d5-a1ad-2cab88fb3e77","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"bc657df3-6dc1-45d5-a1ad-2cab88fb3e77","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cdc94862-ce52-4173-be7e-10151aadc575","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cdc94862-ce52-4173-be7e-10151aadc575","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"cdc94862-ce52-4173-be7e-10151aadc575","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b675dfef-78d7-4694-ba2a-9c2ffe6c5f86","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b675dfef-78d7-4694-ba2a-9c2ffe6c5f86","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"b675dfef-78d7-4694-ba2a-9c2ffe6c5f86","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fcc18615-4a53-4c8e-a136-d2bbfdc76ca7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fcc18615-4a53-4c8e-a136-d2bbfdc76ca7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"fcc18615-4a53-4c8e-a136-d2bbfdc76ca7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"05ad31ab-cf5a-4a4e-87f0-a9a88c41bad9","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05ad31ab-cf5a-4a4e-87f0-a9a88c41bad9","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"05ad31ab-cf5a-4a4e-87f0-a9a88c41bad9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b74a3cd-afe2-47d4-910e-be7bf84e135a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b74a3cd-afe2-47d4-910e-be7bf84e135a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"6b74a3cd-afe2-47d4-910e-be7bf84e135a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e0d0b066-2b58-4147-8dab-6064d4163071","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e0d0b066-2b58-4147-8dab-6064d4163071","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"e0d0b066-2b58-4147-8dab-6064d4163071","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9fdf7e8-7f2c-4cf2-962b-db9bc9a32546","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9fdf7e8-7f2c-4cf2-962b-db9bc9a32546","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"f9fdf7e8-7f2c-4cf2-962b-db9bc9a32546","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"db02622f-3445-41d7-9ccb-bb10ef0043a4","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"db02622f-3445-41d7-9ccb-bb10ef0043a4","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"db02622f-3445-41d7-9ccb-bb10ef0043a4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ba4e1fe5-f29e-453f-a3fc-925297a825b7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba4e1fe5-f29e-453f-a3fc-925297a825b7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","name":"ba4e1fe5-f29e-453f-a3fc-925297a825b7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b01882d-e0d5-498e-ad45-4b9911137c80",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3973e81c-e166-4e15-8335-cb6338f8bfe8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1681882-8082-4e61-96ef-4669788adbd8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"786fb16c-cdcd-435b-84c5-17f42bf7200f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc657df3-6dc1-45d5-a1ad-2cab88fb3e77",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdc94862-ce52-4173-be7e-10151aadc575",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b675dfef-78d7-4694-ba2a-9c2ffe6c5f86",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcc18615-4a53-4c8e-a136-d2bbfdc76ca7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05ad31ab-cf5a-4a4e-87f0-a9a88c41bad9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b74a3cd-afe2-47d4-910e-be7bf84e135a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0d0b066-2b58-4147-8dab-6064d4163071",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9fdf7e8-7f2c-4cf2-962b-db9bc9a32546",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db02622f-3445-41d7-9ccb-bb10ef0043a4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba4e1fe5-f29e-453f-a3fc-925297a825b7",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_goblin_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -82,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"899a6994-0e77-4382-b9ce-effad71a3d07","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"61a7de1e-5de7-47ec-9e85-004b9929a1f1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b01882d-e0d5-498e-ad45-4b9911137c80","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a8712b9c-c33c-44a2-b768-311024796983","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3973e81c-e166-4e15-8335-cb6338f8bfe8","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -98,7 +73,7 @@
             {"id":"3b181aa7-bbf4-4d51-a50e-872a1d0f7351","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9fdf7e8-7f2c-4cf2-962b-db9bc9a32546","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"077b7517-208b-4e5e-9613-6c33abe840d9","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db02622f-3445-41d7-9ccb-bb10ef0043a4","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fbdc175b-e808-42c7-a40f-276a1c7261d6","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba4e1fe5-f29e-453f-a3fc-925297a825b7","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -114,22 +89,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_goblin_attack","path":"sprites/enemy_hill_goblin_attack/enemy_hill_goblin_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_goblin_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_goblin",
     "path": "folders/스프라이트/enemy/Hill/hill_goblin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_goblin_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

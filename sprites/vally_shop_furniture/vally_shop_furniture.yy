@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "vally_shop_furniture",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -103,13 +106,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"LayerId":{"name":"5db16246-c0a4-40e0-9911-52929446bff1","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"LayerId":{"name":"907832b6-aca5-4b44-ad72-ef4c2a3ea6bc","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vally_shop_furniture","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"resourceVersion":"1.0","name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84",},
   ],
   "sequence": {
-    "spriteId": {"name":"vally_shop_furniture","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "vally_shop_furniture",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -120,9 +122,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0b10a658-847b-4629-ae53-34f8133618b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18a7f551-9eb4-4b9f-9202-a5dd69570e84","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -138,23 +140,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"vally_shop_furniture","path":"sprites/vally_shop_furniture/vally_shop_furniture.yy",},
-    "resourceVersion": "1.4",
-    "name": "vally_shop_furniture",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"907832b6-aca5-4b44-ad72-ef4c2a3ea6bc","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5db16246-c0a4-40e0-9911-52929446bff1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"907832b6-aca5-4b44-ad72-ef4c2a3ea6bc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5db16246-c0a4-40e0-9911-52929446bff1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "vally_shop_furniture",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "NPC_vally_gard01_active",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"75427a6e-b8e2-4636-87f5-bbe5a5755820","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"75427a6e-b8e2-4636-87f5-bbe5a5755820","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"75427a6e-b8e2-4636-87f5-bbe5a5755820","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"36e780db-0f72-43ee-84b9-f24aeb264fa8","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36e780db-0f72-43ee-84b9-f24aeb264fa8","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"36e780db-0f72-43ee-84b9-f24aeb264fa8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"43a0ed5f-eefe-4067-a911-3518b0a8782d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"43a0ed5f-eefe-4067-a911-3518b0a8782d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"43a0ed5f-eefe-4067-a911-3518b0a8782d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b2b82e99-7535-48e0-9988-92c934a6b03e","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2b82e99-7535-48e0-9988-92c934a6b03e","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"b2b82e99-7535-48e0-9988-92c934a6b03e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"132bccda-0969-4ea2-a05f-391ac2c3d85d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"132bccda-0969-4ea2-a05f-391ac2c3d85d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","name":"132bccda-0969-4ea2-a05f-391ac2c3d85d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75427a6e-b8e2-4636-87f5-bbe5a5755820",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36e780db-0f72-43ee-84b9-f24aeb264fa8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43a0ed5f-eefe-4067-a911-3518b0a8782d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2b82e99-7535-48e0-9988-92c934a6b03e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"132bccda-0969-4ea2-a05f-391ac2c3d85d",},
   ],
   "sequence": {
-    "spriteId": {"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "NPC_vally_gard01_active",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"125e53d8-7391-49d4-a926-9e7acbb431e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"290cb538-4a28-40ad-b53c-0cb1c718a684","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"75427a6e-b8e2-4636-87f5-bbe5a5755820","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8be4ff99-ee02-405d-a157-74fbf64aed35","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36e780db-0f72-43ee-84b9-f24aeb264fa8","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"41ad44a4-48e9-44ae-af60-41d5aaf535bc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"43a0ed5f-eefe-4067-a911-3518b0a8782d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"152aa67e-33ba-4c3d-8c7a-3f9c7fe40aa5","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2b82e99-7535-48e0-9988-92c934a6b03e","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b1f1878a-148b-47d9-90fb-286ea75dc573","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"132bccda-0969-4ea2-a05f-391ac2c3d85d","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"NPC_vally_gard01_active","path":"sprites/NPC_vally_gard01_active/NPC_vally_gard01_active.yy",},
-    "resourceVersion": "1.4",
-    "name": "NPC_vally_gard01_active",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPC_sprite",
     "path": "folders/스프라이트/NPC_sprite.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "NPC_vally_gard01_active",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

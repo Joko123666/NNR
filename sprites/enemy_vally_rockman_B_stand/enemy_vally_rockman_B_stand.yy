@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_rockman_B_stand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8357439c-8295-4833-831c-b9171cb9197d","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8357439c-8295-4833-831c-b9171cb9197d","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"8357439c-8295-4833-831c-b9171cb9197d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2b6d16db-fa08-45cc-83a9-2a04df477cfe","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b6d16db-fa08-45cc-83a9-2a04df477cfe","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"2b6d16db-fa08-45cc-83a9-2a04df477cfe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e048a779-fcde-4521-917a-502f77c7c122","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e048a779-fcde-4521-917a-502f77c7c122","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","name":"e048a779-fcde-4521-917a-502f77c7c122","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8357439c-8295-4833-831c-b9171cb9197d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b6d16db-fa08-45cc-83a9-2a04df477cfe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e048a779-fcde-4521-917a-502f77c7c122",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_rockman_B_stand",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 4.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"22defb05-f848-4cd2-bd2b-12254d2ffcd0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f71cc370-f896-4f1d-8980-65cb82a97bec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8357439c-8295-4833-831c-b9171cb9197d","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a2ea54a-771c-4f08-89e6-452e1b5dda44","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b6d16db-fa08-45cc-83a9-2a04df477cfe","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"13b7aa6c-c9ff-43b3-add8-b94bad4ce0c7","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e048a779-fcde-4521-917a-502f77c7c122","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_rockman_B_stand","path":"sprites/enemy_vally_rockman_B_stand/enemy_vally_rockman_B_stand.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_rockman_B_stand",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_rockman_B",
     "path": "folders/스프라이트/enemy/Vally/vally_rockman_B.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_rockman_B_stand",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

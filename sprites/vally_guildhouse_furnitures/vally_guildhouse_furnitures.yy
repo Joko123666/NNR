@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "vally_guildhouse_furnitures",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,13 +27,12 @@
   "gridX": 16,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"LayerId":{"name":"9cbfab7d-43e6-40fa-a4df-29db7933bc67","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"LayerId":{"name":"82327aab-7d38-491c-b2cb-ae320febe4ad","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vally_guildhouse_furnitures","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"resourceVersion":"1.0","name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a96df362-fd0f-45c8-9cb7-85a5c2691541",},
   ],
   "sequence": {
-    "spriteId": {"name":"vally_guildhouse_furnitures","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "vally_guildhouse_furnitures",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fa934065-639a-4ef4-90f8-3451546aa27a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a96df362-fd0f-45c8-9cb7-85a5c2691541","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +61,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"vally_guildhouse_furnitures","path":"sprites/vally_guildhouse_furnitures/vally_guildhouse_furnitures.yy",},
-    "resourceVersion": "1.4",
-    "name": "vally_guildhouse_furnitures",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"9cbfab7d-43e6-40fa-a4df-29db7933bc67","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82327aab-7d38-491c-b2cb-ae320febe4ad","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9cbfab7d-43e6-40fa-a4df-29db7933bc67","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82327aab-7d38-491c-b2cb-ae320febe4ad","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Background",
     "path": "folders/스프라이트/Background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "vally_guildhouse_furnitures",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

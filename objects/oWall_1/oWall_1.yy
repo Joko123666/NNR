@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oWall_1",
   "spriteId": {
     "name": "wall1616",
     "path": "sprites/wall1616/wall1616.yy",
@@ -31,8 +34,4 @@
     "name": "Walls",
     "path": "folders/오브젝트/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oWall_1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

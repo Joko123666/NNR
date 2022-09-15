@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_thickman_stand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a6ca13fc-bb1d-42f3-ada2-9dbaacdf33f4","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a6ca13fc-bb1d-42f3-ada2-9dbaacdf33f4","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"a6ca13fc-bb1d-42f3-ada2-9dbaacdf33f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a6ca4a35-0c95-4a5f-bdc2-9bdb20a456b1","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a6ca4a35-0c95-4a5f-bdc2-9bdb20a456b1","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"a6ca4a35-0c95-4a5f-bdc2-9bdb20a456b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"29c15100-44df-4d74-8154-870514cf4f81","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29c15100-44df-4d74-8154-870514cf4f81","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"29c15100-44df-4d74-8154-870514cf4f81","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e5a9e60b-5a0c-4978-8c1c-5be16ad94819","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e5a9e60b-5a0c-4978-8c1c-5be16ad94819","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"e5a9e60b-5a0c-4978-8c1c-5be16ad94819","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"07a94878-3cc1-42d7-9462-b95f1f6d470f","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"07a94878-3cc1-42d7-9462-b95f1f6d470f","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","name":"07a94878-3cc1-42d7-9462-b95f1f6d470f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6ca13fc-bb1d-42f3-ada2-9dbaacdf33f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6ca4a35-0c95-4a5f-bdc2-9bdb20a456b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29c15100-44df-4d74-8154-870514cf4f81",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5a9e60b-5a0c-4978-8c1c-5be16ad94819",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07a94878-3cc1-42d7-9462-b95f1f6d470f",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_thickman_stand",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1db1f088-8fe7-4c0e-9248-76a80e02fa3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8d76fe98-d139-45fc-8840-75f0a86e3226","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6ca13fc-bb1d-42f3-ada2-9dbaacdf33f4","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d7499a00-1bd3-4a1e-a5eb-c1b7f7eb44e6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6ca4a35-0c95-4a5f-bdc2-9bdb20a456b1","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"37937de6-7abd-4065-8917-7c4206c32cc7","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29c15100-44df-4d74-8154-870514cf4f81","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cee37006-43cf-4226-9d0b-766aea17c34d","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5a9e60b-5a0c-4978-8c1c-5be16ad94819","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"23d10a09-3c0f-4c56-9288-bf0285475ca5","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07a94878-3cc1-42d7-9462-b95f1f6d470f","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_thickman_stand","path":"sprites/enemy_vally_thickman_stand/enemy_vally_thickman_stand.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_thickman_stand",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_thickman",
     "path": "folders/스프라이트/enemy/Vally/vally_thickman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_thickman_stand",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

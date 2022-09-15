@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_runnman_stand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fdbafd49-b983-4fb7-80ee-9b0ca54796ee","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fdbafd49-b983-4fb7-80ee-9b0ca54796ee","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"fdbafd49-b983-4fb7-80ee-9b0ca54796ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ac803f63-0d0a-48a1-bab7-fcaae6750b3e","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac803f63-0d0a-48a1-bab7-fcaae6750b3e","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"ac803f63-0d0a-48a1-bab7-fcaae6750b3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"525b2056-b3c3-45dd-ba4d-f6162b14a0fc","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"525b2056-b3c3-45dd-ba4d-f6162b14a0fc","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"525b2056-b3c3-45dd-ba4d-f6162b14a0fc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"090119dd-0d72-4617-ba2f-4cb926262410","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"090119dd-0d72-4617-ba2f-4cb926262410","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","name":"090119dd-0d72-4617-ba2f-4cb926262410","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdbafd49-b983-4fb7-80ee-9b0ca54796ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac803f63-0d0a-48a1-bab7-fcaae6750b3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"525b2056-b3c3-45dd-ba4d-f6162b14a0fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"090119dd-0d72-4617-ba2f-4cb926262410",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_runnman_stand",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ad0063e4-557a-4de6-9d8b-dda18ec0ac92","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"28e94aa8-82be-4212-972a-dc0e3d2ef5aa","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fdbafd49-b983-4fb7-80ee-9b0ca54796ee","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"aee8b5c9-6b46-4898-a518-365dbbb76ad2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac803f63-0d0a-48a1-bab7-fcaae6750b3e","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"36465c3c-a761-4a62-9fe2-6a29ae94df97","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"525b2056-b3c3-45dd-ba4d-f6162b14a0fc","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a6edf762-9899-4460-a181-34921afc3dba","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"090119dd-0d72-4617-ba2f-4cb926262410","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_runnman_stand","path":"sprites/enemy_vally_runnman_stand/enemy_vally_runnman_stand.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_runnman_stand",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_runnman",
     "path": "folders/스프라이트/enemy/Vally/vally_runnman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_runnman_stand",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

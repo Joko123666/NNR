@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_skeleton_knockback",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d4cee75-7653-4865-8946-851d18e7ae11","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d4cee75-7653-4865-8946-851d18e7ae11","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_knockback","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","name":"1d4cee75-7653-4865-8946-851d18e7ae11","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fafb8c5b-55d3-4195-80c7-6bbb7a4c46cf","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fafb8c5b-55d3-4195-80c7-6bbb7a4c46cf","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_skeleton_knockback","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","name":"fafb8c5b-55d3-4195-80c7-6bbb7a4c46cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d4cee75-7653-4865-8946-851d18e7ae11",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fafb8c5b-55d3-4195-80c7-6bbb7a4c46cf",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_skeleton_knockback","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_skeleton_knockback",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ba9c339a-5176-4832-acc9-8c33e3906a35","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d4cee75-7653-4865-8946-851d18e7ae11","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1fc8d033-d57e-4340-88ae-d2ec2072bee1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fafb8c5b-55d3-4195-80c7-6bbb7a4c46cf","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_skeleton_knockback","path":"sprites/enemy_hill_skeleton_knockback/enemy_hill_skeleton_knockback.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_skeleton_knockback",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_skeleton",
     "path": "folders/스프라이트/enemy/Hill/hill_skeleton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_skeleton_knockback",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

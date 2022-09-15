@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "player_attackskill_sword2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,66 +27,30 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"667ca3b1-f637-468c-aca0-5b90f0129e84","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"667ca3b1-f637-468c-aca0-5b90f0129e84","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"667ca3b1-f637-468c-aca0-5b90f0129e84","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0fbed2df-c20f-4130-b53a-716808184d53","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0fbed2df-c20f-4130-b53a-716808184d53","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"0fbed2df-c20f-4130-b53a-716808184d53","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34b312bb-57be-4cb0-a8d9-0456a6220001","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34b312bb-57be-4cb0-a8d9-0456a6220001","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"34b312bb-57be-4cb0-a8d9-0456a6220001","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"05af5d39-fcfe-4c95-b283-e6eed46440fb","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05af5d39-fcfe-4c95-b283-e6eed46440fb","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"05af5d39-fcfe-4c95-b283-e6eed46440fb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb7f9a71-bed1-43be-a313-4f9a16aa2ba0","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb7f9a71-bed1-43be-a313-4f9a16aa2ba0","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"cb7f9a71-bed1-43be-a313-4f9a16aa2ba0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d2246898-3224-4d41-b57f-660536fb2e8c","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2246898-3224-4d41-b57f-660536fb2e8c","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"d2246898-3224-4d41-b57f-660536fb2e8c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ff2e227d-8dbf-4510-a881-ea80d75c84bc","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff2e227d-8dbf-4510-a881-ea80d75c84bc","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"ff2e227d-8dbf-4510-a881-ea80d75c84bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7c4a7d1c-f8b8-47d0-9b00-13c21fb8cc6b","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c4a7d1c-f8b8-47d0-9b00-13c21fb8cc6b","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"7c4a7d1c-f8b8-47d0-9b00-13c21fb8cc6b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"99706bd6-0282-44e3-831c-1703aaeb61ee","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99706bd6-0282-44e3-831c-1703aaeb61ee","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"99706bd6-0282-44e3-831c-1703aaeb61ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"da3c3214-4148-42d5-a3a6-b6757f451ae5","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da3c3214-4148-42d5-a3a6-b6757f451ae5","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"da3c3214-4148-42d5-a3a6-b6757f451ae5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e18319a8-86d0-44ba-b34e-c24456e521fc","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e18319a8-86d0-44ba-b34e-c24456e521fc","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"e18319a8-86d0-44ba-b34e-c24456e521fc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"602dffc9-6d09-49ab-ac22-01b0d7e3e6ae","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"602dffc9-6d09-49ab-ac22-01b0d7e3e6ae","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"602dffc9-6d09-49ab-ac22-01b0d7e3e6ae","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4b5a93a5-85c5-41d9-a9bf-ff70295858b6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b5a93a5-85c5-41d9-a9bf-ff70295858b6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"4b5a93a5-85c5-41d9-a9bf-ff70295858b6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab8174e5-6a24-45a0-a7ed-bfce0387049a","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab8174e5-6a24-45a0-a7ed-bfce0387049a","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"ab8174e5-6a24-45a0-a7ed-bfce0387049a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eab98e85-73d5-4ccc-979f-c61bd9c4fe14","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eab98e85-73d5-4ccc-979f-c61bd9c4fe14","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"eab98e85-73d5-4ccc-979f-c61bd9c4fe14","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b3c4382d-0bce-4c16-9d72-5c284121f2af","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b3c4382d-0bce-4c16-9d72-5c284121f2af","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"b3c4382d-0bce-4c16-9d72-5c284121f2af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9c47a2cd-1508-4252-beba-391a70a8b4d7","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9c47a2cd-1508-4252-beba-391a70a8b4d7","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"9c47a2cd-1508-4252-beba-391a70a8b4d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"197aa15e-9cfa-485d-9491-b47977b1ca25","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"197aa15e-9cfa-485d-9491-b47977b1ca25","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"197aa15e-9cfa-485d-9491-b47977b1ca25","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"03f042c7-efd1-4991-af6e-1919b5d3c84a","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"03f042c7-efd1-4991-af6e-1919b5d3c84a","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","name":"03f042c7-efd1-4991-af6e-1919b5d3c84a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"667ca3b1-f637-468c-aca0-5b90f0129e84",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0fbed2df-c20f-4130-b53a-716808184d53",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34b312bb-57be-4cb0-a8d9-0456a6220001",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05af5d39-fcfe-4c95-b283-e6eed46440fb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb7f9a71-bed1-43be-a313-4f9a16aa2ba0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2246898-3224-4d41-b57f-660536fb2e8c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ff2e227d-8dbf-4510-a881-ea80d75c84bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7c4a7d1c-f8b8-47d0-9b00-13c21fb8cc6b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99706bd6-0282-44e3-831c-1703aaeb61ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da3c3214-4148-42d5-a3a6-b6757f451ae5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e18319a8-86d0-44ba-b34e-c24456e521fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"602dffc9-6d09-49ab-ac22-01b0d7e3e6ae",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b5a93a5-85c5-41d9-a9bf-ff70295858b6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab8174e5-6a24-45a0-a7ed-bfce0387049a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eab98e85-73d5-4ccc-979f-c61bd9c4fe14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3c4382d-0bce-4c16-9d72-5c284121f2af",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9c47a2cd-1508-4252-beba-391a70a8b4d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"197aa15e-9cfa-485d-9491-b47977b1ca25",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"03f042c7-efd1-4991-af6e-1919b5d3c84a",},
   ],
   "sequence": {
-    "spriteId": {"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "player_attackskill_sword2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -94,7 +61,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b40d1691-5a82-45c4-8385-73c8f3dbaadf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"667ca3b1-f637-468c-aca0-5b90f0129e84","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3e735c07-2556-4df9-aec6-c4df0dfc6592","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fbed2df-c20f-4130-b53a-716808184d53","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"45b12fa2-4049-4664-b7fc-d8fc344f4d7c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34b312bb-57be-4cb0-a8d9-0456a6220001","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -114,7 +81,7 @@
             {"id":"6b087810-3599-4032-bbd3-6d37dd565c84","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c47a2cd-1508-4252-beba-391a70a8b4d7","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c15697cb-0be6-4cf7-837f-76d523a9a924","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"197aa15e-9cfa-485d-9491-b47977b1ca25","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a615d6c-9e92-45e1-929b-c5859a740dc7","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03f042c7-efd1-4991-af6e-1919b5d3c84a","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -130,22 +97,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"player_attackskill_sword2","path":"sprites/player_attackskill_sword2/player_attackskill_sword2.yy",},
-    "resourceVersion": "1.4",
-    "name": "player_attackskill_sword2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Player_sprites",
     "path": "folders/스프라이트/Player_sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "player_attackskill_sword2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

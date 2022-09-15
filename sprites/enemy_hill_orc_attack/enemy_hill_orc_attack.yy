@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_hill_orc_attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,33 +27,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7bc7de19-8cf5-48ff-bdee-b1b5ee98f849","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7bc7de19-8cf5-48ff-bdee-b1b5ee98f849","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"7bc7de19-8cf5-48ff-bdee-b1b5ee98f849","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3774c01b-8533-4d8a-93b0-54c45f3286e4","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3774c01b-8533-4d8a-93b0-54c45f3286e4","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"3774c01b-8533-4d8a-93b0-54c45f3286e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"48d57a1b-6938-4987-9bf3-f5a91922560b","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"48d57a1b-6938-4987-9bf3-f5a91922560b","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"48d57a1b-6938-4987-9bf3-f5a91922560b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5766cc37-5fb5-4124-9445-7067f76c1a94","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5766cc37-5fb5-4124-9445-7067f76c1a94","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"5766cc37-5fb5-4124-9445-7067f76c1a94","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bfeb2156-749e-4ac1-b2ba-bdf6bb5806df","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfeb2156-749e-4ac1-b2ba-bdf6bb5806df","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"bfeb2156-749e-4ac1-b2ba-bdf6bb5806df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2ccb08fe-cb37-40ff-93f6-d956ebd5bcf6","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ccb08fe-cb37-40ff-93f6-d956ebd5bcf6","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"2ccb08fe-cb37-40ff-93f6-d956ebd5bcf6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"65877c70-d1cd-4c66-a638-bdbc79d950ae","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"65877c70-d1cd-4c66-a638-bdbc79d950ae","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"LayerId":{"name":"1f46be79-502b-4398-a496-e5f8b41ed69a","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","name":"65877c70-d1cd-4c66-a638-bdbc79d950ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bc7de19-8cf5-48ff-bdee-b1b5ee98f849",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3774c01b-8533-4d8a-93b0-54c45f3286e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48d57a1b-6938-4987-9bf3-f5a91922560b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5766cc37-5fb5-4124-9445-7067f76c1a94",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bfeb2156-749e-4ac1-b2ba-bdf6bb5806df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ccb08fe-cb37-40ff-93f6-d956ebd5bcf6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"65877c70-d1cd-4c66-a638-bdbc79d950ae",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_hill_orc_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -61,7 +50,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3cb8c3ca-5804-49af-8318-62dfc52cebb2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5da16113-8d2e-4ddb-aa57-1fb26565cef7","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"08a0ba5e-e427-49dc-b0db-002c5dda1965","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bc7de19-8cf5-48ff-bdee-b1b5ee98f849","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"916dec3a-87d8-45b2-8398-cc4a50129eff","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3774c01b-8533-4d8a-93b0-54c45f3286e4","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +59,7 @@
             {"id":"49e5a4bf-5920-4f8b-9d45-d3c089e1e69e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfeb2156-749e-4ac1-b2ba-bdf6bb5806df","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1bc00632-7d6d-4164-b59f-b1d434f59776","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ccb08fe-cb37-40ff-93f6-d956ebd5bcf6","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4c8cb1a3-efaf-4a3e-8bd5-d3cdd1cfe133","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65877c70-d1cd-4c66-a638-bdbc79d950ae","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +75,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_hill_orc_attack","path":"sprites/enemy_hill_orc_attack/enemy_hill_orc_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_hill_orc_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f46be79-502b-4398-a496-e5f8b41ed69a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hill_orc",
     "path": "folders/스프라이트/enemy/Hill/hill_orc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hill_orc_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

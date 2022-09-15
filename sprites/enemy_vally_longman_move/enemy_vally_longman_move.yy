@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_longman_move",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,36 +27,20 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f03fcc9e-5c3a-4b4e-b5d3-5553b0c6d125","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f03fcc9e-5c3a-4b4e-b5d3-5553b0c6d125","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"f03fcc9e-5c3a-4b4e-b5d3-5553b0c6d125","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16c7dc80-877a-45d6-903d-daf27916035a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16c7dc80-877a-45d6-903d-daf27916035a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"16c7dc80-877a-45d6-903d-daf27916035a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"718a618d-1274-4a29-8f68-0a938cb1e9fd","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"718a618d-1274-4a29-8f68-0a938cb1e9fd","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"718a618d-1274-4a29-8f68-0a938cb1e9fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5cb252d6-0496-494f-ab89-f0972653a5b4","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cb252d6-0496-494f-ab89-f0972653a5b4","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"5cb252d6-0496-494f-ab89-f0972653a5b4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9414bc89-6e8d-4f42-b760-9c3b08b2c467","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9414bc89-6e8d-4f42-b760-9c3b08b2c467","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"9414bc89-6e8d-4f42-b760-9c3b08b2c467","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ffa57c72-41ea-4a5b-8fa8-c86b59fe3e7a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ffa57c72-41ea-4a5b-8fa8-c86b59fe3e7a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"ffa57c72-41ea-4a5b-8fa8-c86b59fe3e7a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab321421-fcbe-4a26-aa8f-8ee726f332b9","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab321421-fcbe-4a26-aa8f-8ee726f332b9","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"ab321421-fcbe-4a26-aa8f-8ee726f332b9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c41c802a-7c0b-4edd-bb7e-bf9098a0b561","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c41c802a-7c0b-4edd-bb7e-bf9098a0b561","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","name":"c41c802a-7c0b-4edd-bb7e-bf9098a0b561","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f03fcc9e-5c3a-4b4e-b5d3-5553b0c6d125",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16c7dc80-877a-45d6-903d-daf27916035a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"718a618d-1274-4a29-8f68-0a938cb1e9fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5cb252d6-0496-494f-ab89-f0972653a5b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9414bc89-6e8d-4f42-b760-9c3b08b2c467",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ffa57c72-41ea-4a5b-8fa8-c86b59fe3e7a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab321421-fcbe-4a26-aa8f-8ee726f332b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c41c802a-7c0b-4edd-bb7e-bf9098a0b561",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_longman_move",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -64,7 +51,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8bd991fc-7ada-4a7f-8e72-5f1f821ebe53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"414a114e-9105-49ea-87f6-439d49f56324","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f03fcc9e-5c3a-4b4e-b5d3-5553b0c6d125","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c74d0bb1-c015-4a44-944b-033d0d2fcb99","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16c7dc80-877a-45d6-903d-daf27916035a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -74,7 +61,7 @@
             {"id":"32794710-bddb-4ae4-9f68-a35870e2cb12","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ffa57c72-41ea-4a5b-8fa8-c86b59fe3e7a","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a7716ea-5617-40c6-8462-1bf9490804f2","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab321421-fcbe-4a26-aa8f-8ee726f332b9","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"97f1d2c3-7dd5-48a0-a7ad-ad9ea16102be","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c41c802a-7c0b-4edd-bb7e-bf9098a0b561","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -90,22 +77,13 @@
     "yorigin": 68,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_longman_move","path":"sprites/enemy_vally_longman_move/enemy_vally_longman_move.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_longman_move",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_longman",
     "path": "folders/스프라이트/enemy/Vally/vally_longman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_longman_move",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

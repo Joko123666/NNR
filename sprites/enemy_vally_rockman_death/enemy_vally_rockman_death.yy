@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_rockman_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,51 +27,25 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"da3a999b-aa35-49ba-8db8-24ea064590fb","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da3a999b-aa35-49ba-8db8-24ea064590fb","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"da3a999b-aa35-49ba-8db8-24ea064590fb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"695266b1-37b7-4a40-a311-c44b9f5654a1","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"695266b1-37b7-4a40-a311-c44b9f5654a1","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"695266b1-37b7-4a40-a311-c44b9f5654a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"abd42867-a68b-422a-b7a5-855069780be4","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"abd42867-a68b-422a-b7a5-855069780be4","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"abd42867-a68b-422a-b7a5-855069780be4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"26bc87a8-9f1f-4622-a8ba-9dcf1fb735fe","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26bc87a8-9f1f-4622-a8ba-9dcf1fb735fe","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"26bc87a8-9f1f-4622-a8ba-9dcf1fb735fe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1d98814a-fce1-4862-a904-de4e4cb186ec","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d98814a-fce1-4862-a904-de4e4cb186ec","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"1d98814a-fce1-4862-a904-de4e4cb186ec","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b98d0d6-1e45-4ee9-85f0-3556c41cae03","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b98d0d6-1e45-4ee9-85f0-3556c41cae03","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"1b98d0d6-1e45-4ee9-85f0-3556c41cae03","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"abfb3744-ad23-442b-aa9f-57594f7f3d15","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"abfb3744-ad23-442b-aa9f-57594f7f3d15","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"abfb3744-ad23-442b-aa9f-57594f7f3d15","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c389f920-40c5-4620-807c-b14d6af0d91f","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c389f920-40c5-4620-807c-b14d6af0d91f","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"c389f920-40c5-4620-807c-b14d6af0d91f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b36dc79-49a0-42ad-8fe7-46b9457112df","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b36dc79-49a0-42ad-8fe7-46b9457112df","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"6b36dc79-49a0-42ad-8fe7-46b9457112df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3df64469-a2c1-4597-8f11-ca4143387e1c","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3df64469-a2c1-4597-8f11-ca4143387e1c","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"3df64469-a2c1-4597-8f11-ca4143387e1c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"985d2e51-9a8b-4b5a-b519-92fe6885408a","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"985d2e51-9a8b-4b5a-b519-92fe6885408a","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"985d2e51-9a8b-4b5a-b519-92fe6885408a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"926f6ba3-634a-4ea4-be85-bd132cb3192e","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"926f6ba3-634a-4ea4-be85-bd132cb3192e","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"926f6ba3-634a-4ea4-be85-bd132cb3192e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34d3a0f9-9704-4879-9894-2e40bc9aaee2","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34d3a0f9-9704-4879-9894-2e40bc9aaee2","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"LayerId":{"name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","name":"34d3a0f9-9704-4879-9894-2e40bc9aaee2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da3a999b-aa35-49ba-8db8-24ea064590fb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"695266b1-37b7-4a40-a311-c44b9f5654a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"abd42867-a68b-422a-b7a5-855069780be4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26bc87a8-9f1f-4622-a8ba-9dcf1fb735fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d98814a-fce1-4862-a904-de4e4cb186ec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b98d0d6-1e45-4ee9-85f0-3556c41cae03",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"abfb3744-ad23-442b-aa9f-57594f7f3d15",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c389f920-40c5-4620-807c-b14d6af0d91f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b36dc79-49a0-42ad-8fe7-46b9457112df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3df64469-a2c1-4597-8f11-ca4143387e1c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"985d2e51-9a8b-4b5a-b519-92fe6885408a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"926f6ba3-634a-4ea4-be85-bd132cb3192e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34d3a0f9-9704-4879-9894-2e40bc9aaee2",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_rockman_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -79,7 +56,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1bfd561a-8af2-4d84-9bfa-a4729087b9de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da3a999b-aa35-49ba-8db8-24ea064590fb","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d2060f84-081d-48cb-b45a-f967c5c74f68","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749baa09-dc64-4124-9f7c-f28cdd46f0b5","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ce502c30-31f4-4199-a80a-5298ade3e272","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"695266b1-37b7-4a40-a311-c44b9f5654a1","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -94,7 +71,7 @@
             {"id":"6961a9dd-e1bc-4bd1-92a4-1e2467d54e91","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"985d2e51-9a8b-4b5a-b519-92fe6885408a","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ee597647-d6ab-4e36-aea2-32bf3178ae9e","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"926f6ba3-634a-4ea4-be85-bd132cb3192e","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c098bb64-c69b-4c9b-8f50-8b8e59ccdc96","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34d3a0f9-9704-4879-9894-2e40bc9aaee2","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -110,22 +87,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_rockman_death","path":"sprites/enemy_vally_rockman_death/enemy_vally_rockman_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_rockman_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d0ee11c-9b08-4777-803e-f73c5ef3a557","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_rockman",
     "path": "folders/스프라이트/enemy/Vally/vally_rockman.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_rockman_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

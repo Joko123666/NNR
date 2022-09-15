@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "enemy_vally_cavebat_death",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"640a6905-70fa-45fc-8d4d-38893b5e973e","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"640a6905-70fa-45fc-8d4d-38893b5e973e","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"640a6905-70fa-45fc-8d4d-38893b5e973e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"197e97b1-fb85-4e05-a805-d277b8f41d53","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"197e97b1-fb85-4e05-a805-d277b8f41d53","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"197e97b1-fb85-4e05-a805-d277b8f41d53","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"684d809b-6fed-4a20-b406-95461336715b","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"684d809b-6fed-4a20-b406-95461336715b","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"684d809b-6fed-4a20-b406-95461336715b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dda6aeb0-3ab9-41e6-a2a6-bd6d258adc35","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dda6aeb0-3ab9-41e6-a2a6-bd6d258adc35","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"LayerId":{"name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","name":"dda6aeb0-3ab9-41e6-a2a6-bd6d258adc35","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a07994f8-7397-4701-ba59-2a768ffd5aaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"640a6905-70fa-45fc-8d4d-38893b5e973e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"197e97b1-fb85-4e05-a805-d277b8f41d53",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"684d809b-6fed-4a20-b406-95461336715b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dda6aeb0-3ab9-41e6-a2a6-bd6d258adc35",},
   ],
   "sequence": {
-    "spriteId": {"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "enemy_vally_cavebat_death",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"95c11e8b-4a8f-4c65-b4b9-066fc1e9e9ec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a07994f8-7397-4701-ba59-2a768ffd5aaf","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a977279a-3e1e-44b9-aa28-31fe783052b3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"640a6905-70fa-45fc-8d4d-38893b5e973e","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"64f1b251-f3d2-442c-b2ac-9cfa030ba3d6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"197e97b1-fb85-4e05-a805-d277b8f41d53","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"772cbe50-324c-4d92-84bf-46b71d36a0a6","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"684d809b-6fed-4a20-b406-95461336715b","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4afee253-3f05-4aa8-8f95-76a0d9fed09c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dda6aeb0-3ab9-41e6-a2a6-bd6d258adc35","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"enemy_vally_cavebat_death","path":"sprites/enemy_vally_cavebat_death/enemy_vally_cavebat_death.yy",},
-    "resourceVersion": "1.4",
-    "name": "enemy_vally_cavebat_death",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a3add57-43ce-4dcd-8b74-cd556af4adf6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "vally_cavebat",
     "path": "folders/스프라이트/enemy/Vally/vally_cavebat.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_vally_cavebat_death",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

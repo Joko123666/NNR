@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "player_jumpattack_sword",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9cf40c97-adc7-42cf-ba6f-767d5bdf5428","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cf40c97-adc7-42cf-ba6f-767d5bdf5428","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"9cf40c97-adc7-42cf-ba6f-767d5bdf5428","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9ad4839-3b9f-4196-b190-b79b02518a37","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9ad4839-3b9f-4196-b190-b79b02518a37","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"f9ad4839-3b9f-4196-b190-b79b02518a37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8222e993-ed61-4b7b-86e1-6883e6d7fcf5","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8222e993-ed61-4b7b-86e1-6883e6d7fcf5","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"8222e993-ed61-4b7b-86e1-6883e6d7fcf5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"411ac17a-51d0-4cb2-b027-17bf0b18826c","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"411ac17a-51d0-4cb2-b027-17bf0b18826c","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"411ac17a-51d0-4cb2-b027-17bf0b18826c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"11540aff-2c40-488c-be8d-ecd170b29407","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11540aff-2c40-488c-be8d-ecd170b29407","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"11540aff-2c40-488c-be8d-ecd170b29407","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"721c48f6-9d2d-4bcf-a114-d98840a1b608","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"721c48f6-9d2d-4bcf-a114-d98840a1b608","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"LayerId":{"name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","name":"721c48f6-9d2d-4bcf-a114-d98840a1b608","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cf40c97-adc7-42cf-ba6f-767d5bdf5428",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9ad4839-3b9f-4196-b190-b79b02518a37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8222e993-ed61-4b7b-86e1-6883e6d7fcf5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"411ac17a-51d0-4cb2-b027-17bf0b18826c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11540aff-2c40-488c-be8d-ecd170b29407",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"721c48f6-9d2d-4bcf-a114-d98840a1b608",},
   ],
   "sequence": {
-    "spriteId": {"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "player_jumpattack_sword",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 11.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9edc9386-e78f-4ef6-b766-a17dd7cde70d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cf40c97-adc7-42cf-ba6f-767d5bdf5428","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"adfc463d-ae60-41f8-b74f-7cac1e96e24e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9ad4839-3b9f-4196-b190-b79b02518a37","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b7c56894-c942-437d-9a31-cc9d3b56f743","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8222e993-ed61-4b7b-86e1-6883e6d7fcf5","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"42eecda8-97ff-4eb6-991f-127640f6cfde","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"411ac17a-51d0-4cb2-b027-17bf0b18826c","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1120abae-8abd-4821-9966-88092b07a605","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11540aff-2c40-488c-be8d-ecd170b29407","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a519a951-5824-407b-adc1-1c1c5ab848d8","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"721c48f6-9d2d-4bcf-a114-d98840a1b608","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"player_jumpattack_sword","path":"sprites/player_jumpattack_sword/player_jumpattack_sword.yy",},
-    "resourceVersion": "1.4",
-    "name": "player_jumpattack_sword",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"da3b4b07-f9c9-48ab-8d23-159b91ce36f6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Player_sprites",
     "path": "folders/스프라이트/Player_sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "player_jumpattack_sword",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_outdoor",
   "spriteId": {
     "name": "outdoor_op20",
     "path": "sprites/outdoor_op20/outdoor_op20.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "room_move",
     "path": "folders/오브젝트/room_move.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_outdoor",
-  "tags": [],
-  "resourceType": "GMObject",
 }

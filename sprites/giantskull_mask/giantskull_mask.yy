@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "giantskull_mask",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 32,
   "gridY": 32,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c9e5c5e5-b86e-4aff-83fb-af78d3e957d0","path":"sprites/giantskull_mask/giantskull_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c9e5c5e5-b86e-4aff-83fb-af78d3e957d0","path":"sprites/giantskull_mask/giantskull_mask.yy",},"LayerId":{"name":"36789e8f-08aa-4ecd-ac64-a49ae6c23c62","path":"sprites/giantskull_mask/giantskull_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"giantskull_mask","path":"sprites/giantskull_mask/giantskull_mask.yy",},"resourceVersion":"1.0","name":"c9e5c5e5-b86e-4aff-83fb-af78d3e957d0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9e5c5e5-b86e-4aff-83fb-af78d3e957d0",},
   ],
   "sequence": {
-    "spriteId": {"name":"giantskull_mask","path":"sprites/giantskull_mask/giantskull_mask.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "giantskull_mask",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6fd7f16b-f864-47aa-bdca-a90afce64261","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9e5c5e5-b86e-4aff-83fb-af78d3e957d0","path":"sprites/giantskull_mask/giantskull_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"giantskull_mask","path":"sprites/giantskull_mask/giantskull_mask.yy",},
-    "resourceVersion": "1.4",
-    "name": "giantskull_mask",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36789e8f-08aa-4ecd-ac64-a49ae6c23c62","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36789e8f-08aa-4ecd-ac64-a49ae6c23c62","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "skull_giant",
     "path": "folders/스프라이트/enemy/skull_giant.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "giantskull_mask",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
