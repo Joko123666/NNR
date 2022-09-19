@@ -15,3 +15,5 @@ vsp = 0;
 hit_particle = oparticle_26;
 
 image_speed = 0.3;
+
+alarm[2] = 600;

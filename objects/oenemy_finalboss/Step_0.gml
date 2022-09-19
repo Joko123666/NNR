@@ -113,12 +113,31 @@ switch (state)
 			if instance_exists(finalboss_Wall5)
 			{instance_destroy(finalboss_Wall5);}
 			
+			//새로운 블럭 설치
+			var x_distance = 96;
+			var y_distance = 48;
+			instance_create_layer(816, 1120, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance, 1120 - y_distance, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance*2, 1120 - y_distance*2, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance, 1120 - y_distance*3, "walls", finalboss_halfwayWall);
+			instance_create_layer(816, 1120 - y_distance*4, "walls", finalboss_halfwayWall);
+			
+			instance_create_layer(904, 884, "walls", finalboss_Wall);
+			instance_create_layer(816, 832, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance, 832 - y_distance, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall);
+			instance_create_layer(816 - x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall);
+			instance_create_layer(816, 832 - y_distance*4, "walls", finalboss_halfwayWall);
+			
+			
 			//페이즈2로 이행
 			phase_state = "Phase_2"
 			maxHP = 3000;
 			HP = maxHP;
 			if instance_exists(ofinalboss_wall)
 			{instance_destroy(ofinalboss_wall);}
+			x = 904;
+			y = 422;
 		}
 	
 		#endregion
@@ -171,25 +190,25 @@ switch (state)
 
 			act_num = random(100);
 			show_debug_message(act_num);
-			if act_num <= 20			//A 돌 상단 
+			if act_num <= 20			//A 세로레이저
 			{
 				state = "Phase2_AttackA";	
 			}
-			else if act_num < 40		//B 돌 하단
+			else if act_num < 40		//B 가로레이저
 			{
 				state = "Phase2_AttackB";	
 			}
-			else if act_num < 60			//공격 C 불 상단
+			else if act_num < 60			//십자스톤
 			{	
 				state = "Phase2_AttackC";	
 			}
 		
-			else if act_num < 80			//공격 D 불 하단
+			else if act_num < 80			//미정
 			{	
 				state = "Phase2_AttackD";	
 			}
 		
-			else if act_num <= 100		//공격 F 방해블럭 생성
+			else if act_num <= 100		//회전 불공
 			{	
 				state = "Phase2_AttackE";
 			}
@@ -204,7 +223,7 @@ switch (state)
 	
 	#endregion
 	break;
-	
+	#region Phase1 attack
 	case "Phase1_AttackA" :
 	#region 돌 상단 캐스팅
 		if !instance_exists(oPlayer) break;
@@ -407,6 +426,115 @@ switch (state)
 	
 	#endregion
 		break;
+	
+	#endregion
+	
+	case "Phase2_AttackA" :
+	#region 회전 레이저 -세로
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
+		if animation_hit_frame(6)
+		{
+			instance_create_layer(oPlayer.x, oPlayer.y - 200, "Instances", ofilnalboss_casting_6);
+		}
+
+		if animation_end()
+		{
+			image_speed = 0;
+			state = "Neutral";
+			act_count = 70;
+			last_act = "attackA";
+		}
+		
+	#endregion
+	break;
+	
+	case "Phase2_AttackB" :
+	#region 회전 레이저 -가로
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
+		if animation_hit_frame(6)
+		{
+			var dir = irandom(1)
+			if dir == 0 {dir = -1;}
+			instance_create_layer(oPlayer.x + 200*dir, oPlayer.y, "Instances", ofilnalboss_casting_8);
+		}
+
+		if animation_end()
+		{
+			image_speed = 0;
+			state = "Neutral";
+			act_count = 70;
+			last_act = "attackB";
+		}
+		
+	#endregion
+	break;
+		
+	case "Phase2_AttackC" :
+	#region 십자 스톤
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
+		if animation_hit_frame(6)
+		{
+			instance_create_layer(oPlayer.x + random_range(-200, 200), + random_range(-200, 200), "Instances", ofilnalboss_casting_7);
+		}
+
+		if animation_end()
+		{
+			image_speed = 0;
+			state = "Neutral";
+			act_count = 30;
+			last_act = "attackA";
+		}
+		
+	#endregion
+	break;
+	
+	case "Phase2_AttackD" :
+	#region X자 스톤			수정중
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
+		if animation_hit_frame(6)
+		{
+			instance_create_layer(oPlayer.x + random_range(-200, 200), + random_range(-200, 200), "Instances", ofilnalboss_casting_7);
+		}
+
+		if animation_end()
+		{
+			image_speed = 0;
+			state = "Neutral";
+			act_count = 30;
+			last_act = "attackA";
+		}
+		
+	#endregion
+	break;
+	
+	case "Phase2_AttackE" :
+	#region 십자 스톤
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss_attack_cast, 1, 0);
+		
+		if animation_hit_frame(6)
+		{
+			instance_create_layer(oPlayer.x + random_range(-300, 300), + random_range(-300, 300), "Instances", ofilnalboss_casting_9);
+		}
+
+		if animation_end()
+		{
+			image_speed = 0;
+			state = "Neutral";
+			act_count = 30;
+			last_act = "attackE";
+		}
+		
+	#endregion
+	break;
 		
 	case "Knockback" :
 		#region Knockback_state

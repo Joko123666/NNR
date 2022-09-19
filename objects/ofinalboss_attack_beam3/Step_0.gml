@@ -16,7 +16,7 @@ if animation_hit_frame(7)
 }
 
 if act_switch == true
-{image_angle += side*2;}
+{image_angle += side*0.5;}
 
 		
 if animation_end()

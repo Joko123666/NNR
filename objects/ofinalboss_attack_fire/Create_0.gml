@@ -14,3 +14,4 @@ vsp = 0;
 
 hit_particle = oparticle_26;
 
+alarm[2] = 600;
