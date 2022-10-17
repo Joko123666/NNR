@@ -1,6 +1,6 @@
 
 act_count++;
-image_angle += 2;
+image_angle += 1;
 
 if act_count == 30 or act_count == 60 or act_count == 90 or act_count == 120 or act_count == 150 
 {

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ofilnalboss_casting_1",
   "spriteId": {
     "name": "particle_27",
     "path": "sprites/particle_27/particle_27.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "finalboss",
     "path": "folders/오브젝트/Enemys/finalboss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ofilnalboss_casting_1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

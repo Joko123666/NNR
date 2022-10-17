@@ -123,11 +123,16 @@ switch (state)
 			instance_create_layer(816, 1120 - y_distance*4, "walls", finalboss_halfwayWall);
 			
 			instance_create_layer(904, 884, "walls", finalboss_Wall);
+			instance_create_layer(816, 447, "walls", finalboss_Wall);
+			instance_create_layer(904, 447, "walls", finalboss_Wall);
+			instance_create_layer(992, 447, "walls", finalboss_Wall);
+			
 			instance_create_layer(816, 832, "walls", finalboss_halfwayWall);
 			instance_create_layer(816 - x_distance, 832 - y_distance, "walls", finalboss_halfwayWall);
 			instance_create_layer(816 - x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall);
 			instance_create_layer(816 - x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall);
 			instance_create_layer(816, 832 - y_distance*4, "walls", finalboss_halfwayWall);
+			instance_create_layer(720, 496, "walls", finalboss_halfwayWall);
 			
 			
 			//페이즈2로 이행
@@ -436,7 +441,7 @@ switch (state)
 		
 		if animation_hit_frame(6)
 		{
-			instance_create_layer(oPlayer.x, oPlayer.y - 200, "Instances", ofilnalboss_casting_6);
+			instance_create_layer(oPlayer.x + random_range(-50, 50), oPlayer.y - 200, "Instances", ofilnalboss_casting_6);
 		}
 
 		if animation_end()
@@ -459,7 +464,11 @@ switch (state)
 		{
 			var dir = irandom(1)
 			if dir == 0 {dir = -1;}
-			instance_create_layer(oPlayer.x + 200*dir, oPlayer.y, "Instances", ofilnalboss_casting_8);
+			var lasercast = instance_create_layer(oPlayer.x + 200*dir, oPlayer.y, "Instances", ofilnalboss_casting_8);
+			if dir == 1
+			{lasercast.image_angle = 180;}
+			if dir == -1
+			{lasercast.image_angle = 0;}
 		}
 
 		if animation_end()
@@ -480,7 +489,7 @@ switch (state)
 		
 		if animation_hit_frame(6)
 		{
-			instance_create_layer(oPlayer.x + random_range(-200, 200), + random_range(-200, 200), "Instances", ofilnalboss_casting_7);
+			instance_create_layer(oPlayer.x + random_range(-100, 100), oPlayer.y + random_range(-100, 100), "Instances", ofilnalboss_casting_7);
 		}
 
 		if animation_end()
@@ -501,7 +510,7 @@ switch (state)
 		
 		if animation_hit_frame(6)
 		{
-			instance_create_layer(oPlayer.x + random_range(-200, 200), + random_range(-200, 200), "Instances", ofilnalboss_casting_7);
+			instance_create_layer(oPlayer.x + random_range(-100, 100),oPlayer.y + random_range(-100, 100), "Instances", ofilnalboss_casting_7);
 		}
 
 		if animation_end()
@@ -522,7 +531,7 @@ switch (state)
 		
 		if animation_hit_frame(6)
 		{
-			instance_create_layer(oPlayer.x + random_range(-300, 300), + random_range(-300, 300), "Instances", ofilnalboss_casting_9);
+			instance_create_layer(oPlayer.x + random_range(-150, 150), oPlayer.y + random_range(-150, 150), "Instances", ofilnalboss_casting_9);
 		}
 
 		if animation_end()

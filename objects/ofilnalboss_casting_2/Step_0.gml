@@ -1,7 +1,7 @@
 
 if animation_hit_frame(20)
 {
-	var cast = instance_create_layer(x, y, "Instances", ofinalboss_attack_fire);
+	var cast = instance_create_layer(x, y, "Instances", ofinalboss_attack_fire3);
 	cast.image_xscale = image_xscale;
 }
 

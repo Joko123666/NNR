@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ofinalboss_wall",
   "spriteId": {
     "name": "wall",
     "path": "sprites/wall/wall.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Walls",
     "path": "folders/오브젝트/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ofinalboss_wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }
