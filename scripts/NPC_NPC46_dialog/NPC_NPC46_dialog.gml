@@ -78,7 +78,7 @@ function NPC_NPC46_dialog(argument0)
 	
 	
 
-	if diacount == 11 && global.mainstream < 50
+	if diacount == 11 && global.mainstream < 60
 	{
 		if randia == 0
 		{text = "잘부탁드립니다 이드님";}
@@ -87,7 +87,7 @@ function NPC_NPC46_dialog(argument0)
 		dialog_endswitch = true;
 	}
 	
-	if diacount == 11 && global.mainstream >= 50
+	if diacount == 11 && global.mainstream >= 60
 	{
 		text = "어서오십시오 이드씨";
 		global.NPC46_dialog += 1;

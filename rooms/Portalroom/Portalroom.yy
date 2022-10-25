@@ -49,6 +49,17 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"teleportto","path":"objects/oteleporter/oteleporter.yy",},"objectId":{"name":"oteleporter","path":"objects/oteleporter/oteleporter.yy",},"value":"\"Graveyard_village\"",},
           ],"isDnd":false,"objectId":{"name":"oteleporter","path":"objects/oteleporter/oteleporter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":349.0,"y":424.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_121EC872","properties":[],"isDnd":false,"objectId":{"name":"oNPC_43","path":"objects/oNPC_43/oNPC_43.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":410.0,"y":641.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_134B63BE","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"message_text","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"value":"\"유적지\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destroy_at","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"value":"99",},
+          ],"isDnd":false,"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":394.0,"y":424.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2366F015","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"teleportto","path":"objects/oteleporter/oteleporter.yy",},"objectId":{"name":"oteleporter","path":"objects/oteleporter/oteleporter.yy",},"value":"\"Vally_village\"",},
+          ],"isDnd":false,"objectId":{"name":"oteleporter","path":"objects/oteleporter/oteleporter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":756.0,"y":424.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33510ED6","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"message_text","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"value":"\"직원 휴식실\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destroy_at","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"value":"99",},
+          ],"isDnd":false,"objectId":{"name":"ofurniture_sign_temporary","path":"objects/ofurniture_sign_temporary/ofurniture_sign_temporary.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":710.0,"y":424.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_2","spriteId":{"name":"portalroom_furniture_front","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"colour":4294967295,"x":120,"y":120,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
@@ -107,6 +118,9 @@
     {"name":"inst_10C825AB","path":"rooms/Portalroom/Portalroom.yy",},
     {"name":"inst_291E2F3A","path":"rooms/Portalroom/Portalroom.yy",},
     {"name":"inst_4CE38903","path":"rooms/Portalroom/Portalroom.yy",},
+    {"name":"inst_134B63BE","path":"rooms/Portalroom/Portalroom.yy",},
+    {"name":"inst_2366F015","path":"rooms/Portalroom/Portalroom.yy",},
+    {"name":"inst_33510ED6","path":"rooms/Portalroom/Portalroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

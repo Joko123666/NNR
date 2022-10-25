@@ -297,6 +297,7 @@ switch (state)
 		{
 			repeat(8)
 			{instance_create_depth(x, y - 8, 0, oparticle_14);}
+			instance_create_depth(x, y-64, 1, Item_orb_blue);
 			instance_destroy();
 		}
 		

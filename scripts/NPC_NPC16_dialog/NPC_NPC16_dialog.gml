@@ -118,7 +118,7 @@ function NPC_NPC16_dialog(argument0)
 		text = "이걸 써서 먼저 돌아가주시기 바랍니다";
 		global.NPC16_dialog += 1;
 	}
-	if diacount == 14
+	if diacount == 15
 	{
 		text = "조사협력 감사드립니다!";
 		dialog_endswitch = true;

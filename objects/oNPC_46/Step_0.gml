@@ -1,5 +1,5 @@
 
-dialog_count = global.NPC23_dialog;
+dialog_count = global.NPC46_dialog;
 
 
 
@@ -21,7 +21,7 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0	&& d
 	act_count = 5;
 	deactivate_count = 75;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob);
-	text.text = NPC_NPC23_dialog(dialog_count);
+	text.text = NPC_NPC46_dialog(dialog_count);
 	text.dianame = name_text;
 	text.name_color = npc_namecol;
 	var text_width = string_width(text.text);

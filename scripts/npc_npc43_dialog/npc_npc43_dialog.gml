@@ -120,7 +120,7 @@ function NPC_NPC43_dialog(argument0)
 		global.mainstream = 51;
 	}
 	
-	if diacount == 17 && global.mainstream < 50
+	if diacount == 17 && global.mainstream < 60
 	{
 		if randia == 0
 		{text = "그곳으로 가는 전송장치는 이쪽 맨위에 설치했다";}
@@ -130,12 +130,15 @@ function NPC_NPC43_dialog(argument0)
 		diafalse_count = 40;
 	}
 	
-	if diacount == 17 && global.mainstream >= 50
+	if diacount == 17 && global.mainstream >= 60
 	{
 		text = "어서오게 이드";
 		global.NPC43_dialog += 1;
 		global.UItext_show = true;
 		dialog_endswitch = false;
+		
+		global.mainquest[17] = 3;
+		quest_clearboard("main017");
 	}
 	
 	if diacount == 18
@@ -184,8 +187,13 @@ function NPC_NPC43_dialog(argument0)
 	{
 		text = "바로 넣어보겠나?";
 		global.NPC43_dialog += 1;
+		global.UItext_show = false;
 		dialog_endswitch = true;
 		diafalse_count = 40;
+		global.mainstream = 61;
+		
+		global.mainquest[20] = 1;		//퀘스트 진행도 갱신
+		quest_board("main020");			//퀘스트 보드에 퀘스트 갱신
 	}
 	
 	if diacount == 26

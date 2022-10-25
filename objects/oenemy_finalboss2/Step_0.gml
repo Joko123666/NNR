@@ -119,10 +119,22 @@ switch (state)
 			instance_create_layer(816, 1120, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance, 1120 - y_distance, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance*2, 1120 - y_distance*2, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance*3, 1120 - y_distance*3, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance*4, 1120 - y_distance*4, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance, 1120 - y_distance*3, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816, 1120 - y_distance*4, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992, 1120, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 1120 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*2, 1120 - y_distance*2, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*3, 1120 - y_distance*3, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*4, 1120 - y_distance*4, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992, 1120 - y_distance*4, "walls", finalboss_halfwayWall11);
 			
 			instance_create_layer(904, 884, "walls", finalboss_Wall11);
+			instance_create_layer(1472, 884, "walls", finalboss_Wall11);
+			instance_create_layer(339, 884, "walls", finalboss_Wall11);
+			instance_create_layer(904, 600, "walls", finalboss_Wall11);
+			
 			instance_create_layer(816, 447, "walls", finalboss_Wall11);
 			instance_create_layer(904, 447, "walls", finalboss_Wall11);
 			instance_create_layer(992, 447, "walls", finalboss_Wall11);
@@ -130,19 +142,49 @@ switch (state)
 			instance_create_layer(816, 832, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance, 832 - y_distance, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance*3, 832 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance*4, 832, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816, 832 - y_distance*4, "walls", finalboss_halfwayWall11);
-			instance_create_layer(720, 496, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance, 832 - y_distance*5, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816, 832 - y_distance*6, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance, 832 - y_distance*7, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance*2, 832 - y_distance*8, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 - x_distance, 832 - y_distance*9, "walls", finalboss_halfwayWall11);
+			
+			
+			instance_create_layer(816, 832, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance, 832 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance*3, 832 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance*4, 832, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816, 832 - y_distance*4, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance, 832 - y_distance*5, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816, 832 - y_distance*6, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance, 832 - y_distance*7, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance*2, 832 - y_distance*8, "walls", finalboss_halfwayWall11);
+			instance_create_layer(816 + x_distance, 832 - y_distance*9, "walls", finalboss_halfwayWall11);
+			
 			
 			
 			//페이즈2로 이행
 			phase_state = "Phase_2"
-			maxHP = 3000;
+			maxHP = 500;
 			HP = maxHP;
 			if instance_exists(ofinalboss_wall)
 			{instance_destroy(ofinalboss_wall);}
 			x = 904;
 			y = 422;
+		}
+		
+		//페이즈2 종료 (엔딩)
+		if phase_state == "Phase_2"	&& HP <= 50
+		{
+			var deadly = instance_create_depth(x, y, 1, oNPC_finalboss2_deadly);
+			deadly.image_xscale = image_xscale;
+			global.NPC99_dialog = 100;
+			instance_destroy();
 		}
 	
 		#endregion

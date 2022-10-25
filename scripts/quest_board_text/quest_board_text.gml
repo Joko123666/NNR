@@ -41,6 +41,12 @@ function quest_board_text(argument0)
 	if argument0 == "main016"
 	{	return "병영에 보고";}
 	
+	if argument0 == "main017"
+	{	return "이상해결 보고";}
+	
+	if argument0 == "main020"
+	{	return "전송장치 작동";}
+	
 	#endregion
 	
 	#region Subquest

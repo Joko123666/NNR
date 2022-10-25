@@ -65,6 +65,7 @@ function NPC_NPC44_dialog(argument0)
 	{
 		text = "내가 가진 포션을 조금 나눠주지";
 		global.NPC44_dialog += 1;
+		instance_create_depth(x + image_xscale*8, y-8, 1, Item_healpotion2);
 	}
 	
 	if diacount == 10
@@ -84,9 +85,10 @@ function NPC_NPC44_dialog(argument0)
 		text = "그러면 잘부탁하네";
 		global.NPC44_dialog += 1;
 		dialog_endswitch = true;
+		global.UItext_show = false;
 	}
 
-	if diacount == 13	&& global.mainstream < 50
+	if diacount == 13	&& global.mainstream < 60
 	{
 		if randia == 0
 		{text = "이 앞으로 곧장 가면 되네";}
@@ -95,11 +97,12 @@ function NPC_NPC44_dialog(argument0)
 		dialog_endswitch = true;
 	}
 	
-	if diacount == 13 && global.mainstream >= 50
+	if diacount == 13 && global.mainstream >= 60
 	{
 		text = "이상을 해결하고 온건가?";
 		global.NPC44_dialog += 1;
 		dialog_endswitch = false;
+		global.UItext_show = true;
 	}
 	if diacount == 14
 	{
@@ -127,6 +130,7 @@ function NPC_NPC44_dialog(argument0)
 		text = "바로 가보는게 어떤가?";
 		global.NPC44_dialog += 1;
 		dialog_endswitch = true;
+		global.UItext_show = false;
 	}
 	
 	if diacount == 18
