@@ -45,6 +45,15 @@ function Use_item()
 			global.mainstream = 16;
 			global.quest_selection = "B";
 			global.mainquest[3] = 3;
+			
+			var text = instance_create_layer(x, y-62, "Effects", text_drawingob_book);
+			text.text_line01 = book_text_80(1);
+			text.text_line02 = book_text_80(2);
+			text.text_line03 = book_text_80(3);
+			text.text_line04 = book_text_80(4);
+			text.text_line05 = book_text_80(5);
+			text.text_line06 = book_text_80(6);
+			
 			act_switch = false;
 		}
 	}
@@ -151,6 +160,18 @@ function Use_item()
 			global.room_direction = 99;
 			
 		}
+	}
+	
+	if global.Player_item == "Teardrop"	// 허수아비드롭 눈물 
+	{
+		act_switch = false;
+		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
+		text.text = "허수아비의 희생을 잊지 않는다...";
+		audio_play_sound(SE_system01, 1, false);
+		oPlayer.MP_regen_time -= 4;
+		
+		state = "Move";
+		global.Player_item = "empty";
 	}
 	
 	

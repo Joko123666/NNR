@@ -117,7 +117,10 @@ switch (state)
 	// select this button
 	if input.interaction
 	{	
+		global.room_direction = 100;
+		oHud.darken_screen = 100;
 		load_game();
+		global.room_direction = 100;
 		audio_play_sound(SE_system04, 1, false);
 	}
 	

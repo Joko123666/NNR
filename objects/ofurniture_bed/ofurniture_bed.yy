@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ofurniture_bed",
   "spriteId": {
     "name": "furniture_bed",
     "path": "sprites/furniture_bed/furniture_bed.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "house",
     "path": "folders/오브젝트/furnitures/house.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ofurniture_bed",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,6 +1,10 @@
 if !instance_exists(oPlayer)
 {exit;}
 
+var width = display_get_gui_width();
+var heigth = display_get_gui_height();
+
+
 #region HP_bar
 	var hp_x = 43;
 	var hp_y = 7;
@@ -314,3 +318,14 @@ draw_sprite(skillA, empty, 4, 324);
 draw_rectangle_color(4, 356 - Player.rolling_cool*32/Player.rolling_maxcool, 36, 356, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
 */
 #endregion
+
+
+if darken_screen > 0
+{
+	draw_set_alpha(darken_screen/50);
+	if darken_screen > 50 {draw_set_alpha(1);}
+	draw_rectangle_color(-10, -10, width + 10, heigth + 10, c_black, c_black, c_black, c_black, false);
+}
+else
+{draw_set_alpha(1);}
+

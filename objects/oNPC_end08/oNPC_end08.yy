@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oNPC_end08",
   "spriteId": {
-    "name": "NPC_village_07_end",
-    "path": "sprites/NPC_village_07_end/NPC_village_07_end.yy",
+    "name": "NPC_village_08_end",
+    "path": "sprites/NPC_village_08_end/NPC_village_08_end.yy",
   },
   "solid": false,
   "visible": true,

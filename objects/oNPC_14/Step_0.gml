@@ -28,33 +28,35 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	
 	#region root_item price
 	if global.root_item[1] > 0
-		{global.gold += (global.root_item[1] * 10) ; global.root_item[1] = 0;}
+		{global.gold += (global.root_item[1] * 15) ; global.root_item[1] = 0;}
 		
 	if global.root_item[2] > 0
-		{global.gold += (global.root_item[2] * 15) ; global.root_item[2] = 0;}
+		{global.gold += (global.root_item[2] * 20) ; global.root_item[2] = 0;}
 		
 	if global.root_item[3] > 0
-		{global.gold += (global.root_item[3] * 15) ; global.root_item[3] = 0;}
+		{global.gold += (global.root_item[3] * 25) ; global.root_item[3] = 0;}
 		
 	if global.root_item[4] > 0
-		{global.gold += (global.root_item[4] * 15) ; global.root_item[4] = 0;}
+		{global.gold += (global.root_item[4] * 25) ; global.root_item[4] = 0;}
 		
 	if global.root_item[5] > 0
-		{global.gold += (global.root_item[5] * 20) ; global.root_item[5] = 0;}
+		{global.gold += (global.root_item[5] * 30) ; global.root_item[5] = 0;}
 		
 	if global.root_item[6] > 0
-		{global.gold += (global.root_item[6] * 25) ; global.root_item[6] = 0;}
+		{global.gold += (global.root_item[6] * 35) ; global.root_item[6] = 0;}
 		
 	if global.root_item[7] > 0
-		{global.gold += (global.root_item[7] * 30) ; global.root_item[7] = 0;}
+		{global.gold += (global.root_item[7] * 50) ; global.root_item[7] = 0;}
 		
 	if global.root_item[8] > 0
-		{global.gold += (global.root_item[8] * 20) ; global.root_item[8] = 0;}
+		{global.gold += (global.root_item[8] * 30) ; global.root_item[8] = 0;}
 		
 	if global.root_item[9] > 0
-		{global.gold += (global.root_item[9] * 15) ; global.root_item[9] = 0;}
+		{global.gold += (global.root_item[9] * 25) ; global.root_item[9] = 0;}
 		
 	#endregion
+	
+	audio_play_sound(SE_dialog_f01, 1, false);
 }
 
 

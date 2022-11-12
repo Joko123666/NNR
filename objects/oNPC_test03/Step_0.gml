@@ -16,6 +16,8 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction
 	text.text = "필요한게 있으면 언제든 말하렴"
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
+	
+	audio_play_sound(SE_dialog_m02, 1, false);
 }
 
 if act_count > 0

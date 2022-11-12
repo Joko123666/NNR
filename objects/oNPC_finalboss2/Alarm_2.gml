@@ -1,2 +1,2 @@
 
-game_end();
+room_goto(endroom_deadend);

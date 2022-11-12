@@ -20,7 +20,7 @@ switch (state)
 	timer--;
 
 	if timer <= 0
-	{state = "Explosion";}
+	{state = "Explosion";image_index = 0; image_speed = 1;}
 	break;
 	
 	case "Explosion" :
@@ -36,8 +36,11 @@ switch (state)
 		explosion_area.image_yscale = 16;
 	}
 	
+	if animation_hit_frame(1)
+	{creat_hitbox(x, y, oPlayer, hit_48, 15, 2, 200, image_xscale);}
+	if place_meeting(x, y, oenemy_motherman)
+	{creat_hitbox(x, y, oPlayer, hit_48, 15, 2, 200, image_xscale);}
 	
-	creat_hitbox(x, y, oPlayer, hit_32, 15, 2, 100, image_xscale);
 	create_particle(x, y, oparticle_02, 3);
 	screen_shake(40, 10);
 	if animation_end()

@@ -66,7 +66,6 @@ function NPC_NPC46_dialog(argument0)
 	{
 		text = "텔레포터의 조정에 힘쓰고 있겠습니다";
 		global.NPC46_dialog += 1;
-		dialog_endswitch = true;
 	}
 	
 	if diacount == 10

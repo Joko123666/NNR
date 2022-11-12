@@ -6,7 +6,7 @@ var view_width = camera_get_view_width(camera_id);
 var view_height = camera_get_view_height(camera_id);
 display_set_gui_size(view_width, view_height);
 
-
+darken_screen = 0;
 
 if !instance_exists(oPlayer) exit;
 draw_hp = 0;

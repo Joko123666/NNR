@@ -52,6 +52,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15942D0E","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"room_direction","path":"objects/oplayer_apport/oplayer_apport.yy",},"objectId":{"name":"oplayer_apport","path":"objects/oplayer_apport/oplayer_apport.yy",},"value":"3",},
           ],"isDnd":false,"objectId":{"name":"oplayer_apport","path":"objects/oplayer_apport/oplayer_apport.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.11328125,"scaleY":0.453125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1305.0,"y":625.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D1AD5FA","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_ob","path":"objects/door_delete_over/door_delete_over.yy",},"objectId":{"name":"door_delete_over","path":"objects/door_delete_over/door_delete_over.yy",},"value":"inst_F50B1DC",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"mainstream_count","path":"objects/door_delete_over/door_delete_over.yy",},"objectId":{"name":"door_delete_over","path":"objects/door_delete_over/door_delete_over.yy",},"value":"60",},
+          ],"isDnd":false,"objectId":{"name":"door_delete_over","path":"objects/door_delete_over/door_delete_over.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1392.0,"y":528.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"furnitures","instances":[],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_2","spriteId":{"name":"graveyard_village_01","path":"sprites/graveyard_village_01/graveyard_village_01.yy",},"colour":4294967295,"x":290,"y":200,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -107,6 +111,7 @@
     {"name":"inst_755E9083","path":"rooms/Graveyard_village/Graveyard_village.yy",},
     {"name":"inst_61B763A9","path":"rooms/Graveyard_village/Graveyard_village.yy",},
     {"name":"inst_15942D0E","path":"rooms/Graveyard_village/Graveyard_village.yy",},
+    {"name":"inst_3D1AD5FA","path":"rooms/Graveyard_village/Graveyard_village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

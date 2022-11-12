@@ -118,6 +118,7 @@ function NPC_NPC43_dialog(argument0)
 		quest_board("main015");			//퀘스트 보드에 퀘스트 갱신
 		audio_play_sound(SE_system07, 1, false);
 		global.mainstream = 51;
+		alarm[9] = 30;
 	}
 	
 	if diacount == 17 && global.mainstream < 60
@@ -128,6 +129,7 @@ function NPC_NPC43_dialog(argument0)
 		{text = "당신의 활약에는 항상 감사하고있다 이드";}
 		dialog_endswitch = true;
 		diafalse_count = 40;
+		alarm[9] = 30;
 	}
 	
 	if diacount == 17 && global.mainstream >= 60
@@ -191,7 +193,7 @@ function NPC_NPC43_dialog(argument0)
 		dialog_endswitch = true;
 		diafalse_count = 40;
 		global.mainstream = 61;
-		
+		alarm[9] = 30;
 		global.mainquest[20] = 1;		//퀘스트 진행도 갱신
 		quest_board("main020");			//퀘스트 보드에 퀘스트 갱신
 	}

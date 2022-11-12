@@ -1,4 +1,4 @@
-if room != Title
+if room != Title && room!= endroom_end_everything && room != endroom_keep && room != exitroom
 {draw_self();}
 
 

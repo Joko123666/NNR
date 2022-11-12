@@ -56,8 +56,6 @@ skillS_cool = count_decrease(skillS_cool, 1, 0);
 moveskill_cool = count_decrease(moveskill_cool, 1, 0);
 ladder_term = count_decrease(ladder_term, 1, 0);
 attackskill_cool = count_decrease(attackskill_cool, 1, 0);
-if global.Player_sword == true
-	{attackskill_cost = 20;}
 act_count = count_decrease(act_count, 1, 0);
 	
 //벽에 스스로 밀림
@@ -805,6 +803,9 @@ switch (state)
 		//올려치기 스킬
 		if global.Player_sword == true && attackskill_set == 1
 		{
+			attackskill_cost = 10;
+			attackskill_coolset = 80;
+			
 			state_set_sprite(player_attackskill_sword0, 1, 0);
 			if animation_hit_frame(1)
 			{audio_play_sound(SE_attack_sword02 , 20, false); MP -= attackskill_cost; image_speed = 2; }
@@ -821,6 +822,9 @@ switch (state)
 		//검돌격 스킬
 		if global.Player_sword == true  && attackskill_set == 2
 		{
+			attackskill_cost = 25;
+			attackskill_coolset = 100;
+			
 			state_set_sprite(player_attackskill_sword1, 1, 0);
 			move_and_collide(moving_speed * image_xscale, 0);
 		
@@ -848,7 +852,7 @@ switch (state)
 		if global.Player_sword == true  && attackskill_set == 3
 		{
 			//쿨, 코스트 세팅
-			attackskill_cost = 40;
+			attackskill_cost = 30;
 			attackskill_coolset = 110;
 			
 			state_set_sprite(player_attackskill_sword2, 1, 0);
@@ -883,8 +887,8 @@ switch (state)
 		if global.Player_sword == true && attackskill_set == 4
 		{
 			//쿨, 코스트 세팅
-			attackskill_cost = 50;
-			attackskill_coolset = 30;
+			attackskill_cost = 35;
+			attackskill_coolset = 150;
 			
 			state_set_sprite(player_attackskill_sword3, 1, 0);
 			
@@ -909,8 +913,8 @@ switch (state)
 		if global.Player_sword == true  && attackskill_set == 5
 		{
 			//쿨, 코스트 세팅
-			attackskill_cost = 50;
-			attackskill_coolset = 30;
+			attackskill_cost = 35;
+			attackskill_coolset = 100;
 			
 			state_set_sprite(player_attackskill_sword4, 1, 0);
 			move_and_collide(moving_speed * image_xscale, 0);
@@ -942,8 +946,8 @@ switch (state)
 		if global.Player_sword == true && attackskill_set == 6
 		{
 			//쿨, 코스트 세팅
-			attackskill_cost = 10;
-			attackskill_coolset = 30;
+			attackskill_cost = 50;
+			attackskill_coolset = 180;
 			
 			state_set_sprite(player_attackskill_sword5, 1, 0);
 			move_and_collide(moving_speed * image_xscale, 0);

@@ -16,7 +16,12 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Screen","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Screen","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15D5361D","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"message_text","path":"objects/ofurniture_sign_text/ofurniture_sign_text.yy",},"objectId":{"name":"ofurniture_sign_text","path":"objects/ofurniture_sign_text/ofurniture_sign_text.yy",},"value":"\"제루루크 제일의 상점\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destroy_at","path":"objects/ofurniture_sign_text/ofurniture_sign_text.yy",},"objectId":{"name":"ofurniture_sign_text","path":"objects/ofurniture_sign_text/ofurniture_sign_text.yy",},"value":"99",},
+          ],"isDnd":false,"objectId":{"name":"ofurniture_sign_text","path":"objects/ofurniture_sign_text/ofurniture_sign_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":576.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Effects","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2800FAD5_2","properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":171.0,"y":13.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74A65938_2","properties":[],"isDnd":false,"objectId":{"name":"oParallax","path":"objects/oParallax/oParallax.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":13.0,},
@@ -227,6 +232,7 @@
     {"name":"inst_53FE7ACE","path":"rooms/Vally_village/Vally_village.yy",},
     {"name":"inst_B9481BE","path":"rooms/Vally_village/Vally_village.yy",},
     {"name":"inst_3CEB182B","path":"rooms/Vally_village/Vally_village.yy",},
+    {"name":"inst_15D5361D","path":"rooms/Vally_village/Vally_village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

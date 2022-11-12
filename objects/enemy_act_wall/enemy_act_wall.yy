@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "enemy_act_wall",
   "spriteId": {
     "name": "area_6464",
     "path": "sprites/area_6464/area_6464.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Walls",
     "path": "folders/오브젝트/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_act_wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }

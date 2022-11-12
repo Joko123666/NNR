@@ -5,7 +5,7 @@ deactivate_count = 0;
 dialog_count = 0;
 diafalse_count = 0;
 
-name_text = "무덤지기"
+name_text = "유적 관리인"
 npc_namecol = c_blue;
 
 dialog_endswitch = false;

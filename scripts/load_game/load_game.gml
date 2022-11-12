@@ -3,8 +3,8 @@
 function load_game(){
 
 #region LOAD GAME
-		
-		with (oPlayer) instance_destroy();
+		if (file_exists("savedgame.save"))
+		{with (oPlayer) instance_destroy();}
 		
 				//add Fadeout script here 
 		
@@ -61,6 +61,7 @@ function load_game(){
 					#endregion
 				
 					#region global_variables
+					global.input_type = _loadEntity.input_type;
 					global.gamevolume = _loadEntity.gamevolume;
 					global.room_direction =  _loadEntity.room_direction;
 					global.BGM_number = _loadEntity.BGM_number;
@@ -116,6 +117,7 @@ function load_game(){
 					global.store_item_stock01 = _loadEntity.store_item_stock01;
 					global.store_item_stock02 = _loadEntity.store_item_stock02;
 					global.store_item_stock03 = _loadEntity.store_item_stock03;
+					global.store_item_stock04 = _loadEntity.store_item_stock04;
 			
 					global.mainstream = _loadEntity.mainstream;
 					global.mainquest[1] = _loadEntity.mainquest1;
@@ -128,6 +130,14 @@ function load_game(){
 					global.mainquest[8] = _loadEntity.mainquest8;
 					global.mainquest[9] = _loadEntity.mainquest9;
 					global.mainquest[10] = _loadEntity.mainquest10;
+					global.mainquest[11] = _loadEntity.mainquest11;
+					global.mainquest[12] = _loadEntity.mainquest12;
+					global.mainquest[13] = _loadEntity.mainquest13;
+					global.mainquest[14] = _loadEntity.mainquest14;
+					global.mainquest[15] = _loadEntity.mainquest15;
+					global.mainquest[16] = _loadEntity.mainquest16;
+					global.mainquest[17] = _loadEntity.mainquest17;
+					global.mainquest[20] = _loadEntity.mainquest20;
 					
 					global.subquest[1] = _loadEntity.subquest1;
 					global.subquest[2] = _loadEntity.subquest2;
@@ -137,6 +147,7 @@ function load_game(){
 			
 					global.NPC_shopper01_dialog =_loadEntity.NPC_shopper01_dialog;
 					global.NPC_shopper02_dialog =_loadEntity.NPC_shopper02_dialog;
+					global.NPC_shopper03_dialog =_loadEntity.NPC_shopper03_dialog;
 					global.NPC2_dialog = _loadEntity.NPC2_dialog;
 					global.NPC4_dialog =_loadEntity. NPC4_dialog;
 					global.NPC7_dialog = _loadEntity.NPC7_dialog;
@@ -157,8 +168,17 @@ function load_game(){
 					global.NPC30_dialog = _loadEntity.NPC30_dialog;
 					global.NPC31_dialog = _loadEntity.NPC31_dialog;
 					global.NPC43_dialog = _loadEntity.NPC43_dialog;
+					global.NPC44_dialog = _loadEntity.NPC44_dialog;
+					global.NPC45_dialog = _loadEntity.NPC45_dialog;
+					global.NPC46_dialog = _loadEntity.NPC46_dialog;
+					global.NPC50_dialog = _loadEntity.NPC50_dialog;
+					global.NPC99_dialog = _loadEntity.NPC99_dialog;
 					
 					global.NPC8_status = _loadEntity.NPC8_status;
+					
+					global.yabawi_token = _loadEntity.yabawi_token;
+					global.end_sleep = _loadEntity.end_sleep;
+					
 			
 					#endregion
 				}

@@ -80,8 +80,20 @@ if particle_switch == false	&& hit_particle != 0
 //Motherman 
 	if other.object_index == oenemy_motherman
 	{
-		create_particle(x + image_xscale*18, y - 12, oparticle_02, 3);
-		create_particle(x + image_xscale*18, y - 12, oparticle_17, 3);
+		repeat(3)
+		{
+			create_particle(x + random_range(-24, 24), y - 60 + random_range(-24, 24), oparticle_02, 3);
+			create_particle(x + random_range(-24, 24), y - 60 + random_range(-24, 24), oparticle_17, 3);
+		}
+	}
+//skullking
+	if other.object_index == oenemy_skeleton_boss
+	{
+		repeat(3)
+		{
+			create_particle(x + random_range(-24, 24), y + random_range(-24, 24), oparticle_16, 3);
+			create_particle(x + random_range(-24, 24), y + random_range(-24, 24), oparticle_32, 3);
+		}
 	}
 
 show_debug_message(other.HP);

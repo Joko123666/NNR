@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "SE_bone01",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -11,14 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "se_bone01.wav",
-  "duration": 0.993152,
+  "soundFile": "SE_bone01.wav",
+  "duration": 0.770794,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "SE_bone01",
-  "tags": [],
-  "resourceType": "GMSound",
 }

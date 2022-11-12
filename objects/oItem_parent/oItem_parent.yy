@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oItem_parent",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "items",
     "path": "folders/오브젝트/items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oItem_parent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

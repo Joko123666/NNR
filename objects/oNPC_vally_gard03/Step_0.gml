@@ -28,6 +28,8 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	{image_xscale = 1;}
 	if x > oPlayer.x 
 	{image_xscale = -1;}
+	
+	audio_play_sound(SE_dialog_m01, 1, false);
 }
 
 if oPlayer.input.item	&& global.Player_item == "Bomb01"
@@ -47,6 +49,8 @@ if oPlayer.input.item	&& global.Player_item == "Bomb01"
 	{image_xscale = 1;}
 	if x > oPlayer.x 
 	{image_xscale = -1;}
+	
+	audio_play_sound(SE_dialog_m01, 1, false);
 }
 
 

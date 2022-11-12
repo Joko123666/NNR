@@ -1,6 +1,11 @@
 
 if HP<=0
 {
+	if Exp > 0
+	{repeat(5){instance_create_depth(x, y-16, 10, oparticle_expdrop);}}
+	if global.gold > 0
+	{repeat(5){instance_create_depth(x, y-16, 10, oparticle_gloddrop);}}
+	
 	state = "Death"
 	invincibility = true;
 	vsp = -4; 
@@ -11,18 +16,13 @@ if HP<=0
 	global.gold = 0;
 	audio_play_sound(SE_death01, 1, false);
 	Exp = 0;
-	if level > 1	&& room!= Final_bossarea2
+	if level > 1	&& room!= Final_bossarea
 	{
-		level-= 1;
-		maxHP-= 10;
-		maxMP-= 10;
-		MP_regen_time += 2;
-		hspd -= 0.01;
-		damage -= 1;
-		maxExp = floor(maxExp * 0.7);
+		
 	}
-	if room == Final_bossarea2
+	if room == Final_bossarea
 	{
 		revive_count = 1;
 	}
+	
 }

@@ -16,6 +16,8 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction
 	text.text = "이곳은 현재 접근 금지입니다!"
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
+	
+	audio_play_sound(SE_dialog_m01, 1, false);
 }
 
 if !place_meeting(x,y,oPlayer)

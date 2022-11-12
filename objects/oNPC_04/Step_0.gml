@@ -29,6 +29,7 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	{image_xscale = 1;}
 	if x > oPlayer.x 
 	{image_xscale = -1;}
+	audio_play_sound(SE_dialog_f01, 1, false);
 }
 
 

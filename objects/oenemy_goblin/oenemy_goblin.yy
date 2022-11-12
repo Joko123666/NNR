@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oenemy_goblin",
   "spriteId": {
     "name": "enemy_hill_goblin_stand",
     "path": "sprites/enemy_hill_goblin_stand/enemy_hill_goblin_stand.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "enemy_hill_goblin_mask",
     "path": "sprites/enemy_hill_goblin_mask/enemy_hill_goblin_mask.yy",
@@ -27,8 +31,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,8 +40,4 @@
     "name": "hill",
     "path": "folders/오브젝트/Enemys/hill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oenemy_goblin",
-  "tags": [],
-  "resourceType": "GMObject",
 }

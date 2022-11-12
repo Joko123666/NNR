@@ -1,7 +1,8 @@
 if oPlayer.state == "Death"
 {state = "Neutral"; act_count = 45; show_debug_message(state);}
 
-
+show_debug_message(state);
+show_debug_message(act_count);
 
 switch (state)
 {
@@ -135,9 +136,9 @@ switch (state)
 			instance_create_layer(339, 884, "walls", finalboss_Wall11);
 			instance_create_layer(904, 600, "walls", finalboss_Wall11);
 			
-			instance_create_layer(816, 447, "walls", finalboss_Wall11);
-			instance_create_layer(904, 447, "walls", finalboss_Wall11);
-			instance_create_layer(992, 447, "walls", finalboss_Wall11);
+			instance_create_layer(816, 418, "walls", finalboss_Wall11);
+			instance_create_layer(904, 418, "walls", finalboss_Wall11);
+			instance_create_layer(992, 418, "walls", finalboss_Wall11);
 			
 			instance_create_layer(816, 832, "walls", finalboss_halfwayWall11);
 			instance_create_layer(816 - x_distance, 832 - y_distance, "walls", finalboss_halfwayWall11);
@@ -153,18 +154,18 @@ switch (state)
 			instance_create_layer(816 - x_distance, 832 - y_distance*9, "walls", finalboss_halfwayWall11);
 			
 			
-			instance_create_layer(816, 832, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance, 832 - y_distance, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance*3, 832 - y_distance, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance*4, 832, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816, 832 - y_distance*4, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance, 832 - y_distance*5, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816, 832 - y_distance*6, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance, 832 - y_distance*7, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance*2, 832 - y_distance*8, "walls", finalboss_halfwayWall11);
-			instance_create_layer(816 + x_distance, 832 - y_distance*9, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992, 832, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 832 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*2, 832 - y_distance*2, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*3, 832 - y_distance, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*4, 832, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 832 - y_distance*3, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992, 832 - y_distance*4, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 832 - y_distance*5, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992, 832 - y_distance*6, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 832 - y_distance*7, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance*2, 832 - y_distance*8, "walls", finalboss_halfwayWall11);
+			instance_create_layer(992 + x_distance, 832 - y_distance*9, "walls", finalboss_halfwayWall11);
 			
 			
 			
@@ -175,7 +176,9 @@ switch (state)
 			if instance_exists(ofinalboss_wall)
 			{instance_destroy(ofinalboss_wall);}
 			x = 904;
-			y = 422;
+			y = 408;
+			var layer_ID = layer_get_id("Darken");
+			layer_background_change(layer_ID,empty);
 		}
 		
 		//페이즈2 종료 (엔딩)
@@ -231,7 +234,7 @@ switch (state)
 		}
 		
 		
-		if phase_state == "Phase_2"			//1페이즈일 경우
+		if phase_state == "Phase_2"			//2페이즈일 경우
 		{
 			state_set_sprite(finalboss_act2,1,0);
 
@@ -295,8 +298,7 @@ switch (state)
 			cast.image_xscale = image_xscale/2;
 		}
 		
-		if HP <= 700	&& animation_hit_frame(8)
-		{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_13);}
+
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x + 64, 900, "Instances", ofilnalboss_casting_13);}
 		
@@ -307,10 +309,10 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 60;
 			last_act = "attackA";
+			image_index = 1;
 		}
 		
 	#endregion
@@ -340,8 +342,7 @@ switch (state)
 			cast.image_xscale = image_xscale/2;
 		}
 		
-		if HP <= 700	&& animation_hit_frame(8)
-		{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_13);}
+		
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x + 64, 900, "Instances", ofilnalboss_casting_13);}
 		
@@ -352,9 +353,9 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 60;
+			image_index = 1;
 		}
 
 		
@@ -386,8 +387,7 @@ switch (state)
 			cast.image_xscale = image_xscale/2;
 		}
 		
-		if HP <= 700	&& animation_hit_frame(8)
-		{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_13);}
+		
 		if HP <= 700	&& animation_hit_frame(9)
 		{instance_create_layer(oPlayer.x - 64, 900, "Instances", ofilnalboss_casting_13);}
 		
@@ -398,9 +398,9 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 60;
+			image_index = 1;
 		}
 	
 	#endregion
@@ -432,16 +432,18 @@ switch (state)
 				cast.image_xscale = image_xscale/2;
 			}
 			
-			if HP <= 700	&& animation_hit_frame(8)
-			{instance_create_layer(oPlayer.x, 900, "Instances", ofilnalboss_casting_13);}
+			
 			if HP <= 700	&& animation_hit_frame(9)
 			{instance_create_layer(oPlayer.x - 64, 900, "Instances", ofilnalboss_casting_13);}
+			
+			if HP <= 400	&& animation_hit_frame(3)
+			{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_14);}
 
 			if animation_end()
 			{
-				image_speed = 0;
 				state = "Neutral";
 				act_count = 60;
+				image_index = 1;
 			}
 			
 		}
@@ -461,10 +463,11 @@ switch (state)
 				instance_create_depth(oPlayer.x, oPlayer.y-24, -5, ofilnalboss_casting_12);
 				audio_play_sound(SE_magiccast_01, 1, false);
 			}
+			if HP <= 400	&& animation_hit_frame(3)
+			{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_14);}
 
 			if animation_end()
 			{
-				image_speed = 0;
 				state = "Neutral"; 
 				act_count = 60;
 			}
@@ -488,7 +491,6 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 70;
 			last_act = "attackA";
@@ -506,7 +508,7 @@ switch (state)
 		{
 			var dir = irandom(1)
 			if dir == 0 {dir = -1;}
-			var lasercast = instance_create_layer(oPlayer.x + 200*dir, oPlayer.y, "Instances", ofilnalboss_casting_17);
+			var lasercast = instance_create_layer(oPlayer.x + 200*dir, oPlayer.y-20, "Instances", ofilnalboss_casting_17);
 			if dir == 1
 			{lasercast.image_angle = 180;}
 			if dir == -1
@@ -515,7 +517,6 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 70;
 			last_act = "attackB";
@@ -536,7 +537,6 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 30;
 			last_act = "attackA";
@@ -557,7 +557,6 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 30;
 			last_act = "attackA";
@@ -578,7 +577,6 @@ switch (state)
 
 		if animation_end()
 		{
-			image_speed = 0;
 			state = "Neutral";
 			act_count = 30;
 			last_act = "attackE";

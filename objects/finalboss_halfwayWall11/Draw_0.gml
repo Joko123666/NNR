@@ -1,2 +1,2 @@
 
-draw_sprite(finalboss_half, 0, x, y)
+draw_sprite(finalboss_half11, 0, x, y)

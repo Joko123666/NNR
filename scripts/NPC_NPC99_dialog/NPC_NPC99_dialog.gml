@@ -39,6 +39,7 @@ function NPC_NPC99_dialog(argument0)
 	if diacount == 4
 	{
 		text = "사라져라";
+		oPlayer.state = "Death"
 		alarm[2] = 20;
 		act_count = 30;
 	}

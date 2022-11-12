@@ -78,6 +78,7 @@ global.store_item_stock04 = 1;
 //1 = 카카리코 씨앗
 //2 = 제루루크 신발
 //3 = 제루루크 병영폭탄 
+//4 = 유적지 체력씨앗 
 	
 	
 #region dialog_variables
@@ -86,6 +87,15 @@ global.store_item_stock04 = 1;
 	// 퀘스트 상태 0 = 미수락, 1 = 시작, 2 = 달성, 3 = 클리어
 	for (i=1; i< 20 ; i++)
 	{global.mainquest[i] = 0;}
+	global.mainquest[10] = 0;
+	global.mainquest[11] = 0;
+	global.mainquest[12] = 0;
+	global.mainquest[13] = 0;
+	global.mainquest[14] = 0;
+	global.mainquest[15] = 0;
+	global.mainquest[16] = 0;
+	global.mainquest[17] = 0;
+	global.mainquest[20] = 0;
 #endregion
 
 #region //Quest line
@@ -127,6 +137,7 @@ global.quest_selection = "A";
 	global.NPC44_dialog = 0;
 	global.NPC45_dialog = 0;
 	global.NPC46_dialog = 0;
+	global.NPC48_dialog = 0;
 	global.NPC50_dialog = 0;
 	global.NPC99_dialog = 0;
 
@@ -136,6 +147,8 @@ global.quest_selection = "A";
 
 //선택지 확인 
 global.selection = "A";
+global.yabawi_token = 0;
+global.end_sleep = false;
 
 global.bugbeat = false;
 

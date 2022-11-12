@@ -106,6 +106,7 @@ function NPC_NPC23_dialog(argument0)
 		quest_board("main011");			//퀘스트 보드에 퀘스트 갱신
 		audio_play_sound(SE_system07, 1, false);
 		global.UItext_show = false;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15	&& global.mainstream <= 32
@@ -113,6 +114,7 @@ function NPC_NPC23_dialog(argument0)
 		 text = "더 필요한게 있으신가요?";
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15 && global.mainstream ==33
@@ -120,6 +122,7 @@ function NPC_NPC23_dialog(argument0)
 		  text = "광산조사 힘내세요";
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15 && global.mainstream ==34
@@ -127,6 +130,7 @@ function NPC_NPC23_dialog(argument0)
 		  text = "바위를 처리하는 방법은 병사장님이 아실겁니다";
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15 && global.mainstream ==35
@@ -134,6 +138,7 @@ function NPC_NPC23_dialog(argument0)
 		  text = "이곳의 상점에서는 화약량을 늘린 폭탄을 판다고 합니다";
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15 && global.mainstream ==36
@@ -141,6 +146,7 @@ function NPC_NPC23_dialog(argument0)
 		  text = "광산조사 힘내세요";
 		dialog_endswitch = true;
 		diafalse_count = 50;
+		alarm[9] = 30;
 	 }
 	 
 	 if diacount == 15 && global.mainstream >= 41
@@ -245,6 +251,7 @@ function NPC_NPC23_dialog(argument0)
 		dialog_endswitch = true;
 		diafalse_count = 50;
 		global.UItext_show = false;
+		alarm[9] = 30;
 		
 	 }
 	 
@@ -295,6 +302,7 @@ function NPC_NPC23_dialog(argument0)
 		diafalse_count = 50;
 		global.mainstream = 44;
 		global.UItext_show = false;
+		alarm[9] = 30;
 	 }
 	 
 	if diacount == 38
@@ -308,6 +316,7 @@ function NPC_NPC23_dialog(argument0)
 		 { text = "길드 제루루크 지점에 어서오세요!"}
 		 dialog_endswitch = true;
 		 diafalse_count = 50;
+		 alarm[9] = 30;
 		
 	 }
 	

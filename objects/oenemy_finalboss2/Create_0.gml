@@ -3,7 +3,7 @@ image_size(2);
 maxHP = 1000;
 HP = maxHP;
 HP_checkpoint = HP;
-Exp = 1010;
+Exp = 0;
 object_type = "boss"
 
 state = "Neutral"

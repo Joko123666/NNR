@@ -13,3 +13,4 @@ dialog_endswitch = false;
 
 defalt_sprite = finalboss_defalt2;
 active_sprite = finalboss_talk2;
+image_size(2);

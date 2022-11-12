@@ -1,10 +1,11 @@
 
+
 if place_meeting(x,y,oPlayer)
 {
 	instance_create_layer(x, y-20, "Effects", ui_interaction_button);
 }
 
-if place_meeting(x,y,oPlayer) && oPlayer.input.interaction 
+if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_switch2 == true
 {
 	active = true;
 }

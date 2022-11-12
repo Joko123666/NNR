@@ -105,6 +105,7 @@ function save_game(){
 			store_item_stock01 : global.store_item_stock01,
 			store_item_stock02 : global.store_item_stock02,
 			store_item_stock03 : global.store_item_stock03,
+			store_item_stock04 : global.store_item_stock04,
 			
 			mainstream : global.mainstream,
 			mainquest1 : global.mainquest[1],
@@ -157,10 +158,14 @@ function save_game(){
 			NPC44_dialog : global.NPC44_dialog,
 			NPC45_dialog : global.NPC45_dialog,
 			NPC46_dialog : global.NPC46_dialog,
+			NPC48_dialog : global.NPC48_dialog,
 			NPC50_dialog : global.NPC50_dialog,
 			NPC99_dialog : global.NPC99_dialog,
 			
 			NPC8_status : global.NPC8_status,
+			
+			yabawi_token : global.yabawi_token,
+			end_sleep : global.end_sleep,
 			
 			#endregion
 			

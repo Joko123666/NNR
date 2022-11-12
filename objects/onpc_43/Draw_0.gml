@@ -12,7 +12,7 @@ if global.mainstream == 23
 	draw_sprite(UI_mainquest_start, 0, x, y - 32);
 }
 //End quest
-if global.mainstream == 44 or global.mainstream == 42
+if global.mainstream == 44 or global.mainstream == 42 or global.mainstream == 60
 {
 	draw_sprite(UI_mainquest_success, 0, x, y - 32);
 }

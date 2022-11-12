@@ -97,7 +97,7 @@ switch (state)
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(skullboss_attackA, 1, 0);
 		if animation_hit_frame(1)
-		{audio_play_sound(SE_motherman_alart01, 1, false);}
+		{audio_play_sound(SE_bone02, 1, false);}
 		
 
 		if animation_hit_frame(8)
@@ -128,7 +128,7 @@ switch (state)
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 80;
+			act_count = 85;
 			last_act = "attackA";
 		}
 		
@@ -140,6 +140,8 @@ switch (state)
 		if !instance_exists(oPlayer) break;
 		
 		state_set_sprite(skullboss_attackB, 1, 0);
+		if animation_hit_frame(1)
+		{audio_play_sound(SE_bone02, 1, false);}
 		
 		if animation_hit_frame(10)
 		{
@@ -147,6 +149,7 @@ switch (state)
 			create_particle(x - 120, y-20,oparticle_18, random_range(6, 10));
 			creat_hitbox(x, y, self, skullboss_attackB_hitbox1, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
+			audio_play_sound(SE_bone01, 1, false);
 		}
 		if animation_hit_frame(16)
 		{
@@ -155,6 +158,7 @@ switch (state)
 			{instance_create_depth((x - 120 + i*20) + random(10), y-28, 12, oparticle_18)}
 			creat_hitbox(x, y, self, skullboss_attackB_hitbox2, knockback_power, 5, attack_power*2, image_xscale);
 			audio_play_sound(SE_earthquake_01, 1, false);
+			audio_play_sound(SE_bone01, 1, false);
 		}
 		
 		
@@ -162,7 +166,7 @@ switch (state)
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 110;
+			act_count = 115;
 			electric_charge_B = true;
 			last_act = "attackB";
 		}
@@ -177,6 +181,9 @@ switch (state)
 		
 		state_set_sprite(skullboss_attackC, 1, 0);
 		
+		if animation_hit_frame(4)
+		{audio_play_sound(SE_bone02, 1, false);}
+		
 		if animation_hit_frame(17) && numberof_minions < 4
 			{
 				repeat(3)
@@ -186,6 +193,7 @@ switch (state)
 					numberof_minions ++;
 					audio_play_sound(SE_motherman_spawn01, 1, false);
 				}
+				audio_play_sound(SE_bone02, 1, false);
 			}
 		if animation_hit_frame(17) && numberof_minions >= 4
 			{
@@ -203,7 +211,7 @@ switch (state)
 		{
 			image_speed = 0;
 			state = "Neutral";
-			act_count = 30;
+			act_count = 45;
 			last_act = "attackC";
 		}
 	
@@ -215,7 +223,10 @@ switch (state)
 		{
 			state_set_sprite(skullboss_attackD, 1, 0);
 			
-			if animation_hit_frame(12)
+			if animation_hit_frame(1)
+			{audio_play_sound(SE_bone02, 1, false);}
+			
+			if animation_hit_frame(14)
 			{
 				screen_shake(40, 20);
 				create_particle(x , y,oparticle_18, 1);
@@ -230,7 +241,7 @@ switch (state)
 			{
 				image_speed = 0;
 				state = "Neutral";
-				act_count = 90;
+				act_count = 110;
 				last_act = "attackD";
 			}
 			
@@ -243,6 +254,8 @@ switch (state)
 	#region 충격파
 		{
 			state_set_sprite(skullboss_attackE, 1, 0);
+			if animation_hit_frame(1)
+			{audio_play_sound(SE_bone01, 1, false);}
 		
 			if animation_hit_frame(11)	&& oPlayer.invincibility == false
 			{
@@ -263,7 +276,7 @@ switch (state)
 			{
 				image_speed = 0;
 				state = "Neutral";
-				act_count = 90;
+				act_count = 95;
 				last_act = "attackE";
 			}
 			

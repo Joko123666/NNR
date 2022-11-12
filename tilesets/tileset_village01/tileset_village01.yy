@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tileset_village01",
   "spriteId": {
     "name": "walltilesprite_01",
     "path": "sprites/walltilesprite_01/walltilesprite_01.yy",
@@ -291,8 +294,4 @@
     "name": "타일 세트",
     "path": "folders/타일 세트.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tileset_village01",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

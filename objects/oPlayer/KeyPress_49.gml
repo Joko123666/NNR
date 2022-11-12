@@ -1,4 +1,2 @@
 
-room_goto(Vally_tunnel_boss);
-x = 400;
-y = 400;
+room_goto(endroom_end_everything);

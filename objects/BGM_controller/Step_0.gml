@@ -44,6 +44,21 @@ if BGM_counter != global.BGM_number
 	if BGM_counter == 12
 	{	audio_play_sound(BGM_boss03, 1, true);	}
 	
+	if BGM_counter == 13
+	{	audio_play_sound(BGM_finalarea, 1, true);	}
+	
+	if BGM_counter == 14
+	{	audio_play_sound(BGM_finalboss, 1, true);	}
+	
+	if BGM_counter == 15
+	{	audio_play_sound(BGM_boss04, 1, true);	}
+	
+	if BGM_counter == 16
+	{	audio_play_sound(BGM_portalroom01, 1, true);	}
+	
+	if BGM_counter == 17
+	{	audio_play_sound(BGM_endarea, 1, true);	}
+	
 }
 
 

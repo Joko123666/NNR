@@ -12,7 +12,7 @@ HP = maxHP;
 //마력
 maxMP = 100;
 MP = maxMP;
-MP_regen_time = 120;
+MP_regen_time = 100;
 alarm[9] = MP_regen_time;
 //경험치, 레벨
 Exp = 0;
