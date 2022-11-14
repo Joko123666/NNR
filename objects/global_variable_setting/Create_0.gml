@@ -139,6 +139,7 @@ global.quest_selection = "A";
 	global.NPC46_dialog = 0;
 	global.NPC48_dialog = 0;
 	global.NPC50_dialog = 0;
+	global.NPC51_dialog = 0;
 	global.NPC99_dialog = 0;
 
 	global.NPC8_status = 0;

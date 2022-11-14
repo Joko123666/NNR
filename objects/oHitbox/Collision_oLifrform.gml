@@ -82,8 +82,8 @@ if particle_switch == false	&& hit_particle != 0
 	{
 		repeat(3)
 		{
-			create_particle(x + random_range(-24, 24), y - 60 + random_range(-24, 24), oparticle_02, 3);
-			create_particle(x + random_range(-24, 24), y - 60 + random_range(-24, 24), oparticle_17, 3);
+			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_02, 3);
+			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_17, 3);
 		}
 	}
 //skullking
@@ -91,8 +91,8 @@ if particle_switch == false	&& hit_particle != 0
 	{
 		repeat(3)
 		{
-			create_particle(x + random_range(-24, 24), y + random_range(-24, 24), oparticle_16, 3);
-			create_particle(x + random_range(-24, 24), y + random_range(-24, 24), oparticle_32, 3);
+			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_16, 3);
+			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_32, 3);
 		}
 	}
 

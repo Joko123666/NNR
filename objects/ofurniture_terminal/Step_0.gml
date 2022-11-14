@@ -12,7 +12,7 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	
 	audio_play_sound(SE_system01, 1, false);
 
-	var text = instance_create_layer(x, y-62, "Effects", text_drawingob_book);
+	var text = instance_create_layer(x, y-62, "Effects", text_drawingob_screen);
 	text.text_line01 = terminal_text_01(1);
 	text.text_line02 = terminal_text_01(2);
 	text.text_line03 = terminal_text_01(3);

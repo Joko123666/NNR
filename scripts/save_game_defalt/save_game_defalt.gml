@@ -2,8 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function save_game_defalt(){
 
-	oPlayer.HP = oPlayer.maxHP;
-	oPlayer.MP = oPlayer.maxMP;
+	if instance_exists(oPlayer)	
+	{
+		oPlayer.HP = oPlayer.maxHP;
+		oPlayer.MP = oPlayer.maxMP;
+	}
 	
 	#region SAVE GAME
 	var _saveData = array_create(0);

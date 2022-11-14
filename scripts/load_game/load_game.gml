@@ -31,8 +31,8 @@ function load_game(){
 					image_index = _loadEntity.image_index;
 					maxHP = _loadEntity.maxHP;
 					maxMP = _loadEntity.maxMP;
-					HP = maxHP;
-					MP = maxMP;
+					HP = _loadEntity.HP;
+					MP = _loadEntity.MP;
 					Exp = _loadEntity.Exp;
 					maxExp = _loadEntity.maxExp;
 					level = _loadEntity.level;
@@ -172,6 +172,7 @@ function load_game(){
 					global.NPC45_dialog = _loadEntity.NPC45_dialog;
 					global.NPC46_dialog = _loadEntity.NPC46_dialog;
 					global.NPC50_dialog = _loadEntity.NPC50_dialog;
+					global.NPC51_dialog = _loadEntity.NPC51_dialog;
 					global.NPC99_dialog = _loadEntity.NPC99_dialog;
 					
 					global.NPC8_status = _loadEntity.NPC8_status;

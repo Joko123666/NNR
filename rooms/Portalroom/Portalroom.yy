@@ -64,7 +64,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29C5C4B1","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"teleportto","path":"objects/oteleporter_center/oteleporter_center.yy",},"objectId":{"name":"oteleporter_center","path":"objects/oteleporter_center/oteleporter_center.yy",},"value":"\"Final_bossarea\"",},
           ],"isDnd":false,"objectId":{"name":"oteleporter_center","path":"objects/oteleporter_center/oteleporter_center.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":554.0,"y":540.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60BCA794","properties":[],"isDnd":false,"objectId":{"name":"Save_boss","path":"objects/Save_boss/Save_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1ADDB7B1","properties":[],"isDnd":false,"objectId":{"name":"oNPC_51","path":"objects/oNPC_51/oNPC_51.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":640.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_2","spriteId":{"name":"portalroom_furniture_front","path":"sprites/portalroom_furniture_front/portalroom_furniture_front.yy",},"colour":4294967295,"x":120,"y":120,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
@@ -77,7 +77,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E63337C","properties":[],"isDnd":false,"objectId":{"name":"moveto_side","path":"objects/moveto_side/moveto_side.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.71875,"scaleY":0.71875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":393.5,"y":443.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_880771A","properties":[],"isDnd":false,"objectId":{"name":"halfwayWall","path":"objects/halfwayWall/halfwayWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.265625,"scaleY":0.53125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":479.0,"y":624.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FDA5384","properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"move_speed","path":"objects/moveto_side/moveto_side.yy",},"objectId":{"name":"moveto_side","path":"objects/moveto_side/moveto_side.yy",},"value":"10",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"move_speed","path":"objects/moveto_side/moveto_side.yy",},"objectId":{"name":"moveto_side","path":"objects/moveto_side/moveto_side.yy",},"value":"9",},
           ],"isDnd":false,"objectId":{"name":"moveto_side","path":"objects/moveto_side/moveto_side.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.15625,"scaleY":1.3125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":322.0,"y":711.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44B5712F","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"move_speed","path":"objects/moveto_side/moveto_side.yy",},"objectId":{"name":"moveto_side","path":"objects/moveto_side/moveto_side.yy",},"value":"10",},
@@ -132,7 +132,7 @@
     {"name":"inst_33510ED6","path":"rooms/Portalroom/Portalroom.yy",},
     {"name":"inst_29C5C4B1","path":"rooms/Portalroom/Portalroom.yy",},
     {"name":"inst_748F3C1A","path":"rooms/Portalroom/Portalroom.yy",},
-    {"name":"inst_60BCA794","path":"rooms/Portalroom/Portalroom.yy",},
+    {"name":"inst_1ADDB7B1","path":"rooms/Portalroom/Portalroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

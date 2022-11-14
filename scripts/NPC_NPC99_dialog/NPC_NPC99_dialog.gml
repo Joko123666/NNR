@@ -10,9 +10,7 @@ function NPC_NPC99_dialog(argument0)
 	{
 		text = "마침내 이곳까지 당도했는가";
 		global.NPC99_dialog += 1;
-		global.UItext_show = true;
 		global.mainstream = 60;
-		dialog_endswitch = false;
 	}
 	
 	//사망횟수로 분기
@@ -86,16 +84,13 @@ function NPC_NPC99_dialog(argument0)
 	{
 		text = "이번 이야기의 막을 내리도록 하지"
 		global.NPC99_dialog = 99;
-		dialog_endswitch = true;
 	}
 	
 	if diacount == 100
 	{
 		text = "하하...";
 		global.NPC99_dialog += 1;
-		global.UItext_show = true;
 		global.mainstream = 70;
-		dialog_endswitch = false;
 	}
 	if diacount == 101
 	{
@@ -127,7 +122,6 @@ function NPC_NPC99_dialog(argument0)
 		text = "이것으로 나의 소명은 끝이다";
 		global.NPC99_dialog = 110;
 		global.mainstream = 71;
-		dialog_endswitch = true;
 		act_count = 500;
 		act_switch = false;
 	}

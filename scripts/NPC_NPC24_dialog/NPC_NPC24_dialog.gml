@@ -238,7 +238,7 @@ function NPC_NPC24_dialog(argument0)
 	 {
 		 var randia = irandom(2)
 		 if randia == 0
-		 { text = "느긋하게 수다 떨 시간은 없다";}
+		 { text = "폭탄이 필요하면 위쪽병사에게 가도록";}
 		 if randia == 1
 		 { text = "여긴 항상 자원이 부족하다";}
 		 if randia == 2

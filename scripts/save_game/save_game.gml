@@ -160,6 +160,7 @@ function save_game(){
 			NPC46_dialog : global.NPC46_dialog,
 			NPC48_dialog : global.NPC48_dialog,
 			NPC50_dialog : global.NPC50_dialog,
+			NPC51_dialog : global.NPC51_dialog,
 			NPC99_dialog : global.NPC99_dialog,
 			
 			NPC8_status : global.NPC8_status,

@@ -1,3 +1,5 @@
+if room == Final_bossarea	or room == Vally_tunnel_boss or room == Hill_cave_boss
+{state = "Disactive";}
 
 switch (state)
 {
