@@ -70,6 +70,8 @@ function save_game(){
 			
 			guildcard : global.guildcard,
 			greenorb : global.greenorb,
+			redorb : global.redorb,
+			blueorb : global.blueorb,
 			gold : global.gold,
 			Deathcount_total : global.Deathcount_total,
 			

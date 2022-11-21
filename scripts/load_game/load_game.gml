@@ -81,6 +81,8 @@ function load_game(){
 					
 					global.guildcard = _loadEntity.guildcard;
 					global.greenorb = _loadEntity.greenorb;
+					global.redorb = _loadEntity.redorb;
+					global.blueorb = _loadEntity.blueorb;
 					global.gold = _loadEntity.gold;
 					global.Deathcount_total = _loadEntity.Deathcount_total;
 					

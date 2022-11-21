@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oNPC_end15",
   "spriteId": {
-    "name": "NPC_village_14_end",
-    "path": "sprites/NPC_village_14_end/NPC_village_14_end.yy",
+    "name": "NPC_village_15_end",
+    "path": "sprites/NPC_village_15_end/NPC_village_15_end.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

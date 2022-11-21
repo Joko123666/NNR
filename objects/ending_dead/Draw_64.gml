@@ -1,5 +1,8 @@
 
+var screen_width = display_get_gui_width();
+var screen_height = display_get_gui_height();
 
+draw_rectangle_color(-20, -20, screen_width +20 , screen_height +20 ,c_black, c_black, c_black, c_black, 0);
 
 var x_point = 160;
 var y_point = 40;
@@ -22,7 +25,7 @@ if text_01 == true
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "일방적으로 적들을 죽이며 나아갔다"
+	var text_line05 = "일방적으로 적들을 쓰러트리며 나아갔다"
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
 }

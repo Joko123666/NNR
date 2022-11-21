@@ -1,2 +1,4 @@
 
 active = false;
+
+state = "stoped";

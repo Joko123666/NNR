@@ -1,5 +1,11 @@
 
 
+var screen_width = display_get_gui_width();
+var screen_height = display_get_gui_height();
+
+draw_rectangle_color(-20, -20, screen_width +20 , screen_height +20 ,c_black, c_black, c_black, c_black, 0);
+
+
 var x_point = 160;
 var y_point = 40;
 var y_distance = 20;
@@ -36,15 +42,15 @@ if text_02 == true
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "결국은 나 혼자뿐인거다"
+	var text_line03 = "거기에 무슨 의미가 있을까"
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "나를 탓할 사람도 없을것이다"
+	var text_line04 = "적어도 지금의 나는 거기에 의미를 느낄수 없다"
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "그것이 조금은 위안이 된다"
+	var text_line05 = "더이상의 무의미한 연장은 사양한다"
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
 }
@@ -59,15 +65,15 @@ if text_03 == true
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "먼 미래에 누군가 새로 생길수도 있겠지"
+	var text_line03 = "내가 알바 아니다"
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "만약 새롭게 누군가가 생긴다면"
+	var text_line04 = "어차피 내가 사라지면 끝이니까"
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "그의 삶은 평안하기를"
+	var text_line05 = "생각해도 별로 의미 없겠지"
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
 	
@@ -83,15 +89,15 @@ if text_04 == true
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "그리고 그 다음은..."
+	var text_line03 = "........."
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "나와는 상관없지"
+	var text_line04 = "......"
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "지금까지 대단히 감사했습니다"
+	var text_line05 = "..."
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
 	

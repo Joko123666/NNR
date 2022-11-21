@@ -1,4 +1,4 @@
 
-room_goto(Graveyard_village);
-x = 400;
-y = 500;
+global.greenorb = true;
+global.redorb = true;
+global.blueorb = true;
