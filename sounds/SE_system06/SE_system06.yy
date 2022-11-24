@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "SE_system06",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "SE_system06.wav",
-  "duration": 0.269955,
+  "duration": 0.647959,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "SE_system06",
-  "tags": [],
-  "resourceType": "GMSound",
 }

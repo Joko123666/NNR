@@ -10,6 +10,8 @@ switch (state)
 	{
 		if room == Title
 		{break;}
+		if room == Final_bossarea	or room == Vally_tunnel_boss or room == Hill_cave_boss or room == Final_bossarea_end
+		{break;}
 		state = "Button1";
 		oPlayer.state = "Stay";
 		audio_play_sound(SE_system03, 0, false);

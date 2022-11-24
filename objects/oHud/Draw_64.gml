@@ -137,7 +137,7 @@ if !instance_exists(oPlayer) exit;
 
 #region Quest_board			//우상단 퀘스트 가이드
 if !instance_exists(oPlayer) {exit;}
-	if room != Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea
+	if room != Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea  && room != Final_bossarea_end
 	{if global.quest_stack[1] != "empty"
 	{
 		draw_sprite(UI_Hud_questbox, 0, 220, 5);
@@ -198,7 +198,7 @@ if global.UItext_show == false
 
 	#region Gold_show			//우하단 골드 표시
 		if !instance_exists(oPlayer) exit;
-		if oPlayer.state != "Stay"	&& room!=Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea
+		if oPlayer.state != "Stay"	&& room!=Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea && room != Final_bossarea_end
 		{
 			draw_sprite(UI_Hud_gold, 0, 270, 162);
 			draw_text(275, 162, global.gold);
@@ -212,7 +212,7 @@ if global.UItext_show == false
 	{
 		var x_point = 4;
 		var y_point = 152;
-		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
+		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea or room == Final_bossarea_end
 		{y_point = camera_get_view_height(view_camera[1]) - 28;}
 		
 		if oPlayer.moveskill_set == 1
@@ -252,7 +252,7 @@ if global.UItext_show == false
 		//정렬 포인트 세팅
 		var x_point = 32;
 		var y_point = 152;
-		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
+		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea or room == Final_bossarea_end
 		{y_point = camera_get_view_height(view_camera[1]) - 28;}
 		
 		// Skill Image

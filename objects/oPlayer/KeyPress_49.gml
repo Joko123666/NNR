@@ -1,2 +1,4 @@
 
-room_goto(endroom_end_everything);
+global.greenorb = false;
+global.redorb = false;
+global.blueorb = false;

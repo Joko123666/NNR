@@ -33,3 +33,8 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count < 60	&& 
 	act_count = 2;
 	instance_destroy(text_drawingob_screen)
 }
+if global.mainstream >= 90
+{
+	instance_create_depth(x, y, 1, ending_reset);
+	instance_destroy();
+}

@@ -871,6 +871,7 @@ switch (state)
 						screen_shake_x(20 , 6);
 						moving_speed += hspd * 0.2;
 						audio_play_sound(SE_attack_sword01 , 20, false);
+						instance_create_layer(x, y- 16, "Instances", oparticle_40);
 					}	
 				}
 			if animation_hit_frame(13) or animation_hit_frame(14)
@@ -932,6 +933,7 @@ switch (state)
 						screen_shake(25 , 10);
 						moving_speed += hspd * 0.1;
 						audio_play_sound(SE_attack_sword01 , 20, false);
+						instance_create_layer(x, y- 32, "Instances", oparticle_41);
 					}	
 				}
 			if animation_hit_frame(11) or animation_hit_frame(12)
@@ -1196,14 +1198,20 @@ if global.mainstream == 10	&& dialog_count == 0	&& act_count <=0	&& dialog_endsw
 	text.name_color = c_black;	
 }
 
-if global.mainstream == 10	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
+if global.mainstream == 99	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//본편 시작 대사 출력
 	act_count = 18;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
+	text.text = Player_selfend_dialog(dialog_count);
 	text.dianame = "이드"
 	text.name_color = c_black;	
+}
+if global.mainstream == 100
+{
+	act_count--
+	if act_count <=0
+	{fade_toroom(exitroom, 80, c_black); act_count = 9999;}
 }
 
 

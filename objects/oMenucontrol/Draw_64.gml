@@ -37,8 +37,43 @@ if isopend == true
 		if state == "Askillset"
 		{draw_sprite(UI_Menu_skillmenu, 0, x_position,  y_position );}
 		
+		//스킬 사용가능상태 스프라이트
+		var x_position = 104;
+		var y_position = 101;
+		var x_distance = 10;
+		var y_distance = 11;
+		if global.moveskill01 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position,  y_position); }
+		if global.moveskill02 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance,  y_position); }
+		if global.moveskill03 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance*2,  y_position); }
+		if global.moveskill04 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position ,  y_position + y_distance); }
+		if global.moveskill05 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance,  y_position + y_distance); }
+		if global.moveskill06 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance*2,  y_position + y_distance); }
 		
-			//스킬 적용상태 커서, 스킬스프라이트
+		var x_position = 104;
+		var y_position = 135;
+		var x_distance = 10;
+		var y_distance = 11;
+		if global.attackskill01 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position,  y_position); }
+		if global.attackskill02 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance,  y_position);}
+		if global.attackskill03 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance*2,  y_position); }
+		if global.attackskill04 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position ,  y_position + y_distance);}
+		if global.attackskill05 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance,  y_position + y_distance); }
+		if global.attackskill06 == true
+		{draw_sprite(UI_Menu_skillable, 0, x_position + x_distance*2,  y_position + y_distance); }
+	
+		
+		//스킬 적용상태 커서, 스킬스프라이트
 		var x_position = 104;
 		var y_position = 101;
 		var x_distance = 10;
@@ -49,7 +84,7 @@ if isopend == true
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance,  y_position); draw_sprite(UI_skillcool_sp2, 0, 134, 96);}
 		if oPlayer.moveskill_set == 3
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance*2,  y_position); draw_sprite(UI_skillcool_sp3, 0, 134, 96);}
-		if oPlayer.moveskill_set == 4		//여기부터 밑으로 스프라이트 할당 안됨
+		if oPlayer.moveskill_set == 4	
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position ,  y_position + y_distance); draw_sprite(UI_skillcool_sp4, 0, 134, 96);}
 		if oPlayer.moveskill_set == 5
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance,  y_position + y_distance); draw_sprite(UI_skillcool_sp5, 0, 134, 96);}
@@ -66,7 +101,7 @@ if isopend == true
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance,  y_position); draw_sprite(UI_skillcool_skillA_sword1, 0, 134, 130);}
 		if oPlayer.attackskill_set == 3
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance*2,  y_position); draw_sprite(UI_skillcool_skillA_sword2, 0, 134, 130);}
-		if oPlayer.attackskill_set == 4		//여기부터 밑으로 스프라이트 할당 안됨
+		if oPlayer.attackskill_set == 4	
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position ,  y_position + y_distance); draw_sprite(UI_skillcool_skillA_sword3, 0, 134, 130);}
 		if oPlayer.attackskill_set == 5
 		{draw_sprite(UI_Menu_skillselection_confirm, 0, x_position + x_distance,  y_position + y_distance); draw_sprite(UI_skillcool_skillA_sword4, 0, 134, 130);}

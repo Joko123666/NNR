@@ -1,0 +1,1 @@
+hspd = oPlayer.image_xscale*0.2;

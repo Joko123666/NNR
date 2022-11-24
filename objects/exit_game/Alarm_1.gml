@@ -1,2 +1,3 @@
 
-game_end();
+load_game_defalt();
+game_restart();
