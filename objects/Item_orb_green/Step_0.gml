@@ -28,6 +28,7 @@ if place_meeting(x, y, oPlayer)
 	oPlayer.maxHP += 10;
 	oPlayer.maxMP += 10;
 	oPlayer.revive_maxcount = 10;
+	global.mainstream = 21;
 	
 	instance_destroy();
 }

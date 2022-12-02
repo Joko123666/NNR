@@ -69,7 +69,7 @@ function NPC_NPC16_dialog(argument0)
 		audio_play_sound(SE_system07, 1, false);
 	}
 	
-	if diacount == 8	
+	if diacount == 8	&& global.mainstream < 21
 	{
 		text = "기운도 차릴겸 스프도 드시고 가세요~";
 		dialog_endswitch = true;

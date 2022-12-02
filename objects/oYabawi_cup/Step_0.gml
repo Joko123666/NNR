@@ -31,6 +31,7 @@ if ismeeting == true	&& global.yabawi_token > 0	&&oPlayer.input.interaction
 		
 		global.attackskill04 = true;
 		oPlayer.attackskill_set = 4;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 5);
 		
 		instance_destroy();
 	}

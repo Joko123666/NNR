@@ -51,7 +51,7 @@ function NPC_NPC15_dialog(argument0)
 		audio_play_sound(SE_system07, 1, false);
 	}
 	
-	if diacount == 5
+	if diacount == 5	&& global.greenorb == false
 	{
 		text = "조사대는 동쪽으로 출발했습니다";
 		dialog_endswitch = true;

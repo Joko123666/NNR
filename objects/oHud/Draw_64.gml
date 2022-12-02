@@ -93,6 +93,8 @@ if !instance_exists(oPlayer) exit;
 	{draw_sprite(UI_item_superroot, 0, 7, 7);}
 	if global.Player_item == "Teleportgem"
 	{draw_sprite(UI_item_teleportgem, 0, 7, 7);}
+	if global.Player_item == "Firework"
+	{draw_sprite(UI_item_firework, 0, 7, 7);}
 	
 	//스킬 사용키 표시
 		var x_arraypoint = 7;
@@ -137,55 +139,56 @@ if !instance_exists(oPlayer) exit;
 
 #region Quest_board			//우상단 퀘스트 가이드
 if !instance_exists(oPlayer) {exit;}
-	if room != Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea  && room != Final_bossarea_end
-	{if global.quest_stack[1] != "empty"
+	if room != Thomb_boss && room != Vally_tunnel_boss && room != Final_bossarea  && room != Final_bossarea_end	&& room != Hill_cave_boss
 	{
-		draw_sprite(UI_Hud_questbox, 0, 220, 5);
-		quest_board1 = global.quest_stack[1];
-		draw_text_color(228, 7, quest_board_text(quest_board1), c_blue, c_blue, c_blue, c_blue, 0.8);
-		draw_text_color(228, 7, quest_board_text(quest_board1), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
-		quest_board1_state = quest_state_update(quest_board1);
-		if quest_board1_state == 2
-			{draw_rectangle_color(222, 10, 228, 16, c_green, c_green, c_green, c_green, false);
-			 draw_text_color(228, 7, quest_board_text(quest_board1), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);	}
-		draw_rectangle_color(224, 12, 226, 14, c_white, c_white, c_white, c_white, false);
-		if quest_board1_state == 3
-			{global.quest_stack[1] = "empty"; quest_board1 = "empty";}
-	}
-	else {quest_board1 = "empty";}
+		if global.quest_stack[1] != "empty"
+		{
+			draw_sprite(UI_Hud_questbox, 0, 220, 5);
+			quest_board1 = global.quest_stack[1];
+			draw_text_color(228, 7, quest_board_text(quest_board1), c_blue, c_blue, c_blue, c_blue, 0.8);
+			draw_text_color(228, 7, quest_board_text(quest_board1), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
+			quest_board1_state = quest_state_update(quest_board1);
+			if quest_board1_state == 2
+				{draw_rectangle_color(222, 10, 228, 16, c_green, c_green, c_green, c_green, false);
+				 draw_text_color(228, 7, quest_board_text(quest_board1), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);	}
+			draw_rectangle_color(224, 12, 226, 14, c_white, c_white, c_white, c_white, false);
+			if quest_board1_state == 3
+				{global.quest_stack[1] = "empty"; quest_board1 = "empty";}
+		}
+		else {quest_board1 = "empty";}
 	
-	if global.quest_stack[2] != "empty"
-	{
-		draw_sprite(UI_Hud_questbox, 0, 220, 25);
-		quest_board2 = global.quest_stack[2];
-		draw_text_color(228, 27, quest_board_text(quest_board2), c_blue, c_blue, c_blue, c_blue, 0.8);
-		draw_text_color(228, 27, quest_board_text(quest_board2), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
-		quest_board2_state = quest_state_update(quest_board2);
-		if quest_board2_state == 2
-			{draw_rectangle_color(222, 30, 228, 36, c_green, c_green, c_green, c_green, false);
-			 	draw_text_color(228, 27, quest_board_text(quest_board2), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);}
-		draw_rectangle_color(224, 32, 226, 34, c_white, c_white, c_white, c_white, false);
+		if global.quest_stack[2] != "empty"
+		{
+			draw_sprite(UI_Hud_questbox, 0, 220, 25);
+			quest_board2 = global.quest_stack[2];
+			draw_text_color(228, 27, quest_board_text(quest_board2), c_blue, c_blue, c_blue, c_blue, 0.8);
+			draw_text_color(228, 27, quest_board_text(quest_board2), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
+			quest_board2_state = quest_state_update(quest_board2);
+			if quest_board2_state == 2
+				{draw_rectangle_color(222, 30, 228, 36, c_green, c_green, c_green, c_green, false);
+				 	draw_text_color(228, 27, quest_board_text(quest_board2), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);}
+			draw_rectangle_color(224, 32, 226, 34, c_white, c_white, c_white, c_white, false);
 		
-		if quest_board2_state == 3
-			{global.quest_stack[2] = "empty"; quest_board2 = "empty";}
-	}
-	else {quest_board2 = "empty";}
+			if quest_board2_state == 3
+				{global.quest_stack[2] = "empty"; quest_board2 = "empty";}
+		}
+		else {quest_board2 = "empty";}
 	
-	if global.quest_stack[3] != "empty"
-	{
-		draw_sprite(UI_Hud_questbox, 0, 220, 45);
-		quest_board3 = global.quest_stack[3];
-		draw_text_color(228, 47, quest_board_text(quest_board3), c_blue, c_blue, c_blue, c_blue, 0.8);
-		draw_text_color(228, 47, quest_board_text(quest_board3), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
-		quest_board3_state = quest_state_update(quest_board3);
-		if quest_board3_state == 2
-			{draw_rectangle_color(222, 50, 228, 56, c_green, c_green, c_green, c_green, false);
-			 draw_text_color(228, 47, quest_board_text(quest_board3), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);	}
-		draw_rectangle_color(224, 52, 226, 54, c_white, c_white, c_white, c_white, false);
-		if quest_board3_state == 3
-			{global.quest_stack[3] = "empty"; quest_board3 = "empty";}
-	}
-	else {quest_board3 = "empty";}
+		if global.quest_stack[3] != "empty"
+		{
+			draw_sprite(UI_Hud_questbox, 0, 220, 45);
+			quest_board3 = global.quest_stack[3];
+			draw_text_color(228, 47, quest_board_text(quest_board3), c_blue, c_blue, c_blue, c_blue, 0.8);
+			draw_text_color(228, 47, quest_board_text(quest_board3), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.7);
+			quest_board3_state = quest_state_update(quest_board3);
+			if quest_board3_state == 2
+				{draw_rectangle_color(222, 50, 228, 56, c_green, c_green, c_green, c_green, false);
+				 draw_text_color(228, 47, quest_board_text(quest_board3), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);	}
+			draw_rectangle_color(224, 52, 226, 54, c_white, c_white, c_white, c_white, false);
+			if quest_board3_state == 3
+				{global.quest_stack[3] = "empty"; quest_board3 = "empty";}
+		}
+		else {quest_board3 = "empty";}
 	}
 	
 	

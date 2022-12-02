@@ -1,5 +1,5 @@
 
-dialog_count = global.NPC29_dialog;
+dialog_count = global.NPC51_dialog;
 
 
 //Start quest
@@ -21,7 +21,7 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 		{instance_destroy(text_drawingob);}
 	
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = NPC_NPC29_dialog(dialog_count);
+	text.text = NPC_NPC51_dialog(dialog_count);
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

@@ -222,7 +222,13 @@ function NPC_NPC48_dialog(argument0)
 	
 	if diacount == 33
 	{
-		text = "핫!핫!하!";
+		if randia == 0
+		{text = "핫!핫!하!";}
+		if randia == 1
+		{text = "내기란 이런법인거죠~";}
+		if randia == 2
+		{text = "슬슬 휴식시간도 끝나가네요~";}
+		
 	}
 	
 

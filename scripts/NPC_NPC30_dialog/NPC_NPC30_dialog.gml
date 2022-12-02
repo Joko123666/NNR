@@ -66,6 +66,7 @@ function NPC_NPC30_dialog(argument0)
 		oPlayer.moveskill_set = 3;
 		global.NPC30_dialog += 1;
 		global.moveskill03 = true;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 4);
 	}
 	
 	if diacount == 8

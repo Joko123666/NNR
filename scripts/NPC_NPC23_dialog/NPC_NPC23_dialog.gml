@@ -188,9 +188,9 @@ function NPC_NPC23_dialog(argument0)
 	 
 	 if diacount == 21
 	 {
-		  text = "전부 합쳐서 총합 2000G를 드리겠습니다";
+		  text = "전부 합쳐서 총합 1000G를 드리겠습니다";
 		global.NPC23_dialog += 1;
-		global.gold += 2000;
+		global.gold += 1000;
 		audio_play_sound(SE_getitem, 1, false);
 		global.mainstream = 43;
 	 }

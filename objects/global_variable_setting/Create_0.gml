@@ -44,7 +44,7 @@ global.gold = 0;				//소지 골드
 
 global.Player_moveskill = 1;	//이동 스킬
 global.Player_sword = false;
-global.Player_weapon = "sword";	//무 기 바 리 에 이 션
+//global.Player_weapon = "sword";	//무 기 바 리 에 이 션
 global.Player_attack3 = false;	
 global.Player_attackskill = 0;	//공격 스킬
 global.Playerequip01 = "empty";
@@ -102,7 +102,7 @@ global.store_item_stock04 = 1;
 	for (i=1; i< 20 ; i++)
 	{global.subquest[i] = 0;}
 	global.quest001 = 0;
-	global.quest002 = 0;
+	//global.quest002 = 0;
 
 #endregion
 
@@ -143,7 +143,7 @@ global.quest_selection = "A";
 	global.NPC99_dialog = 0;
 
 	global.NPC8_status = 0;
-	global.NPC21_status = 0;
+	//global.NPC21_status = 0;
 #endregion
 
 //선택지 확인 

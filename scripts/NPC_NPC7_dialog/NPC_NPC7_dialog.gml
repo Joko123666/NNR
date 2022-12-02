@@ -76,7 +76,7 @@ function NPC_NPC7_dialog(argument0)
 	if diacount == 7
 	{
 		text = "보답으로 이거 받아!";
-		instance_create_layer(x, y, "Instances", Item_armlet_power);
+		instance_create_layer(oPlayer.x, y-24, "Instances", Item_armlet_power);
 		global.NPC7_dialog += 1;
 	}
 	

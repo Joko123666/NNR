@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "SE_shoot_02.wav",
-  "duration": 0.883061,
+  "duration": 0.271088,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",

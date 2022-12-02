@@ -2,9 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function save_game(){
 
-	oPlayer.HP = oPlayer.maxHP;
-	oPlayer.MP = oPlayer.maxMP;
-	
 	#region SAVE GAME
 	var _saveData = array_create(0);
 	
@@ -191,6 +188,4 @@ function save_game(){
 	state = "active";
 	
 	audio_play_sound(SE_system07, 1, false);
-	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "게임 저장 완료!";
 }

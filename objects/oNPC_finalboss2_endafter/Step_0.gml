@@ -69,7 +69,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 		text.text = "... 결국 다시 시작하기로 한건가";
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
-		sprite_index = active_sprite;
+		sprite_index = finalboss_talk3;
 		alarm[1] = 3;
 	}
 	
@@ -122,6 +122,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 		text.text = "당신의 의지를 존중한다";
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
+		sprite_index = finalboss_talk3;
 		alarm[1] = 3;
 		global.mainstream = 91;
 	}

@@ -26,7 +26,7 @@ function load_game(){
 					#region Player status
 				
 					x = _loadEntity.x;
-					y = _loadEntity.y;
+					y = _loadEntity.y - 24;
 					image_blend = _loadEntity.image_blend;
 					image_index = _loadEntity.image_index;
 					maxHP = _loadEntity.maxHP;
@@ -182,8 +182,9 @@ function load_game(){
 					global.yabawi_token = _loadEntity.yabawi_token;
 					global.end_sleep = _loadEntity.end_sleep;
 					
-			
+					
 					#endregion
+					global.room_direction = 98;
 				}
 				show_debug_message("Game Loaded!" + _string);
 			}

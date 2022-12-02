@@ -87,12 +87,15 @@ if particle_switch == false	&& hit_particle != 0
 		}
 	}
 //skullking
-	if other.object_index == oenemy_skeleton_boss
+	if other.object_index == oenemy_kingskull
 	{
 		repeat(3)
 		{
-			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_16, 3);
-			create_particle(x + random_range(-12, 12), y + random_range(-8, 12), oparticle_32, 3);
+			with(oenemy_kingskull)
+			{
+				create_particle(x + random_range(-12, 12), y + random_range(-24, 24) - 64, oparticle_16, 3);
+				create_particle(x + random_range(-12, 12), y + random_range(-24, 24) - 64, oparticle_32, 3);
+			}
 		}
 	}
 

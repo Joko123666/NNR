@@ -3,7 +3,7 @@ function NPC_NPC43_dialog(argument0)
 {
 	///@arg dilog_count
 	var diacount = argument0;
-	var randia = irandom(2);
+	var randia = irandom(1);
 	text = ""
 	
 	if diacount == 0

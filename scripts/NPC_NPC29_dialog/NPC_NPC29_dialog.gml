@@ -103,6 +103,7 @@ function NPC_NPC29_dialog(argument0)
 		global.attackskill03 = true;
 		oPlayer.attackskill_set = 3;
 		global.NPC29_dialog += 1;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 4);
 	}
 	
 	if diacount == 13
@@ -199,7 +200,7 @@ function NPC_NPC29_dialog(argument0)
 
 	if diacount == 26
 	{
-		text = "연속해서 배우는거니까 이번엔 조금 할인해주마!!";
+		text = "대신 위력은 보증한다!!";
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
@@ -207,7 +208,7 @@ function NPC_NPC29_dialog(argument0)
 
 	if diacount == 27
 	{
-		text = "300G로 배워보는건 어떠냐!";
+		text = "500G로 배워보는건 어떠냐!";
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
@@ -219,17 +220,17 @@ function NPC_NPC29_dialog(argument0)
 		global.NPC29_dialog += 1;
 	}
 
-	if diacount == 29	&& global.gold < 300
+	if diacount == 29	&& global.gold < 500
 	{
-		text = "단돈 300G!!";
+		text = "단돈 500G!!";
 		screen_shake(10, 5);
 	}
 	
-	if diacount == 29 && global.gold >= 300
+	if diacount == 29 && global.gold >= 500
 	{
 		text = "잘 생각했다!!!";
 		screen_shake(15, 5);
-		global.gold -= 300;
+		global.gold -= 500;
 		audio_play_sound(SE_coin02, 1, false);
 		global.NPC29_dialog += 1;
 	}
@@ -242,6 +243,7 @@ function NPC_NPC29_dialog(argument0)
 		global.Player_attackskill = 5;
 		global.attackskill05 = true;
 		global.NPC29_dialog += 1;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 4);
 	}
 	
 	if diacount == 31

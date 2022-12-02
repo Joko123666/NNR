@@ -1,6 +1,9 @@
 event_inherited();
 image_size(2);
-maxHP = 1000;
+maxHP = 1500;
+pattern_HP1 = 1000;
+pattern_HP2 = 500;
+pattern_HP3 = 100;
 HP = maxHP;
 HP_checkpoint = HP;
 Exp = 0;
@@ -26,6 +29,7 @@ attack_power = 40;			//공격 파워
 damage = 10;
 side = 1;
 act_count_set = 90;
+shockwave_count = 3;
 
 grv = 1;
 vsp = 0;
@@ -39,3 +43,5 @@ hit_count = 0;
 
 image_speed = 1;
 image_xscale = -2;
+
+quest_clearall();

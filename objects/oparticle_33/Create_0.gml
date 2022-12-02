@@ -1,0 +1,9 @@
+image_speed = 0;
+x += random_range(-8, 8);
+y += random_range(-8, 8);
+image_angle = random(360);
+gravity = 0.2;
+direction = random_range(60, 120);
+speed = random_range(10, 30) * 0.2;
+image_alpha = irandom_range(4, 8) * 0.1;
+angspd = random_range(1,7);

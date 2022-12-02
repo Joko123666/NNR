@@ -1,7 +1,7 @@
 
 
 var text01_width = string_width(text_line01);
-var text01_height = string_height(text_line01);
+//var text01_height = string_height(text_line01);
 
 draw_sprite(UI_book, 0, 0, 40 );
 

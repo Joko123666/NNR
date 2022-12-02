@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "SE_magiccast_03",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_magiccast_03.wav",
-  "duration": 1.160658,
+  "duration": 0.887029,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "SE_magiccast_03",
-  "tags": [],
-  "resourceType": "GMSound",
 }

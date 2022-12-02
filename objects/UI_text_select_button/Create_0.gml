@@ -3,7 +3,7 @@ draw_set_font(Font2);
 text = "empty";
 textA = "empty";
 textB = "empty";
-textC = "empty";
+//textC = "empty";
 select_state = "A";
 
 alarm[0] = 15;

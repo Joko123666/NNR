@@ -21,6 +21,9 @@ if Exp >= maxExp
 	repeat(20)
 	{instance_create_layer(x, y-24, "Effects", oparticle_01)}
 	instance_create_layer(x, y-28, "Effects", oeffect_up01);
+	instance_create_layer(x+16, y-24, "Effects", oeffect_up01);
+	instance_create_layer(x-16, y-20, "Effects", oeffect_up01);
+	skillget_effect(oPlayer.x, oPlayer.y - 12, 2);
 	audio_play_sound(SE_levelup, 1, false);
 }
 
@@ -432,6 +435,10 @@ switch (state)
 			{moveskill_maxcool = moveskill02_cool;}
 			if moveskill_set == 3
 			{	if isshadow == true {moveskill_maxcool = 8;}}
+			if moveskill_set == 4
+			{moveskill_maxcool = moveskill04_cool;}
+			if moveskill_set == 5
+			{moveskill_maxcool = moveskill05_cool;}
 			moveskill_cool = moveskill_maxcool;
 			image_alpha = 1;
 			state = "Move";
@@ -914,7 +921,7 @@ switch (state)
 		if global.Player_sword == true  && attackskill_set == 5
 		{
 			//쿨, 코스트 세팅
-			attackskill_cost = 35;
+			attackskill_cost = 40;
 			attackskill_coolset = 100;
 			
 			state_set_sprite(player_attackskill_sword4, 1, 0);
@@ -1188,7 +1195,7 @@ if global.mainstream == 8	&& input.interaction	&& act_count <=0	&& dialog_endswi
 	}
 }
 
-if global.mainstream == 10	&& dialog_count == 0	&& act_count <=0	&& dialog_endswitch == false
+if global.mainstream == 10	&& act_count <=0	&& dialog_endswitch == false	&& input.interaction
 {
 	//본편 시작 대사 출력
 	act_count = 18;
@@ -1197,6 +1204,7 @@ if global.mainstream == 10	&& dialog_count == 0	&& act_count <=0	&& dialog_endsw
 	text.dianame = "이드"
 	text.name_color = c_black;	
 }
+
 
 if global.mainstream == 99	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {

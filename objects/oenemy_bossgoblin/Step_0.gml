@@ -222,7 +222,6 @@ switch (state)
 			repeat(8)
 			{instance_create_depth(x, y - 8, 0, oparticle_14);}
 			
-			global.mainstream = 21;
 			instance_create_layer(x, y-24, "Instances", Item_orb_green);
 			instance_destroy();
 		}

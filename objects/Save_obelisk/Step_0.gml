@@ -9,6 +9,8 @@ if place_meeting(x,y,oPlayer) && act_count <= 0 && state == "deactive"
 
 if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& state == "deactive"	&& act_count <= 0
 {
+	oPlayer.HP = oPlayer.maxHP;
+	oPlayer.MP = oPlayer.maxMP;
 	save_game();
 	
 	state_set_sprite(Save_obelisk_active, 1, 0);

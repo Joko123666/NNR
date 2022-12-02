@@ -101,6 +101,7 @@ function NPC_NPC09_dialog(argument0)
 		global.Player_attackskill = 1;
 		global.attackskill02 = true;
 		global.NPC09_dialog += 1;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 4);
 	}
 	
 	if diacount == 13

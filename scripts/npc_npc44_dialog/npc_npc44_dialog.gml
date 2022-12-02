@@ -1,4 +1,4 @@
-
+ 
 function NPC_NPC44_dialog(argument0)
 {
 	///@arg dilog_count
@@ -94,6 +94,8 @@ function NPC_NPC44_dialog(argument0)
 		{text = "이 앞으로 곧장 가면 되네";}
 		if randia == 1
 		{text = "건물에 들어가면 바로 있으니 조심하게";}
+		if randia == 2
+		{text = "안타깝지만 나는 더 도움이 되지 않을걸세";}
 		dialog_endswitch = true;
 	}
 	
@@ -113,6 +115,7 @@ function NPC_NPC44_dialog(argument0)
 	{
 		text = "이건 이상해결의 보수일세";
 		global.NPC44_dialog += 1;
+		audio_play_sound(SE_coin02, 1, 0);
 		global.gold += 1000;
 	}
 	if diacount == 15

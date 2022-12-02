@@ -32,7 +32,7 @@ function NPC_NPC18_dialog(argument0)
 	
 	if diacount == 4  
 	{
-		text = "나도 편히 쉬다 출발 할 생각이야";
+		text = "나는 쉬다가 천천히 출발 할 생각이야";
 		global.NPC18_dialog += 1;
 	}
 	

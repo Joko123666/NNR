@@ -9,7 +9,7 @@ var text06_width = string_width(text_line06);
 
 draw_sprite(UI_screen, 0, 0, 40 );
 
-var x_point = 32;
+//var x_point = 32;
 var y_point = 50;
 var y_distance = 16;
 draw_text_color(160 - text01_width/2, y_point - 4, text_line01, c_black, c_black, c_black, c_black, 1);

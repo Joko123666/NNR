@@ -73,6 +73,7 @@ function NPC_NPC46_dialog(argument0)
 		text = "그럼 이곳의 이상해결을 부탁드립니다";
 		global.NPC46_dialog += 1;
 		dialog_endswitch = true;
+		global.UItext_show = false;
 	}
 	
 	
@@ -83,7 +84,10 @@ function NPC_NPC46_dialog(argument0)
 		{text = "잘부탁드립니다 이드님";}
 		if randia == 1
 		{text = "필요한게 있으시면 언제든 돌아가실수 있습니다";}
+		if randia == 2
+		{text = "무언가 더 필요하십니까?";}
 		dialog_endswitch = true;
+		alarm[8] = 30;
 	}
 	
 	if diacount == 11 && global.mainstream >= 60
@@ -123,6 +127,7 @@ function NPC_NPC46_dialog(argument0)
 		text = "조속히 복귀해달라는 요청이 있습니다";
 		global.NPC46_dialog += 1;
 		dialog_endswitch = true;
+		global.UItext_show = false;
 	}
 	
 	if diacount == 17

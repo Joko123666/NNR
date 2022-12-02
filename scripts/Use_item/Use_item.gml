@@ -86,6 +86,20 @@ function Use_item()
 		}
 	}
 	
+	if global.Player_item == "Firework"	//폭죽 
+	{
+		act_switch = false;
+		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
+		text.text = "발사!";
+		audio_play_sound(SE_dodge_01, 1, false);
+		
+		instance_create_depth(x + 8*image_xscale, y - 32, 0, useitem_firework);
+
+		
+		state = "Move";
+		global.Player_item = "empty";
+	}
+	
 	if global.Player_item == "Bomb01"	//Throwing Bomb 01
 	{
 		act_switch = false;

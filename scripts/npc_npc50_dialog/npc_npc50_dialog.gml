@@ -3,7 +3,6 @@ function NPC_NPC50_dialog(argument0)
 {
 	///@arg dilog_count
 	var diacount = argument0;
-	var randia = irandom(1);
 	text = ""
 	
 	if diacount == 0
@@ -57,6 +56,7 @@ function NPC_NPC50_dialog(argument0)
 		oPlayer.moveskill_set = 5;
 		global.NPC50_dialog += 1;
 		global.moveskill05 = true;
+		skillget_effect(oPlayer.x, oPlayer.y - 12, 4);
 	}
 	
 	if diacount == 8

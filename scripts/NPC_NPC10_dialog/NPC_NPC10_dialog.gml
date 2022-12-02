@@ -93,7 +93,7 @@ function NPC_NPC10_dialog(argument0)
 		global.NPC10_dialog += 1;
 	}
 	
-	if diacount == 11 
+	if diacount == 11 && global.mainstream < 21
 	{
 		text = "필요하시다면 언제든지 찾아주세요";
 		global.UItext_show = false;

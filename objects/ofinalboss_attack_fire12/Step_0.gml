@@ -12,6 +12,7 @@ if act_count == 30 or act_count == 60 or act_count == 90 or act_count == 120 or 
 	attack2.image_angle = image_angle + 90;
 	attack3.image_angle = image_angle + 180;
 	attack4.image_angle = image_angle + 270;
+	audio_play_sound(SE_shoot_02, 1, 0);
 }
 
 if act_count >= 160
