@@ -1,8 +1,7 @@
 if oPlayer.state == "Death"
 {state = "Neutral"; act_count = 45; show_debug_message(state);}
 
-show_debug_message(state);
-show_debug_message(act_count);
+
 
 act_count = count_decrease(act_count, 1, 0);
 
@@ -10,7 +9,18 @@ switch (state)
 {
 	case "Neutral" :		//상태 리셋
 	#region Neutral state
-		state_set_sprite(finalboss_act2,1,0);
+		state_set_sprite(finalboss_defalt4,1,0);
+		
+		vsp = vsp + grv;				//중력 계산
+		if (place_meeting(x,y+vsp,oWall))	//공중에 떠있을 경우
+		{
+			while (!place_meeting(x,y+sign(vsp),oWall))
+			{	
+				y = y + sign(vsp);	
+			}
+			vsp = 0;
+		}
+		y = y + vsp;
 
 		if act_count <= 0
 		{state = "Act_Set"; image_index = 0; image_speed = 1;	act_count = 3;}
@@ -28,20 +38,23 @@ switch (state)
 	#region Act state
 		if phase_state == "Phase_1"			//1페이즈일 경우
 		{
-			state_set_sprite(finalboss_act2,1,0);
+			state_set_sprite(finalboss_talk3,1,0);
+			
 			if act_count <= 0
 			{
+				if oPlayer.x > x {image_xscale = 1;}
+				if oPlayer.x < x {image_xscale = -1;}
 				act_num = random(100);
 				show_debug_message(act_num);
-				if act_num <= 20			//A 돌 상단 
+				if act_num <= 20			//A 펀치
 				{	state = "Phase1_AttackA";		}
-				else if act_num < 40		//B 돌 하단
+				else if act_num < 40		//B 추적샷
 				{	state = "Phase1_AttackB";		}
-				else if act_num < 60		//공격 C 불 상단
+				else if act_num < 60		//C 진각, 승룡
 				{	state = "Phase1_AttackC";		}
-				else if act_num < 80		//공격 D 불 하단
+				else if act_num < 80		//D 보디프레스
 				{	state = "Phase1_AttackD";		}
-				else if act_num <= 100		//공격 F 방해블럭 생성
+				else if act_num <= 100		//E 몸통박치기
 				{	state = "Phase1_AttackE";		}
 				else 
 				{
@@ -97,10 +110,16 @@ switch (state)
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(finalboss2_attack1, 1, 0);
 
+		if animation_hit_frame(1)
+		{
+			if oPlayer.x > x {image_xscale = 1;}
+			if oPlayer.x < x {image_xscale = -1;}
+		}
 		if animation_hit_frame(8)
 		{
 			var fist =	instance_create_layer(x + image_xscale* 16, y - 24, "Instances", ofinalboss_attack_fist);
 			fist.image_xscale = image_xscale;
+			screen_shake_x(10, 10);
 		}
 
 
@@ -121,44 +140,22 @@ switch (state)
 	case "Phase1_AttackB" :
 	#region 추적 펀치
 		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
+		state_set_sprite(finalboss2_attack2, 1, 0);
 		
-		var y_point = 12;
-		var y_distance = 34;
 		if animation_hit_frame(6)
-		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y + y_point, -5, ofilnalboss_casting_10);
-			cast.image_xscale = image_xscale/2;
-			audio_play_sound(SE_magiccast_03, 1, false);
-		}
-		if animation_hit_frame(8)
-		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y + y_point + y_distance, -5, ofilnalboss_casting_10);
-			cast.image_xscale = image_xscale/2;
-		}
-		if animation_hit_frame(10)
-		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y + y_point + y_distance*2, -5, ofilnalboss_casting_10);
-			cast.image_xscale = image_xscale/2;
-		}
+		{x_point = oPlayer.x;}
 		
-		
-		if HP <= 700	&& animation_hit_frame(9)
-		{instance_create_layer(oPlayer.x + random_range(-64, 64)*image_xscale, 900, "Instances", ofilnalboss_casting_13);}
-		
-		if HP <= 400	&& animation_hit_frame(3)
-		{instance_create_layer(x, y + 48 + irandom(64), "Instances", ofilnalboss_casting_14);}
-
-		
+		if animation_hit_frame(9)
+		{instance_create_layer(x_point, y, "Instances", ofinalboss_attack_fist2);}
 
 		if animation_end()
 		{
 			state = "Neutral";
-			act_count = 50;
-			if HP <= 700
-			{act_count = 60;}
-			if HP <= 400
-			{act_count = 70;}
+			act_count = 60;
+			if HP <= pattern_HP1
+			{act_count = 50;}
+			if HP <= pattern_HP2
+			{act_count = 40;}
 			image_index = 0;
 		}
 
@@ -167,121 +164,184 @@ switch (state)
 		break;
 		
 	case "Phase1_AttackC" :
-	#region 불 상단 캐스팅	
+	#region 진각, 추적승룡
 		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
+		state_set_sprite(finalboss2_attack3_b, 1, 0);
 		
-		var y_point = 64;
-		var y_distance = 34;
-
-		if animation_hit_frame(6)
-		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - y_point, -5, ofilnalboss_casting_11);
-			cast.image_xscale = image_xscale/2;
-			audio_play_sound(SE_magiccast_04, 1, false);
-		}
-		if animation_hit_frame(7)
-		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - y_point - y_distance, -5, ofilnalboss_casting_11);
-			cast.image_xscale = image_xscale/2;
-		}
 		if animation_hit_frame(8)
 		{
-			var cast =	instance_create_depth(x + 24*image_xscale, y - y_point - y_distance*2, -5, ofilnalboss_casting_11);
-			cast.image_xscale = image_xscale/2;
+			if oPlayer.isground == true
+			{
+				oPlayer.vsp = -5; screen_shake(15, 10);	
+				act_set = true;
+				creat_hitbox(oPlayer.x, oPlayer.y, self, hit_16, 1, 1, 0, image_xscale);
+			}
+		}
+		if act_set == true	&& animation_hit_frame(10)
+		{
+			state = "Phase1_AttackC_C";
+			image_index = 0;
 		}
 		
+		if animation_end()
+		{
+			state = "Phase1_AttackC_B";
+			act_count = 60;
+			if HP <= pattern_HP1
+			{act_count = 50;}
+			if HP <= pattern_HP2
+			{act_count = 40;}
+			image_index = 0;
+			act_set = false;
+		}
+	
+	#endregion
+		break;
+	case "Phase1_AttackC_B" :
+	#region 승룡
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss2_attack3_c, 1, 0);
+		if animation_hit_frame(1)
+		{
+			if oPlayer.x > x {image_xscale = 1;}
+			if oPlayer.x < x {image_xscale = -1;}
+		}
 		
-		if HP <= 700	&& animation_hit_frame(9)
-		{instance_create_layer(oPlayer.x + random_range(-64, 64)*image_xscale, 900, "Instances", ofilnalboss_casting_13);}
+		if animation_hit_frame(4)
+		{
+			instance_create_layer(x + image_xscale*36, y, "Instances", ofinalboss_attack_fist2);
+			screen_shake(10, 10);
+		}
 		
-		if HP <= 400	&& animation_hit_frame(3)
-		{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_14);}
-		
-		
-
 		if animation_end()
 		{
 			state = "Neutral";
-			act_count = 50;
-			if HP <= 700
-			{act_count = 60;}
-			if HP <= 400
-			{act_count = 70;}
+			act_count = 60;
+			if HP <= pattern_HP1
+			{act_count = 50;}
+			if HP <= pattern_HP2
+			{act_count = 40;}
 			image_index = 0;
+			act_set = false;
+		}
+	
+	#endregion
+		break;
+		
+	case "Phase1_AttackC_C" :
+	#region 추적
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss2_attack3_d, 1, 0);
+		if animation_hit_frame(1)
+		{
+			if oPlayer.x > x {image_xscale = 1;}
+			if oPlayer.x < x {image_xscale = -1;}
+		}
+		
+		if animation_hit_frame(3)
+		{
+			x = oPlayer.x - 24*image_xscale;
+			oPlayer.invincibility = false;
+			oPlayer.invincibility_count = 0;
+		}
+		
+		if animation_end()
+		{
+			state = "Phase1_AttackC_B";
 		}
 	
 	#endregion
 		break;
 		
 	case "Phase1_AttackD" :
-	#region 불 하단 캐스팅
+	#region 바디프레스 - 점프
 		{
 			if !instance_exists(oPlayer) break;
-			state_set_sprite(finalboss_act2, 1, 0);
+			state_set_sprite(finalboss2_attack4_a, 1, 0);
 			
-			var y_point = 12;
-			var y_distance = 34;
-
-			if animation_hit_frame(6)
-			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y + y_point, -5, ofilnalboss_casting_11);
-				cast.image_xscale = image_xscale/2;
-				audio_play_sound(SE_magiccast_04, 1, false);
-			}
-			if animation_hit_frame(7)
-			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y + y_point + y_distance, -5, ofilnalboss_casting_11);
-				cast.image_xscale = image_xscale/2;
-			}
 			if animation_hit_frame(8)
-			{
-				var cast =	instance_create_depth(x + 24*image_xscale, y + y_point + y_distance*2, -5, ofilnalboss_casting_11);
-				cast.image_xscale = image_xscale/2;
-			}
-			
-			
-			if HP <= 700	&& animation_hit_frame(9)
-			{instance_create_layer(oPlayer.x + random_range(-64, 64)*image_xscale, 900, "Instances", ofilnalboss_casting_13);}
-			
-			if HP <= 400	&& animation_hit_frame(3)
-			{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_14);}
+			{x_point = oPlayer.x;}
 
 			if animation_end()
 			{
-				act_count = 50;
-				if HP <= 700
-				{act_count = 60;}
-				if HP <= 400
-				{act_count = 70;}
+				
 				image_index = 0;
-				state = "Neutral";
+				x = x_point;
+				y = 224;
+				state = "Phase1_AttackD_B";
+				image_speed = 0;
+			}
+		}
+	#endregion
+		break;
+	case "Phase1_AttackD_B" :
+	#region 바디프레스 - 프레스
+		{
+			if !instance_exists(oPlayer) break;
+			state_set_sprite(finalboss2_attack4_b, 0, 0);
+			
+			vsp = vsp + grv;				//중력 계산
+			if (place_meeting(x,y+vsp,oWall))	//공중에 떠있을 경우
+			{
+				while (!place_meeting(x,y+sign(vsp),oWall))
+				{	
+					y = y + sign(vsp);	
+				}
+				vsp = 0;
+			}
+			y = y + vsp;
+			
+			if vsp > 0
+			{
+				instance_create_layer(x, y, "Instances", ofinalboss_attack_fist2_shadow2);
+				if place_meeting(x, y, oPlayer)
+				{creat_hitbox(oPlayer.x, oPlayer.y, self, hit_16, 9, 1, attack_power, image_xscale);}
 			}
 			
+			if vsp == 0
+			{image_speed = 1;}
+
+			if animation_end()
+			{
+				state = "Neutral";
+				act_count = 60;
+				if HP <= pattern_HP1
+				{act_count = 50;}
+				if HP <= pattern_HP2
+				{act_count = 40;}
+				image_index = 0;
+			}
 		}
-	
 	#endregion
 		break;
 		
 	case "Phase1_AttackE" :
-	#region 차단 벽 생성
+	#region 대쉬 이후 패턴결정
 		{
 			if !instance_exists(oPlayer) break;
-			state_set_sprite(finalboss_act2, 1, 0);
+			state_set_sprite(finalboss2_attack5, 1, 0);
 			
-
-			if animation_hit_frame(6)
+			if animation_hit_frame(5)
 			{
-				instance_create_depth(oPlayer.x, oPlayer.y-24, -5, ofilnalboss_casting_12);
-				audio_play_sound(SE_magiccast_01, 1, false);
+				x_point = oPlayer.x; 
+				if oPlayer.x > x {image_xscale = 1;}
+				if oPlayer.x < x {image_xscale = -1;}
 			}
-			if HP <= 400	&& animation_hit_frame(3)
-			{instance_create_layer(x, y - 132 + irandom(64), "Instances", ofilnalboss_casting_14);}
-
+			if image_index > 5	&& image_index < 11	
+			{
+				move_and_collide_enemy(4 * image_xscale, 0);
+				if place_meeting(x, y, oPlayer)
+				{creat_hitbox(oPlayer.x, oPlayer.y, self, hit_48, 5, 1, 20, image_xscale);}
+			}
+			
 			if animation_end()
 			{
-				state = "Neutral"; 
-				act_count = 70;
+				if pattern_random == 0
+				{state = "Neutral"; act_count = 30;}
+				if pattern_random == 1
+				{state = "Phase1_AttackA"; act_count = 30;}
+				if pattern_random == 2
+				{state = "Phase1_AttackD"; act_count = 30; image_index = 6;}
 			}
 			
 		}
@@ -304,12 +364,18 @@ switch (state)
 		if animation_end()
 		{
 			state = "Neutral";
-			act_count = 70;
-			last_act = "attackA";
+			act_count = 60;
+			if HP <= pattern_HP1
+			{act_count = 50;}
+			if HP <= pattern_HP2
+			{act_count = 40;}
+			image_index = 0;
 		}
 		
 	#endregion
 	break;
+	
+	
 	
 	case "Phase2_AttackB" :
 	#region 회전 레이저 -가로

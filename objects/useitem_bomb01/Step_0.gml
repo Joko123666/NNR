@@ -5,9 +5,9 @@ switch (state)
 	case "Counting" :
 	
 	vsp = vsp + grv;
-	if (place_meeting(x,y+vsp,oWall))
+	if (place_meeting(x,y+vsp,oWall)) or (place_meeting(x,y+vsp,Enemy_wall))
 		{
-			while (!place_meeting(x,y+sign(vsp),oWall))
+			while (!place_meeting(x,y+sign(vsp),oWall))	&& (!place_meeting(x,y+sign(vsp),Enemy_wall))
 			{
 				y = y + sign(vsp);
 			}

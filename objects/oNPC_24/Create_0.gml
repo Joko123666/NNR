@@ -12,3 +12,6 @@ dialog_endswitch = false;
 
 defalt_sprite = NPC_vally_gardcaptain;
 active_sprite = NPC_vally_gardcaptain_active;
+
+if global.mainstream >= 40	&&	global.NPC24_dialog < 31
+{global.NPC24_dialog = 31;}

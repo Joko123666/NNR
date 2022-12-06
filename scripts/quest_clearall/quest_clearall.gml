@@ -10,4 +10,17 @@ function quest_clearall()
 	quest_clearboard("side003");
 	global.subquest[4] = 3;
 	quest_clearboard("side004");
+	quest_clearboard("main001");
+	quest_clearboard("main002");
+	quest_clearboard("main003");
+	quest_clearboard("main004");
+	quest_clearboard("main005");
+	quest_clearboard("main006");
+	quest_clearboard("main011");
+	quest_clearboard("main012");
+	quest_clearboard("main013");
+	quest_clearboard("main014");
+	quest_clearboard("main015");
+	quest_clearboard("main016");
+	quest_clearboard("main017");
 }

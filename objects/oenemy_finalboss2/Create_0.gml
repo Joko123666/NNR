@@ -44,4 +44,6 @@ hit_count = 0;
 image_speed = 1;
 image_xscale = -2;
 
+oPlayer.MP_regen_time = 20;
+
 quest_clearall();

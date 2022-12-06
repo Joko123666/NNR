@@ -95,6 +95,8 @@ if !instance_exists(oPlayer) exit;
 	{draw_sprite(UI_item_teleportgem, 0, 7, 7);}
 	if global.Player_item == "Firework"
 	{draw_sprite(UI_item_firework, 0, 7, 7);}
+	if global.Player_item == "Teardrop"
+	{draw_sprite(UI_item_teardrop, 0, 7, 7);}
 	
 	//스킬 사용키 표시
 		var x_arraypoint = 7;

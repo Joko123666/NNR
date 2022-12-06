@@ -22,7 +22,7 @@ hit_particle = oparticle_02;
 
 //플레이어와의 거리 체크
 act_range = 226;
-attack_range = 54;
+attack_range = 114;
 
 //제거시 드랍 보상
 Exp = 10 ;

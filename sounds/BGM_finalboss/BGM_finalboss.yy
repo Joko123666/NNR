@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "BGM_finalboss.mp3",
-  "duration": 309.8656,
+  "duration": 143.5303,
   "parent": {
     "name": "BGM",
     "path": "folders/소리/BGM.yy",

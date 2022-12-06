@@ -249,7 +249,7 @@ function NPC_NPC24_dialog(argument0)
 	 
 	  if diacount == 31 && global.mainstream >= 41
 	 {
-		 text = "조사는 좀 진척 되었는가?";
+		 text = "잘왔네 이드";
 		global.NPC24_dialog += 1;
 		global.UItext_show = true;
 	 }

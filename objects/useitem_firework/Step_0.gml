@@ -22,7 +22,7 @@ switch (state)
 	{
 		act_switch = true; 
 		instance_create_depth(x, y, 1, oparticle_explosion2);
-		creat_hitbox(x, y, oPlayer, hit_32, 5, 3, 150, image_xscale);
+		creat_hitbox(x, y, oPlayer, hit_32, 5, 3, 190, image_xscale);
 		audio_play_sound(SE_explosion01, 1, false);
 		act_count = 13;
 		act_count2--;

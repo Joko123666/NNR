@@ -1,5 +1,5 @@
 if oPlayer.state == "Death"
-{state = "Neutral"; act_count = 45; show_debug_message(state);}
+{state = "Neutral"; act_count = 45}
 
 
 

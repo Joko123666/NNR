@@ -4,6 +4,7 @@ if input.cansel or keyboard_check_pressed(vk_escape)
 	instance_destroy(draw_instance);
 	instance_destroy(self);
 	audio_play_sound(SE_system03, 1, false);
+	instance_destroy(confirm);
 	exit;
 }
 

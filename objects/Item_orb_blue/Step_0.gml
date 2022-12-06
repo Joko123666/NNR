@@ -12,7 +12,6 @@ vsp = vsp + grv;				//중력 계산
 	
 if place_meeting(x, y, oPlayer)
 {
-	global.redorb = true;
 	var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
 	text.text = output_message;
 	repeat(7)
@@ -27,6 +26,7 @@ if place_meeting(x, y, oPlayer)
 	oPlayer.maxMP += 10;
 	oPlayer.revive_maxcount = 10;
 	global.mainstream = 60;
+	global.blueorb = true;
 	
 	global.mainquest[15] = 3;
 	quest_clearboard("main015");

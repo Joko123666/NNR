@@ -15,6 +15,7 @@ if HP<=0
 	global.Deathcount_total += 1;
 	global.gold = 0;
 	audio_play_sound(SE_death01, 1, false);
+	screen_shake(30, 10);
 	Exp = 0;
 	if level > 1	&& room!= Final_bossarea
 	{

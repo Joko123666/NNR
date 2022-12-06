@@ -173,7 +173,26 @@ if state == "active"
 		image_speed = 0;
 		state = "deactive";
 		alarm[1] = 3;
-		
+		if state_num == 11
+		{
+			instance_create_layer(x, y, "boss",oenemy_finalboss2_last);
+			global.BGM_number = 18;
+			var x_distance = 88;
+			instance_create_layer(750, 418, "walls", finalboss_Wall11);
+			instance_create_layer(750 - x_distance, 418, "walls", finalboss_Wall11);
+			instance_create_layer(750 - x_distance*2, 418, "walls", finalboss_Wall11);
+			instance_create_layer(750 - x_distance*3, 418, "walls", finalboss_Wall11);
+			instance_create_layer(750 - x_distance*4, 418, "walls", finalboss_Wall11);
+			instance_create_layer(750 - x_distance*5, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance*2, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance*3, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance*4, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance*5, 418, "walls", finalboss_Wall11);
+			instance_create_layer(1060 + x_distance*6, 418, "walls", finalboss_Wall11);
+			instance_destroy(); 
+		}
 		if state_num >=16
 		{fade_toroom(Savecenter_end, 15, c_white); global.room_direction = 50;}
 	}

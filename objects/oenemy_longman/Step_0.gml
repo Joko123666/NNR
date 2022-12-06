@@ -64,7 +64,14 @@ switch (state)
 
 		state_set_sprite(attack_sprite, 1, 0);
 		if animation_hit_frame(7)
-		{creat_hitbox(x, y, self, enemy_vally_longman_hitbox, knockback_power, 4, attack_power, image_xscale);}
+		{
+			var shock =	instance_create_layer(x + 12*image_xscale, y, "Instances", longman_shockwave);
+			shock.image_xscale = image_xscale;
+			shock.speed = 9;
+			if image_xscale == 1 {shock.direction = 0;}
+			if image_xscale == -1 {shock.direction = 180;}
+			creat_hitbox(x, y, self, enemy_vally_longman_hitbox, knockback_power, 4, attack_power, image_xscale);
+		}
 		
 		if animation_end()
 		{state = "Neutral";}

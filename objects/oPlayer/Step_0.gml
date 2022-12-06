@@ -11,12 +11,12 @@ if Exp >= maxExp
 	Exp -= maxExp;
 	maxExp = floor(maxExp * 1.4);
 	level++;
-	maxHP += 3;
+	maxHP += 5;
 	HP += 10;
-	maxMP += 2;
+	maxMP += 5;
 	MP += 10;
-	MP_regen_time -= 2;
-	hspd += 0.01;
+	MP_regen_time -= 4;
+	hspd += 0.02;
 	damage += 1;
 	repeat(20)
 	{instance_create_layer(x, y-24, "Effects", oparticle_01)}
@@ -960,6 +960,8 @@ switch (state)
 			
 			state_set_sprite(player_attackskill_sword5, 1, 0);
 			move_and_collide(moving_speed * image_xscale, 0);
+			if animation_hit_frame(0)
+			{moving_speed = 0;}
 			
 			if animation_hit_frame(7)
 			{ MP -= attackskill_cost;invincibility = true;}

@@ -122,7 +122,7 @@ function NPC_NPC28_dialog(argument0)
 	
 	if global.mainstream >= 51	&& global.NPC28_dialog <= 20
 	{
-		if global.NPC18_dialog < 2 && global.NPC28_dialog < 2
+		if global.NPC18_dialog < 3 && global.NPC28_dialog < 3
 		{text = "어머?, 처음 보는구나";}
 		else
 		{text = "다시만나 반갑네~";}

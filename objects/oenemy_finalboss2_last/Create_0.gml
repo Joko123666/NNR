@@ -7,10 +7,15 @@ object_type = "boss"
 pattern_HP1 = 2000;
 pattern_HP2 = 1000;
 
+pattern_random = irandom(2);
+x_point = x;
+y_point = y;
+
 state = "Neutral"
 phase_state = "Phase_1";
 this_act = "empty";
 last_act = "empty";
+act_set = false;
 
 act_range = 2246;
 attack_range = 250;
@@ -39,4 +44,9 @@ hit_swich = false;
 hit_count = 0;
 
 image_speed = 1;
-image_xscale = -2;
+
+var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
+text.text = "그 의지를 보여라";
+var text_width = string_width(text.text);
+text.x -= text_width/2 + 4;
+	

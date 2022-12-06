@@ -87,6 +87,14 @@ switch (state)
 			move_and_collide_enemy(move_speed * -image_xscale, 0);
 			act_switch2 = true;
 		}
+		if act_switch == false && place_meeting(x +(image_xscale * 4), y-4, Enemy_wall)
+		{
+			screen_shake(30, 8);
+			repeat(8)
+			{instance_create_depth(x, y, 5, oparticle_12);}
+			move_and_collide_enemy(move_speed * -image_xscale, 0);
+			act_switch2 = true;
+		}
 		
 		if act_switch2 == true
 		{

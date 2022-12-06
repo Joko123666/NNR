@@ -13,7 +13,6 @@ global.moveskill03 = true;
 global.moveskill04 = true;
 global.moveskill05 = true;
 
-global.mainstream = 38;
 attackskill_set = 1;
 moveskill_set = 1;
 global.gold = 3000;

@@ -17,7 +17,7 @@ function NPC_NPC99_dialog(argument0)
 	
 	if diacount == 1	&& global.Deathcount_total >=1
 	{
-		text = "유감이구나 선택받은자여";
+		text = "허나 유감이구나";
 		global.NPC99_dialog += 1;
 	}
 	
@@ -38,6 +38,7 @@ function NPC_NPC99_dialog(argument0)
 		text = "사라져라";
 		oPlayer.state = "Death"
 		alarm[2] = 20;
+		audio_play_sound(SE_magiccast_01, 1, 0);
 		act_count = 30;
 	}
 	

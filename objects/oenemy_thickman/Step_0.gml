@@ -105,6 +105,13 @@ switch (state)
 			knockback_state(knockback_sprite, "Neutral");
 			moving_speed = 0;
 			act_switch = false;
+			if act_count2 ==1 && HP <= pattern_HP1
+			{
+				invincibility = true;
+				alarm[1] = 45;
+				act_count2 = 0;
+				state = "Attack";
+			}
 			
 			if animation_hit_frame(0)
 			{audio_play_sound(knockback_SE, 1, false);}

@@ -7,6 +7,8 @@ object_type = "enemy";
 //체력
 maxHP = 240 ;
 HP = maxHP;
+pattern_HP1 = 120;
+act_count2 = 1;
 //속도
 move_speed = 1;
 //공격 변수

@@ -59,6 +59,9 @@ if BGM_counter != global.BGM_number
 	if BGM_counter == 17
 	{	audio_play_sound(BGM_endarea, 1, true);	}
 	
+	if BGM_counter == 18
+	{	audio_play_sound(BGM_finalboss2, 1, true);	}
+	
 }
 
 
