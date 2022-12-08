@@ -3,4 +3,4 @@ grv = 1;
 
 act_count = 30;
 
-output_message = "신형 광산신발을 신었다";
+output_message = "점프높이가 상승했다!";

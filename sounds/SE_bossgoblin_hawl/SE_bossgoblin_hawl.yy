@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "SE_bossgoblin_hawl",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "SE_bossgoblin_hawl.wav",
-  "duration": 1.35254,
+  "duration": 0.979705,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "SE_bossgoblin_hawl",
-  "tags": [],
-  "resourceType": "GMSound",
 }

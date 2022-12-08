@@ -56,7 +56,7 @@ moveskill01_cool = 90;
 moveskill02_cool = 150;
 moveskill03_cool = 120;
 moveskill04_cool = 80;
-moveskill05_cool = 130;
+moveskill05_cool = 160;
 //피격 이펙트
 hit_particle = oparticle_02;
 //현재 룸 확인

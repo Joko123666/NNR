@@ -6,8 +6,8 @@ gold = 0;
 object_type = "boss";
 
 attack_power = 40;
-moving_speed = 2 * image_xscale;
-knockback_power = 8;
+moving_speed = 3 * image_xscale;
+knockback_power = 10;
 
 
 grv = 0;

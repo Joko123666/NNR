@@ -44,6 +44,8 @@ hit_swich = false;
 hit_count = 0;
 
 image_speed = 1;
+if oPlayer.x > x {image_xscale = 1;}
+if oPlayer.x < x {image_xscale = -1;}
 
 var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
 text.text = "그 의지를 보여라";
