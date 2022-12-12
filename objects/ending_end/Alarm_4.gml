@@ -1,2 +1,3 @@
 
-game_end();
+room_goto(creditroom);
+

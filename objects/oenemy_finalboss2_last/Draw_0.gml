@@ -8,3 +8,13 @@ if alarm[0] > 0
 	draw_rectangle_color(x - 32 , y - height , x -32 + (HP / maxHP)*64, y - (height-6), c_white, c_white, c_white, c_white, false);
 	draw_sprite(boss_healthbar, 0, x-32, y-height);
 }
+
+if oPlayer.state == "Death"
+{
+	var text_width = string_width(deadtext);
+	var text_height = string_height(deadtext);
+
+	draw_rectangle_color(x - 4, y - 2, x + text_width + 4, y + text_height + 2, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+	draw_rectangle_color(x - 2, y - 1, x + text_width + 2, y + text_height + 1, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	draw_text(x, y, deadtext);
+}

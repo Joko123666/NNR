@@ -43,6 +43,8 @@ shockwave_count = 3;
 hit_swich = false;
 hit_count = 0;
 
+deadtext = "겨우 이정도로 쓰러질거면 포기하는게 좋지않나?";
+
 image_speed = 1;
 if oPlayer.x > x {image_xscale = 1;}
 if oPlayer.x < x {image_xscale = -1;}
@@ -51,4 +53,5 @@ var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
 text.text = "그 의지를 보여라";
 var text_width = string_width(text.text);
 text.x -= text_width/2 + 4;
+	
 	

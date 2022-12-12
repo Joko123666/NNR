@@ -24,6 +24,11 @@ switch (state)
 
 		if act_count <= 0
 		{state = "Act_Set"; image_index = 0; image_speed = 1;	act_count = 3;}
+		
+		if HP < pattern_HP1
+		{deadtext = "이제 그만 포기해라"}
+		if HP < pattern_HP2
+		{deadtext = "이 순환을 계속할 의미가 무엇이냐?"}
 
 		#region 체력저하 패턴변경
 	

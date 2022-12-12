@@ -1,4 +1,3 @@
 
 
-load_game_defalt();
-game_restart();
+room_goto(creditroom);
