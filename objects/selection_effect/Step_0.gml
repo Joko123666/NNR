@@ -45,6 +45,8 @@ switch (state)
 	}
 	if input.interaction
 	{
+		if (!file_exists("savedgame.save"))
+		{break;}
 		load_game();
 		global.room_direction = 100;
 		audio_play_sound(SE_system04, 1, false);

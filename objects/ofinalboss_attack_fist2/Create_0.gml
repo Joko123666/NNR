@@ -6,7 +6,7 @@ gold = 0;
 object_type = "boss";
 
 attack_power = 40;
-moving_speed = 4;
+moving_speed = 6;
 knockback_power = 5;
 
 
@@ -15,4 +15,4 @@ vsp = 0;
 
 hit_particle = oparticle_26;
 
-alarm[2] = 45;
+alarm[2] = 30;

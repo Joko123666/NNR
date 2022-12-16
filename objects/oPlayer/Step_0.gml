@@ -9,7 +9,7 @@ rollspd = hspd + 3;
 if Exp >= maxExp
 {
 	Exp -= maxExp;
-	maxExp = floor(maxExp * 1.4);
+	maxExp = floor(maxExp * 1.3) + level*2;
 	level++;
 	maxHP += 5;
 	HP += 10;
@@ -1221,7 +1221,7 @@ if global.mainstream == 100
 {
 	act_count--
 	if act_count <=0
-	{fade_toroom(exitroom, 80, c_black); act_count = 9999;}
+	{fade_toroom(creditroom, 80, c_black); act_count = 9999;}
 }
 
 

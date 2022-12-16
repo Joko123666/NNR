@@ -12,6 +12,7 @@ room_goto(Graveyard_village);
 global.room_direction = 99;
 
 level = 10;
+maxExp = 385;
 maxHP = 150;
 maxMP = 150;
 damage = 18;

@@ -14,6 +14,7 @@ x = 850;
 y = 330;
 
 level = 12;
+maxExp = 752;
 maxHP = 160;
 maxMP = 160;
 damage = 22;

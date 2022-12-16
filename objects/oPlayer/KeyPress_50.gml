@@ -11,6 +11,7 @@ room_goto(Vally_village);
 global.room_direction = 99;
 
 level = 8;
+maxExp = 195;
 maxHP = 140;
 maxMP = 140;
 damage = 18;

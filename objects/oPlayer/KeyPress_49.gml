@@ -9,7 +9,8 @@ global.Player_sword = true;
 room_goto(Village_start);
 global.room_direction = 99;
 
-level = 4;
+level = 5;
+maxExp = 71;
 maxHP = 120;
 maxMP = 120;
 damage = 14;

@@ -1,6 +1,17 @@
 
 draw_self();
 
+
+if dia_switch == true
+{
+	var text_width = string_width(diatext);
+	var text_height = string_height(diatext);
+
+	draw_rectangle_color(x - text_width/2 - 4, y - 62, x + text_width/2 + 4, y + text_height -58, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+	draw_rectangle_color(x - text_width/2 - 2, y - 61, x + text_width/2 + 2, y + text_height -59, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	draw_text(x - text_width/2, y - 60, diatext);
+}
+
 if state == "Death" {exit;}
 if alarm[0] > 0
 {
@@ -14,7 +25,7 @@ if oPlayer.state == "Death"
 	var text_width = string_width(deadtext);
 	var text_height = string_height(deadtext);
 
-	draw_rectangle_color(x - 4, y - 2, x + text_width + 4, y + text_height + 2, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
-	draw_rectangle_color(x - 2, y - 1, x + text_width + 2, y + text_height + 1, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
-	draw_text(x, y, deadtext);
+	draw_rectangle_color(x - text_width/2 - 4, y - 62, x + text_width/2 + 4, y + text_height -58, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+	draw_rectangle_color(x - text_width/2 - 2, y - 61, x + text_width/2 + 2, y + text_height -59, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	draw_text(x - text_width/2, y - 60, deadtext);
 }

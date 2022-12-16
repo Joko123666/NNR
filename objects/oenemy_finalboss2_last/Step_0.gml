@@ -1,7 +1,7 @@
 if oPlayer.state == "Death"
 {state = "Neutral"; act_count = 45; show_debug_message(state);}
 
-
+show_debug_message(state);
 
 act_count = count_decrease(act_count, 1, 0);
 
@@ -25,10 +25,21 @@ switch (state)
 		if act_count <= 0
 		{state = "Act_Set"; image_index = 0; image_speed = 1;	act_count = 3;}
 		
-		if HP < pattern_HP1
+		//죽을때마다 뱉는 대사
+		if global.Deathcount_total == 0
+		{deadtext = "겨우 이정도로 쓰러질거면 포기하는게 좋지않나?"}
+		if global.Deathcount_total == 1
 		{deadtext = "이제 그만 포기해라"}
-		if HP < pattern_HP2
+		if global.Deathcount_total == 2
 		{deadtext = "이 순환을 계속할 의미가 무엇이냐?"}
+		if global.Deathcount_total == 3
+		{deadtext = "이 얼마나 나약한 의지란 말이냐"}
+		if global.Deathcount_total == 4
+		{deadtext = "그냥 그대로 쓰러져있거라"}
+		if global.Deathcount_total == 5
+		{deadtext = "그저 고집만으로 계속하고 있는건 아닌가?"}
+		if global.Deathcount_total == 6
+		{deadtext = "그만 포기하는게 편할거다"}
 
 		#region 체력저하 패턴변경
 	
@@ -150,10 +161,10 @@ switch (state)
 		if !instance_exists(oPlayer) break;
 		state_set_sprite(finalboss2_attack2, 1, 0);
 		
-		if animation_hit_frame(2)
+		if animation_hit_frame(3)
 		{
 			x_point = oPlayer.x; 
-			instance_create_layer(x_point, y, "Instances", ofinalboss_attack_fist3);
+			instance_create_depth(x_point, y, 1, ofinalboss_attack_fist3);
 			audio_play_sound(SE_patternset01, 1, 0);
 		}
 		
@@ -343,11 +354,17 @@ switch (state)
 			if !instance_exists(oPlayer) break;
 			state_set_sprite(finalboss2_attack5, 1, 0);
 			
-			if animation_hit_frame(5)
+			image_speed = 1;
+			
+			if animation_hit_frame(1)
 			{
 				x_point = oPlayer.x; 
 				if oPlayer.x > x {image_xscale = 1;}
 				if oPlayer.x < x {image_xscale = -1;}
+			}
+			
+			if animation_hit_frame(5)
+			{
 				pattern_random = irandom(2);
 				audio_play_sound(SE_moveskill, 1, 0);
 			}
@@ -355,7 +372,7 @@ switch (state)
 			{
 				move_and_collide_enemy(4 * image_xscale, 0);
 				if place_meeting(x, y, oPlayer)
-				{creat_hitbox(oPlayer.x, oPlayer.y, self, hit_48, 5, 1, 20, image_xscale);}
+				{creat_hitbox(oPlayer.x, oPlayer.y, self, hit_48, 3, 1, 0, image_xscale);}
 			}
 			
 			if animation_end()
@@ -363,15 +380,68 @@ switch (state)
 				if pattern_random == 0
 				{state = "Neutral"; act_count = 30;}
 				if pattern_random == 1
-				{state = "Phase1_AttackA"; act_count = 30;}
+				{state = "Phase1_AttackE_B"; act_count = 30;}
 				if pattern_random == 2
-				{state = "Phase1_AttackD"; act_count = 30; image_index = 6;}
+				{state = "Phase1_AttackE_C"; act_count = 30;}
 			}
-			
 		}
-	
+		
 	#endregion
 		break;
+	case "Phase1_AttackE_B" :
+	#region 대쉬 이후 펀치
+		if !instance_exists(oPlayer) break;
+		state_set_sprite(finalboss2_attack1, 1.2, 6);
+
+		if animation_hit_frame(6)
+		{
+			if oPlayer.x > x {image_xscale = 1;}
+			if oPlayer.x < x {image_xscale = -1;}
+		}
+		if animation_hit_frame(8)
+		{
+			var fist =	instance_create_layer(x + image_xscale* 16, y - 24, "Instances", ofinalboss_attack_fist);
+			fist.image_xscale = image_xscale;
+			screen_shake_x(10, 10);
+			audio_play_sound(SE_death01, 1, 0);
+		}
+
+
+		if animation_end()
+		{
+			state = "Neutral";
+			act_count = 60;
+			if HP <= pattern_HP1
+			{act_count = 50;}
+			if HP <= pattern_HP2
+			{act_count = 40;}
+			image_index = 0;
+		}
+	#endregion
+		break;
+		
+	case "Phase1_AttackE_C" :
+	#region 대쉬이후 바디프레스 - 점프
+		{
+			if !instance_exists(oPlayer) break;
+			state_set_sprite(finalboss2_attack4_a, 1, 6);
+			
+			if animation_hit_frame(8)
+			{x_point = oPlayer.x;audio_play_sound(SE_dodge_01, 1, 0);}
+
+			if animation_end()
+			{
+				
+				image_index = 0;
+				x = x_point;
+				y = 224;
+				state = "Phase1_AttackD_B";
+				image_speed = 0;
+			}
+		}
+	#endregion
+		break;
+
 		
 	case "Phase1_AttackF" :
 	#region 레이저 설치
@@ -408,118 +478,7 @@ switch (state)
 	
 	#endregion
 	
-	case "Phase2_AttackA" :
-	#region 회전 레이저 -세로
-		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
-		
-		if animation_hit_frame(6)
-		{
-			instance_create_layer(oPlayer.x + random_range(-50, 50), oPlayer.y - 200, "Instances", ofilnalboss_casting_15);
-		}
-
-		if animation_end()
-		{
-			state = "Neutral";
-			act_count = 60;
-			if HP <= pattern_HP1
-			{act_count = 50;}
-			if HP <= pattern_HP2
-			{act_count = 40;}
-			image_index = 0;
-		}
-		
-	#endregion
-	break;
 	
-	
-	
-	case "Phase2_AttackB" :
-	#region 회전 레이저 -가로
-		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
-		
-		if animation_hit_frame(6)
-		{
-			var dir = irandom(1)
-			if dir == 0 {dir = -1;}
-			var lasercast = instance_create_layer(oPlayer.x + 200*dir, oPlayer.y-20, "Instances", ofilnalboss_casting_17);
-			if dir == 1
-			{lasercast.image_angle = 180;}
-			if dir == -1
-			{lasercast.image_angle = 0;}
-		}
-
-		if animation_end()
-		{
-			state = "Neutral";
-			act_count = 70;
-			last_act = "attackB";
-		}
-		
-	#endregion
-	break;
-		
-	case "Phase2_AttackC" :
-	#region 십자 스톤
-		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
-		
-		if animation_hit_frame(6)
-		{
-			instance_create_layer(oPlayer.x + random_range(-100, 100), oPlayer.y + random_range(-100, 100), "Instances", ofilnalboss_casting_16);
-		}
-
-		if animation_end()
-		{
-			state = "Neutral";
-			act_count = 40;
-			last_act = "attackA";
-		}
-		
-	#endregion
-	break;
-	
-	case "Phase2_AttackD" :
-	#region X자 스톤			수정중
-		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
-		
-		if animation_hit_frame(6)
-		{
-			var attack = instance_create_layer(oPlayer.x + random_range(-100, 100),oPlayer.y + random_range(-100, 100), "Instances", ofilnalboss_casting_16);
-			attack.image_angle = 45;
-		}
-
-		if animation_end()
-		{
-			state = "Neutral";
-			act_count = 45;
-			last_act = "attackA";
-		}
-		
-	#endregion
-	break;
-	
-	case "Phase2_AttackE" :
-	#region 십자 스톤
-		if !instance_exists(oPlayer) break;
-		state_set_sprite(finalboss_act2, 1, 0);
-		
-		if animation_hit_frame(6)
-		{
-			instance_create_layer(oPlayer.x + random_range(-150, 150), oPlayer.y + random_range(-150, 150), "Instances", ofilnalboss_casting_18);
-		}
-
-		if animation_end()
-		{
-			state = "Neutral";
-			act_count = 30;
-			last_act = "attackE";
-		}
-		
-	#endregion
-	break;
 		
 	case "Knockback" :
 		#region Knockback_state
@@ -539,9 +498,31 @@ switch (state)
 		
 	case "Death" :
 	#region
+		state_set_sprite(finalboss_deadly2, 1,0)
+		if global.Deathcount_total == 0	&& dia_switch == false	&& global.last_dialog == 9
+		{
+			diatext = "훌륭하다, 멋지게 의지를 보여줬구나";	
+			alarm[2] = 90;dia_switch = true;	
+			audio_play_sound(SE_dialog_m02, 1, 0);
+		}
+		if global.Deathcount_total > 0	&& dia_switch == false	&& global.last_dialog == 9
+		{
+			diatext = "너의 생각은 알아들었다";	
+			alarm[2] = 90;dia_switch = true;	
+			audio_play_sound(SE_dialog_m02, 1, 0);
+		}
 		
-		state = "Neutral";
-		HP = 50;
+		if global.last_dialog == 10	&& dia_switch == false
+		{diatext = "그 생각을 소중히 여겨다오";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		
+		if global.last_dialog == 11	&& dia_switch == false
+		{diatext = "그럼 해야 할일을 마저 해야겠지";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		
+		if global.last_dialog == 12	&& dia_switch == false
+		{diatext = "저장소로 바로 보내주마";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		
+		if global.last_dialog == 13	&& dia_switch == false
+		{fade_toroom(Savecenter_end, 15, c_white); global.room_direction = 50;}
 		
 	#endregion
 	break;
@@ -558,3 +539,14 @@ if hit_swich == true
 	if hit_count <=0 
 	{hit_swich = false;}
 }
+
+if HP< pattern_HP3	&& global.last_dialog == 0	&& dia_switch == false
+{diatext = "무엇을 위해서 이 순환을 계속하는가?";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+if global.last_dialog == 1	&& dia_switch == false
+{diatext = "아무리 반복한다 한들 아무것도 변하지 않는";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+if global.last_dialog == 2	&& dia_switch == false
+{diatext = "이 반복에 어떤 의미가 있는가?";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+if global.last_dialog == 7	&& dia_switch == false
+{diatext = "그렇다면 좋다";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+if global.last_dialog == 8	&& dia_switch == false
+{diatext = "의지를 보이고 다음으로 나아가면 좋을뿐!";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}

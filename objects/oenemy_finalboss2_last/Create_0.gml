@@ -6,6 +6,7 @@ Exp = 0;
 object_type = "boss"
 pattern_HP1 = 2000;
 pattern_HP2 = 1000;
+pattern_HP3 = 800;
 
 pattern_random = irandom(2);
 x_point = x;
@@ -44,6 +45,9 @@ hit_swich = false;
 hit_count = 0;
 
 deadtext = "겨우 이정도로 쓰러질거면 포기하는게 좋지않나?";
+diatext = "무엇을 위해서 이 순환을 계속하는가?";
+dia_switch = false;
+global.Deathcount_total = 0;
 
 image_speed = 1;
 if oPlayer.x > x {image_xscale = 1;}

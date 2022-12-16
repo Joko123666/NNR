@@ -1,3 +1,3 @@
-alarm[2] = 3;
-image_alpha = 0.3;
+alarm[2] = 8;
+image_alpha = 0.8;
 image_angle = 180;

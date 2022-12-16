@@ -23,6 +23,7 @@ global.moveskill04 = true;
 global.moveskill05 = true;
 
 level = 10;
+maxExp = 385;
 maxHP = 160;
 maxMP = 160;
 damage = 22;

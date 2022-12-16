@@ -25,3 +25,13 @@ if state == "Death"
 	var text_width = string_width(text);
 	draw_text(x - text_width/2, y - 48, text);
 }
+
+if dia_switch == true
+{
+	var text_width = string_width(diatext);
+	var text_height = string_height(diatext);
+
+	draw_rectangle_color(x - text_width/2 - 4, y - 62, x + text_width/2 + 4, y + text_height -58, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+	draw_rectangle_color(x - text_width/2 - 2, y - 61, x + text_width/2 + 2, y + text_height -59, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	draw_text(x - text_width/2, y - 60, diatext);
+}

@@ -90,6 +90,8 @@ delaycount = 0;
 repeatcount = 0;
 act_count = 10;
 act_switch = false;
+dia_switch = false;
+diatext = ".";
 //텍스트 출력 변수
 notenough_text = false;
 notready_text = false;

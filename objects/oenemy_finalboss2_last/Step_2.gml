@@ -1,6 +1,7 @@
-if (HP <= 100) && phase_state == "Phase_1"
+if (HP <= 10) && phase_state == "Phase_1"
 { 
-	HP = 100;
+	HP = 1;
+	state = "Death";
 }
 if (HP <= 100) && phase_state == "Phase_2"
 { 
