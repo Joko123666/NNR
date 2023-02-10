@@ -11,29 +11,38 @@ function NPC_NPC12_dialog(argument0)
 	{diacount = 4;}
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC12_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "바레타씨는 오늘도 아름다워라";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 1
 	{
-		text = "2층은 여행자들이 머무는 여관이야";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 2
 	{
-		text = "길드에 가끔씩 유령이 나온다는 모양이야";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 3  
 	{
-		text = "전리품을 길드에서 골드로 바꿀수 있어";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 4
 	{
-		text = "헤롤드씨가 무릎을 다쳐서 은퇴한다는 모양이야";
+		text = scr_name[diacount + 2];
 	}
 	
 	return text;

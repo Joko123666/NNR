@@ -21,3 +21,9 @@ hspd = 2.6;
 maxjumpcount = 2;
 global.gold = 1000;
 quest_clearall();
+
+global.mainquest[15] = 3;
+quest_clearboard("main015");
+global.NPC43_dialog = 17;
+global.mainquest[17] = 1;		//퀘스트 진행도 갱신
+quest_board("main017");			//퀘스트 보드에 퀘스트 갱신

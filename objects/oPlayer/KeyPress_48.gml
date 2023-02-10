@@ -1,26 +1,27 @@
 
+
+
+//마지막마지막보스
+global.greenorb = false;
+global.redorb = false;
+global.blueorb = false;
+
+global.mainstream = 80;
 global.Player_sword = true;
-maxjumpcount = 2;
+room_goto(Final_bossarea_end);
+global.room_direction = 1;
+x = 850;
+y = 330;
 
-global.attackskill02 = true;
-global.attackskill03 = true;
-global.attackskill04 = true;
-global.attackskill05 = true;
-global.attackskill06 = true;
-
-global.moveskill02 = true;
-global.moveskill03 = true;
-global.moveskill04 = true;
-global.moveskill05 = true;
-
-attackskill_set = 1;
-moveskill_set = 1;
-global.gold = 3000;
-
-damage = 30;
+level = 12;
+maxExp = 752;
 maxHP = 160;
-maxMP = 130;
-HP = maxHP;
-MP = maxMP;
-MP_regen_time = 90;
-hspd = 2.6;
+maxMP = 160;
+damage = 22;
+MP_regen_time = 60;
+hspd = 2.64;	
+jumppower = 7;
+oPlayer.MP_regen_time = 20;
+maxjumpcount = 2;
+global.gold = 0;
+quest_clearall();

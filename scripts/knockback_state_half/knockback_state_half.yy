@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "knockback_state_half",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "etc",
     "path": "folders/스크립트/etc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "knockback_state_half",
-  "tags": [],
-  "resourceType": "GMScript",
 }

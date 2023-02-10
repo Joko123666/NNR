@@ -5,24 +5,33 @@ function NPC_shoponer_dialog(argument0)
 	///@arg dilog_count
 	var diacount = argument0;
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC_shoponer_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	
 	if diacount == 0	
 	{
-		text = "어서오십시오 손님, 처음이신가요?";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		global.NPC_shopper01_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = "저는 여행에 필요한 아이템을 파는 상인입니다";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		global.NPC_shopper01_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "만남의 기념으로 이 아이템을 드리겠습니다";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		global.NPC_shopper01_dialog += 1;
 		
@@ -31,7 +40,7 @@ function NPC_shoponer_dialog(argument0)
 	
 	if diacount == 3
 	{
-		text = "원하시는 상품을 골라주세요";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 	}
 	

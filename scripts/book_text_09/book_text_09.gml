@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_09(line_num)
 {
-	var text_line01 = "기록일지 : 9999호";
-	var text_line02 = "이게 아마도 정식으론 마지막 기록이 될것같다"
-	var text_line03 = "더이상 정신을 제대로 유지할 자신이 없어서";
-	var text_line04 = "이번을 마지막으로 기록장치와 저장소를 멈췄다";
-	var text_line05 = "간략한 정보만을 비석에 새겨 남겨놨으니";
-	var text_line06 = "내가 아니게된 내가 잘 활용해주길 바란다";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[49];
+	var text_line02 = scr_name[50];
+	var text_line03 = scr_name[51];
+	var text_line04 = scr_name[52];
+	var text_line05 = scr_name[53];
+	var text_line06 = scr_name[54];
 	
 	if line_num == 1
 	{return text_line01;}

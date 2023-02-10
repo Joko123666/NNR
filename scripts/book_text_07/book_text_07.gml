@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_07(line_num)
 {
-	var text_line01 = "기록일지 : 4754호";
-	var text_line02 = "이번 세계는 사람들이 따듯한 세계였다"
-	var text_line03 = "관리역과 함께 움직임이 멈췄을때는 패닉이였다";
-	var text_line04 = "시간이 지난뒤 저장소를 발견해서 다행이지";
-	var text_line05 = "바로 저장소로 향했다면 망설임 없이 종료를 선택했을것이다";
-	var text_line06 = "이 기록을 읽었다면 너무 좋은세계는 지양해주길 바란다";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[37];
+	var text_line02 = scr_name[38];
+	var text_line03 = scr_name[39];
+	var text_line04 = scr_name[40];
+	var text_line05 = scr_name[41];
+	var text_line06 = scr_name[42];
 	
 	if line_num == 1
 	{return text_line01;}

@@ -168,7 +168,7 @@ switch (state)
 			
 			//페이즈2로 이행
 			phase_state = "Phase_2"
-			maxHP = 1500;
+			maxHP = 500;
 			HP = maxHP;
 			if instance_exists(ofinalboss_wall)
 			{instance_destroy(ofinalboss_wall);}
@@ -187,35 +187,6 @@ switch (state)
 			instance_destroy();
 		}
 	
-		#endregion
-		#region 체력저하 패턴 2페이즈
-		if phase_state == "Phase_2" && shockwave_count == 3	&& HP <= pattern_HP1
-		{
-			if oPlayer.x > x	//플레이어가 우측
-			{
-				with (oPlayer) {ismoving = true; moving_direction = 0; moving_speed = 15;vsp = -6;}
-			}
-			if oPlayer.x <= x	//플레이어가 좌측
-			{
-				with (oPlayer) {ismoving = true; moving_direction = 180; moving_speed = 15;vsp = -6;}
-			}
-			shockwave_count--;
-			create_particle(x, y, skullboss_effect_E, 1); audio_play_sound(SE_explosion01, 1, false);
-		}
-		if phase_state == "Phase_2" && shockwave_count == 2	&& HP <= pattern_HP2
-		{
-			if oPlayer.x > x	//플레이어가 우측
-			{
-				with (oPlayer) {ismoving = true; moving_direction = 0; moving_speed = 15;vsp = -6;}
-			}
-			if oPlayer.x <= x	//플레이어가 좌측
-			{
-				with (oPlayer) {ismoving = true; moving_direction = 180; moving_speed = 15;vsp = -6;}
-			}
-			shockwave_count--;
-			create_particle(x, y, skullboss_effect_E, 1); audio_play_sound(SE_explosion01, 1, false);
-		}
-		
 		#endregion
 		
 		

@@ -2,16 +2,14 @@
 
 
 //엔딩으로
-global.greenorb = false;
-global.redorb = false;
-global.blueorb = false;
+global.greenorb = true;
+global.redorb = true;
+global.blueorb = true;
 
-global.mainstream = 80;
+global.mainstream = 71;
 global.Player_sword = true;
-room_goto(Final_bossarea_end);
-global.room_direction = 1;
-x = 850;
-y = 330;
+room_goto(Village_start_end);
+global.room_direction = 99;
 
 level = 12;
 maxExp = 752;

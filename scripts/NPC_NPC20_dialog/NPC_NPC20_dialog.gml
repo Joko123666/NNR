@@ -4,55 +4,63 @@ function NPC_NPC20_dialog(argument0)
 	///@arg dilog_count
 	var diacount = argument0;
 	text = ""
-
+	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC20_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
 	
 	if diacount == 0
 	{
-		text = "당신은 외지인인가";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = "이곳은 처음오나?";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 
 	if diacount == 2 
 	{
-		text = "여기는 절벽의도시 제루루크다";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = "적광석이 나오지만 보다시피 척박해서";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	if diacount == 4  
 	{
-		text = "광부와 이곳을 지키는 병사들";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	if diacount == 5
 	{
-		text = "그외의 사람이 거의 살지 않는곳이지";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	if diacount == 6  
 	{
-		text = "편한곳은 아니지만 우리에겐 고향이다";
+		text = scr_name[diacount + 2];
 		global.NPC20_dialog += 1;
 	}
 	
 	
 	if diacount == 7  
 	{
-		text = "천천히 둘러보다 가라고";
+		text = scr_name[diacount + 2];
 	}
 	
 	

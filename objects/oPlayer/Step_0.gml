@@ -1114,7 +1114,7 @@ switch (state)
 if global.mainstream == 1	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//게임 시작 배경 독백 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1126,7 +1126,7 @@ if global.mainstream == 1	&& input.interaction	&& act_count <=0	&& dialog_endswi
 if global.mainstream == 2	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//기본조작 가이드 대사 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1147,7 +1147,7 @@ if global.mainstream == 2	&& input.interaction	&& act_count <=0	&& dialog_endswi
 if global.mainstream == 4	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//공격조작 가이드 대사 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1165,7 +1165,7 @@ if global.mainstream == 4	&& input.interaction	&& act_count <=0	&& dialog_endswi
 if global.mainstream == 6	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//이동스킬, 아이템 조작 가이드 대사 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1183,7 +1183,7 @@ if global.mainstream == 6	&& input.interaction	&& act_count <=0	&& dialog_endswi
 if global.mainstream == 8	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//훈련종료 독백 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1200,7 +1200,7 @@ if global.mainstream == 8	&& input.interaction	&& act_count <=0	&& dialog_endswi
 if global.mainstream == 10	&& act_count <=0	&& dialog_endswitch == false	&& input.interaction
 {
 	//본편 시작 대사 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_self_dialog(dialog_count);
 	text.dianame = "이드"
@@ -1211,7 +1211,7 @@ if global.mainstream == 10	&& act_count <=0	&& dialog_endswitch == false	&& inpu
 if global.mainstream == 99	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//본편 시작 대사 출력
-	act_count = 18;
+	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
 	text.text = Player_selfend_dialog(dialog_count);
 	text.dianame = "이드"

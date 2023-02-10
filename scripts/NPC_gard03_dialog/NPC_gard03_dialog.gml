@@ -4,21 +4,30 @@ function NPC_gard03_dialog(argument0)
 	///@arg dilog_count
 	var diacount = argument0;
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC_gard_dialog.txt");
+	for (var i = 1; i < 30; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "경계중 이상 무!";
+		text = scr_name[8];
 		dialog_count +=1
 	}
 	
 	if diacount == 1 
 	{
-		text = "이 언덕 위쪽 동굴에 강한 몬스터가 나타났습니다!";
+		text = scr_name[9];
 		dialog_count +=1
 	}
 	
 	if diacount == 2 
 	{
-		text = "단단히 준비하지 않으면 위험합니다!";
+		text = scr_name[10];
 	}
 	
 	return text;

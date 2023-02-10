@@ -6,20 +6,29 @@ function NPC_gard04_dialog(argument0)
 
 	diacount = irandom(2);
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC_gard_dialog.txt");
+	for (var i = 1; i < 30; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	
 	if diacount == 0
 	{
-		text = "저희는 정찰임무중입니다";
+		text = scr_name[11];
 	}
 	
 	if diacount == 1 
 	{
-		text = "이 주변에 이상사태가 발생해 조사중입니다";
+		text = scr_name[12];
 	}
 	
 	if diacount == 2 
 	{
-		text = "항상 위험에 대비하십시오!";
+		text = scr_name[13];
 	}
 	
 	return text;

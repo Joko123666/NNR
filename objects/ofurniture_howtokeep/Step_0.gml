@@ -8,7 +8,7 @@ else {contect = false;}
 
 if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 {
-	act_count = 165;
+	act_count = 65;
 	
 	audio_play_sound(SE_system01, 1, false);
 

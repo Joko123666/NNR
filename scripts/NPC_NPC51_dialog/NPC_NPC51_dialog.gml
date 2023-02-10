@@ -5,16 +5,25 @@ function NPC_NPC51_dialog(argument0)
 	var diacount = argument0;
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC51_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "안녕하신가!";
+		text = scr_name[diacount + 2];
 		screen_shake(5, 5);
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = "내이름은 골리아스!";
+		text = scr_name[diacount + 2];
 		screen_shake(5, 5);
 		global.NPC51_dialog += 1;
 	}
@@ -28,31 +37,31 @@ function NPC_NPC51_dialog(argument0)
 	
 	if diacount == 3
 	{
-		text = "자네의 여행도 끝이 다가왔군";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 4
 	{
-		text = "마음의 준비는 되었는가?";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 5
 	{
-		text = "자네에게 나의 최고의 기술을 맡기고싶네";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 6
 	{
-		text = "이 기술을 사용해도 좋고 사용하지 않아도 좋네";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 7
 	{
-		text = "그저 이 기술을 받아주게나";
+		text = scr_name[diacount + 2];
 		global.Player_attackskill = 6;
 		global.attackskill06 = true;
 		oPlayer.attackskill_set = 6;
@@ -61,19 +70,19 @@ function NPC_NPC51_dialog(argument0)
 	
 	if diacount == 8
 	{
-		text = "...";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 9
 	{
-		text = "그럼 잘 지내시게";
+		text = scr_name[diacount + 2];
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 10
 	{
-		text = "나도 자신을 단련시키고 있겠네!!";
+		text = scr_name[diacount + 2];
 		active_sprite = NPC_village_09_active;
 		screen_shake(10, 5);
 		global.NPC51_dialog += 1;
@@ -81,14 +90,14 @@ function NPC_NPC51_dialog(argument0)
 	
 	if diacount == 11
 	{
-		text = "왓핫핫하!!";
+		text = scr_name[diacount + 2];
 		screen_shake(10, 5);
 		global.NPC51_dialog += 1;
 	}
 	
 	if diacount == 12
 	{
-		text = "오오 단련! 그것은 인생!";
+		text = scr_name[diacount + 2];
 		screen_shake(5, 5);
 	}
 

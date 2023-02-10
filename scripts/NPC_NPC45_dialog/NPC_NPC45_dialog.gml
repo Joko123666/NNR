@@ -5,6 +5,15 @@ function NPC_NPC45_dialog(argument0)
 	var diacount = argument0;
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC45_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
 		text = "...";
@@ -16,25 +25,25 @@ function NPC_NPC45_dialog(argument0)
 	
 	if diacount == 1
 	{
-		text = "네가 이드인가";
+		text = scr_name[diacount + 2];
 		global.NPC44_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "일전에 조사단이 다녀갔다";
+		text = scr_name[diacount + 2];
 		global.NPC45_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = "이상을 해결하려 한다고 말이지";
+		text = scr_name[diacount + 2];
 		global.NPC45_dialog += 1;
 	}
 	
 	if diacount == 4
 	{
-		text = "...";
+		text = scr_name[diacount + 2];
 		global.NPC45_dialog += 1;
 	}
 	

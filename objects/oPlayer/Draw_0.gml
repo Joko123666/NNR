@@ -1,6 +1,11 @@
 if room != Title && room!= endroom_end_everything && room != endroom_keep && room != exitroom
 {draw_self();}
 
+if dialog_count > 1	&& global.mainstream < 10
+{
+	var key = input.UI_interaction
+	draw_text(x - string_width(key)/2, y -48, key);
+}
 
 if notenough_text == true
 {

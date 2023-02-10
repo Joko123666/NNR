@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "get_inputUI",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "etc",
     "path": "folders/스크립트/etc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "get_inputUI",
-  "tags": [],
-  "resourceType": "GMScript",
 }

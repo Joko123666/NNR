@@ -1,5 +1,5 @@
 event_inherited();
-maxHP = 260 ;
+maxHP = 20 ;
 HP = maxHP;
 Exp = 0 ;
 gold = 0;

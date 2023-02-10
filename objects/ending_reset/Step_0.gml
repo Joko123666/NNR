@@ -12,6 +12,10 @@ else {active = false;}
 
 if active == true
 {
+	oPlayer.level = 1;
+	oPlayer.HP = oPlayer.maxHP;
+	oPlayer.MP = oPlayer.maxMP;
+	oPlayer.Exp = 0;
 	fade_toroom(Village_Playerhouse_reset, 40, c_black);
 	oPlayer.dialog_count = 0;
 	global.mainstream = 99;

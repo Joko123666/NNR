@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_03(line_num)
 {
-	var text_line01 = "기록일지 : 243호";
-	var text_line02 = "이번 세계는 끝내주는군"
-	var text_line03 = "기록일지를 살펴보면 몇대에 걸쳐서 만든듯 한데";
-	var text_line04 = "나 자신에게 감사한다고";
-	var text_line05 = "나는 너무 만족스러웠으니까";
-	var text_line06 = "이대로 손 안대고 그대로 남겨도 좋을것같다";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[13];
+	var text_line02 = scr_name[14];
+	var text_line03 = scr_name[15];
+	var text_line04 = scr_name[16];
+	var text_line05 = scr_name[17];
+	var text_line06 = scr_name[18];
 	
 	if line_num == 1
 	{return text_line01;}

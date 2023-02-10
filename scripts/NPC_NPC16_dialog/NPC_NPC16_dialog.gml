@@ -5,9 +5,18 @@ function NPC_NPC16_dialog(argument0)
 	var diacount = argument0;
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC16_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0	&& global.mainstream < 19
 	{
-		text = "안녕하세요 이드씨 여긴 어쩐 일이세요?";
+		text = scr_name[diacount + 2];
 		dialog_endswitch = true;
 		diafalse_count = 50;
 		global.UItext_show = false;
@@ -15,7 +24,7 @@ function NPC_NPC16_dialog(argument0)
 	
 	if diacount == 0 && global.mainstream == 19
 	{
-		text = "안녕하세요 이드씨 여긴 어쩐 일이세요?";
+		text = scr_name[diacount + 2];
 		global.NPC16_dialog += 1;
 		global.UItext_show = true;
 	}
@@ -23,13 +32,13 @@ function NPC_NPC16_dialog(argument0)
 
 	if diacount == 1 
 	{
-		text = "아 길드에서 보내서 오셨다구요?";
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "마침 도움이 필요하던 차였는데 다행이네요";
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 		global.mainquest[4] = 3;		//퀘스트 진행도 갱신
 		audio_play_sound(SE_system07, 1, false);
@@ -37,31 +46,31 @@ function NPC_NPC16_dialog(argument0)
 	
 	if diacount == 3  
 	{
-		text = "조사중 이 위쪽 동굴에서 이상을 발견했습니다";
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 4
 	{
-		text = "특이한 고블린이 출현한 듯 합니다만";	
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 5
 	{
-		text = "조사원분중 한분이 함정에 걸려 부상을 당해서";
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 6
 	{
-		text = "한번 마을에 돌아가야 하는 상황이였습니다";
+		text = scr_name[diacount + 3];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 7
 	{
-		text = "가능하면 동굴 안쪽의 확인을 부탁드려도 될까요?";
+		text = scr_name[diacount + 3];
 		global.mainstream = 20;
 		global.mainquest[5] = 1;		//퀘스트 진행도 갱신
 		quest_board("main005");			//퀘스트 보드에 퀘스트 갱신
@@ -71,7 +80,7 @@ function NPC_NPC16_dialog(argument0)
 	
 	if diacount == 8	&& global.mainstream < 21
 	{
-		text = "기운도 차릴겸 스프도 드시고 가세요~";
+		text = scr_name[diacount + 3];
 		dialog_endswitch = true;
 		diafalse_count = 50;
 		global.UItext_show = false;
@@ -79,48 +88,48 @@ function NPC_NPC16_dialog(argument0)
 	
 	if diacount <= 8 && global.mainstream >= 21
 	{
-		text = "무사히 돌아오셨군요!";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog = 9;
 		global.UItext_show = true;
 	}
 	
 	if diacount == 9
 	{
-		text = "동굴 안쪽에 커다란 고블린이 있어서";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 10
 	{
-		text = "쓰러트리고 오셨다구요?";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 11
 	{
-		text = "수고 많으셨습니다";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 	}
 	
 	if diacount == 12
 	{
-		text = "저희는 후속 조사를 마친 뒤에 복귀하겠습니다";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 	}
 	if diacount == 13
 	{
-		text = "여기 카카리코행 전송석을 드리겠습니다";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 		instance_create_layer(x + 32*image_xscale, y-24, "Instances", Item_teleportgem);
 	}
 	if diacount == 14
 	{
-		text = "이걸 써서 먼저 돌아가주시기 바랍니다";
+		text = scr_name[diacount + 4];
 		global.NPC16_dialog += 1;
 	}
 	if diacount == 15
 	{
-		text = "조사협력 감사드립니다!";
+		text = scr_name[diacount + 4];
 		dialog_endswitch = true;
 		diafalse_count = 50;
 		global.UItext_show = false;

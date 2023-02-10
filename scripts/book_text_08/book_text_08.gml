@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_08(line_num)
 {
-	var text_line01 = "기록일지 : 6038호";
-	var text_line02 = "아마도 나름대로의 기록과 기억이 쌓여서겠지만"
-	var text_line03 = "기록을 보건데 최근의 세계는 무난하게 만들어진 모양이다";
-	var text_line04 = "이대로 무난함만 반복하는것에 의미가 있는것일까?";
-	var text_line05 = "일단은 나도 무난한걸 만들고는 있지만";
-	var text_line06 = "고민은 끝나질 않는다...";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[43];
+	var text_line02 = scr_name[44];
+	var text_line03 = scr_name[45];
+	var text_line04 = scr_name[46];
+	var text_line05 = scr_name[47];
+	var text_line06 = scr_name[48];
 	
 	if line_num == 1
 	{return text_line01;}

@@ -8,7 +8,7 @@ global.blueorb = true;
 
 global.mainstream = 60;
 global.Player_sword = true;
-room_goto(Graveyard_village);
+room_goto(Portalroom);
 global.room_direction = 99;
 
 global.attackskill02 = true;

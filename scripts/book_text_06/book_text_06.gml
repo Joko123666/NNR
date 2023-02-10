@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_06(line_num)
 {
-	var text_line01 = "기록일지 : 3648호";
-	var text_line02 = "솔직히 충격이다"
-	var text_line03 = "지금까지의 나의 노력은 무엇이였을까?";
-	var text_line04 = "이것도 '나'의 노력이라는건 알겠지만";
-	var text_line05 = "좀처럼 마음이 정리되지 않는다";
-	var text_line06 = "조금 더 시간이 필요하다...";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[31];
+	var text_line02 = scr_name[32];
+	var text_line03 = scr_name[33];
+	var text_line04 = scr_name[34];
+	var text_line05 = scr_name[35];
+	var text_line06 = scr_name[36];
 	
 	if line_num == 1
 	{return text_line01;}

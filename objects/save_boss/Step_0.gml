@@ -14,6 +14,12 @@ if place_meeting(x,y,oPlayer) && act_count <= 0 && oPlayer.input.interaction
 	oPlayer.HP = lastHP;
 	oPlayer.MP = lastMP;
 	state = "active";
+	
+	audio_play_sound(SE_system07, 1, false);
+	var text = instance_create_layer(x, y-82, "Effects", text_drawingob);
+	text.text = "게임 저장 완료!";
+	var text_width = string_width(text.text);
+	text.x -= text_width/2 + 4;
 }
 
 if state == "active"

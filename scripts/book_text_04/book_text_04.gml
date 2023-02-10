@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_04(line_num)
 {
-	var text_line01 = "기록일지 : 443호";
-	var text_line02 = "저장소에서 기억을 이어받고 바로 적는다"
-	var text_line03 = "아무래도 기억을 이어받고 잠시 기절한 모양이다";
-	var text_line04 = "과거의 기억을 한번에 받아쓰는데에 무리가 가나?";
-	var text_line05 = "이번만의 문제일수 있으니 기록에 남겨놓는다";
-	var text_line06 = "다음세계의 내가 조취를 취했으면 한다";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[19];
+	var text_line02 = scr_name[20];
+	var text_line03 = scr_name[21];
+	var text_line04 = scr_name[22];
+	var text_line05 = scr_name[23];
+	var text_line06 = scr_name[24];
 	
 	if line_num == 1
 	{return text_line01;}

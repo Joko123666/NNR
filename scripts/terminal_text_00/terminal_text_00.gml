@@ -3,12 +3,12 @@
 function terminal_text_00(line_num)
 {
 	var text_line01 = ""
-	text_line01 = "만들어진 세계의 이야기의 끝을 본 나에겐";
-	var text_line02 = "3가지 선택지가 있다"
-	var text_line03 = "수면장치에서 잠시 잠을 자 선택을 미루거나";
-	var text_line04 = "다시 기억을 지우고 새로운 삶을 살거나";
-	var text_line05 = "몸을 완전히 분해시켜 죽은것과 다름없게 되는것";
-	var text_line06 = "어느것을 고르던 책망하지 않는다";
+	text_line01 = "옛날에 목숨을 관리하던 신이 있었다";
+	var text_line02 = "영생을 탐내던 왕이 신살을 꾀했고"
+	var text_line03 = "용사인 나를 보내 결국 신을 죽였다";
+	var text_line04 = "하지만 신과 함께 다른 모든 사람이 죽었고";
+	var text_line05 = "나는 신의 저주를 받아 영원히 죽지 않게 되었다";
+	var text_line06 = "세계에 나홀로 남겨진것이다";
 	
 	
 	if line_num == 1

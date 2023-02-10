@@ -8,29 +8,38 @@ function NPC_NPC13_b_dialog(argument0)
 	diacount = irandom(4);
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC13_b_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "어서오십시오";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 1
 	{
-		text = "죄송하지만 지금은 방이 전부 찼습니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 2
 	{
-		text = "제루루크에는 어떤 일로 오셨나요?";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 3  
 	{
-		text = "좋은 날입니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 4
 	{
-		text = "환영합니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	return text;

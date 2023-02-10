@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_02(line_num)
 {
-	var text_line01 = "기록일지 : 78호";
-	var text_line02 = "솔직히 말해서 충격이 크다"
-	var text_line03 = "이 세계에 살아있는것은 나 혼자뿐이고";
-	var text_line04 = "내가 행동한건 과거의 내가만든 각본이며";
-	var text_line05 = "여러번 세계를 구하고 다시 부숴왔다는것을";
-	var text_line06 = "과거의 나는 대체 무슨생각인걸까?";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[7];
+	var text_line02 = scr_name[8];
+	var text_line03 = scr_name[9];
+	var text_line04 = scr_name[10];
+	var text_line05 = scr_name[11];
+	var text_line06 = scr_name[12];
 	
 	if line_num == 1
 	{return text_line01;}

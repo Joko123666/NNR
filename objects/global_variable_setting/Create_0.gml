@@ -4,6 +4,7 @@
 	global.input_type = "A";
 	global.UItext_show = false;
 	global.gamevolume = 0.5;
+	global.language = "Korean";
 #endregion
 
 #region //게임구조 트리거 변수 

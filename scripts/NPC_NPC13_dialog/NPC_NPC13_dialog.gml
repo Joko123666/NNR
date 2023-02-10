@@ -8,29 +8,38 @@ function NPC_NPC13_dialog(argument0)
 	diacount = irandom(4);
 	text = ""
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC13_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "어서오십시오";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 1
 	{
-		text = "저희 여관은 1박에 10G 입니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 2
 	{
-		text = "집이 있으신분이 방을 빌릴 필요는 없겠죠";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 3  
 	{
-		text = "좋은 날입니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	if diacount == 4
 	{
-		text = "환영합니다";
+		text = scr_name[diacount + 2];
 	}
 	
 	return text;

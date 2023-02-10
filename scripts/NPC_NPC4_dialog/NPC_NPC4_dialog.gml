@@ -6,9 +6,18 @@ function NPC_NPC4_dialog(argument0)
 	var diacount = argument0;
 	text = "";
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC04_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0
 	{
-		text = "안녕 이드? 오늘도 좋은 하루구나.";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		if global.mainstream >= 18
 		{global.NPC4_dialog += 1;}
@@ -17,24 +26,21 @@ function NPC_NPC4_dialog(argument0)
 	
 	if diacount == 1
 	{
-		text = "마침 부탁할 일이 있는데 들어줄 수 있겠니?";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		global.NPC4_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "동쪽 숲에서 나오는 덤불 딸기가 필요한데";
+		text = scr_name[diacount + 2];
 		dialog_count +=1
 		global.NPC4_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = "부탁좀 할 수 있을까?";
-		
-		
-		
+		text = scr_name[diacount + 2];
 		if global.quest_stack[4] == "empty"
 		{
 			quest_board("side001");
@@ -49,12 +55,12 @@ function NPC_NPC4_dialog(argument0)
 	
 	if diacount >= 4 && global.Player_item != "Bushberry"
 	 {
-		 text = "가는길에 몬스터가 있을테니 조심해";
+		text = scr_name[diacount + 2];
 	 }
 	
 	if diacount >= 4 && global.Player_item == "Bushberry"
 	{
-		 text = "덤불 딸기를 가져왔구나!";
+		text = scr_name[diacount + 3];
 		 dialog_count +=1
 		global.NPC4_dialog += 1;
 		global.subquest[1] = 3;
@@ -64,7 +70,7 @@ function NPC_NPC4_dialog(argument0)
 	
 	if diacount == 5
 	{
-		text = "가져다 줘서 고마워! 작지만 답례로 저번에 딴 약초를 줄게";
+		text = scr_name[diacount + 3];
 		global.Player_item = "empty";
 		instance_create_layer(x + image_xscale * 44, y - 46, "Effects", Item_healherb);
 		
@@ -74,7 +80,7 @@ function NPC_NPC4_dialog(argument0)
 	
 	if diacount == 6
 	{
-		text = "항상 심부름 해줘서 고마워!";
+		text = scr_name[diacount + 3];
 	}
 	
 	return text;

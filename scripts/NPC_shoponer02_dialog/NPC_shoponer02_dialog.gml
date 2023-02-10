@@ -8,81 +8,90 @@ function NPC_shoponer02_dialog(argument0)
 	var ex_diacount = ex_dialog_count;
 	text = "";
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC_shoponer_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0	
 	{
-		text = "제루루크 상점에 어서오세요!";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = "제루루크는 처음이신가요?";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "제루루크의 특산물은 뭐라해도 적광석!";
+		text = scr_name[diacount + 6];
 		dialog_count +=1
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = "하지만 정작 가공시설은 이곳에 없기때문에";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 4
 	{
-		text = "업자가 아니면 적광석을 사도 의미가 없죠";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 5
 	{
-		text = "대신 질좋은 폭약과 회복약은 추천드립니다";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount == 6
 	{
-		text = "부디 원하는걸로 골라주시죠";
+		text = scr_name[diacount + 6];
 		global.NPC_shopper02_dialog += 1;
 	}
 	
 	if diacount ==7		&& randia == 0
 	{
-		text = "부디 원하는걸로 골라주시죠";
+		text = scr_name[diacount + 6];
 	}
 	
 	if diacount ==7		&& randia == 1
 	{
-		text = "폭약은 신중히 다뤄주세요~";
+		text = scr_name[diacount + 7];
 	}
 	
 	if diacount ==7		&& randia == 2
 	{
-		text = "여기는 장사가 참 안된단 말이죠";
+		text = scr_name[diacount + 8];
 	}
 	
 	//++++
 	
 	if global.Player_item == "Metalsack"	&& ex_diacount == 0
 	{
-		text = "적수정석을 파시는건가요?"
+		text = scr_name[15];
 		ex_dialog_count = 1;
 	}
 	
 	if global.Player_item == "Metalsack"	&& ex_diacount == 1
 	{
-		text = "적수정석은 언제든 고가로 매입해 드린답니다"
+		text = scr_name[16];
 		ex_dialog_count = 2;
 	}
 	
 	if global.Player_item == "Metalsack"	&& ex_diacount == 2
 	{
-		text = "적수정석 1000G에 매입하였습니다~"
+		text = scr_name[17];
 		global.Player_item = "empty";
 		global.gold += 1000;
 		global.subquest[3] = 3;
@@ -94,7 +103,7 @@ function NPC_shoponer02_dialog(argument0)
 	
 	if ex_diacount == 3
 	{
-		text = "다음번에 또 부탁드려요~"
+		text = scr_name[18];
 	}
 	
 	return text;

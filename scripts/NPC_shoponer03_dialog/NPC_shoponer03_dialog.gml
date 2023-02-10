@@ -7,38 +7,47 @@ function NPC_shoponer03_dialog(argument0)
 	var randia = irandom(2);
 	text = "";
 	
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC_shoponer_dialog.txt");
+	for (var i = 1; i < 55; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
 	if diacount == 0	
 	{
-		text = "어서오십셔";
+		text = scr_name[diacount + 19];
 		global.NPC_shopper03_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = "길드의 요청으로 출장나온 상인입니다";
+		text = scr_name[diacount + 19];
 		global.NPC_shopper03_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = "물건은 별로 못가져왔지만";
+		text = scr_name[diacount + 19];
 		global.NPC_shopper03_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = "그래도 이것저것 사가십셔";
+		text = scr_name[diacount + 19];
 		global.NPC_shopper03_dialog += 1;
 	}
 	
 	if diacount == 4
 	{
 		if randia == 0
-			{text = "사가십셔~";}
+			{text = scr_name[diacount + 19];}
 		if randia == 1
-			{text = "이게 출장지 적정가입니다~";}
+			{text = scr_name[diacount + 20];}
 		if randia == 2
-			{text = "지금사면 감사의 마음이 공짜~";}
+			{text = scr_name[diacount + 21];}
 		
 	}
 	

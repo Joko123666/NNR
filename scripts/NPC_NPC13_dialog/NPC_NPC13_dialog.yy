@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "NPC_NPC13_dialog",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "dialog",
     "path": "folders/스크립트/dialog.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "NPC_NPC13_dialog",
-  "tags": [],
-  "resourceType": "GMScript",
 }

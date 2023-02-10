@@ -2,12 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_05(line_num)
 {
-	var text_line01 = "기록일지 : 1064호";
-	var text_line02 = "이번 기억의 갱신에는 한시간정도가 걸렸다"
-	var text_line03 = "기억을 토대로 몇가지 조취를 취해놨지만";
-	var text_line04 = "완전히 부작용을 없애는데는 아직 모자르다";
-	var text_line05 = "그런데 이런 생각이 들기도 한다";
-	var text_line06 = "어차피 죽지않는몸인데 그정도는 상관없지않나?";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
+	for (var i = 0; i < 25; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	var text_line01 = scr_name[25];
+	var text_line02 = scr_name[26];
+	var text_line03 = scr_name[27];
+	var text_line04 = scr_name[28];
+	var text_line05 = scr_name[29];
+	var text_line06 = scr_name[30];
 	
 	if line_num == 1
 	{return text_line01;}
