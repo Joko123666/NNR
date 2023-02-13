@@ -42,9 +42,9 @@ Want to join the Adventurer's Guild?
 It's hard to say, but
 There are rules for joining an adventurer's guild.
 Newcomers must have their own weapon.
-- Please come back with a weapon.
-- Come to think of it, Mr. Harold is thinking of retiring.
-- Why don't you transfer weapons from villagers?
+Please come back with a weapon.
+Come to think of it, Mr. Harold is thinking of retiring.
+Why don't you transfer weapons from villagers?
 He's got a weapon
 Mr. Ed said that other than that, the conditions are satisfied.
 You can join the adventurer's guild
@@ -68,7 +68,7 @@ First of all, I'll give you the shoes you need in Jeruuk Village.
 If you wear this, you can jump one more time in the air.
 It will help you navigate the heights around the village of Jeruluk.
 More details will be provided by Jeruluk's Guild.
-- Personally, I'm rooting for you, Mr. ID!
-- Welcome to the Guild
-- Do you have any business with me?
-- Thank you always for your cooperation with the guild
+Personally, I'm rooting for you, Mr. ID!
+Welcome to the Guild
+Do you have any business with me?
+Thank you always for your cooperation with the guild

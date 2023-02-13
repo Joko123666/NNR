@@ -1,4 +1,4 @@
-KRs
+KR
 내 이름은 이드
 시골의 한적한 마을 '아카리코'에서 살고 있다
 이곳은 평화로운 마을이지만
@@ -31,4 +31,34 @@ KRs
 그래도 일단 길드로 가서 말을 걸어보자
 길드는 마을 서쪽에 있었지?
 EN
-What a beautiful day
+my name is id
+I live in the quiet village of Akariko in the countryside.
+This is a peaceful town
+I want to see other places besides this town
+Aiming for adventurers who can travel and explore
+I have devoted myself to training
+Join a guild that supports adventurers
+touring new places
+aim for it
+I am training every day
+while training alone
+Today is the last training day I decided for myself
+check the basics again
+Let's go on an adventure starting tomorrow
+Let's move lightly first
+attack with
+You can use skills by consuming energy.
+I only have simple skills
+Maybe I can learn more from someone later
+First, let's attack the scarecrow a few times.
+You can make special moves with the key.
+During this time, you can evade enemy attacks for a long time.
+You can eat the item you are holding with the key
+You can only hold one item at a time, so be careful.
+Shall we finish with this much for today?
+Let's rest early for tomorrow
+I bought an armor with the money I saved yesterday.
+But the armor is more expensive than I thought
+Haven't gotten a weapon yet
+Anyway, let's go to the guild and talk
+The guild was on the west side of town, right?

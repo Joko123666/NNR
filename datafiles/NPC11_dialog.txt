@@ -1,8 +1,8 @@
 KR
-무슨 일 있어?
-헤이 호~
-원하는게 뭐야?
-고블린은 공격뒤엔 무방비해지지
-헤롤드는 마을 제일 동쪽에 살고있어
+What's going on?
+hey ho~
+what do you want?
+Goblins are defenseless after an attack
+Harold lives far east of town.
 EN
 What a beautiful day

@@ -4,6 +4,9 @@ KR
 집이 있으신 분이 방을 빌릴 필요는 없겠죠
 좋은 날입니다
 환영합니다.
-
 EN
-What a beautiful day
+greeting
+Our inn is 10G per night.
+If you own a house, you don't have to rent a room.
+it is a nice day
+welcome.

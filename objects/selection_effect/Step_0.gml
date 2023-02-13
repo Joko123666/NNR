@@ -5,12 +5,12 @@ switch (state)
 {
 		#region MENU Button _ Game Start
 	case "Menu1" :
-	x = obutton_gamestart.x - 4;
-	y = obutton_gamestart.y - 4;
+	x = obutton_gamestart.x - 2;
+	y = obutton_gamestart.y - 2;
 	
 	if input.up
 	{
-		state = "Menu4"
+		state = "Menu5"
 		audio_play_sound(SE_system01, 1, false);
 	}
 	if input.down
@@ -30,8 +30,8 @@ switch (state)
 		#region MENU Button _ Load Game
 				//LOAD GAME
 	case "Menu2" :
-	x = obutton_gameload.x - 4;
-	y = obutton_gameload.y - 4;
+	x = obutton_gameload.x - 2;
+	y = obutton_gameload.y - 2;
 	
 	if input.up
 	{
@@ -57,8 +57,8 @@ switch (state)
 	
 									//Menu3
 		case "Menu3" :
-	x = obutton_volumesetting.x - 4;
-	y = obutton_volumesetting.y - 4;
+	x = obutton_volumesetting.x - 2;
+	y = obutton_volumesetting.y - 2;
 	
 	if input.up
 	{
@@ -79,14 +79,40 @@ switch (state)
 	
 	break;
 	
-										//Menu4
+										//Menu4 LANGUAGE
 		case "Menu4" :
-	x = obutton_gameend.x - 4;
-	y = obutton_gameend.y - 4;
+	x = obutton_language.x - 2;
+	y = obutton_language.y - 2;
 	
 	if input.up
 	{
 		state = "Menu3"
+		audio_play_sound(SE_system01, 1, false);
+	}
+	if input.down
+	{
+		state = "Menu5"
+		audio_play_sound(SE_system01, 1, false);
+	}
+	if input.interaction
+	{
+		audio_play_sound(SE_system04, 1, false);
+		if global.language == "English"
+		{global.language = "Korean";}
+		else if global.language == "Korean"
+		{global.language = "English";}
+	}
+	
+	break;
+	
+											//Menu5 END GAME
+		case "Menu5" :
+	x = obutton_gameend.x - 2;
+	y = obutton_gameend.y - 2;
+	
+	if input.up
+	{
+		state = "Menu4"
 		audio_play_sound(SE_system01, 1, false);
 	}
 	if input.down

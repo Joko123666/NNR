@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obutton_gameend",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "button_endgame",
-    "path": "sprites/button_endgame/button_endgame.yy",
+    "name": "button_E_endgame",
+    "path": "sprites/button_E_endgame/button_E_endgame.yy",
   },
   "spriteMaskId": null,
   "visible": true,

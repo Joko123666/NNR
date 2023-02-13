@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obutton_volumesetting",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "button_volumeset",
-    "path": "sprites/button_volumeset/button_volumeset.yy",
+    "name": "button_E_volumeset",
+    "path": "sprites/button_E_volumeset/button_E_volumeset.yy",
   },
   "spriteMaskId": null,
   "visible": true,

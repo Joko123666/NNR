@@ -24,4 +24,27 @@ KR
 이게 출장지 적정가입니다~
 지금 사면 감사의 마음이 공짜~
 EN
-What a beautiful day
+Welcome guests, is this your first time?
+I am a merchant who sells items necessary for travel.
+We will give you this item as a commemoration of our meeting.
+Please select the product you want
+Welcome to the Jeruluk Shop!
+New to Jeruluk?
+The specialty of Jeruluk is, of course, red ore!
+However, since there are no processing facilities here,
+There is no point in buying red ore unless you are a trader.
+Instead, we recommend quality explosives and recovery drugs.
+Please choose the one you want
+Please handle explosives carefully.
+Business here is really bad.
+Are you selling red quartz?
+Red quartz is always purchased at a high price.
+I bought it for 1000G of red quartz.
+Please do it again next time~
+Welcome
+This is a merchant on a business trip at the request of the guild.
+I didn't bring much
+Still buy this and that
+Buy it~
+This is a reasonable price for a business trip.
+If you buy it now, your gratitude is free~

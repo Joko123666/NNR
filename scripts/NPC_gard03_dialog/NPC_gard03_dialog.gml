@@ -13,6 +13,8 @@ function NPC_gard03_dialog(argument0)
 	}
 	file_text_close(file);
 	
+	if global.language == "Korean"
+{	
 	if diacount == 0
 	{
 		text = scr_name[8];
@@ -29,6 +31,27 @@ function NPC_gard03_dialog(argument0)
 	{
 		text = scr_name[10];
 	}
+}
+
+	if global.language == "English"
+{	
+	if diacount == 0
+	{
+		text = scr_name[8];
+		dialog_count +=1
+	}
+	
+	if diacount == 1 
+	{
+		text = scr_name[9];
+		dialog_count +=1
+	}
+	
+	if diacount == 2 
+	{
+		text = scr_name[10];
+	}
+}
 	
 	return text;
 }

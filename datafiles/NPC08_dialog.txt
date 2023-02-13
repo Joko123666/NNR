@@ -23,7 +23,6 @@ KR
 원하던 대로 검은 줄 테니까
 이 일에 대해서는 조용히 해줬으면 좋겠어...
 다시는 말 걸지 말아줘
-
 EN
 welcome id
 It's a big deal that you're looking for me
