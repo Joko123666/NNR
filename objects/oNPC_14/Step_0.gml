@@ -21,7 +21,7 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	audio_play_sound(SE_coin01, 1, false);
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
 	text.text = "전리품을 환급해 드리겠습니다";
-	text.dianame = "길드 환금원 "
+	text.dianame = name_text;
 	text.name_color = c_blue;
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;

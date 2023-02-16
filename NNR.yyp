@@ -174,6 +174,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Player_dialog.txt","CopyToMask":-1,"filePath":"datafiles/textfiles_EN",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Player_end_dialog.txt","CopyToMask":-1,"filePath":"datafiles/textfiles_EN",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"text_book.txt","CopyToMask":-1,"filePath":"datafiles/textfiles_EN",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"text_terminal.txt","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
   "MetaData": {
@@ -378,7 +379,6 @@
     {"id":{"name":"Save_obelisk_trancformed","path":"sprites/Save_obelisk_trancformed/Save_obelisk_trancformed.yy",},"order":36,},
     {"id":{"name":"oNPC_finalboss2_deadly","path":"objects/oNPC_finalboss2_deadly/oNPC_finalboss2_deadly.yy",},"order":23,},
     {"id":{"name":"SE_crush_01","path":"sounds/SE_crush_01/SE_crush_01.yy",},"order":38,},
-    {"id":{"name":"ofurniture_sign_left","path":"objects/ofurniture_sign_left/ofurniture_sign_left.yy",},"order":0,},
     {"id":{"name":"ofurniture_zeolite0","path":"objects/ofurniture_zeolite0/ofurniture_zeolite0.yy",},"order":25,},
     {"id":{"name":"ofurniture_zeolite3","path":"objects/ofurniture_zeolite3/ofurniture_zeolite3.yy",},"order":21,},
     {"id":{"name":"hill_bush_frag","path":"sprites/hill_bush_frag/hill_bush_frag.yy",},"order":2,},

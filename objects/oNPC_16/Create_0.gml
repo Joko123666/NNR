@@ -6,3 +6,9 @@ dialog_count = 0;
 diafalse_count = 0;
 
 dialog_endswitch = false;
+
+
+if global.language == "Korean"
+{name_text = "길드 조사원"}
+if global.language == "English"
+{name_text = "Guild Staff"}

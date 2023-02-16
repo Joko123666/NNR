@@ -14,6 +14,10 @@ function NPC_NPC45_dialog(argument0)
 	}
 	file_text_close(file);
 	
+	
+if global.language == "Korean"
+{
+	var text_line_num = 2;	
 	if diacount == 0
 	{
 		text = "...";
@@ -69,7 +73,7 @@ function NPC_NPC45_dialog(argument0)
 	{
 		text = "...";
 	}
-	
+}
 	
 	return text;
 }

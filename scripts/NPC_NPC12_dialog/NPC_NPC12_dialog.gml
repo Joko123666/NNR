@@ -20,30 +20,63 @@ function NPC_NPC12_dialog(argument0)
 	}
 	file_text_close(file);
 	
+if global.language == "Korean"
+{
+	var text_line_num = 2;
 	if diacount == 0
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 	}
 	
 	if diacount == 1
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 	}
 	
 	if diacount == 2
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 	}
 	
 	if diacount == 3  
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 	}
 	
 	if diacount == 4
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
+	}
+}
+
+if global.language == "English"
+{
+	var text_line_num = 8;
+	if diacount == 0
+	{
+		text = scr_name[diacount + text_line_num];
 	}
 	
+	if diacount == 1
+	{
+		text = scr_name[diacount + text_line_num];
+	}
+	
+	if diacount == 2
+	{
+		text = scr_name[diacount + text_line_num];
+	}
+	
+	if diacount == 3  
+	{
+		text = scr_name[diacount + text_line_num];
+	}
+	
+	if diacount == 4
+	{
+		text = scr_name[diacount + text_line_num];
+	}
+}
+
 	return text;
 }

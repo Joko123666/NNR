@@ -6,4 +6,7 @@ dialog_count = 0;
 
 dialog_endswitch = false;
 
-name_text = "헤롤드";
+if global.language == "Korean"
+{name_text = "해롤드"}
+if global.language == "English"
+{name_text = "Harold"}

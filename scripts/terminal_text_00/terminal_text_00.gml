@@ -2,13 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function terminal_text_00(line_num)
 {
-	var text_line01 = ""
-	text_line01 = "옛날에 목숨을 관리하던 신이 있었다";
-	var text_line02 = "영생을 탐내던 왕이 신살을 꾀했고"
-	var text_line03 = "용사인 나를 보내 결국 신을 죽였다";
-	var text_line04 = "하지만 신과 함께 다른 모든 사람이 죽었고";
-	var text_line05 = "나는 신의 저주를 받아 영원히 죽지 않게 되었다";
-	var text_line06 = "세계에 나홀로 남겨진것이다";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	for (var i = 1; i < 65; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 3;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 32;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	
 	if line_num == 1

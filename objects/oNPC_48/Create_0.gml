@@ -5,7 +5,11 @@ deactivate_count = 0;
 dialog_count = 0;
 diafalse_count = 0;
 
-name_text = "길드직원"
+if global.language == "Korean"
+{name_text = "길드 직원"}
+if global.language == "English"
+{name_text = "Guild Staff"}
+
 npc_namecol = c_blue;
 
 dialog_endswitch = false;

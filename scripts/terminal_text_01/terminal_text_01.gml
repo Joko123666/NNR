@@ -2,13 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function terminal_text_01(line_num)
 {
-	var text_line01 = ""
-	text_line01 = "이곳을 찾은 나를 위해 남김";
-	var text_line02 = "이 저장소의 안과 밖에 지금까지의 기록과"
-	var text_line03 = "자신에 대한 역사와 감정들이 기록 되어있었음";
-	var text_line04 = "너무 많은 내용은 결정을 내리는데 필요 없다고 판단";
-	var text_line05 = "모든 저장장치를 정지시키도록 했다";
-	var text_line06 = "일부 기록은 주거장소의 지하에 남김";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	for (var i = 1; i < 65; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 10;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 39;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	if line_num == 1
 	{return text_line01;}

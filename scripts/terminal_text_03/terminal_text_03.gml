@@ -2,13 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function terminal_text_03(line_num)
 {
-	var text_line01 = ""
-	text_line01 = "만들어진 세계의 이야기의 끝을 본 나에겐";
-	var text_line02 = "3가지 선택지가 있다"
-	var text_line03 = "수면장치에서 잠시 잠을 자 선택을 미루거나";
-	var text_line04 = "다시 기억을 지우고 새로운 삶을 살거나";
-	var text_line05 = "몸을 완전히 분해시켜 죽은것과 다름없게 되는것";
-	var text_line06 = "어느것을 고르던 책망하지 않는다";
+//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	for (var i = 1; i < 65; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 24;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 53;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	
 	if line_num == 1

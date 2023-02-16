@@ -9,7 +9,10 @@ if ismeeting == true	&& global.yabawi_token > 0	&&oPlayer.input.interaction
 	{
 		global.yabawi_token-=1;
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "아무것도 없다";
+		if global.language == "Korean"
+		{text.text = "아무것도 없다";}
+		if global.language == "English"
+		{text.text = "it's empty";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system08, 1, false);
@@ -20,7 +23,10 @@ if ismeeting == true	&& global.yabawi_token > 0	&&oPlayer.input.interaction
 	{
 		global.yabawi_token-=1;
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "공을 찾았다!";
+		if global.language == "Korean"
+		{text.text = "공을 찾았다!";}
+		if global.language == "English"
+		{text.text = "Found the ball!";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system08, 1, false);
@@ -39,7 +45,10 @@ if ismeeting == true	&& global.yabawi_token > 0	&&oPlayer.input.interaction
 if ismeeting == true	&& global.yabawi_token <= 0	&&oPlayer.input.interaction
 {
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "건드리면 손목이 날아간다...";
+		if global.language == "Korean"
+		{text.text = "건드리면 손목이 날아간다...";}
+		if global.language == "English"
+		{text.text = "It's better not to touch";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system08, 1, false);

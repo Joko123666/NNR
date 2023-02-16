@@ -2,12 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_text_80(line_num)
 {
-	var text_line01 = "바레타, 아름다운 그대에게";
-	var text_line02 = "당신을 만나고 나의 세계는 빛나고있소"
-	var text_line03 = "이 편지를 쓰며 그대를 생각하노니";
-	var text_line04 = "그대역시 이 편지를 보며 나를 떠올린다면";
-	var text_line05 = "이는 이미 연정과 같이 않을까 생각하오니";
-	var text_line06 = "부디 나와 함께 걸어주지 않겠습니까?";
+	//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "mail_text.txt");
+	for (var i = 1; i < 60; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 2;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 9;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	if line_num == 1
 	{return text_line01;}

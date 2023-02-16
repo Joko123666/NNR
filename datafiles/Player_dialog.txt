@@ -31,7 +31,7 @@ KR
 그래도 일단 길드로 가서 말을 걸어보자
 길드는 마을 서쪽에 있었지?
 EN
-my name is id
+my name is Ed
 I live in the quiet village of Akariko in the countryside.
 This is a peaceful town
 I want to see other places besides this town
@@ -47,13 +47,13 @@ check the basics again
 Let's go on an adventure starting tomorrow
 Let's move lightly first
 attack with
-You can use skills by consuming energy.
+You can use skills by consuming energy with
 I only have simple skills
 Maybe I can learn more from someone later
 First, let's attack the scarecrow a few times.
-You can make special moves with the key.
+You can make special moves with 
 During this time, you can evade enemy attacks for a long time.
-You can eat the item you are holding with the key
+Also, you can use the item which you hold with 
 You can only hold one item at a time, so be careful.
 Shall we finish with this much for today?
 Let's rest early for tomorrow

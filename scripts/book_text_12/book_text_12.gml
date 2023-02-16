@@ -9,56 +9,37 @@ function book_text_12(page_num, line_num)
 	var text_line05 = ".";
 	var text_line06 = ".";
 		
-	if page_num == 1
+	var file = file_text_open_read(working_directory + "text_book.txt");
+	for (var i = 1; i < 300; i++;)
 	{
-		var text_line01 = ".";
-		var text_line02 = "."
-		var text_line03 = "이야기 장치 재기동을 위한 프로세스";
-		var text_line04 = "이후에 서술된 순서대로 진행할것";
-		var text_line05 = ".";
-		var text_line06 = ".";
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		if page_num == 1
+		{var text_line_num = 103;}
+		if page_num == 2
+		{var text_line_num = 110;}
+		if page_num == 3
+		{var text_line_num = 117;}
+		if page_num == 4
+		{var text_line_num = 124;}
+		if page_num == 5
+		{var text_line_num = 131;}
 	}
 	
-	if page_num == 2
-	{
-		var text_line01 = ".1.";
-		var text_line02 = "3개의 구슬을 돌려놓을것"
-		var text_line03 = "관리자의 작동이 정지되면서";
-		var text_line04 = "마을의 저장장치가 변형되었을것이다";
-		var text_line05 = "각 장치에 구슬을 집어넣을것";
-		var text_line06 = "구슬을 넣으면 시스템이 재시작될것이다";
-	}
-	
-	if page_num == 3
-	{
-		var text_line01 = ".2.";
-		var text_line02 = "구슬을 끼워넣은뒤"
-		var text_line03 = "일반 주민들을 재작동시킬것";
-		var text_line04 = "재작동 시킨 뒤";
-		var text_line05 = "말을 걸어 점검을 해보는것을 추천함";
-		var text_line06 = "대부분 초기대사를 말할것이다";
-	}
-	
-	if page_num == 4
-	{
-		var text_line01 = ".3.";
-		var text_line02 = "위의 과정을 모두 완료한뒤"
-		var text_line03 = "관리자가 있던곳으로 돌아가서";
-		var text_line04 = "관리자를 재기동 시킬것";
-		var text_line05 = "위의 과정이 완료되지 않았다면";
-		var text_line06 = "재기동 되지 않을것이다";
-	}
-	
-	if page_num == 5
-	{
-		var text_line01 = ".4.";
-		var text_line02 = "재기동시킨 관리자에게 말을걸어"
-		var text_line03 = "관리자에게 인증을 받은 뒤";
-		var text_line04 = "이곳으로 돌아와서";
-		var text_line05 = "기억소거장치를 가동할것";
-		var text_line06 = "이상이다";
-	}
-	
+
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
+
+		
 	if line_num == 1
 	{return text_line01;}
 	if line_num == 2

@@ -27,7 +27,10 @@ function Use_item()
 		{
 			maxHP += 10; HP += 60; global.Player_item = "empty";audio_play_sound(SE_heal, 1, false);
 			var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-			text.text = "체력이 회복,증가했다!!";
+			if global.language == "Korean"
+			{text.text = "체력이 회복, 증가했다!!";}
+			if global.language == "English"
+			{text.text = "HP, maxHP increased!";}
 			itemkey_input_check = true;
 		}
 
@@ -40,7 +43,10 @@ function Use_item()
 		{
 			audio_play_sound(SE_read01, 1, false);
 			var text = instance_create_layer(0,0, "Effects", UI_text_drawingob);
-			text.text = "부끄러운 고백편지를 읽어버렸다!";
+			if global.language == "Korean"
+			{text.text = "부끄러운 고백편지를 읽어버렸다!";}
+			if global.language == "English"
+			{text.text = "I read the embarrassing love letter!";}
 			global.Player_item = "empty";
 			global.mainstream = 16;
 			global.quest_selection = "B";
@@ -82,7 +88,10 @@ function Use_item()
 		{
 			maxHP += 20; global.Player_item = "empty";audio_play_sound(SE_heal, 1, false);
 			var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-			text.text = "최대체력이 증가했다";
+			if global.language == "Korean"
+			{text.text = "최대체력이 증가했다";}
+			if global.language == "English"
+			{text.text = "Max HP increased";}
 		}
 	}
 	
@@ -90,11 +99,13 @@ function Use_item()
 	{
 		act_switch = false;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "발사!";
+		if global.language == "Korean"
+		{text.text = "발사!";}
+		if global.language == "English"
+		{text.text = "Fire!";}
 		audio_play_sound(SE_dodge_01, 1, false);
 		
 		instance_create_depth(x + 8*image_xscale, y - 32, 0, useitem_firework);
-
 		
 		state = "Move";
 		global.Player_item = "empty";
@@ -104,7 +115,10 @@ function Use_item()
 	{
 		act_switch = false;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "폭탄 투척!";
+		if global.language == "Korean"
+		{text.text = "폭탄 투척!";}
+		if global.language == "English"
+		{text.text = "planting bomb";}
 		audio_play_sound(SE_dodge_01, 1, false);
 		
 		var bomb = instance_create_depth(x + 8*image_xscale, y - 32, 0, useitem_bomb01);
@@ -119,7 +133,10 @@ function Use_item()
 	{
 		act_switch = false;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "폭탄 투척!";
+		if global.language == "Korean"
+		{text.text = "폭탄 투척!";}
+		if global.language == "English"
+		{text.text = "planting bomb";}
 		audio_play_sound(SE_dodge_01, 1, false);
 		
 		var bomb = instance_create_depth(x + 8*image_xscale, y - 32, 0, useitem_bomb02);
@@ -134,7 +151,10 @@ function Use_item()
 	{
 		act_switch = false;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "주머니를 내려놓았다";
+		if global.language == "Korean"
+		{text.text = "주머니를 내려놓았다";}
+		if global.language == "English"
+		{text.text = "i droped sack";}
 		audio_play_sound(SE_dodge_01, 1, false);
 		
 		var bomb = instance_create_depth(x + 12*image_xscale, y - 32, 0, Item_metalsack);
@@ -152,7 +172,10 @@ function Use_item()
 			maxHP += 50; global.Player_item = "empty";audio_play_sound(SE_heal, 1, false);
 			damage += 4; hspd += 0.02; maxMP += 20; MP_regen_time -= 4;
 			var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-			text.text = "모든 능력이 증가했다!";
+			if global.language == "Korean"
+			{text.text = "모든 능력이 증가했다!";}
+			if global.language == "English"
+			{text.text = "All status increased!";}
 		}
 	}
 	
@@ -163,7 +186,10 @@ function Use_item()
 		if animation_hit_frame(1)
 		{
 			var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-			text.text = "전송석을 사용했다!";
+			if global.language == "Korean"
+			{text.text = "전송석을 사용했다";}
+			if global.language == "English"
+			{text.text = "teleport stone used";}
 			audio_play_sound(SE_system01, 1, false);
 		}
 		if animation_hit_frame(11)
@@ -180,7 +206,10 @@ function Use_item()
 	{
 		act_switch = false;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "허수아비의 희생을 잊지 않는다...";
+		if global.language == "Korean"
+		{text.text = "허수아비의 희생을 잊지 않는다...";}
+		if global.language == "English"
+		{text.text = "Don't forget the scarecrow's sacrifice...";}
 		audio_play_sound(SE_system01, 1, false);
 		oPlayer.MP_regen_time -= 4;
 		

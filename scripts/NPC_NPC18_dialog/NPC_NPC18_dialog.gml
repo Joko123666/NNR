@@ -14,41 +14,85 @@ function NPC_NPC18_dialog(argument0)
 	}
 	file_text_close(file);
 	
+if global.language == "Korean"
+{
+	var text_line_num = 2;	
 	if diacount == 0
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.NPC18_dialog += 1;
 	}
 	
 	if diacount == 1
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.NPC18_dialog += 1;
 	}
 	
 
 	if diacount == 2 
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.NPC18_dialog += 1;
 	}
 	
 	if diacount == 3
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.NPC18_dialog += 1;
 	}
 	
 	if diacount == 4  
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.NPC18_dialog += 1;
 	}
 	
 	if diacount == 5  
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 	}
+}
+	
+if global.language == "English"
+{
+	var text_line_num = 9;	
+	if diacount == 0
+	{
+		text = scr_name[diacount + text_line_num];
+		global.NPC18_dialog += 1;
+	}
+	
+	if diacount == 1
+	{
+		text = scr_name[diacount + text_line_num];
+		global.NPC18_dialog += 1;
+	}
+	
+
+	if diacount == 2 
+	{
+		text = scr_name[diacount + text_line_num];
+		global.NPC18_dialog += 1;
+	}
+	
+	if diacount == 3
+	{
+		text = scr_name[diacount + text_line_num];
+		global.NPC18_dialog += 1;
+	}
+	
+	if diacount == 4  
+	{
+		text = scr_name[diacount + text_line_num];
+		global.NPC18_dialog += 1;
+	}
+	
+	if diacount == 5  
+	{
+		text = scr_name[diacount + text_line_num];
+	}
+}
 	
 	
 	return text;

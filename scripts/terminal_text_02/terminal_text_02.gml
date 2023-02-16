@@ -2,13 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function terminal_text_02(line_num)
 {
-	var text_line01 = ""
-	text_line01 = "이 세계는 사실 과거의 내가 만들어낸것이다";
-	var text_line02 = "과거, 죽지않는 저주를 받은 나는"
-	var text_line03 = "완전한 가공의 세계를 만들고";
-	var text_line04 = "나 자신의 기억을 지우고 그곳에 돌려놓아";
-	var text_line05 = "나 대신 세계를 움직일 관리자를 놓고";
-	var text_line06 = "마치 처음 이 세계에 태어난 양 행동했다";
+//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	for (var i = 1; i < 65; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 17;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 46;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	
 	if line_num == 1

@@ -23,7 +23,7 @@ KR
 사가십셔~
 이게 출장지 적정가입니다~
 지금 사면 감사의 마음이 공짜~
-EN
+EN	
 Welcome guests, is this your first time?
 I am a merchant who sells items necessary for travel.
 We will give you this item as a commemoration of our meeting.

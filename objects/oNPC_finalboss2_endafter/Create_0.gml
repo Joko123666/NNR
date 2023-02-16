@@ -10,7 +10,11 @@ diafalse_count = 0;
 act_switch = false;
 contect = false;
 
-name_text = "관리자"
+if global.language == "Korean"
+{name_text = "관리자"}
+if global.language == "English"
+{name_text = "Administrator"}
+
 npc_namecol = c_purple;
 
 dialog_endswitch = false;

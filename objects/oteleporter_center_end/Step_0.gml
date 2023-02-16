@@ -18,7 +18,10 @@ switch(state)
 	if place_meeting(x,y,oPlayer) && oPlayer.input.interaction
 	{
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "아무 반응이 없다";
+		if global.language == "Korean"
+		{text.text = "아무 반응이 없다";}
+		if global.language == "English"
+		{text.text = "No response";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system08, 1, false);

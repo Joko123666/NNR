@@ -30,7 +30,7 @@ KR
 자 어서 구슬을 끼워 넣게
 무언가 남은 할 일이 있나?
 EN
-welcome i id
+Welcome, Ed.
 I've heard reports of you many times.
 I'm the guild leader in charge of this area
 According to the report from Akariko Village the other day,

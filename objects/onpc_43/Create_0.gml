@@ -5,7 +5,10 @@ deactivate_count = 0;
 dialog_count = 0;
 diafalse_count = 0;
 
-name_text = "길드장"
+if global.language == "Korean"
+{name_text = "병사장"}
+if global.language == "English"
+{name_text = "Guild Leader"}
 npc_namecol = c_blue;
 
 dialog_endswitch = false;
