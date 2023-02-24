@@ -24,21 +24,22 @@ KR
 이 일에 대해서는 조용히 해줬으면 좋겠어...
 다시는 말 걸지 말아줘
 EN
-welcome id
+welcome
+welcome Ed
 It's a big deal that you're looking for me
 What's your business?
 do you need my sword?
-There's nothing I can't give you if you do my favor
-First, take care of the insect nest on the roof.
+I'll think about that if you do my favor
+First, take eliminate the insect nest on the roof
 Hehe, because I hate bugs so much
 If it hadn't been treated, insects would have been flying every day.
-You even take care of bugs you didn't ask for!
-thanks you id!!
+You even eliminate bugs even i didn't ask for!
+thanks you Ed!!
 Then please do the next request
-I want you to deliver this letter to Mr. Barreta of the guild.
+I want you to deliver this letter to Ms. Barreta of the guild.
 Hehe, I'll beg you
 You delivered the letter properly
-Didn't you see the contents?
+Didn't you see the inside?
 I believed in you properly
 As promised, you can bring the sword
 I'm looking forward to your reply~
@@ -46,7 +47,7 @@ I'm looking forward to your reply~
 No... that's not it...
 I'll give you a sword as you wish
 I want you to keep quiet about this...
-please don't talk to me again
+Don't talk to me again
 
 
 

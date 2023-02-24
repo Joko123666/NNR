@@ -20,7 +20,7 @@ switch (state)
 	}
 	if input.interaction
 	{
-		instance_create_layer(0, 0, "Effects", selection_effect_controlset);
+		instance_create_layer(320, 200, "Effects", oUI_inputsetting);
 		audio_play_sound(SE_system04, 1, false);
 		instance_destroy();
 	}

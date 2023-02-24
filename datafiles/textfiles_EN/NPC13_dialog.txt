@@ -1,8 +1,0 @@
-KR
-welcome
-Our inn is 10G per night.
-If you own a house, you don't have to rent a room.
-it is a nice day
-welcome.
-EN
-What a beautiful day

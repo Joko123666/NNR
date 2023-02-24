@@ -25,18 +25,35 @@ if HP<=0
 	{
 		revive_count = 1;
 	}
-	
 }
 
+//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	for (var i = 1; i < 65; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{
+		var text_line_num = 14;
+	}
+	
+	if global.language == "English"
+	{
+		var text_line_num = 32;
+	}
+
+
 if global.last_dialog == 3	&& dia_switch == false
-{diatext = "기억을 지우고 얼마 지나지 않았지만";	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num];	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 4	&& dia_switch == false
-{diatext = "그래도 말할수 있는게 있다";	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 1];	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 5	&& dia_switch == false
-{diatext = "가짜라 해도 나는 이 세계를 즐겼고";	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 2];	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 6	&& dia_switch == false
-{diatext = "적어도 완전히 끝낼 마음은 들지 않는다";	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
-
-
+{diatext = scr_name[text_line_num + 3];	alarm[3] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 
 

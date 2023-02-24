@@ -15,7 +15,6 @@ switch (state)
 	case "Menu1" :
 	x = num1_x;
 	y = num1_y;
-	draw_instance.state = "A";
 	
 	if input.up
 	{

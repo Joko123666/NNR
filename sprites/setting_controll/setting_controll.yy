@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "setting_controll",
-  "bbox_bottom": 353,
-  "bbox_left": 10,
-  "bbox_right": 627,
-  "bbox_top": 8,
+  "bbox_bottom": 179,
+  "bbox_left": 0,
+  "bbox_right": 319,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1c304fe-e915-4490-8c03-a6a161885100",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf4acc0d-a6d0-4cfb-8c36-5e18257dbe78",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 360,
+  "height": 180,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"170c36dd-3521-4f3f-90ac-0e53257a1bdf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"27de0bf9-646c-401f-b34a-205d1412259a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1c304fe-e915-4490-8c03-a6a161885100","path":"sprites/setting_controll/setting_controll.yy",},},},"Disabled":false,"id":"fdb4e123-6a3c-4b9a-8289-2774c5913cba","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf4acc0d-a6d0-4cfb-8c36-5e18257dbe78","path":"sprites/setting_controll/setting_controll.yy",},},},"Disabled":false,"id":"ab63c788-2218-4f96-b802-24f03b984338","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 320,
 }

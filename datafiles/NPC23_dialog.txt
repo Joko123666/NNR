@@ -36,7 +36,7 @@ KR
 무료로 이용하실 수 있습니다
 앞으로 편하게 이용해주시면 되겠습니다
 아 그리고 본부에서의 전언이 있습니다
-카카리코마을에 연결되어있는 길드의 전송점에서
+제루루크 마을에 연결되어있는 길드의 전송점에서
 붉은 옷을 입고 있는 직원에게 말을 걸어달라고 합니다
 맡기고 싶은 일이 있는데 그곳에서 전달한다고 합니다
 본부에서의 직접 의뢰라니 어떤 일일까요?
@@ -47,47 +47,47 @@ KR
 길드 제루루크 지점에 어서 오세요!
 EN
 hello. What are you doing in the guild?
-Oh, are you an id?
-I am the person in charge of this guild's branch leader.
-Even if you are the branch manager, it is a rural area with few employees.
+Oh, are you an Mr. Ed?
+I am branch leader of this guild's
+Branch manager, rural area with few employees.
 I received a call from the guild in Kakariko Village.
 You came in line with our request for support.
-You came to a car that really needed help.
-It's not different, the monsters in the mountain have increased recently.
+You came to time that really need help.
+The monsters in the mountain have increased recently.
 It is a place where red ore is mined by gradually expanding its territory
-It's a situation where you can't mine because you've flocked into the mine.
+It's a situation can't mine because monsters flocked into the mine.
 Regarding this matter, the guards who defeat the monsters
-Because the captain of the guard gave a request
+The captain of the guard gave a request
 You will be informed of the status and detailed information there.
 And this is a support from our guild
 Please let me know if you need anything
 Need more?
-mine investigation
-The sergeant will know how to dispose of rocks.
+I cheer for your mine investigation
+Captain will know how to dispose of rocks.
 The shop here sells bombs with increased gunpowder.
-mine investigation
+I cheer for your mine investigation
 Welcome Mr. Ed
-I have been contacted by the soldier commander to confirm the completion of the quest.
+I have been contacted by the captain to completion of the quest.
 I heard that he not only investigated, but also solved it.
 You had a lot of trouble solving the case.
-The soldier commander seemed to be very satisfied and received an additional reward.
+Captain seemed to be very satisfied and received an additional reward.
 In addition, the guild also added additional rewards.
 I'll give you 1,000G in total.
 And in addition, the mine problem has been solved
 The red ore, which was temporarily restrained, can be used again
 Transmission devices on the guild are now available
 Usually, you pay a fee each time
-In order to repay Mr. Id's contribution
+In order to repay Mr. Ed's contribution
 I reported to the guild headquarters and received a special permit.
-With this permit, the transmission device managed by the guild is
-Available for free
+With this permit, the teleport device managed by the guild is..
+available for free
 Please feel free to use it in the future.
 Oh and there is a message from the headquarters
-At the guild's transmission point connected to Kakariko Village
+At the guild's teleport point connected to Jeruluk Village
 Talk to the staff wearing red clothes
 There is something I want to entrust to you, and I will deliver it there.
 What is a direct request from headquarters?
-It's what Ed-nim is expecting
+It's what Mr. Ed is expecting
 Please give us a positive review
 Please tell me if you need help
 I look forward to your future activities

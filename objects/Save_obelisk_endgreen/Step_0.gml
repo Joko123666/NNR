@@ -6,7 +6,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& state == "deactive
 {
 	audio_play_sound(SE_system05, 1, false);
 	var text = instance_create_layer(x, y-82, "Effects", text_drawingob);
-	text.text = "아무 반응이 없다";
+	if global.language == "Korean"
+		{text.text = "아무 반응이 없다";}
+	if global.language == "English"
+		{text.text = "noting works";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 }
@@ -32,7 +35,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& state == "deactive
 		global.greenorb = false;
 		audio_play_sound(SE_system05, 1, false);
 		var text = instance_create_layer(x, y-82, "Effects", text_drawingob);
-		text.text = "녹색 구슬을 끼워넣었다";
+		if global.language == "Korean"
+			{text.text = "녹색 구슬을 끼워넣었다";}
+		if global.language == "English"
+			{text.text = "Green orb inserted";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 	}
@@ -60,7 +66,10 @@ if state == "done"	&& place_meeting(x,y,oPlayer) && oPlayer.input.interaction
 {
 	audio_play_sound(SE_system05, 1, false);
 	var text = instance_create_layer(x, y-82, "Effects", text_drawingob);
-	text.text = "녹색 구슬이 영롱하게 빛나고있다";
+	if global.language == "Korean"
+		{text.text = "녹색 구슬이 영롱하게 빛나고있다";}
+	if global.language == "English"
+		{text.text = "Green orb is glowing";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 }

@@ -20,7 +20,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	act_count = 25;
 	audio_play_sound(SE_coin01, 1, false);
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "전리품을 환급해 드리겠습니다";
+	if global.language == "Korean"
+	{text.text = "전리품을 환급해 드리겠습니다";}
+	if global.language == "English"
+	{text.text = "Let me exchange loot.";}
 	text.dianame = name_text;
 	text.name_color = c_blue;
 	var text_width = string_width(text.text);

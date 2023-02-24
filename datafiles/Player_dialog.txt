@@ -1,6 +1,6 @@
 KR
 내 이름은 이드
-시골의 한적한 마을 '아카리코'에서 살고 있다
+시골의 한적한 마을 '카카리코'에서 살고 있다
 이곳은 평화로운 마을이지만
 이 마을 말고 다른 곳들도 구경하고 싶어
 여행과 탐험을 할 수 있는 모험가를 목표로
@@ -32,33 +32,33 @@ KR
 길드는 마을 서쪽에 있었지?
 EN
 my name is Ed
-I live in the quiet village of Akariko in the countryside.
-This is a peaceful town
+I live in the village 'Kakariko' in the countryside.
+Kakariko is a peaceful village
 I want to see other places besides this town
-Aiming for adventurers who can travel and explore
+To be adventurers who can travel and explore
 I have devoted myself to training
 Join a guild that supports adventurers
-touring new places
+And touring new places
 aim for it
 I am training every day
 while training alone
 Today is the last training day I decided for myself
-check the basics again
-Let's go on an adventure starting tomorrow
+Check the basics again
+Going on an adventure tomorrow
 Let's move lightly first
-attack with
+Attack with
 You can use skills by consuming energy with
 I only have simple skills
 Maybe I can learn more from someone later
 First, let's attack the scarecrow a few times.
 You can make special moves with 
-During this time, you can evade enemy attacks for a long time.
+During this time, you can evade enemy attacks
 Also, you can use the item which you hold with 
 You can only hold one item at a time, so be careful.
 Shall we finish with this much for today?
 Let's rest early for tomorrow
 I bought an armor with the money I saved yesterday.
 But the armor is more expensive than I thought
-Haven't gotten a weapon yet
+Haven't got weapon yet
 Anyway, let's go to the guild and talk
-The guild was on the west side of town, right?
+Guild was on the west side of town, right?

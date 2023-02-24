@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "UI_Hud_select_light_164",
-    "path": "sprites/UI_Hud_select_light_164/UI_Hud_select_light_164.yy",
+    "name": "UI_Hud_select_light_164_b",
+    "path": "sprites/UI_Hud_select_light_164_b/UI_Hud_select_light_164_b.yy",
   },
   "spriteMaskId": null,
   "visible": true,

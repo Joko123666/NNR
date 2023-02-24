@@ -20,4 +20,4 @@ UI_moveskill = "Shf";
 UI_itemkey = "D";
 UI_attackkey = "A";
 UI_jumpkey = "Spc";
-
+UI_move = "←↑→↓";

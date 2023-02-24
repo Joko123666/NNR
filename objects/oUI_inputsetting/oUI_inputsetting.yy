@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "setting_controll",
-    "path": "sprites/setting_controll/setting_controll.yy",
+    "name": "setting_controll_title",
+    "path": "sprites/setting_controll_title/setting_controll_title.yy",
   },
   "spriteMaskId": null,
   "visible": true,
