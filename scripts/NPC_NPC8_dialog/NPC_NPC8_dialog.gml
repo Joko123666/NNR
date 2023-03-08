@@ -16,9 +16,10 @@ function NPC_NPC8_dialog(argument0)
 	
 if global.language == "Korean"
 {	
+	var text_line_num = 2;	
 	if diacount == 0
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		global.UItext_show = true;

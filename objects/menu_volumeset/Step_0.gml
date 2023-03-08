@@ -25,14 +25,14 @@ switch (state)
 	{
 		if sound_volume > 0
 			{sound_volume -= 0.05; global.gamevolume = sound_volume}
-		audio_group_set_gain(audiogroup_default, sound_volume, 5);
+		audio_group_set_gain(audiogroup_default, global.gamevolume, 5);
 		slider_x_point = x_minimum + (x_range * sound_volume);
 	}
 	if input.right
 	{
 		if sound_volume < 0.99
 			{sound_volume += 0.05; global.gamevolume = sound_volume}
-		audio_group_set_gain(audiogroup_default, sound_volume, 5);
+		audio_group_set_gain(audiogroup_default, global.gamevolume, 5);
 		slider_x_point = x_minimum + (x_range * sound_volume);
 	}
 	
@@ -48,7 +48,7 @@ switch (state)
 		#endregion
 	
 	#region 2번설정
-				//LOAD GAME
+				//Confirm
 	case "Menu2" :
 	
 	if input.up

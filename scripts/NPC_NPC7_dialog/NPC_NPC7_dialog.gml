@@ -8,7 +8,7 @@ function NPC_NPC7_dialog(argument0)
 	
 	//텍스트 파일 호출
 	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
-	for (var i = 0; i < 25; i++;)
+	for (var i = 1; i < 25; i++;)
 	{
 	    scr_name[i] = file_text_read_string(file);
 	    file_text_readln(file);

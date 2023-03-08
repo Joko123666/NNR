@@ -3,7 +3,6 @@ if BGM_counter != global.BGM_number
 {
 	audio_stop_all(); 
 	BGM_counter = global.BGM_number;
-	show_debug_message(BGM_counter);
 	
 	if BGM_counter == 0
 	{	audio_play_sound(BGM_hill02, 1, true);	}

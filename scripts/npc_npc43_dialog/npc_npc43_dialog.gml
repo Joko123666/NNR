@@ -8,7 +8,7 @@ function NPC_NPC43_dialog(argument0)
 	
 	//텍스트 파일 호출
 	var file = file_text_open_read(working_directory + "NPC43_dialog.txt");
-	for (var i = 1; i < 55; i++;)
+	for (var i = 1; i < 75; i++;)
 	{
 	    scr_name[i] = file_text_read_string(file);
 	    file_text_readln(file);

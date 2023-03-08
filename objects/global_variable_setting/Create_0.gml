@@ -156,3 +156,26 @@ global.end_sleep = false;
 global.bugbeat = false;
 
 #endregion
+
+if (file_exists("savedgame.save"))
+		{
+			var _buffer = buffer_load("savedgame.save");
+			var _string = buffer_read(_buffer, buffer_string);
+			buffer_delete(_buffer);
+		
+			var _loadData = json_parse(_string);
+		
+			while (array_length(_loadData) > 0)
+			{
+				var _loadEntity = array_pop(_loadData);
+				with (instance_create_layer(0, 0, "player_layer", asset_get_index(_loadEntity.obj)))
+				{
+					global.input_type = _loadEntity.input_type;
+					global.gamevolume = _loadEntity.gamevolume;
+					global.language = _loadEntity.language;
+				}
+			}
+		}
+
+audio_group_load(audiogroup_default);
+audio_group_set_gain(audiogroup_default, global.gamevolume, 5);

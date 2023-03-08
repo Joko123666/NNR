@@ -75,7 +75,7 @@ function NPC_shoponer02_dialog(argument0)
 	
 	if diacount ==7		&& randia == 2
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num - 1];
 	}
 	
 	//++++

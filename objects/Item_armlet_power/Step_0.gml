@@ -8,7 +8,10 @@ if oPlayer.input.interaction && place_meeting(x, y, oPlayer) && act_count <= 0
 	oPlayer.damage += 4;
 	global.Playerequip02 = "Power01";
 	var text = instance_create_depth(x , y - 64, 0, text_drawingob);
-	text.text = "공격력이 증가했다!";
+	if global.language == "Korean"
+		{text.text = "공격력이 증가했다!";}
+	if global.language == "English"
+		{text.text = "attack power increased!";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

@@ -13,7 +13,10 @@ if act_count <=0
 		global.Player_sword = true;
 		global.mainquest[1] = 2;
 		var text = instance_create_depth(x - 54, y - 64, 0, text_drawingob);
-		text.text = "검을 손에 넣었다!!!";
+		if global.language == "Korean"
+			{text.text = "검을 손에 넣었다!!!";}
+		if global.language == "English"
+			{text.text = "you've got sword!!";}
 		repeat(7)
 		{instance_create_layer(x, y, "Effects", oparticle_01);}
 		repeat(12)

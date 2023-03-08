@@ -53,17 +53,17 @@ if global.language == "Korean"
 			dialog_count +=1
 			audio_play_sound(SE_system07, 1, false);
 		}
-		else {text = "지금은 맡고 있는 일이 너무 많구나."}
+		else {text = scr_name[diacount + text_line_num + 1];}
 	}
 	
 	if diacount >= 4 && global.Player_item != "Bushberry"
 	 {
-		text = scr_name[diacount + text_line_num];
+		text = scr_name[diacount + text_line_num + 1];
 	 }
 	
 	if diacount >= 4 && global.Player_item == "Bushberry"
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 		 dialog_count +=1
 		global.NPC4_dialog += 1;
 		global.subquest[1] = 3;
@@ -73,7 +73,7 @@ if global.language == "Korean"
 	
 	if diacount == 5
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 		global.Player_item = "empty";
 		instance_create_layer(x + image_xscale * 44, y - 46, "Effects", Item_healherb);
 		
@@ -83,7 +83,7 @@ if global.language == "Korean"
 	
 	if diacount == 6
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 	}
 }
 
@@ -125,17 +125,17 @@ if global.language == "English"
 			dialog_count +=1
 			audio_play_sound(SE_system07, 1, false);
 		}
-		else {text = "지금은 맡고 있는 일이 너무 많구나."}
+		else {text = scr_name[diacount + text_line_num + 1];}
 	}
 	
 	if diacount >= 4 && global.Player_item != "Bushberry"
 	 {
-		text = scr_name[diacount + text_line_num];
+		text = scr_name[diacount + text_line_num + 1];
 	 }
 	
 	if diacount >= 4 && global.Player_item == "Bushberry"
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 		 dialog_count +=1
 		global.NPC4_dialog += 1;
 		global.subquest[1] = 3;
@@ -145,7 +145,7 @@ if global.language == "English"
 	
 	if diacount == 5
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 		global.Player_item = "empty";
 		instance_create_layer(x + image_xscale * 44, y - 46, "Effects", Item_healherb);
 		
@@ -155,7 +155,7 @@ if global.language == "English"
 	
 	if diacount == 6
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 2];
 	}
 }
 	

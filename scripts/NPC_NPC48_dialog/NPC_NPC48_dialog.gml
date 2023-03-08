@@ -164,54 +164,54 @@ if global.language == "Korean"
 	if diacount == 20	&& global.gold >= 500
 	{
 		global.gold -= 500;
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		global.yabawi_token += 1;
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 21	&& global.yabawi_token > 0
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 	}
 	if diacount == 21	&& global.yabawi_token <= 0
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 22
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 23
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 24
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 25	&& global.gold < 500
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 	}
 	if diacount == 25	&& global.gold >= 500
 	{
 		global.gold -= 500;
-		text = scr_name[diacount + 7];
+		text = scr_name[diacount + text_line_num + 5];
 		global.yabawi_token += 1;
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 26
 	{
-		text = scr_name[diacount + 7];
+		text = scr_name[diacount + text_line_num + 5];
 	}
 	
 	if diacount == 30
@@ -392,54 +392,54 @@ if global.language == "English"
 	if diacount == 20	&& global.gold >= 500
 	{
 		global.gold -= 500;
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		global.yabawi_token += 1;
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 21	&& global.yabawi_token > 0
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 	}
 	if diacount == 21	&& global.yabawi_token <= 0
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 22
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 23
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 24
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 25	&& global.gold < 500
 	{
-		text = scr_name[diacount + 6];
+		text = scr_name[diacount + text_line_num + 4];
 	}
 	if diacount == 25	&& global.gold >= 500
 	{
 		global.gold -= 500;
-		text = scr_name[diacount + 7];
+		text = scr_name[diacount + text_line_num + 5];
 		global.yabawi_token += 1;
 		global.NPC48_dialog += 1;
 	}
 	
 	if diacount == 26
 	{
-		text = scr_name[diacount + 7];
+		text = scr_name[diacount + text_line_num + 5];
 	}
 	
 	if diacount == 30

@@ -14,6 +14,11 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f80da508-eba6-4ba5-9062-5340cf7066ae",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f677ad8-1507-4696-8546-e9187548e096",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5998cf9-e167-4ef2-9e7b-485487e0592b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"980a7705-e4b6-4fd7-9c54-eff08db32b05",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e46a2301-61fb-465f-a45b-c9d9d9091edb",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,7 +48,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 6.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +60,11 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bdc0d464-6c2e-4dee-acb3-fd773c2a6361","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"79659f08-45c0-49dc-b43a-5b7905119e28","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f80da508-eba6-4ba5-9062-5340cf7066ae","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"548ad81b-b0aa-4c98-8db0-b8f0a3b843b3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3f677ad8-1507-4696-8546-e9187548e096","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"7125a101-96ba-4fd3-ba72-899227d68b7f","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e5998cf9-e167-4ef2-9e7b-485487e0592b","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"bf839b67-07fb-45c0-97a0-b53c06648bf6","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"980a7705-e4b6-4fd7-9c54-eff08db32b05","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"3f4758b2-667e-44ea-b810-115614817bec","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e46a2301-61fb-465f-a45b-c9d9d9091edb","path":"sprites/NPC_village_44_active/NPC_village_44_active.yy",},},},"Disabled":false,"id":"0916d998-beec-4607-8987-8c02e48124aa","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

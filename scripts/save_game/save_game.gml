@@ -1,5 +1,5 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+
 function save_game(){
 
 	#region SAVE GAME
@@ -47,8 +47,8 @@ function save_game(){
 			#endregion
 			
 			#region global_variables
-			gamevolume : global.gamevolume,
 			input_type : global.input_type,
+			gamevolume : global.gamevolume,
 			room_direction : 99,
 			BGM_number : global.BGM_number,
 			quest_stack1 : global.quest_stack[1],
@@ -166,6 +166,8 @@ function save_game(){
 			
 			yabawi_token : global.yabawi_token,
 			end_sleep : global.end_sleep,
+			
+			language : global.language,
 			
 			#endregion
 			

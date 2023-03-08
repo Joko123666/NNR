@@ -62,7 +62,6 @@ function load_game(){
 				
 					#region global_variables
 					global.input_type = _loadEntity.input_type;
-					global.gamevolume = _loadEntity.gamevolume;
 					global.room_direction =  _loadEntity.room_direction;
 					global.BGM_number = _loadEntity.BGM_number;
 					global.quest_stack[1] =  _loadEntity.quest_stack1;
