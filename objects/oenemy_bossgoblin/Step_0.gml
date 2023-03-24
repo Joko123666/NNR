@@ -89,23 +89,25 @@ switch (state)
 		
 		move_and_collide_enemy(moving_speed * image_xscale , 0);		//move according to moving_speed
 
-		if animation_hit_frame(8)
+		if animation_hit_frame(7)
 		{
 			moving_speed = 7;
+			audio_play_sound(SE_patternset01, 1, 0);
 		}
-		if animation_hit_frame(10)
+		if animation_hit_frame(8) or animation_hit_frame(9)
 		{moving_speed = moving_speed * 0.8; creat_hitbox(x, y, self, hill_bossgoblin_attack_1_hitbox, knockback_power, 1, attack_power, image_xscale);}
 		
-		if animation_hit_frame(11) or animation_hit_frame(12)
+		if animation_hit_frame(10)
 		{moving_speed = moving_speed * 0.4; creat_hitbox(x, y, self, hill_bossgoblin_attack_1_hitbox, knockback_power, 1, attack_power, image_xscale);}
 		
-		if animation_hit_frame(13)
+		if animation_hit_frame(11)
 		{moving_speed = 0;}	
 
 		if animation_end()
 		{
 			image_speed = 0;
 			state = "Neutral";
+			moving_speed = 0;
 			act_count = 90;
 			HP_checkpoint = HP;
 		}
@@ -152,7 +154,10 @@ switch (state)
 	#region Attack state
 		state_set_sprite(hill_bossgoblin_attack_3, 1, 0);
 		if animation_hit_frame(6) or animation_hit_frame(10)
-		{creat_hitbox_effect(x, y, self, hill_bossgoblin_attack_3_hitbox, knockback_power * 2, 3, attack_power * 2, image_xscale, oparticle_13); screen_shake(8, 4);}
+		{creat_hitbox_effect(x, y, self, hill_bossgoblin_attack_3_hitbox, knockback_power * 2, 3, attack_power * 2, image_xscale, oparticle_13); 
+			screen_shake(8, 4);
+			audio_play_sound(SE_shoot_05, 6, false);
+			}
 		if animation_end()
 		{state = "Neutral"; act_count = 90;}
 	

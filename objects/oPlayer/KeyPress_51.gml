@@ -1,6 +1,6 @@
 
 
-
+/*
 //마을3메인퀘 클리어
 global.greenorb = true;
 global.redorb = true;
@@ -27,3 +27,4 @@ quest_clearboard("main015");
 global.NPC43_dialog = 17;
 global.mainquest[17] = 1;		//퀘스트 진행도 갱신
 quest_board("main017");			//퀘스트 보드에 퀘스트 갱신
+*/

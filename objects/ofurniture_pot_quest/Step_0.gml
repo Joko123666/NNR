@@ -22,7 +22,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& deactive_count <=0
 		total_count--;
 		deactive_count = 75;
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "스프를 한잔 마셨다!";
+		if global.language == "Korean"
+		{text.text = "스프를 한잔 마셨다!";}
+		if global.language == "English"
+		{text.text = "you drink a cup of soup";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system01, 1, false);
@@ -31,7 +34,11 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& deactive_count <=0
 	{
 		deactive_count = 75;
 		var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-		text.text = "스프를 전부 마셔버렸다";
+		
+		if global.language == "Korean"
+		{text.text = "스프를 전부 마셔버렸다";}
+		if global.language == "English"
+		{text.text = "pot is empty...";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		audio_play_sound(SE_system05, 1, false);

@@ -1,5 +1,5 @@
 
-
+/*
 //마을2 메인퀘 클리어
 global.greenorb = true;
 global.redorb = true;
@@ -24,3 +24,4 @@ quest_clearall();
  global.mainquest[14] = 1;		//퀘스트 진행도 갱신
 quest_board("main014");			//퀘스트 보드에 퀘스트 갱신
 global.NPC23_dialog = 37;
+*/

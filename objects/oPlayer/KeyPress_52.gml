@@ -1,6 +1,6 @@
 
 
-
+/*
 //마을3메인퀘 클리어 + 전 스킬 획득
 global.greenorb = true;
 global.redorb = true;
@@ -33,3 +33,4 @@ maxjumpcount = 2;
 global.gold = 1000;
 global.Deathcount_total = 0;
 quest_clearall();
+*/

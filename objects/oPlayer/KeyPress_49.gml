@@ -1,4 +1,4 @@
-
+/*
 //마을1 메인퀘 클리어
 global.greenorb = true;
 global.redorb = false;
@@ -19,3 +19,4 @@ hspd = 2.48;
 maxjumpcount = 2;
 global.gold = 1000;
 quest_clearall();
+*/

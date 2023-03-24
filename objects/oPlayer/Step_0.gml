@@ -5,6 +5,11 @@ if instance_exists(Title_controll) {exit;}
 
 rollspd = hspd + 3;
 
+if global.language == "Korean"
+	{player_name = "이드";}
+if global.language == "English"
+	{player_name = "Ed";}
+
 //레벨업
 if Exp >= maxExp
 {
@@ -1111,18 +1116,14 @@ switch (state)
 	if global.mainstream == 1 && dialog_count == 0
 	{player_text_UI();}
 
-if global.language == "Korean"
-	{player_name = "이드";}
-if global.language == "English"
-	{player_name = "Ed";}
 
 if global.mainstream == 1	&& input.interaction	&& act_count <=0	&& dialog_endswitch == false
 {
 	//게임 시작 배경 독백 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 }
 
@@ -1133,8 +1134,8 @@ if global.mainstream == 2	&& input.interaction	&& act_count <=0	&& dialog_endswi
 	//기본조작 가이드 대사 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 	movekey_input_check = false;
 	jumpkey_input_check = false;
@@ -1154,8 +1155,8 @@ if global.mainstream == 4	&& input.interaction	&& act_count <=0	&& dialog_endswi
 	//공격조작 가이드 대사 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 	attackkey_input_check = false;
 	attackskillkey_input_check = false;
@@ -1172,8 +1173,8 @@ if global.mainstream == 6	&& input.interaction	&& act_count <=0	&& dialog_endswi
 	//이동스킬, 아이템 조작 가이드 대사 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 	itemkey_input_check = false;
 	moveskillkey_input_check = false;
@@ -1190,8 +1191,8 @@ if global.mainstream == 8	&& input.interaction	&& act_count <=0	&& dialog_endswi
 	//훈련종료 독백 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 	
 	if dialog_count == 2
@@ -1207,8 +1208,8 @@ if global.mainstream == 10	&& act_count <=0	&& dialog_endswitch == false	&& inpu
 	//본편 시작 대사 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_self_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_self_dialog(dialog_count);
 	text.name_color = c_black;	
 }
 
@@ -1218,8 +1219,8 @@ if global.mainstream == 99	&& input.interaction	&& act_count <=0	&& dialog_endsw
 	//본편 시작 대사 출력
 	act_count = 8;
 	var text = instance_create_layer(x, y-62, "Effects", UI_text_drawingob_delay);
-	text.text = Player_selfend_dialog(dialog_count);
 	text.dianame = player_name;
+	text.text = Player_selfend_dialog(dialog_count);
 	text.name_color = c_black;	
 }
 if global.mainstream == 100

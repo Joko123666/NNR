@@ -21,11 +21,27 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 	
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
 	if global.mainstream <= 32
-	{text.text = "지금은 광산에 가실수 없습니다";}	
+	{
+		if global.language == "Korean"
+		{text.text = "지금은 광산쪽으로 가실 수 없습니다!";}
+		if global.language == "English"
+		{text.text = "You can't go to mine now.";}
+	}	
 	if global.mainstream >= 33	&& global.mainstream < 40
-	{text.text = "박쥐를 특히 조심하십시오";}	
+	{
+		if global.language == "Korean"
+		{text.text = "박쥐를 특히 조심하십시오";}
+		if global.language == "English"
+		{text.text = "Becareful for bats";}
+	}	
 	if global.mainstream >= 40
-	{text.text = "협력 감사드립니다";}	
+	{
+		
+		if global.language == "Korean"
+		{text.text = "협력 감사드립니다";}
+		if global.language == "English"
+		{text.text = "Thank you for your cooperation.";}
+	}	
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

@@ -28,7 +28,7 @@ if HP<=0
 }
 
 //텍스트 파일 호출
-	var file = file_text_open_read(working_directory + "text_terminal.txt");
+	var file = file_text_open_read(working_directory + "Player_end_dialog.txt");
 	for (var i = 1; i < 65; i++;)
 	{
 	    scr_name[i] = file_text_read_string(file);

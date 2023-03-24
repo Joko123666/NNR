@@ -11,7 +11,6 @@ KR
 내가 가진 포션을 조금 나눠주지
 내가 해줄 수 있는 건 이 정도로군
 그러면 잘 부탁하네
-그러면 잘 부탁하네
 이 앞으로 곧장 가면 되네
 건물에 들어가면 바로 있으니 조심하게
 안타깝지만 나는 더 도움이 되지 않을걸세
@@ -35,7 +34,6 @@ thank you for coming here
 Sorry, but there's nothing around here
 I'll share some of my potions
 That's all I can do
-I wish you well
 I wish you well
 You can go straight ahead
 As soon as you enter the building, be careful.

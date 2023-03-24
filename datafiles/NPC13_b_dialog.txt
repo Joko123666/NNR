@@ -5,8 +5,8 @@ KR
 좋은 날입니다
 환영합니다.
 EN
-greeting
+Greeting
 Sorry, but all rooms are full right now
 What brought you to Jeruluk?
-it is a nice day
-welcome.
+It is a nice day
+Welcome.

@@ -4,7 +4,10 @@ if act_count >0
 if global.mainstream < 34	&& place_meeting(x, y, oPlayer)	&& act_count <=0
 {
 	var text = instance_create_layer(x, y-12, "Effects", text_drawingob);
-	text.text = "바위로 길이 막혀있다";
+	if global.language == "Korean"
+	{text.text = "바위로 길이 막혀있다";}
+	if global.language == "English"
+	{text.text = "Road is blocked by rocks";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	act_count = 40;

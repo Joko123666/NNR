@@ -120,6 +120,14 @@ attackskillkey_input_check = false;
 moveskillkey_input_check = false;
 itemkey_input_check = false;
 
+//게임 리스타트 퀵키 입력
+restart_count = 60;
+
+if global.language == "Korean"
+	{player_name = "이드";}
+if global.language == "English"
+	{player_name = "Ed";}
+
 #endregion
 
 

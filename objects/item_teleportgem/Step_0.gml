@@ -6,7 +6,10 @@ if place_meeting(x,y,oPlayer)
 if oPlayer.input.interaction && place_meeting(x, y, oPlayer) && global.Player_item != "empty"
 {
 	var text = instance_create_depth(x, y - 64, 0, text_drawingob);
-	text.text = "이미 들고있는 아이템이 있다";
+	if global.language == "Korean"
+	{text.text = "이미 들고있는 아이템이 있다";}
+	if global.language == "English"
+	{text.text = "inventory is full";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 }

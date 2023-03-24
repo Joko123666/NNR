@@ -139,6 +139,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"NPC50_dialog.txt","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"NPC51_dialog.txt","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"NPC99_dialog.txt","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"NPC99_endafter.txt","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Player_dialog.txt","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Player_end_dialog.txt","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"text_book.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -147,7 +148,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"enemy_vally_flyingman_move","path":"sprites/enemy_vally_flyingman_move/enemy_vally_flyingman_move.yy",},},
@@ -701,6 +702,7 @@
     {"id":{"name":"SE_explosion06","path":"sounds/SE_explosion06/SE_explosion06.yy",},},
     {"id":{"name":"obutton_language","path":"objects/obutton_language/obutton_language.yy",},},
     {"id":{"name":"hit_96","path":"sprites/hit_96/hit_96.yy",},},
+    {"id":{"name":"text_to_reset","path":"objects/text_to_reset/text_to_reset.yy",},},
     {"id":{"name":"setob_move3","path":"objects/setob_move3/setob_move3.yy",},},
     {"id":{"name":"NPC_village_10","path":"sprites/NPC_village_10/NPC_village_10.yy",},},
     {"id":{"name":"village_vally_02","path":"sprites/village_vally_02/village_vally_02.yy",},},

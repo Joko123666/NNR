@@ -1,6 +1,7 @@
 
 
 
+/*
 //마지막마지막보스
 global.greenorb = false;
 global.redorb = false;
@@ -25,3 +26,4 @@ oPlayer.MP_regen_time = 20;
 maxjumpcount = 2;
 global.gold = 0;
 quest_clearall();
+*/

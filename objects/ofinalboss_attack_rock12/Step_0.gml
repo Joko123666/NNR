@@ -5,7 +5,7 @@ effect.image_angle = image_angle + 180;
 
 if place_meeting(x, y, oPlayer) && oPlayer.invincibility == false
 {
-	creat_hitbox(x, y, self, sprite_index, knockback_power, 1, attack_power, image_xscale);
+	creat_hitbox(oPlayer.x, oPlayer.y, self, sprite_index, knockback_power, 1, attack_power, image_xscale);
 	create_particle(x, y, oparticle_26, 3);
 	instance_destroy();
 }

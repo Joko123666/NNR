@@ -20,7 +20,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0
 		{instance_destroy(text_drawingob);}
 	
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "지금은 광산쪽에 가실수 없습니다!"
+	if global.language == "Korean"
+	{text.text = "지금은 광산쪽으로 가실 수 없습니다!";}
+	if global.language == "English"
+	{text.text = "You can't go to mine now.";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

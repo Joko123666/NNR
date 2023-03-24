@@ -1,6 +1,6 @@
 
 
-
+/*
 //엔딩으로
 global.greenorb = true;
 global.redorb = true;
@@ -23,3 +23,4 @@ oPlayer.MP_regen_time = 20;
 maxjumpcount = 2;
 global.gold = 0;
 quest_clearall();
+*/

@@ -9,13 +9,19 @@ if dialog_count > 1	&& global.mainstream < 10
 
 if notenough_text == true
 {
-	var text = "마나가 부족해"
+	if global.language == "Korean"
+	{var text = "마나가 부족해"}
+	if global.language == "English"
+	{var text = "not enough mana"}
 	var text_width = string_width(text);
 	draw_text(x - text_width/2, y - 48, text);
 }
 if notready_text == true
 {
-	var text = "준비가 안됐어"
+	if global.language == "Korean"
+	{var text = "아직은 힘들어"}
+	if global.language == "English"
+	{var text = "not ready yet"}
 	var text_width = string_width(text);
 	draw_text(x - text_width/2, y - 48, text);
 }

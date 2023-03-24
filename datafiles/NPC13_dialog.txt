@@ -5,8 +5,8 @@ KR
 좋은 날입니다
 환영합니다.
 EN
-greeting
-Our inn is 10G per night.
+Greetings
+Our inn costs 10G per night.
 If you own a house, you don't have to rent a room.
-it is a nice day
-welcome.
+It is a nice day
+Welcome.

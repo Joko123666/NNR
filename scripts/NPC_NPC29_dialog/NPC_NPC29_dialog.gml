@@ -7,7 +7,7 @@ function NPC_NPC29_dialog(argument0)
 	
 	//텍스트 파일 호출
 	var file = file_text_open_read(working_directory + "NPC29_dialog.txt");
-	for (var i = 1; i < 75; i++;)
+	for (var i = 1; i < 85; i++;)
 	{
 	    scr_name[i] = file_text_read_string(file);
 	    file_text_readln(file);
@@ -99,7 +99,7 @@ if global.language == "Korean"
 	}
 	
 	if diacount == 11 && global.gold >= 350
-	{
+	{	//line 14
 		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(15, 5);
 		global.gold -= 350;
@@ -234,13 +234,13 @@ if global.language == "Korean"
 
 	if diacount == 29	&& global.gold < 500
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 0];
 		screen_shake(10, 5);
 	}
 	
 	if diacount == 29 && global.gold >= 500
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(15, 5);
 		global.gold -= 500;
 		audio_play_sound(SE_coin02, 1, false);
@@ -249,7 +249,7 @@ if global.language == "Korean"
 	
 	if diacount == 30
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(10, 5);
 		oPlayer.attackskill_set = 5;
 		global.Player_attackskill = 5;
@@ -260,28 +260,28 @@ if global.language == "Korean"
 	
 	if diacount == 31
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 32
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 33
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(10, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 34
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 	}
 }
@@ -506,13 +506,13 @@ if global.language == "English"
 
 	if diacount == 29	&& global.gold < 500
 	{
-		text = scr_name[diacount + text_line_num + 1];
+		text = scr_name[diacount + text_line_num + 0];
 		screen_shake(10, 5);
 	}
 	
 	if diacount == 29 && global.gold >= 500
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(15, 5);
 		global.gold -= 500;
 		audio_play_sound(SE_coin02, 1, false);
@@ -521,7 +521,7 @@ if global.language == "English"
 	
 	if diacount == 30
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(10, 5);
 		oPlayer.attackskill_set = 5;
 		global.Player_attackskill = 5;
@@ -532,28 +532,28 @@ if global.language == "English"
 	
 	if diacount == 31
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 32
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 33
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(10, 5);
 		global.NPC29_dialog += 1;
 	}
 	
 	if diacount == 34
 	{
-		text = scr_name[diacount + text_line_num + 2];
+		text = scr_name[diacount + text_line_num + 1];
 		screen_shake(5, 5);
 	}
 }

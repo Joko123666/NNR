@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.099116,
+  "duration": 0.373492,
   "parent": {
     "name": "SE",
     "path": "folders/소리/SE.yy",

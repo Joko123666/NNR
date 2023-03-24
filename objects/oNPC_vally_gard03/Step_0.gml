@@ -41,7 +41,10 @@ if oPlayer.input.item	&& global.Player_item == "Bomb01"
 		{instance_destroy(text_drawingob);}
 	
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "지금 뭐하시는겁니까!?";			//대사 스크립트 불러오기
+	if global.language == "Korean"
+	{text.text = "지금 뭐하시는겁니까!?";}
+	if global.language == "English"
+	{text.text = "What are you doing now?";}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

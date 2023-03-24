@@ -4,7 +4,7 @@
 	global.input_type = "A";
 	global.UItext_show = false;
 	global.gamevolume = 0.5;
-	global.language = "Korean";
+	global.language = "English";
 #endregion
 
 #region //게임구조 트리거 변수 
@@ -156,7 +156,9 @@ global.end_sleep = false;
 global.bugbeat = false;
 
 #endregion
-
+/*
+if (file_exists("savedgame.save"))
+		{with (oPlayer) instance_destroy();}
 if (file_exists("savedgame.save"))
 		{
 			var _buffer = buffer_load("savedgame.save");
@@ -176,6 +178,6 @@ if (file_exists("savedgame.save"))
 				}
 			}
 		}
-
+*/
 audio_group_load(audiogroup_default);
 audio_group_set_gain(audiogroup_default, global.gamevolume, 5);

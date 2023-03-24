@@ -36,7 +36,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction	&& act_count <=0	&& g
 		{instance_destroy(text_drawingob);}
 	
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "저희는 조금 더 조사중입니다"
+	if global.language == "Korean"
+	{text.text = "저희는 조금 더 조사중입니다"}
+	if global.language == "English"
+	{text.text = "We are investigating further."}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

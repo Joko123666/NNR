@@ -6,7 +6,7 @@ KR
 헤롤드는 마을 제일 동쪽에 살고있어
 EN
 What's going on?
-hey ho~
-what do you want?
-Goblins are defenseless after an attack
-Harold lives far east of town.
+Hey ho~
+What do you want?
+You can easily hit goblins after their attacks.
+Harold lives east coner of the town.

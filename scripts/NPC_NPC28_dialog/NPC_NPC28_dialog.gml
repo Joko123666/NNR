@@ -393,9 +393,9 @@ if global.language == "English"
 	if global.mainstream >= 51	&& global.NPC28_dialog <= 20
 	{
 		if global.NPC18_dialog < 3 && global.NPC28_dialog < 3
-		{text = scr_name[22];}
+		{text = scr_name[22 + text_line_num];}
 		else
-		{text = scr_name[23];}
+		{text = scr_name[23 + text_line_num];}
 		global.NPC28_dialog = 21;
 		
 	}
@@ -487,7 +487,7 @@ if global.language == "English"
 	
 	if diacount == 35
 	{
-		text = scr_name[diacount + 3];
+		text = scr_name[diacount + text_line_num];
 		global.NPC28_dialog += 1;
 		global.Player_moveskill = 4;
 		oPlayer.moveskill_set = 4;
@@ -508,8 +508,8 @@ if global.language == "English"
 	}
 	
 	if global.mainstream >= 60
-	{
-		text = scr_name[41];
+	{	//단락 워프 
+		text = scr_name[84];
 		global.NPC28_dialog = 40;
 	}
 	
