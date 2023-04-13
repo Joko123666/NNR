@@ -1,6 +1,6 @@
 KR
 내 이름은 이드
-시골의 한적한 마을 '아카리코'에서 살고 있다
+시골의 한적한 마을 '카카리코'에서 살고 있다
 이곳은 평화로운 마을이지만
 이 마을 말고 다른 곳들도 구경하고 싶어
 여행과 탐험을 할 수 있는 모험가를 목표로
@@ -16,11 +16,20 @@ KR
 가짜라 해도 나는 이 세계를 좋아하고
 적어도 완전히 끝낼 마음은 들지 않는다
 EN
-엔드 이전 대사 복붙예정
-
-독백
-Even if it's a made up memory
-I still have something to say
-Even if it's fake, I like this world
-At least I don't feel like ending it completely.
+My name is Ed
+I live in the village 'Kakariko' which is in quiet countryside.
+Kakariko is a peaceful village
+But, I want to see other places other than this town
+I want to be an adventurer who can travel and explore,
+so I trained myself ambitiously
+to join a guild which supports adventurers.
+So, I hope I can travle around new places
+that is my ultimate goal.
+...
+I train myself ambitiously... and periodically.
+-독백
+Even though artificial world is a base of my memories
+I still have something to say.
+Even though it's fake, I like this world.
+At least I do not want to end it completely.
 

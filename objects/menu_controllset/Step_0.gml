@@ -11,7 +11,10 @@ switch (state)
 	case "Menu1" :
 	selection_x = num1_x;
 	selection_y = num1_y;
-	sprite_index = setting_controll_menuA;
+	if global.language == "Korean"
+	{sprite_index = setting_controll_menuA;}
+	if global.language == "English"
+	{sprite_index = setting_controll_menuA_E;}
 	
 	if input.up
 	{
@@ -39,7 +42,10 @@ switch (state)
 	case "Menu2" :
 	selection_x = num2_x;
 	selection_y = num2_y;
-	sprite_index = setting_controll_menuB;
+	if global.language == "Korean"
+	{sprite_index = setting_controll_menuB;}
+	if global.language == "English"
+	{sprite_index = setting_controll_menuB_E;}
 	
 	if input.up
 	{
@@ -67,7 +73,10 @@ switch (state)
 		case "Menu3" :
 	selection_x = num3_x;
 	selection_y = num3_y;
-	sprite_index = setting_controll_menuC;
+	if global.language == "Korean"
+	{sprite_index = setting_controll_menuC;}
+	if global.language == "English"
+	{sprite_index = setting_controll_menuC_E;}
 	
 	if input.up
 	{
@@ -94,7 +103,10 @@ switch (state)
 		case "Menu4" :
 	selection_x = num4_x;
 	selection_y = num4_y;
-	sprite_index = setting_controll_menuD;
+	if global.language == "Korean"
+	{sprite_index = setting_controll_menuD;}
+	if global.language == "English"
+	{sprite_index = setting_controll_menuD_E;}
 	
 	if input.up
 	{
@@ -122,13 +134,33 @@ switch (state)
 	selection_x = num5_x;
 	selection_y = num5_y;
 	if global.input_type == "A"
-	{sprite_index = setting_controll_menuA;}
+	{
+			if global.language == "Korean"
+		{sprite_index = setting_controll_menuA;}
+		if global.language == "English"
+		{sprite_index = setting_controll_menuA_E;}
+	}
 	if global.input_type == "B"
-	{sprite_index = setting_controll_menuB;}
+	{
+		if global.language == "Korean"
+		{sprite_index = setting_controll_menuB;}
+		if global.language == "English"
+		{sprite_index = setting_controll_menuB_E;}
+	}
 	if global.input_type == "C"
-	{sprite_index = setting_controll_menuC;}
+	{
+		if global.language == "Korean"
+		{sprite_index = setting_controll_menuC;}
+		if global.language == "English"
+		{sprite_index = setting_controll_menuC_E;}
+	}
 	if global.input_type == "D"
-	{sprite_index = setting_controll_menuD;}
+	{
+		if global.language == "Korean"
+		{sprite_index = setting_controll_menuD;}
+		if global.language == "English"
+		{sprite_index = setting_controll_menuD_E;}
+	}
 	
 	
 	if input.up

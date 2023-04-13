@@ -10,10 +10,24 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 {
 	if instance_exists(text_drawingob)
 	{instance_destroy(text_drawingob);}
+	
+	var file = file_text_open_read(working_directory + "NPC99_endafter.txt");
+	for (var i = 1; i < 300; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+	
+	if global.language == "Korean"
+	{var text_line_num = 2;}
+	if global.language == "English"
+	{var text_line_num = 30;}
+	
 	if state_num == 0
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "마스터의 접촉을 확인";
+		text.text = scr_name[text_line_num + state_num];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -23,7 +37,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 1
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "관리자시스템을 재기동합니다";
+		text.text = scr_name[text_line_num + state_num];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -38,7 +52,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 3
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "어서오십시오ㅡ마스터";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -47,7 +61,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 4
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "저장된 관리자인격을 불러오는중입니다";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		sprite_index = finalboss_afterdead_reading;
@@ -57,7 +71,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 5
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "...";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -66,7 +80,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 6
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "... 결국 다시 시작하기로 한건가";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		sprite_index = finalboss_talk3;
@@ -76,7 +90,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 7
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "몇번째의 선택인지는 모르지만";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -85,7 +99,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 8
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "같은일을 계속해서 반복하는것은";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -94,7 +108,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 9
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "나로서도 권장하고싶지 않다";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -103,7 +117,7 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 	if state_num == 10
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
-		text.text = "하지만 그럼에도 이 다음으로 넘어가겠다면...";
+		text.text = scr_name[text_line_num + state_num - 1];
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 		alarm[1] = 3;
@@ -116,6 +130,8 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 		image_speed = 1;
 	}
 	
+	#region old text
+	/*
 	if state_num == 12
 	{
 		var text = instance_create_layer(x, y-64, "Effects", text_drawingob);
@@ -159,6 +175,8 @@ if contect == true && oPlayer.input.interaction	&& act_count <=0	&& state == "de
 		state = "active";
 		image_speed = 1;
 	}
+	*/
+	#endregion
 	
 	act_count = 25;
 	audio_play_sound(SE_dialog_m02, 1, false);

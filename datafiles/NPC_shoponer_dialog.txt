@@ -24,27 +24,27 @@ KR
 이게 출장지 적정가입니다~
 지금 사면 감사의 마음이 공짜~
 EN	
-Welcome guests, is this your first time?
-I am a merchant who sells items necessary for travel.
-We will give you this item as a commemoration of our meeting.
-Please select the product you want
+Welcome customer, is this your first visit?
+I am a merchant and sell items.
+I'll give you this item as a gift to celebrate our encounter.
+Please choose the product you want.
 Welcome to the Jeruluk Shop!
 New to Jeruluk?
-The specialty of Jeruluk is, of course, red ore!
-However, since there are no processing facilities here,
-There is no point in buying red ore unless you are a trader.
-Instead, we recommend quality explosives and recovery drugs.
-Please choose the one you want
-Please handle explosives carefully.
-Business here is really bad.
-Are you selling red quartz?
-Red quartz is always purchased at a high price.
-I bought it for 1000G of red quartz.
-Please do it again next time~
-Welcome
-This is a merchant on a business trip at the request of the guild.
-I didn't bring much
-Still buy this and that
-Buy it~
-This is a reasonable price for a business trip.
-If you buy it now, your gratitude is free~
+Jeruluk's local product is, of course, red ore!
+Since this town does not have smithing facilities,
+Red ore is just a stone to tourist.
+Instead, we recommend high quality bombs and potions.
+Please choose what you want.
+Please handle bomb carefully.
+Having a business in this town is very bad idea.
+Are you selling red crystal?
+I always purchase red crystal as a high price.
+Here is 1000G for the red crystal.
+You are always welcomed Mr. Ed~
+Welcome.
+Guild sent me here as a business trip to help you..
+I couldn't bring many things.
+But buy something please.
+C'mon~ buy some~
+It is reasonable price. Please concern where we are now~
+If you buy it now, my gratitude is free~

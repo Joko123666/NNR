@@ -28,31 +28,31 @@ KR
 폭탄이 필요하십니까?
 폭탄이 전부 떨어졌습니다….
 EN
-hello!
-You can't leave town unprepared!
+Hello!
+You can't leave the town without preperation!
 There are monsters out there, so be careful!
-Nothing abnormal while working!
-Nothing wrong!
-Working properly!
-More than anything on the alert!
-A powerful monster has appeared in this hilltop cave!
-It's dangerous if you're not prepared!
+Everything is fine!
+Nothing special today!
+I always do my best at work!
+Nothing for alert!
+A powerful monster appeared in this hilltop cave!
+It will be dangerous if you're not fully prepared!
 We're on a reconnaissance mission.
-An abnormal situation has occurred around here and we are investigating.
-Always be prepared for risk!
-This is still under investigation!
+An unusual situation has been occurred around here.
+Always be prepared for a risk!
+This place is still under investigation!
 Sorry but please wait!
 Welcome to Jeruluk!
-We are protecting this place!
-Strange on patrol!
-Currently working!
+We are protecting this village!
+Clear on patrol!
+Currently standing guard!
 Ah~ I want to be discharged~
-Actually, it's office hours right now, but I'm stuck.
-Strange on patrol!
-Ah~ I don't want to go out of bounds~
-You mustn't come in here unnecessarily
-Always short of supplies...
-Checking supplies
+Actually, it's a work hours now, but I'm hidding.
+Everything is clear on patrol!
+Ah~ I don't want to go out to do patrol~
+You should not come in here without permission.
+Always lack of supplies...
+Counting supplies.
 Aren't you afraid, Captain?
 Need a bomb?
-Bombs are out of stock... .
+Bombs are out of stock...

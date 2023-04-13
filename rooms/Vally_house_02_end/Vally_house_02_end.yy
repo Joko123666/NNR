@@ -21,7 +21,6 @@
     {"name":"inst_39173D47_6_2_1","path":"rooms/Vally_house_02_end/Vally_house_02_end.yy",},
     {"name":"inst_6ACA2067_6_2_1","path":"rooms/Vally_house_02_end/Vally_house_02_end.yy",},
     {"name":"inst_6ADA7D22_6_2_1","path":"rooms/Vally_house_02_end/Vally_house_02_end.yy",},
-    {"name":"inst_EF9039D","path":"rooms/Vally_house_02_end/Vally_house_02_end.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -42,7 +41,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"to_nextroom","path":"objects/to_nextroom/to_nextroom.yy",},"propertyId":{"name":"room_direction","path":"objects/to_nextroom/to_nextroom.yy",},"value":"5",},
           ],"rotation":0.0,"scaleX":0.53341484,"scaleY":0.5625,"x":656.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6ADA7D22_6_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oplayer_apport","path":"objects/oplayer_apport/oplayer_apport.yy",},"properties":[],"rotation":0.0,"scaleX":0.46875,"scaleY":1.0,"x":640.0,"y":670.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EF9039D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ofurniture_desk_book11","path":"objects/ofurniture_desk_book11/ofurniture_desk_book11.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":672.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_2","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"vally_house01_furniture","path":"sprites/vally_house01_furniture/vally_house01_furniture.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":446,"y":512,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"vilige_fense","path":"sprites/vilige_fense/vilige_fense.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":128,},

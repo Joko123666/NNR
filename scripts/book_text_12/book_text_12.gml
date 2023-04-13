@@ -20,15 +20,28 @@ function book_text_12(page_num, line_num)
 	if global.language == "Korean"
 	{
 		if page_num == 1
-		{var text_line_num = 103;}
+		{var text_line_num = 68;}
 		if page_num == 2
-		{var text_line_num = 110;}
+		{var text_line_num = 75;}
 		if page_num == 3
-		{var text_line_num = 117;}
+		{var text_line_num = 82;}
 		if page_num == 4
-		{var text_line_num = 124;}
+		{var text_line_num = 89;}
 		if page_num == 5
-		{var text_line_num = 131;}
+		{var text_line_num = 96;}
+	}
+	if global.language == "English"
+	{
+		if page_num == 1
+		{var text_line_num = 169;}
+		if page_num == 2
+		{var text_line_num = 176;}
+		if page_num == 3
+		{var text_line_num = 183;}
+		if page_num == 4
+		{var text_line_num = 190;}
+		if page_num == 5
+		{var text_line_num = 197;}
 	}
 	
 

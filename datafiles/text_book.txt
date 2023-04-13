@@ -6,56 +6,56 @@ KR
 - 모든 기록이 찼을경우 다른 기록을 지울 것
 - 일지 중 가장 높은 숫자에 1을 더해서 기록할 것
 - 다시 시작하기 전에 반드시 은폐할 것
-02
+2
 -기록일지 : 78호-
 솔직히 말해서 충격이 크다
 이 세계에 살아있는 것은 나 혼자뿐이고
 내가 행동한 건 과거의 내가 만든 각본이며
 여러 번 세계를 다시 시작했다는 것을
 과거의 나는 대체 무슨 생각인 걸까?
-03
+3
 -기록일지 : 243호-
 만족스러웠다
-자연스러운 움직임
-적당한 상호작용
+주민들의 자연스러운 움직임
+주변인물과의 적당한 상호작용
 인물의 보편적인 조정은 이정도면 될듯 하다
-이후엔 인물과의 상호작용에 힘을 줘보자
-04
+이후엔 인물의 내면 표현에 힘을 줘보자
+4
 -기록일지 : 443호-
 저장소에서 기억을 이어받고 바로 적는다
 아무래도 기억을 이어받고 잠시 기절한 모양이다
 과거의 기억을 한번에 받아쓰는데에 무리가 가나?
 이번만의 문제일수 있으니 기록에 남겨놓는다
 다음세계의 내가 조취를 취했으면 한다
-05
+5
 기록일지 : 1064호
 이번 기억의 갱신에는 한시간정도가 걸렸다
 기억을 토대로 몇가지 조취를 취해놨지만
 완전히 부작용을 없애는데는 아직 모자르다
 그런데 이런 생각이 들기도 한다
 어차피 죽지않는몸인데 그정도는 상관없지않나?
-06
+6
 기록일지 : 3648호
-솔직히 충격이다
+내가 이룬것이 모두 가짜였다니...
 지금까지의 나의 노력은 무엇이였을까?
 이것도 '나'의 노력이라는건 알겠지만
 좀처럼 마음이 정리되지 않는다
 조금 더 시간이 필요하다...
-07
+7
 기록일지 : 4754호
 이번 세계는 지나치게 몰입 해버렸다
-관리역과 함께 모두가 멈췄을때는 생각이 멈췄었다
+모두가 멈췄을때는 생각이 멈췄었다
 시간이 좀 지난뒤 저장소를 발견한게 다행이다
 처음부터 저장소로 향했다면 완전한 끝을 골랐겠지
 지나치게 잘 만든 세계는 위험하다는 생각이 들었다
-08
+8
 기록일지 : 6038호
 나름대로의 고찰을 거쳐 무난한 세계를 만들었다
 지나친 낙차는 위험하다고 생각하여 이렇게 되었지만
 이대로 무난함만 반복하는것에 의미가 있는것일까?
 이 세계를 만드는 것 그 자체에 회의감을 느낀다
 무언가 더 좋은, 완벽한 방법이 없을까?
-09
+9
 기록일지 : 9999호
 저장소의 기억저장장치는 완전히 망가져버렸다
 더이상 덧쓰지 않아도 될 좋은 기회일지도 모른다
@@ -100,7 +100,106 @@ KR
 기억소거장치를 가동할것
 이상이다
 EN
-
+1
+- Record Journal : No.1 -
+*This is a rule book, do not erase*
+- This room is made to write down own impressions.
+- When the record books are full, delet the least favored one.
+- New record book's number order is "biggest number +1".
+- Make sure you conceal before new life begin.
+2
+- Record Journal : No.78 -
+Honestly, I'm shocked.
+I am the only one alive in this world.
+I've made a script, so my actions were based on that
+I restarted this world continously.
+I wonder what kind of madness I have in the past.
+3
+- Record Journal : No.243 -
+It was satisfing.
+Villagers move naturally.
+Moderate interaction with others.
+The general adjustment of the villagers seems settled.
+From now, let's focus on villagers' inner expression.
+4
+- Record Journal : No.443 -
+This is written right after I inherit memories from archives.
+It seems like I passed out for a while after inheritance.
+Maybe memory inheritance cause a stress my brain out?
+This might happened again, so I am leaving the record.
+I hope me in the next world would take an action.
+5
+- Record Journal : No.1064 -
+Memory inheritance took an hour.
+I've made some prevention measures for this progress.
+Still, it is not enough to eliminate side effects.
+But sometimes what I think is...
+I have immortal body. Thus, may it bear some strees?
+6
+- Record Journal : No.3648 -
+This is disappointing as all of my achivements are fake.
+What were my efforts so far?
+I understand even this results are based on my old efforts
+I still do not know what I truly want to do now.
+I need a more time...
+7
+- Record Journal : No.4754 -
+I immersed in this world too deep.
+My brain stopped its function when everything stopped. 
+it is forunate, that I found the archives after a while.
+If I found archives first, I would quite this endless cycle.
+I think overly well-made world is dangerous.
+8
+- Record Journal : No.6038 -
+Somehow, emotionally balanced world is formed. 
+This world properly prevents me from emotional immersion.
+Because I continously wanted to avoide emotional failure.
+However, I feel regretful whenever I construct this world.
+Avoiding cannot be a clue. What should I do.
+9
+- Record Journal : No.9999 -
+Storage device in archives is completely broken.
+It might be a good chance to stop this progress.
+At this point, I broke some of the record stones.
+From now on, I hope I can fully decide my own
+without old and unnecessary memories.
+.
+12
+12 L01
+.
+.
+Process: How to restart a story.
+Please follow the instruction below
+.
+.
+12 L02
+.1.
+Return 3 orbs where it was.
+Since administrator's function stopped,
+town's save device must be transformed.
+Insert one orb in each device.
+When you insert the orb, system will restart.
+12 L03
+.2.
+When system restarts,
+villagers are automatically reactivated.
+This process is automatic.
+Yet, recommanded to have a converstaion with villagers.
+Most of villagers will speak the initial lines.
+12 L04
+.3.
+After complete every porcess,
+go back to where administrator is.
+Then, reactivate the administrator.
+If 3 orbs are inserted correctly,
+It will restart itself immediately.
+12 L05
+.4.
+Restarted administration will give authorization
+Please come back when you are authorized.
+When you come back to this place,
+Amnesia device' will be activated.
+Over.
 
 
 

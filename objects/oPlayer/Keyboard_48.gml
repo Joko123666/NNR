@@ -2,4 +2,7 @@
 
 restart_count--;
 if restart_count <= 0
-{game_restart();}
+{
+	restart_count = 60;
+	load_game();
+}

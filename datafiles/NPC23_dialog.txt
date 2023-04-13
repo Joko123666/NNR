@@ -49,12 +49,12 @@ EN
 Hello. what brings you here?
 Oh, are you Mr. Ed?
 I am a manager in this guild.
-Manager sounds great, but I am a manger of small countryside.
+Manager sounds great, but just of small countryside.
 I received a call from the Kakariko Village guild.
 So, you came here to support us.
 This is perfect timing as we truly need a help.
 It is because monster's population suddenly jumped high.
-They gradually increased their territory, and are occupying mining zone.
+They gradually increased their territory.
 We cannot mine anymore because of them.
 You can have more quest details from the cheif guard.
 He is the one who give us this quest.
@@ -64,13 +64,13 @@ Please let me know if you need anything
 Is there something I can help?
 I believe in you.
 Chief would know how to break the rocks.
-The shop in here sells bombs that have more gunpowder than average.
+The shop in here sells bombs that have more power.
 Good luck on your investigation!
 Welcome mister.
 I've got a call from the chief that you made a huge success.
 He said you solved the issue, not simply investigate the cave.
 Truly appreciate your hard work.
-Captain seems to be very satisfied and give you an additional reward.
+Captain give you an additional reward.
 Furthermore, we also add additional rewards too.
 I'll give you 1,000G in total.
 And in addition, the problem in the mine has been solved
@@ -87,7 +87,7 @@ It says please talk to the one who is wearing red clothe
 He will be around at Jeruruk village's teleporter.
 There is a quest for you, yet he wants to give you directly.
 What is that quest would be?
-This could means the headquarters is looking for your high performacnce.
+This could means they are looking for your high performacnce.
 So, please review it positively.
 Please tell me if you need help
 I am excited to see your future achievements.

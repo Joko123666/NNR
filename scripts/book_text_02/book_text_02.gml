@@ -3,20 +3,29 @@
 function book_text_02(line_num)
 {
 	//텍스트 파일 호출
-	var file = file_text_open_read(working_directory + "NPC07_dialog.txt");
-	for (var i = 0; i < 25; i++;)
+	var file = file_text_open_read(working_directory + "text_book.txt");
+	for (var i = 1; i < 300; i++;)
 	{
 	    scr_name[i] = file_text_read_string(file);
 	    file_text_readln(file);
 	}
 	file_text_close(file);
 	
-	var text_line01 = scr_name[7];
-	var text_line02 = scr_name[8];
-	var text_line03 = scr_name[9];
-	var text_line04 = scr_name[10];
-	var text_line05 = scr_name[11];
-	var text_line06 = scr_name[12];
+	if global.language == "Korean"
+	{
+		var text_line_num = 10;
+	}
+	if global.language == "English"
+	{
+		var text_line_num = 111;
+	}
+	
+	var text_line01 = scr_name[text_line_num];
+	var text_line02 = scr_name[text_line_num + 1];
+	var text_line03 = scr_name[text_line_num + 2];
+	var text_line04 = scr_name[text_line_num + 3];
+	var text_line05 = scr_name[text_line_num + 4];
+	var text_line06 = scr_name[text_line_num + 5];
 	
 	if line_num == 1
 	{return text_line01;}

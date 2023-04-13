@@ -4,28 +4,51 @@ var screen_height = display_get_gui_height();
 
 draw_rectangle_color(-20, -20, screen_width +20 , screen_height +20 ,c_black, c_black, c_black, c_black, 0);
 
+
+
 var x_point = 160;
 var y_point = 40;
 var y_distance = 20;
+
+//텍스트 파일 호출
+	var file = file_text_open_read(working_directory + "Ending_monologue.txt");
+	for (var i = 1; i < 135; i++;)
+	{
+	    scr_name[i] = file_text_read_string(file);
+	    file_text_readln(file);
+	}
+	file_text_close(file);
+
+var diacount = 0;
+if global.language == "Korean"
+{
+	var text_line_num = 3;
+}
+if global.language == "English"
+{
+	var text_line_num = 67;
+}
+
 if text_01 == true
 {
-	var text_line01 = "이렇게 이번 이야기는 막을 내렸다 "
+	var diacount = 0;
+	var text_line01 = scr_name[diacount + text_line_num];
 	var text_width = string_width(text_line01);
 	draw_text(x_point- text_width/2, y_point , text_line01);
 	
-	var text_line02 = "경솔하게 죽어버린 당신은"
+	var text_line02 = scr_name[diacount + text_line_num + 1];
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "죽어도 살아나는걸 알아버리고"
+	var text_line03 = scr_name[diacount + text_line_num + 2];
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "자신의 목숨을 가볍게 생각하고"
+	var text_line04 = scr_name[diacount + text_line_num + 3];
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "일방적으로 적들을 쓰러트리며 나아갔다"
+	var text_line05 = scr_name[diacount + text_line_num + 4];
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
 }
@@ -33,35 +56,36 @@ if text_01 == true
 
 if text_02 == true
 {
-	var text_line01 = "하지만 모험의 마지막에"
+	var diacount = 5;
+	var text_line01 = scr_name[diacount + text_line_num];
 	var text_width = string_width(text_line01);
 	draw_text(x_point- text_width/2, y_point , text_line01);
 	
-	var text_line02 = "쉽게 버린 목숨때문에"
+	var text_line02 = scr_name[diacount + text_line_num + 1];
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "허망하게 이야기의 끝을 맞이했다"
+	var text_line03 = scr_name[diacount + text_line_num + 2];
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "."
+	var text_line04 = scr_name[diacount + text_line_num + 3];
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "."
+	var text_line05 = scr_name[diacount + text_line_num + 4];
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
-	
 }
 
 if text_03 == true
 {
-	var text_line01 = "."
+	var diacount = 10;
+	var text_line01 = scr_name[diacount + text_line_num];
 	var text_width = string_width(text_line01);
 	draw_text(x_point- text_width/2, y_point , text_line01);
 	
-	var text_line02 = "이번 이야기에서 죽은 횟수"
+	var text_line02 = scr_name[diacount + text_line_num + 1];
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
@@ -69,36 +93,35 @@ if text_03 == true
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "."
+	var text_line04 = scr_name[diacount + text_line_num + 3];
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "."
+	var text_line05 = scr_name[diacount + text_line_num + 4];
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
-	
 }
 
 if text_04 == true
 {
-	var text_line01 = "."
+	var diacount = 15;
+	var text_line01 = scr_name[diacount + text_line_num];
 	var text_width = string_width(text_line01);
 	draw_text(x_point- text_width/2, y_point , text_line01);
 	
-	var text_line02 = "."
+	var text_line02 = scr_name[diacount + text_line_num + 1];
 	var text_width = string_width(text_line02);
 	draw_text(x_point- text_width/2, y_point  + y_distance, text_line02);
 	
-	var text_line03 = "."
+	var text_line03 = scr_name[diacount + text_line_num + 2];
 	var text_width = string_width(text_line03);
 	draw_text(x_point- text_width/2, y_point  + y_distance*2, text_line03);
 	
-	var text_line04 = "."
+	var text_line04 = scr_name[diacount + text_line_num + 3];
 	var text_width = string_width(text_line04);
 	draw_text(x_point- text_width/2, y_point  + y_distance*3, text_line04);
 	
-	var text_line05 = "."
+	var text_line05 = scr_name[diacount + text_line_num + 4];
 	var text_width = string_width(text_line05);
 	draw_text(x_point- text_width/2, y_point  + y_distance*4, text_line05);
-	
 }

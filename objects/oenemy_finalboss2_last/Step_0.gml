@@ -5,6 +5,7 @@ show_debug_message(state);
 
 act_count = count_decrease(act_count, 1, 0);
 
+
 switch (state)
 {
 	case "Neutral" :		//상태 리셋
@@ -26,20 +27,26 @@ switch (state)
 		{state = "Act_Set"; image_index = 0; image_speed = 1;	act_count = 3;}
 		
 		//죽을때마다 뱉는 대사
+	
+		if global.language == "Korean"
+		{var text_line_num = 13;}
+		if global.language == "English"
+		{var text_line_num = 41;}
+		
 		if global.Deathcount_total == 0
-		{deadtext = "겨우 이정도로 쓰러질거면 포기하는게 좋지않나?"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
 		if global.Deathcount_total == 1
-		{deadtext = "이제 그만 포기해라"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
 		if global.Deathcount_total == 2
-		{deadtext = "이 순환을 계속할 의미가 무엇이냐?"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
 		if global.Deathcount_total == 3
-		{deadtext = "이 얼마나 나약한 의지란 말이냐"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
 		if global.Deathcount_total == 4
-		{deadtext = "그냥 그대로 쓰러져있거라"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
 		if global.Deathcount_total == 5
-		{deadtext = "그저 고집만으로 계속하고 있는건 아닌가?"}
-		if global.Deathcount_total == 6
-		{deadtext = "그만 포기하는게 편할거다"}
+		{deadtext = scr_name[text_line_num + global.Deathcount_total];}
+		if global.Deathcount_total >= 6
+		{deadtext = scr_name[text_line_num + 6];}
 
 		#region 체력저하 패턴변경
 	
@@ -499,27 +506,32 @@ switch (state)
 	case "Death" :
 	#region
 		state_set_sprite(finalboss_deadly2, 1,0)
+		if global.language == "Korean"
+		{var text_line_num = 24;}
+		if global.language == "English"
+		{var text_line_num = 52;}
+		
 		if global.Deathcount_total == 0	&& dia_switch == false	&& global.last_dialog == 9
 		{
-			diatext = "훌륭하다, 멋지게 의지를 보여줬구나";	
+			diatext = scr_name[text_line_num];
 			alarm[2] = 90;dia_switch = true;	
 			audio_play_sound(SE_dialog_m02, 1, 0);
 		}
 		if global.Deathcount_total > 0	&& dia_switch == false	&& global.last_dialog == 9
 		{
-			diatext = "너의 생각은 알아들었다";	
+			diatext = scr_name[text_line_num + 1];	
 			alarm[2] = 90;dia_switch = true;	
 			audio_play_sound(SE_dialog_m02, 1, 0);
 		}
 		
 		if global.last_dialog == 10	&& dia_switch == false
-		{diatext = "그 생각을 소중히 여겨다오";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		{diatext = scr_name[text_line_num + 2];		alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 		
 		if global.last_dialog == 11	&& dia_switch == false
-		{diatext = "그럼 해야 할일을 마저 해야겠지";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		{diatext = scr_name[text_line_num + 3];		alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 		
 		if global.last_dialog == 12	&& dia_switch == false
-		{diatext = "저장소로 바로 보내주마";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+		{diatext = scr_name[text_line_num + 4];		alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 		
 		if global.last_dialog == 13	&& dia_switch == false
 		{fade_toroom(Savecenter_end, 15, c_white); global.room_direction = 50;}
@@ -540,13 +552,17 @@ if hit_swich == true
 	{hit_swich = false;}
 }
 
+if global.language == "Korean"
+{var text_line_num = 19;}
+if global.language == "English"
+{var text_line_num = 47;}
 if HP< pattern_HP3	&& global.last_dialog == 0	&& dia_switch == false
-{diatext = "무엇을 위해서 이 순환을 계속하는가?";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num];	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 1	&& dia_switch == false
-{diatext = "아무리 반복한다 한들 아무것도 변하지 않는";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 1];	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 2	&& dia_switch == false
-{diatext = "이 반복에 어떤 의미가 있는가?";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 2];	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 7	&& dia_switch == false
-{diatext = "그렇다면 좋다";	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 3];	alarm[2] = 80;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
 if global.last_dialog == 8	&& dia_switch == false
-{diatext = "의지를 보이고 다음으로 나아가면 좋을뿐!";	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}
+{diatext = scr_name[text_line_num + 4];	alarm[2] = 100;dia_switch = true;	audio_play_sound(SE_dialog_m02, 1, 0);}

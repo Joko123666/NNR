@@ -31,34 +31,34 @@ KR
 그래도 일단 길드로 가서 말을 걸어보자
 길드는 마을 서쪽에 있었지?
 EN
-my name is Ed
-I live in the village 'Kakariko' in the countryside.
+My name is Ed
+I live in the village 'Kakariko' which is in quiet countryside.
 Kakariko is a peaceful village
-I want to see other places besides this town
-To be adventurers who can travel and explore
-I have devoted myself to training
-Join a guild that supports adventurers
-And touring new places
-aim for it
-I am training every day
-while training alone
-Today is the last training day I decided for myself
-Check the basics again
-Going on an adventure tomorrow
-Let's move lightly first
-Attack with
-You can use skills by consuming energy with
-I only have simple skills
-Maybe I can learn more from someone later
-First, let's attack the scarecrow a few times.
-You can make special moves with 
-During this time, you can evade enemy attacks
-Also, you can use the item which you hold with 
-You can only hold one item at a time, so be careful.
-Shall we finish with this much for today?
-Let's rest early for tomorrow
-I bought an armor with the money I saved yesterday.
-But the armor is more expensive than I thought
-Haven't got weapon yet
-Anyway, let's go to the guild and talk
-Guild was on the west side of town, right?
+But, I want to see other places other than this town
+I want to be an adventurer who can travel and explore,
+so I trained myself ambitiously.
+I trained every day
+to join a guild which supports adventurers
+So, I hope I can travle around new places
+That is my ultimate goal.
+And today is the last day of training
+so, let's prepare everything I can do.
+I should check the basics again,
+because my adventure starts tomorrow.
+Let's move first.
+I attack as pressing
+Skills are used by consuming energy whenever press
+I only have simple skills now.
+However, I can learn more from someone later.
+First, let's attack the scarecrow few times.
+I can make special moves as pressing
+At that moment, I can dodge enemies' attacks.
+Also, I can use carrying item whenever pressing
+I can only hold one item at a time.
+I think I should round up here for today.
+Enough rest would be nice for tomorrow.
+I buy an armor with the money I have been saved.
+But the armor is much more expensive than I thought.
+So, I couldn't buy a weapon yet.
+Well... let's go to the guild and have a talk first.
+The guild is on the west side of this town, as I remember.

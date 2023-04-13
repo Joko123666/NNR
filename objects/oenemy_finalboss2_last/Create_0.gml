@@ -53,9 +53,22 @@ image_speed = 1;
 if oPlayer.x > x {image_xscale = 1;}
 if oPlayer.x < x {image_xscale = -1;}
 
+
+var file = file_text_open_read(working_directory + "NPC99_endafter.txt");
+for (var i = 1; i < 300; i++;)
+{
+    scr_name[i] = file_text_read_string(file);
+    file_text_readln(file);
+}
+file_text_close(file);
+
+if global.language == "Korean"
+{var text_line_num = 12;}
+if global.language == "English"
+{var text_line_num = 40;}
+	
 var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-text.text = "그 의지를 보여라";
+text.text =  scr_name[text_line_num];
 var text_width = string_width(text.text);
 text.x -= text_width/2 + 4;
-	
 	
