@@ -16,7 +16,7 @@ function NPC_NPC8_dialog(argument0)
 	
 if global.language == "Korean"
 {	
-	var text_line_num = 2;	
+	var text_line_num = 3;	
 	if diacount == 0
 	{
 		text = scr_name[diacount + text_line_num];
@@ -27,14 +27,14 @@ if global.language == "Korean"
 	
 	if diacount == 1
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 2
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		if global.mainstream == 12
 		{
 			dialog_count +=1
@@ -45,14 +45,14 @@ if global.language == "Korean"
 	
 	if diacount == 3	&& global.mainstream == 12
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 4 
 	 {
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		 dialog_count +=1
 		global.NPC8_dialog += 1;
 	 }
@@ -68,7 +68,7 @@ if global.language == "Korean"
 			global.mainstream = 13;
 			global.mainquest[2] = 1;
 			dialog_count +=1
-			text = scr_name[diacount + 2];
+			text = scr_name[diacount + text_line_num];
 			audio_play_sound(SE_system07, 1, false);
 		}
 		else {text = "지금은 맡고 있는 일이 너무 많네."; dialog_endswitch = true;	global.UItext_show = false;}
@@ -76,7 +76,7 @@ if global.language == "Korean"
 	
 	if diacount == 6	&& global.mainstream == 13
 	{
-		text = scr_name[diacount + 2];
+		text = scr_name[diacount + text_line_num];
 		global.UItext_show = false;
 		dialog_endswitch = true;
 	}
@@ -84,9 +84,9 @@ if global.language == "Korean"
 	if diacount == 6 && global.mainstream == 14
 	{
 		if global.bugbeat == false
-		{text = scr_name[diacount + 3];}
+		{text = scr_name[diacount + text_line_num + 1];}
 		if global.bugbeat == true
-		{text = scr_name[diacount + 4];}
+		{text = scr_name[diacount + text_line_num + 2];}
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		global.mainquest[2] = 3;
@@ -96,21 +96,21 @@ if global.language == "Korean"
 	
 	if diacount == 7 && global.mainstream == 14
 	{
-		text = scr_name[diacount + 4];
+		text = scr_name[diacount + text_line_num + 2];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 8 && global.mainstream == 14
 	{
-		text = scr_name[diacount + 4];
+		text = scr_name[diacount + text_line_num + 2];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 9 && global.mainstream == 14
 	{
-		text = scr_name[diacount + 4];
+		text = scr_name[diacount + text_line_num + 2];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		quest_board("main003");
@@ -122,7 +122,7 @@ if global.language == "Korean"
 	
 	if diacount == 10 && global.mainstream == 15
 	{
-		text = scr_name[diacount + 4];
+		text = scr_name[diacount + text_line_num + 2];
 		dialog_endswitch = true;
 		global.UItext_show = false;
 	}
@@ -132,7 +132,7 @@ if global.language == "Korean"
 	#region 분기A 편지 전달
 	if diacount == 10 && global.mainstream == 16	&& global.quest_selection == "A"
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		dialog_count +=1
 		global.NPC8_dialog = 11;
 		global.NPC8_status = 1;
@@ -143,21 +143,21 @@ if global.language == "Korean"
 	
 	if diacount == 11 && global.NPC8_status == 1
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 12 && global.NPC8_status == 1
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 13 && global.NPC8_status == 1
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		global.mainstream = 17;
@@ -166,7 +166,7 @@ if global.language == "Korean"
 	
 	if diacount >= 14 && global.mainstream >= 17	&& global.NPC8_status == 1
 	{
-		text = scr_name[diacount + 5];
+		text = scr_name[diacount + text_line_num + 3];
 		dialog_endswitch = true;
 		global.UItext_show = false;
 	}
@@ -176,7 +176,7 @@ if global.language == "Korean"
 	#region 분기B 편지 사용
 	if diacount == 10 && global.mainstream == 16	&& global.quest_selection == "B"
 	{
-		text = scr_name[diacount + 11];
+		text = scr_name[diacount + text_line_num + 8];
 		dialog_count = 11;
 		global.NPC8_dialog += 1;
 		global.NPC8_status = 2;
@@ -187,14 +187,14 @@ if global.language == "Korean"
 	
 	if diacount == 11 && global.NPC8_status == 2
 	{
-		text = scr_name[diacount + 11];
+		text = scr_name[diacount + text_line_num + 8];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 	}
 	
 	if diacount == 12 	&& global.NPC8_status == 2
 	{
-		text = scr_name[diacount + 11];
+		text = scr_name[diacount + text_line_num + 8];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		global.mainstream = 17;
@@ -202,7 +202,7 @@ if global.language == "Korean"
 	}
 	if diacount == 13 && global.mainstream == 17	&& global.NPC8_status == 2
 	{
-		text = scr_name[diacount + 11];
+		text = scr_name[diacount + text_line_num + 8];
 		dialog_count +=1
 		global.NPC8_dialog += 1;
 		global.NPC2_dialog = 9;
@@ -210,7 +210,210 @@ if global.language == "Korean"
 	
 	if diacount >= 14 && global.mainstream >= 17	&& global.NPC8_status == 2
 	{
-		text = scr_name[diacount + 11];
+		text = scr_name[diacount + text_line_num + 8];
+		dialog_endswitch = true;
+		global.UItext_show = false;
+
+	}
+	#endregion
+}
+if global.language == "English"
+{	
+	var text_line_num = 28;	
+	if diacount == 0
+	{
+		text = scr_name[diacount + text_line_num];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		global.UItext_show = true;
+	}
+	
+	if diacount == 1
+	{
+		text = scr_name[diacount + text_line_num];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 2
+	{
+		text = scr_name[diacount + text_line_num];
+		if global.mainstream == 12
+		{
+			dialog_count +=1
+			global.NPC8_dialog += 1;
+		}
+		else {dialog_endswitch = true;	global.UItext_show = false;}
+	}
+	
+	if diacount == 3	&& global.mainstream == 12
+	{
+		text = scr_name[diacount + text_line_num];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 4 
+	 {
+		text = scr_name[diacount + text_line_num];
+		 dialog_count +=1
+		global.NPC8_dialog += 1;
+	 }
+	
+	
+	if diacount == 5
+	{
+		
+		if global.quest_stack[4] == "empty"
+		{
+			quest_board("main002")
+			global.NPC8_dialog += 1;
+			global.mainstream = 13;
+			global.mainquest[2] = 1;
+			dialog_count +=1
+			text = scr_name[diacount + text_line_num];
+			audio_play_sound(SE_system07, 1, false);
+		}
+		else {text = "지금은 맡고 있는 일이 너무 많네."; dialog_endswitch = true;	global.UItext_show = false;}
+	}
+	
+	if diacount == 6	&& global.mainstream == 13
+	{
+		text = scr_name[diacount + text_line_num];
+		global.UItext_show = false;
+		dialog_endswitch = true;
+	}
+	
+	if diacount == 6 && global.mainstream == 14
+	{
+		if global.bugbeat == false
+		{text = scr_name[diacount + text_line_num + 1];}
+		if global.bugbeat == true
+		{text = scr_name[diacount + text_line_num + 2];}
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		global.mainquest[2] = 3;
+		audio_play_sound(SE_system07, 1, false);
+		global.UItext_show = true;
+	}
+	
+	if diacount == 7 && global.mainstream == 14
+	{
+		text = scr_name[diacount + text_line_num + 2];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 8 && global.mainstream == 14
+	{
+		text = scr_name[diacount + text_line_num + 2];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 9 && global.mainstream == 14
+	{
+		text = scr_name[diacount + text_line_num + 2];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		quest_board("main003");
+		
+		instance_create_layer(x + image_xscale * 44, y - 46, "Effects", questitem_mail);
+		global.mainstream = 15;
+		audio_play_sound(SE_system07, 1, false);
+	}
+	
+	if diacount == 10 && global.mainstream == 15
+	{
+		text = scr_name[diacount + text_line_num + 2];
+		dialog_endswitch = true;
+		global.UItext_show = false;
+	}
+	
+	//퀘스트 분기에 따라 퀘스트 진행 조정 
+	
+	#region 분기A 편지 전달
+	if diacount == 10 && global.mainstream == 16	&& global.quest_selection == "A"
+	{
+		text = scr_name[diacount + text_line_num + 3];
+		dialog_count +=1
+		global.NPC8_dialog = 11;
+		global.NPC8_status = 1;
+		global.mainquest[3] = 3;
+		audio_play_sound(SE_system07, 1, false);
+		global.UItext_show = true;
+	}
+	
+	if diacount == 11 && global.NPC8_status == 1
+	{
+		text = scr_name[diacount + text_line_num + 3];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 12 && global.NPC8_status == 1
+	{
+		text = scr_name[diacount + text_line_num + 3];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 13 && global.NPC8_status == 1
+	{
+		text = scr_name[diacount + text_line_num + 3];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		global.mainstream = 17;
+		instance_create_depth(x, y-32, -1, Item_sword_get);
+	}
+	
+	if diacount >= 14 && global.mainstream >= 17	&& global.NPC8_status == 1
+	{
+		text = scr_name[diacount + text_line_num + 3];
+		dialog_endswitch = true;
+		global.UItext_show = false;
+	}
+	
+	#endregion
+	
+	#region 분기B 편지 사용
+	if diacount == 10 && global.mainstream == 16	&& global.quest_selection == "B"
+	{
+		text = scr_name[diacount + text_line_num + 8];
+		dialog_count = 11;
+		global.NPC8_dialog += 1;
+		global.NPC8_status = 2;
+		global.mainquest[3] = 3;
+		audio_play_sound(SE_system07, 1, false);
+		global.UItext_show = true;
+	}
+	
+	if diacount == 11 && global.NPC8_status == 2
+	{
+		text = scr_name[diacount + text_line_num + 8];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+	}
+	
+	if diacount == 12 	&& global.NPC8_status == 2
+	{
+		text = scr_name[diacount + text_line_num + 8];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		global.mainstream = 17;
+		instance_create_depth(x, y-32, -1, Item_sword_get);
+	}
+	if diacount == 13 && global.mainstream == 17	&& global.NPC8_status == 2
+	{
+		text = scr_name[diacount + text_line_num + 8];
+		dialog_count +=1
+		global.NPC8_dialog += 1;
+		global.NPC2_dialog = 9;
+	}
+	
+	if diacount >= 14 && global.mainstream >= 17	&& global.NPC8_status == 2
+	{
+		text = scr_name[diacount + text_line_num + 8];
 		dialog_endswitch = true;
 		global.UItext_show = false;
 
@@ -218,6 +421,8 @@ if global.language == "Korean"
 	#endregion
 }
 
+#region
+/*
 if global.language == "English"
 {	
 	if diacount == 0
@@ -420,6 +625,7 @@ if global.language == "English"
 	}
 	#endregion
 }
-	
+	*/
+	#endregion
 	return text;
 }

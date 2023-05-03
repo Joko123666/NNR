@@ -1,6 +1,6 @@
 
 
-if global.mainstream < 60
+if global.mainstream > 20
 {instance_destroy();}
 
 event_inherited();

@@ -57,6 +57,7 @@ if global.language == "Korean"
 		global.mainstream = 16;
 		global.mainquest[3] = 2;
 		global.UItext_show = true;
+		global.quest_selection = "A";
 	}
 	
 	if diacount == 4
@@ -144,6 +145,7 @@ if global.language == "English"
 		global.mainstream = 16;
 		global.mainquest[3] = 2;
 		global.UItext_show = true;
+		global.quest_selection = "A";
 	}
 	
 	if diacount == 4

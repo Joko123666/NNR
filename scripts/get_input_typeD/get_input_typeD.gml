@@ -18,7 +18,7 @@ down_jump = down && jump;
 
 UI_interaction = "A";
 UI_attackskill = "Z";
-UI_moveskill = "Sft";
+UI_moveskill = "Shf";
 UI_itemkey = "S";
 UI_attackkey = "X";
 UI_jumpkey = "C";
