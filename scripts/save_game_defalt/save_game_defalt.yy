@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "save_game_defalt",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "스크립트",
-    "path": "folders/스크립트.yy",
+  "$GMScript":"v1",
+  "%Name":"save_game_defalt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"save_game_defalt",
+  "parent":{
+    "name":"스크립트",
+    "path":"folders/스크립트.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

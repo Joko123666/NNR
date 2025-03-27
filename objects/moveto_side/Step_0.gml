@@ -12,12 +12,12 @@ if place_meeting(x, y, oPlayer)
 	if side == "left"
 	{
 		with(oPlayer)
-		{move_and_collide(-move_speed, 0)}
+		{move_and_collide(-move_speed, 0, oWall)}
 	}
 	
 	if side == "right"
 	{
 		with(oPlayer)
-		{move_and_collide(move_speed, 0)}
+		{move_and_collide(move_speed, 0, oWall)}
 	}
 }

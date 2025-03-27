@@ -25,12 +25,12 @@ if place_meeting(x, y, movingwall_turningpoint) && act_count <= 0
 if act_count > 0
 {act_count -= 1;}
 
-move_and_collide(0, side);
+move_and_collide(0, side, oWall);
 
 if oPlayer.y  > y	&& place_meeting(x,y-2, oPlayer)
 {
 	with oPlayer
-	{move_and_collide(0, Ymoving_halfwayWall.side);}
+	{move_and_collide(0, Ymoving_halfwayWall.side, oWall);}
 }
 
 

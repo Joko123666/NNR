@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "creat_hitbox_effect",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "etc",
-    "path": "folders/스크립트/etc.yy",
+  "$GMScript":"v1",
+  "%Name":"creat_hitbox_effect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"creat_hitbox_effect",
+  "parent":{
+    "name":"etc",
+    "path":"folders/스크립트/etc.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

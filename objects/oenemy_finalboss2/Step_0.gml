@@ -174,8 +174,10 @@ switch (state)
 			{instance_destroy(ofinalboss_wall);}
 			x = 904;
 			y = 408;
-			var layer_ID = layer_get_id("Darken");
-			layer_background_change(layer_ID,empty);
+			var _layer_id = layer_get_id("Darken");
+			var _back_id = layer_background_get_id(_layer_id);
+
+			layer_background_change(_back_id,Sempty);
 		}
 		
 		//페이즈2 종료 (엔딩)

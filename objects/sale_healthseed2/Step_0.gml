@@ -8,7 +8,10 @@ if oPlayer.input.interaction && place_meeting(x, y, oPlayer) && act_count <= 0
 	if global.gold < item_cost
 	{
 		var text = instance_create_depth(x, y - 64, 0, text_drawingob);
-		text.text = "가진 돈이 부족하다";
+		if (global.language == "Korean")
+		{text.text = "가진 돈이 부족하다";}
+		else if (global.language == "English")
+		{text.text = "Not enough money";}
 		var text_width = string_width(text.text);
 		text.x -= text_width/2 + 4;
 	}

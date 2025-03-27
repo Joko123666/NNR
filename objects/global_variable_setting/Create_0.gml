@@ -181,3 +181,7 @@ if (file_exists("savedgame.save"))
 */
 audio_group_load(audiogroup_default);
 audio_group_set_gain(audiogroup_default, global.gamevolume, 5);
+
+
+if !instance_exists(Obj_Steam_Global_Stats)
+{instance_create_depth(0, 0, -20, Obj_Steam_Global_Stats);}

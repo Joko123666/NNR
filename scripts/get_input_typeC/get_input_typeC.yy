@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "get_input_typeC",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "etc",
-    "path": "folders/스크립트/etc.yy",
+  "$GMScript":"v1",
+  "%Name":"get_input_typeC",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_input_typeC",
+  "parent":{
+    "name":"etc",
+    "path":"folders/스크립트/etc.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

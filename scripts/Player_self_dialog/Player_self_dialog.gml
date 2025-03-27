@@ -70,6 +70,9 @@ function Player_self_dialog(argument0)
 		global.screen_black = false;
 		dialog_count = 0;
 		global.mainstream = 2;
+		var _achievemnent = "Finish_Tutorial"
+		steam_set_achievement(_achievemnent);	//튜토리얼 완료 업적
+		steam_set_achievement("FinishTutorial");
 	}
 	
 	#endregion

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "NPC_testend_guid",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "dialog",
-    "path": "folders/스크립트/dialog.yy",
+  "$GMScript":"v1",
+  "%Name":"NPC_testend_guid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"NPC_testend_guid",
+  "parent":{
+    "name":"dialog",
+    "path":"folders/스크립트/dialog.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -6,7 +6,7 @@ if !instance_exists(oenemy_motherman)
 speed += 0.02;
 create_particle(x, y, oparticle_04, 1);
 
-move_and_collide(0, moving_speed);
+move_and_collide(0, moving_speed, oWall);
 if moving_speed < 0 {moving_speed += 0.1};
 
 if place_meeting(x, y, oPlayer) or place_meeting(x, y, oWall)

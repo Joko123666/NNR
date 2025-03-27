@@ -13,7 +13,10 @@ if place_meeting(x,y,oPlayer) && oPlayer.input.interaction
 	sprite_index = NPC_village_05_active;
 	act_count = 45;
 	var text = instance_create_layer(x, y-62, "Effects", text_drawingob);
-	text.text = "항상 조심하셔야 합니다!!"
+	if global.language == "Korean"
+	{text.text = "항상 조심하셔야 합니다!!"}
+	if global.language == "English"
+	{text.text = "always be careful!!"}
 	var text_width = string_width(text.text);
 	text.x -= text_width/2 + 4;
 	

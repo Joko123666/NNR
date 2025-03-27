@@ -1,10 +1,12 @@
 {
-  "resourceType": "GMShader",
-  "resourceVersion": "1.0",
-  "name": "Shader01",
-  "parent": {
-    "name": "셰이더",
-    "path": "folders/셰이더.yy",
+  "$GMShader":"",
+  "%Name":"Shader01",
+  "name":"Shader01",
+  "parent":{
+    "name":"셰이더",
+    "path":"folders/셰이더.yy",
   },
-  "type": 1,
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

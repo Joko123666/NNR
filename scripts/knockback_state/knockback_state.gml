@@ -19,7 +19,7 @@ function knockback_state(argument0, argument1)
 			image_xscale = -sign(knockback_speed);
 		}
 		
-		move_and_collide(moving_speed, 0);
+		move_and_collide(moving_speed, 0, oWall);
 
 		if moving_speed >= 10 or moving_speed <= -10
 		{

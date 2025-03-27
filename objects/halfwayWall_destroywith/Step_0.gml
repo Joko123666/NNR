@@ -14,6 +14,6 @@ if instance_exists(oPlayer)
 	}
 }
 
-var desob = asset_get_index(parent_ob);
-if !instance_exists(desob)
+//var desob = asset_get_index(parent_ob);
+if !instance_exists(oPlayer)
 {instance_destroy();}

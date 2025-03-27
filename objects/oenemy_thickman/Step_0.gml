@@ -84,7 +84,7 @@ switch (state)
 				if oPlayer.isground == true
 				{oPlayer.vsp = -10; screen_shake(20, 10);}
 				else {screen_shake(8, 4)}
-				creat_hitbox(x, y, self, self, 7, 2, 0, image_xscale);
+				creat_hitbox(x, y, self, sprite_index, 7, 2, 0, image_xscale);
 				audio_play_sound(SE_death01, 1, false);
 			}
 			if animation_end()

@@ -130,6 +130,10 @@ if global.language == "English"
 
 #endregion
 
+//도전과제
+{if !steam_get_achievement("Start_the_Ed'sWorld") 
+	{steam_set_achievement("Start_the_Ed'sWorld");}
+}
 
 //입력 받아오기
 input = instance_create_layer(0, 0, "Instances", oInput);

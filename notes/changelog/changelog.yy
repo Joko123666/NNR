@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"changelog",
+  "name":"changelog",
+  "parent":{
+    "name":"NNR",
+    "path":"NNR.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

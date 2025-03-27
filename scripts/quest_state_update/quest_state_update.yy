@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "quest_state_update",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "quest",
-    "path": "folders/스크립트/quest.yy",
+  "$GMScript":"v1",
+  "%Name":"quest_state_update",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quest_state_update",
+  "parent":{
+    "name":"quest",
+    "path":"folders/스크립트/quest.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

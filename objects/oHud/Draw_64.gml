@@ -101,7 +101,8 @@ if !instance_exists(oPlayer) exit;
 	//스킬 사용키 표시
 		var x_arraypoint = 7;
 		var y_arraypoint = 32;
-		var text_width = string_width(oPlayer.input.UI_itemkey) + 2;
+		var _skillkey = string(oPlayer.input.UI_itemkey);
+		var text_width = string_width(_skillkey) + 2;
 		draw_rectangle_color(x_arraypoint -1, y_arraypoint -1, x_arraypoint + text_width +1, y_arraypoint + 11, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
 		draw_rectangle_color(x_arraypoint, y_arraypoint, x_arraypoint + text_width, y_arraypoint + 10, c_white, c_white, c_white, c_white, false);
 		draw_text_color(x_arraypoint, y_arraypoint, oPlayer.input.UI_itemkey, c_gray, c_gray, c_gray, c_gray, 1);
@@ -241,9 +242,10 @@ if global.UItext_show == false
 		//스킬 사용키 표시
 		var x_arraypoint = x_point+1;
 		var y_arraypoint = y_point-12;
+		var _moveskillkey = string(oPlayer.input.UI_moveskill);
 		if room == Thomb_boss or room == Vally_tunnel_boss or room == Final_bossarea
 		{y_arraypoint = camera_get_view_height(view_camera[1]) - 40;}
-		var text_width = string_width(oPlayer.input.UI_moveskill);
+		var text_width = string_width(_moveskillkey);
 		draw_rectangle_color(x_arraypoint -1, y_arraypoint -1, x_arraypoint + text_width +1, y_arraypoint + 11, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
 		draw_rectangle_color(x_arraypoint, y_arraypoint, x_arraypoint + text_width, y_arraypoint + 10, c_white, c_white, c_white, c_white, false);
 		draw_text_color(x_arraypoint, y_arraypoint, oPlayer.input.UI_moveskill, c_gray, c_gray, c_gray, c_gray, 1);
@@ -290,7 +292,8 @@ if global.UItext_show == false
 		//스킬 사용키 표시
 		var x_arraypoint = x_point+1;
 		var y_arraypoint = y_point-12;
-		var text_width = string_width(oPlayer.input.UI_attackskill);
+		var _attackskillkey = string(oPlayer.input.UI_attackskill);
+		var text_width = string_width(_attackskillkey);
 		draw_rectangle_color(x_arraypoint -1, y_arraypoint -1, x_arraypoint + text_width +1, y_arraypoint + 11, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
 		draw_rectangle_color(x_arraypoint, y_arraypoint, x_arraypoint + text_width, y_arraypoint + 10, c_white, c_white, c_white, c_white, false);
 		draw_text_color(x_arraypoint, y_arraypoint, oPlayer.input.UI_attackskill, c_gray, c_gray, c_gray, c_gray, 1);

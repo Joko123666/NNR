@@ -1,9 +1,11 @@
 {
-  "resourceType": "GMNotes",
-  "resourceVersion": "1.1",
-  "name": "todolist",
-  "parent": {
-    "name": "NNR",
-    "path": "NNR.yyp",
+  "$GMNotes":"",
+  "%Name":"todolist",
+  "name":"todolist",
+  "parent":{
+    "name":"NNR",
+    "path":"NNR.yyp",
   },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }

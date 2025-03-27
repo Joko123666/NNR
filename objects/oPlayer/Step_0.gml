@@ -73,8 +73,8 @@ room_playeris = room;
 //인스턴트 충격파 설정
 if ismoving == true	&& moving_speed > 0
 {
-	if moving_direction == 0	{move_and_collide(moving_speed, 0);}
-	if moving_direction == 180	{move_and_collide(-moving_speed, 0);}
+	if moving_direction == 0	{move_and_collide(moving_speed, 0, oWall);}
+	if moving_direction == 180	{move_and_collide(-moving_speed, 0, oWall);}
 	moving_speed -= 0.2;
 	if moving_speed <=0 {ismoving = false;}
 }
@@ -112,7 +112,7 @@ switch (state)
 		
 		if input.right					//이동 우측
 		{
-			move_and_collide(hspd, 0);
+			move_and_collide(hspd, 0, oWall);
 			image_xscale = 1;
 			if global.mainstream < 10
 			{sprite_index = player_tutorial_move;}
@@ -124,7 +124,7 @@ switch (state)
 	
 		if input.left					//이동 좌측
 		{
-			move_and_collide(-hspd, 0);
+			move_and_collide(-hspd, 0, oWall);
 			image_xscale = -1;
 			if global.mainstream < 10
 			{sprite_index = player_tutorial_move;}
@@ -318,7 +318,7 @@ switch (state)
 			{audio_play_sound(SE_moveskill1, 20, false);}
 			invincibility = true;
 			image_alpha = 0.6;
-			move_and_collide(moving_speed * image_xscale, 0);
+			move_and_collide(moving_speed * image_xscale, 0, oWall);
 			if moving_speed > 0 
 			{
 				moving_speed -= 0.3;
@@ -354,7 +354,7 @@ switch (state)
 			{audio_play_sound(SE_moveskill, 20, false);}
 			invincibility = true;
 			image_alpha = 0.6;
-			move_and_collide(hspd * image_xscale * 3 , 0);
+			move_and_collide(hspd * image_xscale * 3 , 0, oWall);
 		}
 		//그림자 건너기
 		if moveskill_set == 3
@@ -377,7 +377,7 @@ switch (state)
 			
 			if isshadow == false
 			{
-				move_and_collide(hspd * image_xscale * 2.2 , 0);
+				move_and_collide(hspd * image_xscale * 2.2 , 0, oWall);
 				if animation_hit_frame(0)
 				{shadow_x = x;	shadow_y = y;}
 				if animation_hit_frame(1)
@@ -406,7 +406,7 @@ switch (state)
 			{audio_play_sound(SE_moveskill, 20, false);}
 			invincibility = true;
 			image_alpha = 0.6;
-			move_and_collide(hspd * -image_xscale * 1.8 , 0);
+			move_and_collide(hspd * -image_xscale * 1.8 , 0, oWall);
 		}
 		//허물벗기 - 수정중
 		if moveskill_set == 5 
@@ -425,7 +425,7 @@ switch (state)
 			}
 	
 			if action_count > 0
-			{move_and_collide(image_xscale * 48 , 0);action_count--;}
+			{move_and_collide(image_xscale * 48 , 0, oWall);action_count--;}
 			
 			if animation_end()
 			{invincibility = true;invincibility_count = 50;}
@@ -569,13 +569,13 @@ switch (state)
 		
 		if input.right					//이동 우측
 		{
-			move_and_collide(hspd/2, 0);
+			move_and_collide(hspd/2, 0, oWall);
 			image_xscale = 1;
 		}	
 	
 		if input.left					//이동 좌측
 		{
-			move_and_collide(-hspd/2, 0);
+			move_and_collide(-hspd/2, 0, oWall);
 			image_xscale = -1;
 		}
 				
@@ -838,7 +838,7 @@ switch (state)
 			attackskill_coolset = 100;
 			
 			state_set_sprite(player_attackskill_sword1, 1, 0);
-			move_and_collide(moving_speed * image_xscale, 0);
+			move_and_collide(moving_speed * image_xscale, 0, oWall);
 		
 			if animation_hit_frame(1)
 			{audio_play_sound(SE_attack_sword02 , 20, false); moving_speed = hspd * 2; invincibility = true; MP -= attackskill_cost;}
@@ -868,7 +868,7 @@ switch (state)
 			attackskill_coolset = 110;
 			
 			state_set_sprite(player_attackskill_sword2, 1, 0);
-			move_and_collide(moving_speed * image_xscale, 0);
+			move_and_collide(moving_speed * image_xscale, 0, oWall);
 			
 			if animation_hit_frame(0)
 			{moving_speed = 0;image_speed = 1.8;}
@@ -930,7 +930,7 @@ switch (state)
 			attackskill_coolset = 100;
 			
 			state_set_sprite(player_attackskill_sword4, 1, 0);
-			move_and_collide(moving_speed * image_xscale, 0);
+			move_and_collide(moving_speed * image_xscale, 0, oWall);
 			
 			if animation_hit_frame(0)
 			{moving_speed = 0;image_speed = 1.8;}
@@ -964,7 +964,7 @@ switch (state)
 			attackskill_coolset = 180;
 			
 			state_set_sprite(player_attackskill_sword5, 1, 0);
-			move_and_collide(moving_speed * image_xscale, 0);
+			move_and_collide(moving_speed * image_xscale, 0, oWall);
 			if animation_hit_frame(0)
 			{moving_speed = 0;}
 			
@@ -1032,16 +1032,17 @@ switch (state)
 	#region Laddering
 		state_set_sprite(player_ladder, 1, 0);
 		ladder_term = 25;
+		act_count = count_decrease(act_count, 1, 0);
 		if input.up					//이동 위
 		{
-			move_and_collide(0 , -hspd);
+			move_and_collide(0 , -hspd, oWall);
 			image_speed = 1;
 			oCamera.camera_ymovement_point = -10;
 		}	
 	
 		if input.down					//이동 아래
 		{
-			move_and_collide( 0 , hspd);
+			move_and_collide( 0 , hspd, oWall);
 			image_speed = 1;
 			oCamera.camera_ymovement_point = 10;
 		}
@@ -1054,7 +1055,7 @@ switch (state)
 		if input.jump
 		{vsp = -5 ; state = "Move";}
 		
-		if place_meeting(x, y + 2, oWall) && input.down
+		if place_meeting(x, y + 2, oWall) && input.down && act_count <=0
 		{state = "Move"; vsp = -1;}
 		
 		if !place_meeting(x, y, oLadder)
@@ -1070,7 +1071,7 @@ switch (state)
 		
 		//instance_create_depth(x, y-46, -3, ui_revive_button);
 			// 사망시 넉백
-		move_and_collide(death_knockback, 0);
+		move_and_collide(death_knockback, 0, oWall);
 		if death_knockback > 0  {death_knockback -= 0.3;}
 		
 		if input.interaction

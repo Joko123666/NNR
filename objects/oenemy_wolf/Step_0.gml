@@ -70,7 +70,7 @@ switch (state)
 			}
 			if animation_hit_frame(5)
 			{
-				move_and_collide(4*image_xscale, 0);
+				move_and_collide(4*image_xscale, 0, oWall);
 				creat_hitbox(x, y, self, enemy_hill_orc_attack_hitbox , knockback_power, 2, attack_power, image_xscale);
 			}
 		}

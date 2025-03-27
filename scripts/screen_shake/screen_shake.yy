@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "screen_shake",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "etc",
-    "path": "folders/스크립트/etc.yy",
+  "$GMScript":"v1",
+  "%Name":"screen_shake",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screen_shake",
+  "parent":{
+    "name":"etc",
+    "path":"folders/스크립트/etc.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

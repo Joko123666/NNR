@@ -1,6 +1,6 @@
 KR
 내 이름은 이드
-시골의 한적한 마을 '카카리코'에서 살고 있다
+시골의 한적한 마을 '카룬'에서 살고 있다
 이곳은 평화로운 마을이지만
 이 마을 말고 다른 곳들도 구경하고 싶어
 여행과 탐험을 할 수 있는 모험가를 목표로
@@ -17,7 +17,7 @@ KR
 적어도 완전히 끝낼 마음은 들지 않는다
 EN
 My name is Ed
-I live in the village 'Kakariko' which is in quiet countryside.
+I live in the village 'Karun' which is in quiet countryside.
 Kakariko is a peaceful village
 But, I want to see other places other than this town
 I want to be an adventurer who can travel and explore,

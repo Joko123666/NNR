@@ -1,9 +1,9 @@
 
-function NPC_NPC52_dialog(argument0)
+function NPC_NPC52_dialog()
 {
-	///@arg dilog_count
+
 	var diacount = irandom(4);
-	text = ""
+	var _text = ""
 	
 	//텍스트 파일 호출
 	var file = file_text_open_read(working_directory + "NPC52_dialog.txt");
@@ -17,15 +17,15 @@ function NPC_NPC52_dialog(argument0)
 if global.language == "Korean"
 {
 	var text_line_num = 2;	
-	text = scr_name[diacount + text_line_num];
+	_text = scr_name[diacount + text_line_num];
 	
 }
 
 if global.language == "English"
 {
 	var text_line_num = 8;	
-	text = scr_name[diacount + text_line_num];
+	_text = scr_name[diacount + text_line_num];
 }
 	
-	return text;
+	return _text;
 }

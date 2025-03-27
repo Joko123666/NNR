@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "book_text_08",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "book",
-    "path": "folders/스크립트/book.yy",
+  "$GMScript":"v1",
+  "%Name":"book_text_08",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"book_text_08",
+  "parent":{
+    "name":"book",
+    "path":"folders/스크립트/book.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

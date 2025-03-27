@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Player_self_dialog",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "dialog",
-    "path": "folders/스크립트/dialog.yy",
+  "$GMScript":"v1",
+  "%Name":"Player_self_dialog",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Player_self_dialog",
+  "parent":{
+    "name":"dialog",
+    "path":"folders/스크립트/dialog.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

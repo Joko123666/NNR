@@ -3,8 +3,8 @@ if room != Title && room!= endroom_end_everything && room != endroom_keep && roo
 
 if dialog_count > 1	&& global.mainstream < 10
 {
-	var key = input.UI_interaction
-	draw_text(x - string_width(key)/2, y -48, key);
+	var _key = string(input.UI_interaction);
+	draw_text(x - string_width(_key)/2, y -48, _key);
 }
 
 if notenough_text == true
